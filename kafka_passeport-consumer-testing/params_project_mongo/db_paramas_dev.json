@@ -1,0 +1,10 @@
+{
+    "database": {
+      "user": "root",
+      "password": "password",
+      "name": "anrpts",
+      "host": "mongodb_container:27017",
+      "authSource": "admin"
+    }
+}
+  

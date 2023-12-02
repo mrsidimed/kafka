@@ -1,0 +1,16 @@
+
+
+{
+
+    "user": "postgres",
+    "host":  "10.10.100.207" ,
+    "database": "cartegrise",
+    "password":  "postgres",
+    "port":  5432
+
+}
+
+ 
+ 
+
+ 

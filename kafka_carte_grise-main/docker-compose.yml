@@ -1,0 +1,62 @@
+version: '3.1'
+
+services:
+
+  web:
+    build:
+      context: ./
+      dockerfile: Dockerfile
+    #fenvironment:
+      #- MONGO_URI=mongodb://mongo:27017/mydatabase
+      #- MYSQL_URI=mysql://mysql:3306/mydatabase
+      # Add other environment variables if necessary
+    ports:
+      - "3002:3000"
+    container_name: carte_grise_container 
+    volumes:
+        #  the :ro flag at the end of a volume mount declaration denotes "read-only. but the container will not be able to write to this directory elminassa-be
+      - ./:/usr/src/app
+      # by adding the anonymous volume /usr/src/app/node_modules volume after the bind mount, you're ensuring that the node_modules directory inside the container remains untouched by the bind mount and retains its original content from the image. It's a way of saying "use the local code, but keep the node_modules from the image
+      - /usr/src/app/node_modules
+    networks:
+      - kafka-network
+    depends_on:
+      - postgres
+
+
+  
+  postgres:
+    image: postgres
+    restart: always
+    container_name: postgres_container
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+    volumes:
+      - dbdata:/var/lib/postgresql/data
+      - ./init-db.sh:/docker-entrypoint-initdb.d/init-db.sh
+    networks:
+      - kafka-network
+    ports:
+      - "5432:5432"
+
+  pgadmin:
+    image: dpage/pgadmin4
+    restart: always
+    container_name: pgadmin_container
+    environment:
+      PGADMIN_DEFAULT_EMAIL: admin@admin.com
+      PGADMIN_DEFAULT_PASSWORD: admin
+    ports:
+      - "85:80"
+    networks:
+      - kafka-network
+    
+
+
+volumes:
+  dbdata:
+
+networks:
+  kafka-network:
+    external: true

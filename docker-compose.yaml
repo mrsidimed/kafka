@@ -1,0 +1,73 @@
+version: '3'
+
+services:
+  web:
+    build:
+      context: ./kafka_passeport-main/
+      dockerfile: Dockerfile
+    #fenvironment:
+      #- MONGO_URI=mongodb://mongo:27017/mydatabase
+      #- MYSQL_URI=mysql://mysql:3306/mydatabase
+      # Add other environment variables if necessary
+    ports:
+      - "3000:3000"
+    container_name: passeport_container
+    volumes:
+        #  the :ro flag at the end of a volume mount declaration denotes "read-only. but the container will not be able to write to this directory elminassa-be
+      - ./kafka_passeport-main:/usr/src/app
+      # by adding the anonymous volume /usr/src/app/node_modules volume after the bind mount, you're ensuring that the node_modules directory inside the container remains untouched by the bind mount and retains its original content from the image. It's a way of saying "use the local code, but keep the node_modules from the image
+      - /usr/src/app/node_modules
+    networks:
+      - kafka-network
+    depends_on:
+      - mongodb
+      - mysql
+  mongodb:
+    image: mongo:latest
+    container_name: mongodb_container
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: root
+      MONGO_INITDB_ROOT_PASSWORD: password
+    ports:
+      - "27017:27017"
+    volumes:
+      - ./mongodb_data:/data/db
+      - ./mongo-init.js:/docker-entrypoint-initdb.d/mongo-init.js:ro
+    networks:
+      - kafka-network
+  mysql:
+    image: mysql:5.7
+    container_name: mysql_container
+    environment:
+      MYSQL_ROOT_PASSWORD: kafka
+      MYSQL_DATABASE: quittances
+      MYSQL_USER: kafka
+      MYSQL_PASSWORD: kafka
+    ports:
+      - "3306:3306"
+    volumes:
+      - ./mysql_data:/var/lib/mysql
+      - ./docker-entrypoint-initdb.d:/docker-entrypoint-initdb.d
+    networks:
+      - kafka-network
+  phpmyadmin:
+    image: phpmyadmin/phpmyadmin
+    container_name: phpmyadmin_container
+    environment:
+      PMA_HOST: mysql
+      PMA_USER: kafka
+      PMA_PASSWORD: kafka
+      PMA_ARBITRARY: 1
+    ports:
+      - "8080:80"
+    networks:
+      - kafka-network
+
+volumes:
+  mongodb_data:
+
+networks:
+  kafka-network:
+    external: true
+
+# i should create topics 

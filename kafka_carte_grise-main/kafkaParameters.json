@@ -1,0 +1,15 @@
+
+
+
+
+{
+    "clientId": "myapp1"  ,   
+    "brokers":  ["kafka:9092"] ,
+    "topicProducer": "carte-grise-producer-topic",
+    "topicConsumer":  "carte-grise-consumer-topic",  
+    "consumerGroupId": "test"  
+}
+
+
+
+ 

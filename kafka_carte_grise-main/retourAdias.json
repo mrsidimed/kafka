@@ -1,0 +1,41 @@
+{
+    "createdAt": "2022-07-14T16:15:16.906682",
+    "datePaiement": "2022-07-14T16:15:36.210618",
+    "id": 115,
+    "idTransaction": "B00tr00id1000001687",
+    "isConsumed": null,
+    "numeroQuittance": null,
+    "numeroTelephone": "36629596",
+    "ordreRecette": {
+        "cacAr": "cacAr",
+        "cacFr": "cacFr",
+        "chargeUtile": 100,
+        "createdAt": "2022-07-14T16:14:50.465433",
+        "dateGeneration": null,
+        "dateMutation": null,
+        "genre": "genre",
+        "id": 114,
+        "marque": "marque",
+        "matricule": "10000010",
+        "montant": 600.0,
+        "nni": "12300909",
+        "nombrePlaces": 4,
+        "numero": "10000010",
+        "proprietaire": "proprietaire",
+        "puissanceFiscal": "puissanceFiscal",
+        "type": "type",
+        "typeDemande": null,
+        "updatedAt": "2022-07-14T16:14:50.465458",
+        "vin": "vin"
+    },
+    "quittance": null,
+    "quittanceB64": "quittance",
+    "reference": "6a4cf1e5-12fd-4c3e-8b02-48f414894e00",
+    "serviceBancaire": "Bankily",
+    "status": "confirmed",
+    "updatedAt": "2022-07-14T16:15:16.90671"
+}
+
+
+ 
+ 

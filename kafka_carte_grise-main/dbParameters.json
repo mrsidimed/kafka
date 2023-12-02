@@ -1,0 +1,14 @@
+
+{
+
+    
+    "host":  "postgres_container" ,
+    "database": "cartegrise",
+    "user": "postgres",
+    "password":  "postgres",
+    "port":  5432
+
+}
+
+
+ 

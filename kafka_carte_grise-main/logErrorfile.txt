@@ -1,0 +1,270 @@
+waiting for new orders
+waiting for new orders
+waiting for new orders
+waiting for new orders
+waiting for new orders
+waiting for new orders
+waiting for new orders
+waiting for new orders
+waiting for new orders
+waiting for new orders
+waiting for new orders
+waiting for new orders
+waiting for new orders
+waiting for new orders
+waiting for new orders
+waiting for new orders
+waiting for new orders
+waiting for new orders
+waiting for new orders
+waiting for new orders
+waiting for new orders
+waiting for new orders
+waiting for new orders
+waiting for new orders
+waiting for new orders
+waiting for new orders
+proprietaire_query = SELECT designation FROM pays WHERE id_pays = 'null'
+err3 = error: invalid input syntax for integer: "null"
+error while executing query 3
+error while executing query 4
+/root/workspace/kafka_carte_grise/simpleProducerCG.js:514
+                                            if (res_genre.rows[0] != undefined) {
+                                                          ^
+
+TypeError: Cannot read property 'rows' of undefined
+    at Query.con.query [as callback] (/root/workspace/kafka_carte_grise/simpleProducerCG.js:514:59)
+    at Query.handleError (/root/workspace/kafka_carte_grise/node_modules/pg/lib/query.js:128:19)
+    at process.nextTick (/root/workspace/kafka_carte_grise/node_modules/pg/lib/client.js:570:15)
+    at process._tickCallback (internal/process/next_tick.js:61:11)
+{"level":"error","message":"Forever detected script exited with code: 1"}
+{"level":"error","message":"Script restart attempt #1"}
+Connecting.....
+Connected!
+{"level":"INFO","timestamp":"2022-10-03T10:34:42.301Z","logger":"kafkajs","message":"[Consumer] Starting","groupId":"kafka_carte_grise_gid"}
+proprietaire_query = SELECT designation FROM pays WHERE id_pays = 'null'
+err3 = error: invalid input syntax for integer: "null"
+error while executing query 3
+error while executing query 4
+/root/workspace/kafka_carte_grise/simpleProducerCG.js:514
+                                            if (res_genre.rows[0] != undefined) {
+                                                          ^
+
+TypeError: Cannot read property 'rows' of undefined
+    at Query.con.query [as callback] (/root/workspace/kafka_carte_grise/simpleProducerCG.js:514:59)
+    at Query.handleError (/root/workspace/kafka_carte_grise/node_modules/pg/lib/query.js:128:19)
+    at process.nextTick (/root/workspace/kafka_carte_grise/node_modules/pg/lib/client.js:570:15)
+    at process._tickCallback (internal/process/next_tick.js:61:11)
+{"level":"error","message":"Forever detected script exited with code: 1"}
+{"level":"error","message":"Script restart attempt #2"}
+Connecting.....
+Connected!
+{"level":"INFO","timestamp":"2022-10-03T10:34:52.611Z","logger":"kafkajs","message":"[Consumer] Starting","groupId":"kafka_carte_grise_gid"}
+proprietaire_query = SELECT designation FROM pays WHERE id_pays = 'null'
+err3 = error: invalid input syntax for integer: "null"
+error while executing query 3
+error while executing query 4
+/root/workspace/kafka_carte_grise/simpleProducerCG.js:514
+                                            if (res_genre.rows[0] != undefined) {
+                                                          ^
+
+TypeError: Cannot read property 'rows' of undefined
+    at Query.con.query [as callback] (/root/workspace/kafka_carte_grise/simpleProducerCG.js:514:59)
+    at Query.handleError (/root/workspace/kafka_carte_grise/node_modules/pg/lib/query.js:128:19)
+    at process.nextTick (/root/workspace/kafka_carte_grise/node_modules/pg/lib/client.js:570:15)
+    at process._tickCallback (internal/process/next_tick.js:61:11)
+{"level":"error","message":"Forever detected script exited with code: 1"}
+{"level":"error","message":"Script restart attempt #3"}
+Connecting.....
+Connected!
+{"level":"INFO","timestamp":"2022-10-03T10:35:02.866Z","logger":"kafkajs","message":"[Consumer] Starting","groupId":"kafka_carte_grise_gid"}
+proprietaire_query = SELECT nom_complet_prop FROM properietaire WHERE nni = '1462855255'
+err3 = error: invalid input syntax for integer: "null"
+error while executing query 3
+error while executing query 4
+/root/workspace/kafka_carte_grise/simpleProducerCG.js:514
+                                            if (res_genre.rows[0] != undefined) {
+                                                          ^
+
+TypeError: Cannot read property 'rows' of undefined
+    at Query.con.query [as callback] (/root/workspace/kafka_carte_grise/simpleProducerCG.js:514:59)
+    at Query.handleError (/root/workspace/kafka_carte_grise/node_modules/pg/lib/query.js:128:19)
+    at process.nextTick (/root/workspace/kafka_carte_grise/node_modules/pg/lib/client.js:570:15)
+    at process._tickCallback (internal/process/next_tick.js:61:11)
+{"level":"error","message":"Forever detected script exited with code: 1"}
+{"level":"error","message":"Script restart attempt #4"}
+Connecting.....
+Connected!
+{"level":"INFO","timestamp":"2022-10-03T10:35:13.166Z","logger":"kafkajs","message":"[Consumer] Starting","groupId":"kafka_carte_grise_gid"}
+proprietaire_query = SELECT nom_complet_prop FROM properietaire WHERE nni = '1462855255'
+err3 = error: invalid input syntax for integer: "null"
+error while executing query 3
+error while executing query 4
+/root/workspace/kafka_carte_grise/simpleProducerCG.js:514
+                                            if (res_genre.rows[0] != undefined) {
+                                                          ^
+
+TypeError: Cannot read property 'rows' of undefined
+    at Query.con.query [as callback] (/root/workspace/kafka_carte_grise/simpleProducerCG.js:514:59)
+    at Query.handleError (/root/workspace/kafka_carte_grise/node_modules/pg/lib/query.js:128:19)
+    at process.nextTick (/root/workspace/kafka_carte_grise/node_modules/pg/lib/client.js:570:15)
+    at process._tickCallback (internal/process/next_tick.js:61:11)
+{"level":"error","message":"Forever detected script exited with code: 1"}
+{"level":"error","message":"Script restart attempt #5"}
+Connecting.....
+Connected!
+{"level":"INFO","timestamp":"2022-10-03T10:35:23.430Z","logger":"kafkajs","message":"[Consumer] Starting","groupId":"kafka_carte_grise_gid"}
+proprietaire_query = SELECT nom_complet_prop FROM properietaire WHERE nni = '1462855255'
+err3 = error: invalid input syntax for integer: "null"
+error while executing query 3
+error while executing query 4
+/root/workspace/kafka_carte_grise/simpleProducerCG.js:514
+                                            if (res_genre.rows[0] != undefined) {
+                                                          ^
+
+TypeError: Cannot read property 'rows' of undefined
+    at Query.con.query [as callback] (/root/workspace/kafka_carte_grise/simpleProducerCG.js:514:59)
+    at Query.handleError (/root/workspace/kafka_carte_grise/node_modules/pg/lib/query.js:128:19)
+    at process.nextTick (/root/workspace/kafka_carte_grise/node_modules/pg/lib/client.js:570:15)
+    at process._tickCallback (internal/process/next_tick.js:61:11)
+{"level":"error","message":"Forever detected script exited with code: 1"}
+{"level":"error","message":"Script restart attempt #6"}
+Connecting.....
+Connected!
+{"level":"INFO","timestamp":"2022-10-03T10:35:33.715Z","logger":"kafkajs","message":"[Consumer] Starting","groupId":"kafka_carte_grise_gid"}
+
+
+sent data = 
+{ numero: '98853',
+  vin: 'AHTFZ29GX09139708',
+  marque: 'Toyota',
+  type: 'Hilux',
+  genre: 'Tout Terrain (4WD)',
+  puissance_fiscal: 10,
+  matricule: '3925 AB 07',
+  nni: '8129882535',
+  date_mutation: 2022-11-08T23:00:00.000Z,
+  nombre_places: 5,
+  proprietaire: 'Eby Cheikh',
+  type_demande: 'MUTATION',
+  charge_utile: 1030,
+  montant: '4500.00',
+  cac_ar: 'إ ن ب',
+  cac_fr: 'DTT',
+  date_generation: 2022-10-03T10:35:43.813Z }
+
+
+sent data = 
+{ numero: '98852',
+  vin: 'NMTEW20E30R016054',
+  marque: 'Toyota',
+  type: 'Corolla',
+  genre: 'VP',
+  puissance_fiscal: 7,
+  matricule: null,
+  nni: '1462855255',
+  nombre_places: 4,
+  proprietaire: 'Mohameden El Moctar',
+  type_demande: 'IMMATRICULATION',
+  charge_utile: 550,
+  montant: '1500.00',
+  cac_ar: 'إ ن ب',
+  cac_fr: 'DTT',
+  date_generation: 2022-10-03T10:35:43.815Z }
+waiting for new orders
+waiting for new orders
+{"level":"ERROR","timestamp":"2022-10-03T10:36:13.199Z","logger":"kafkajs","message":"[Connection] Response SyncGroup(key: 14, version: 3)","broker":"192.168.7.200:30001","clientId":"kafka_carte_grise_cid","error":"The group is rebalancing, so a rejoin is needed","correlationId":5,"size":14}
+{"level":"INFO","timestamp":"2022-10-03T10:36:13.542Z","logger":"kafkajs","message":"[ConsumerGroup] Consumer has joined the group","groupId":"kafka_carte_grise_gid","memberId":"kafka_carte_grise_cid-4c7f20a1-6521-4c7a-b1a6-f06da65e8a16","leaderId":"kafka_carte_grise_cid-4c7f20a1-6521-4c7a-b1a6-f06da65e8a16","isLeader":true,"memberAssignment":{"pay-or-cg":[0]},"groupProtocol":"RoundRobinAssigner","duration":39827}
+waiting for new orders
+waiting for new orders
+waiting for new orders
+waiting for new orders
+waiting for new orders
+
+
+sent data = 
+{ numero: '98854',
+  vin: 'WDB2011221F535469',
+  marque: 'Mercedes',
+  type: '190',
+  genre: 'VP',
+  puissance_fiscal: 7,
+  matricule: null,
+  nni: '3853371270',
+  nombre_places: 4,
+  proprietaire: 'Mohamed Mohamed Yahya',
+  type_demande: 'IMMATRICULATION',
+  charge_utile: 320,
+  montant: '1500.00',
+  cac_ar: 'إ ن ب',
+  cac_fr: 'DTT',
+  date_generation: 2022-10-03T10:37:03.807Z }
+waiting for new orders
+waiting for new orders
+waiting for new orders
+waiting for new orders
+
+
+sent data = 
+{ numero: '98855',
+  vin: 'MR0BB8CD4N4108316',
+  marque: 'Toyota',
+  type: 'Hilux',
+  genre: 'Tout Terrain (4WD)',
+  puissance_fiscal: 11,
+  matricule: null,
+  nni: '1926835743',
+  nombre_places: 5,
+  proprietaire: 'Sid Ahmed Dahi',
+  type_demande: 'IMMATRICULATION',
+  charge_utile: 860,
+  montant: '4500.00',
+  cac_ar: 'إ ن ب',
+  cac_fr: 'DTT',
+  date_generation: 2022-10-03T10:37:53.833Z }
+waiting for new orders
+waiting for new orders
+waiting for new orders
+waiting for new orders
+waiting for new orders
+waiting for new orders
+waiting for new orders
+waiting for new orders
+waiting for new orders
+waiting for new orders
+waiting for new orders
+waiting for new orders
+waiting for new orders
+waiting for new orders
+waiting for new orders
+waiting for new orders
+waiting for new orders
+waiting for new orders
+waiting for new orders
+waiting for new orders
+waiting for new orders
+waiting for new orders
+waiting for new orders
+
+
+sent data = 
+{ numero: '98856',
+  vin: 'VF7MCWJZF65446971',
+  marque: 'Citroën',
+  type: 'Berlingo',
+  genre: 'VP',
+  puissance_fiscal: 7,
+  matricule: null,
+  nni: '0727115396',
+  nombre_places: 2,
+  proprietaire: 'Brahim Mohamed Lemine',
+  type_demande: 'IMMATRICULATION',
+  charge_utile: 1065,
+  montant: '1500.00',
+  cac_ar: 'إ ن ب',
+  cac_fr: 'DTT',
+  date_generation: 2022-10-03T10:41:53.951Z }
+waiting for new orders
+waiting for new orders
+waiting for new orders
+

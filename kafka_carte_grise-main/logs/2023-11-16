@@ -1,0 +1,60 @@
+2023-11-16T17:36:04.103Z : error: relation "properietaire" does not exist ;error while executing : proprietaire_query = SELECT nom_complet_prop FROM properietaire WHERE nni = '1'
+
+2023-11-16T17:36:04.106Z : Error: Client was closed and is not queryable; error while executing  query_genre = SELECT  type  FROM    genre  WHERE libelle_genre ='SEDAN'
+
+2023-11-16T17:36:14.112Z : error: relation "properietaire" does not exist ;error while executing : proprietaire_query = SELECT nom_complet_prop FROM properietaire WHERE nni = '1'
+
+2023-11-16T17:36:14.114Z : Error: Client was closed and is not queryable; error while executing  query_genre = SELECT  type  FROM    genre  WHERE libelle_genre ='SEDAN'
+
+2023-11-16T17:36:24.109Z : error: relation "properietaire" does not exist ;error while executing : proprietaire_query = SELECT nom_complet_prop FROM properietaire WHERE nni = '1'
+
+2023-11-16T17:36:24.111Z : Error: Client was closed and is not queryable; error while executing  query_genre = SELECT  type  FROM    genre  WHERE libelle_genre ='SEDAN'
+
+2023-11-16T17:36:34.110Z : error: relation "properietaire" does not exist ;error while executing : proprietaire_query = SELECT nom_complet_prop FROM properietaire WHERE nni = '1'
+
+2023-11-16T17:36:34.112Z : Error: Client was closed and is not queryable; error while executing  query_genre = SELECT  type  FROM    genre  WHERE libelle_genre ='SEDAN'
+
+2023-11-16T17:38:11.526Z : error: relation "properietaire" does not exist ;error while executing : proprietaire_query = SELECT nom_complet_prop FROM properietaire WHERE nni = '1'
+
+2023-11-16T17:38:11.529Z : Error: Client was closed and is not queryable; error while executing  query_genre = SELECT  type  FROM    genre  WHERE libelle_genre ='SEDAN'
+
+2023-11-16T17:38:21.532Z : error: relation "properietaire" does not exist ;error while executing : proprietaire_query = SELECT nom_complet_prop FROM properietaire WHERE nni = '1'
+
+2023-11-16T17:38:21.534Z : Error: Client was closed and is not queryable; error while executing  query_genre = SELECT  type  FROM    genre  WHERE libelle_genre ='SEDAN'
+
+2023-11-16T17:38:31.478Z : error: relation "properietaire" does not exist ;error while executing : proprietaire_query = SELECT nom_complet_prop FROM properietaire WHERE nni = '1'
+
+2023-11-16T17:38:31.483Z : Error: Client was closed and is not queryable; error while executing  query_genre = SELECT  type  FROM    genre  WHERE libelle_genre ='SEDAN'
+
+2023-11-16T17:38:41.479Z : error: relation "properietaire" does not exist ;error while executing : proprietaire_query = SELECT nom_complet_prop FROM properietaire WHERE nni = '1'
+
+2023-11-16T17:38:41.481Z : Error: Client was closed and is not queryable; error while executing  query_genre = SELECT  type  FROM    genre  WHERE libelle_genre ='SEDAN'
+
+2023-11-16T17:38:51.484Z : error: relation "properietaire" does not exist ;error while executing : proprietaire_query = SELECT nom_complet_prop FROM properietaire WHERE nni = '1'
+
+2023-11-16T17:38:51.487Z : Error: Client was closed and is not queryable; error while executing  query_genre = SELECT  type  FROM    genre  WHERE libelle_genre ='SEDAN'
+
+2023-11-16T17:39:01.483Z : error: relation "properietaire" does not exist ;error while executing : proprietaire_query = SELECT nom_complet_prop FROM properietaire WHERE nni = '1'
+
+2023-11-16T17:39:01.485Z : Error: Client was closed and is not queryable; error while executing  query_genre = SELECT  type  FROM    genre  WHERE libelle_genre ='SEDAN'
+
+2023-11-16T17:39:11.487Z : error: relation "properietaire" does not exist ;error while executing : proprietaire_query = SELECT nom_complet_prop FROM properietaire WHERE nni = '1'
+
+2023-11-16T17:39:11.490Z : Error: Client was closed and is not queryable; error while executing  query_genre = SELECT  type  FROM    genre  WHERE libelle_genre ='SEDAN'
+
+2023-11-16T17:39:21.488Z : error: relation "properietaire" does not exist ;error while executing : proprietaire_query = SELECT nom_complet_prop FROM properietaire WHERE nni = '1'
+
+2023-11-16T17:39:21.490Z : Error: Client was closed and is not queryable; error while executing  query_genre = SELECT  type  FROM    genre  WHERE libelle_genre ='SEDAN'
+
+2023-11-16T17:39:31.493Z : error: relation "properietaire" does not exist ;error while executing : proprietaire_query = SELECT nom_complet_prop FROM properietaire WHERE nni = '1'
+
+2023-11-16T17:39:31.495Z : Error: Client was closed and is not queryable; error while executing  query_genre = SELECT  type  FROM    genre  WHERE libelle_genre ='SEDAN'
+
+2023-11-16T17:39:41.505Z : error: relation "properietaire" does not exist ;error while executing : proprietaire_query = SELECT nom_complet_prop FROM properietaire WHERE nni = '1'
+
+2023-11-16T17:39:41.507Z : Error: Client was closed and is not queryable; error while executing  query_genre = SELECT  type  FROM    genre  WHERE libelle_genre ='SEDAN'
+
+2023-11-16T17:39:51.498Z : error: relation "properietaire" does not exist ;error while executing : proprietaire_query = SELECT nom_complet_prop FROM properietaire WHERE nni = '1'
+
+2023-11-16T17:39:51.500Z : Error: Client was closed and is not queryable; error while executing  query_genre = SELECT  type  FROM    genre  WHERE libelle_genre ='SEDAN'
+

@@ -1,0 +1,6 @@
+{
+    "host": "mysql_container", 
+    "user": "kafka",
+    "password": "kafka",
+    "database": "quittances"
+}

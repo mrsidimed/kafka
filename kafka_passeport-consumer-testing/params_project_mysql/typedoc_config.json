@@ -1,0 +1,7 @@
+{
+    "passeport_normal": false,
+    "passeport_vip": false,
+    "carte_identite": true,
+    "carte_resident": true,
+    "extrait_naissance": true
+}

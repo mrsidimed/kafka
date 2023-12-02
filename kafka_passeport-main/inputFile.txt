@@ -1,0 +1,2992 @@
+timestampBefore: 2023-11-20T13:48:11.159Z,        numeroOrdre: 130202611121796,         timestampAfter: 2023-11-20T13:48:28.826Z
+
+timestampBefore: 2023-11-20T13:48:12.436Z,        numeroOrdre: 130101611121644,         timestampAfter: 2023-11-20T13:48:28.828Z
+
+timestampBefore: 2023-11-20T13:48:14.108Z,        numeroOrdre: 130202611121619,         timestampAfter: 2023-11-20T13:48:28.829Z
+
+timestampBefore: 2023-11-20T13:48:15.663Z,        numeroOrdre: 130606611121732,         timestampAfter: 2023-11-20T13:48:36.523Z
+
+timestampBefore: 2023-11-20T13:48:15.843Z,        numeroOrdre: 130808611121860,         timestampAfter: 2023-11-20T13:48:36.524Z
+
+timestampBefore: 2023-11-20T13:48:16.899Z,        numeroOrdre: 130101611121731,         timestampAfter: 2023-11-20T13:48:36.524Z
+
+timestampBefore: 2023-11-20T13:48:17.166Z,        numeroOrdre: 130808611121886,         timestampAfter: 2023-11-20T13:48:36.525Z
+
+timestampBefore: 2023-11-20T13:48:18.426Z,        numeroOrdre: 130606611121783,         timestampAfter: 2023-11-20T13:48:36.526Z
+
+timestampBefore: 2023-11-20T13:48:18.901Z,        numeroOrdre: 080110611121850,         timestampAfter: 2023-11-20T13:48:48.731Z
+
+timestampBefore: 2023-11-20T13:48:19.609Z,        numeroOrdre: 080101611121734,         timestampAfter: 2023-11-20T13:48:54.109Z
+
+timestampBefore: 2023-11-20T13:48:20.206Z,        numeroOrdre: 080110611121803,         timestampAfter: 2023-11-20T13:48:55.694Z
+
+timestampBefore: 2023-11-20T13:48:20.397Z,        numeroOrdre: 130909611121922,         timestampAfter: 2023-11-20T13:48:55.695Z
+
+timestampBefore: 2023-11-20T13:48:20.798Z,        numeroOrdre: 080101611121741,         timestampAfter: 2023-11-20T13:48:55.696Z
+
+timestampBefore: 2023-11-20T13:48:21.394Z,        numeroOrdre: 040101611121793,         timestampAfter: 2023-11-20T13:48:55.696Z
+
+timestampBefore: 2023-11-20T13:48:21.811Z,        numeroOrdre: 130202611121777,         timestampAfter: 2023-11-20T13:48:55.697Z
+
+timestampBefore: 2023-11-20T13:48:22.000Z,        numeroOrdre: 130808611121768,         timestampAfter: 2023-11-20T13:48:55.697Z
+
+timestampBefore: 2023-11-20T13:48:22.582Z,        numeroOrdre: 130303611121908,         timestampAfter: 2023-11-20T13:48:55.698Z
+
+timestampBefore: 2023-11-20T13:48:23.004Z,        numeroOrdre: 130303611121992,         timestampAfter: 2023-11-20T13:48:55.699Z
+
+timestampBefore: 2023-11-20T13:48:23.185Z,        numeroOrdre: 130808611121888,         timestampAfter: 2023-11-20T13:48:55.700Z
+
+timestampBefore: 2023-11-20T13:48:32.580Z,        numeroOrdre: 130808611122063,         timestampAfter: 2023-11-20T13:48:58.339Z
+
+timestampBefore: 2023-11-20T13:48:28.478Z,        numeroOrdre: 130808611122045,         timestampAfter: 2023-11-20T13:49:00.069Z
+
+timestampBefore: 2023-11-20T13:48:28.825Z,        numeroOrdre: 130808611121805,         timestampAfter: 2023-11-20T13:49:00.069Z
+
+timestampBefore: 2023-11-20T13:48:30.051Z,        numeroOrdre: 130303611121921,         timestampAfter: 2023-11-20T13:49:00.070Z
+
+timestampBefore: 2023-11-20T13:48:30.397Z,        numeroOrdre: 130606611121971,         timestampAfter: 2023-11-20T13:49:00.071Z
+
+timestampBefore: 2023-11-20T13:48:30.398Z,        numeroOrdre: 130808611121846,         timestampAfter: 2023-11-20T13:49:00.071Z
+
+timestampBefore: 2023-11-20T13:48:30.399Z,        numeroOrdre: 130606611122100,         timestampAfter: 2023-11-20T13:49:00.072Z
+
+timestampBefore: 2023-11-20T13:48:31.490Z,        numeroOrdre: 130101611122089,         timestampAfter: 2023-11-20T13:49:00.073Z
+
+timestampBefore: 2023-11-20T13:48:31.491Z,        numeroOrdre: 130606611122065,         timestampAfter: 2023-11-20T13:49:00.074Z
+
+timestampBefore: 2023-11-20T13:48:33.097Z,        numeroOrdre: 130404611121991,         timestampAfter: 2023-11-20T13:49:03.118Z
+
+timestampBefore: 2023-11-20T13:48:34.589Z,        numeroOrdre: 130101611122097,         timestampAfter: 2023-11-20T13:49:03.119Z
+
+timestampBefore: 2023-11-20T13:48:34.683Z,        numeroOrdre: 130808611122072,         timestampAfter: 2023-11-20T13:49:03.120Z
+
+timestampBefore: 2023-11-20T13:48:24.113Z,        numeroOrdre: 130505611121828,         timestampAfter: 2023-11-20T13:49:03.120Z
+
+timestampBefore: 2023-11-20T13:48:34.684Z,        numeroOrdre: 130505611121863,         timestampAfter: 2023-11-20T13:49:03.120Z
+
+timestampBefore: 2023-11-20T13:48:24.228Z,        numeroOrdre: 080101611121957,         timestampAfter: 2023-11-20T13:49:03.121Z
+
+timestampBefore: 2023-11-20T13:48:36.248Z,        numeroOrdre: 130606611122090,         timestampAfter: 2023-11-20T13:49:03.121Z
+
+timestampBefore: 2023-11-20T13:48:24.656Z,        numeroOrdre: 130808611121883,         timestampAfter: 2023-11-20T13:49:03.121Z
+
+timestampBefore: 2023-11-20T13:48:36.502Z,        numeroOrdre: 130101611122062,         timestampAfter: 2023-11-20T13:49:03.122Z
+
+timestampBefore: 2023-11-20T13:48:24.988Z,        numeroOrdre: 130101611121627,         timestampAfter: 2023-11-20T13:49:03.122Z
+
+timestampBefore: 2023-11-20T13:48:36.521Z,        numeroOrdre: 130101611122119,         timestampAfter: 2023-11-20T13:49:03.122Z
+
+timestampBefore: 2023-11-20T13:48:25.397Z,        numeroOrdre: 130808611122033,         timestampAfter: 2023-11-20T13:49:03.123Z
+
+timestampBefore: 2023-11-20T13:48:25.723Z,        numeroOrdre: 130808611121830,         timestampAfter: 2023-11-20T13:49:03.123Z
+
+timestampBefore: 2023-11-20T13:48:26.917Z,        numeroOrdre: 130505611121832,         timestampAfter: 2023-11-20T13:49:03.124Z
+
+timestampBefore: 2023-11-20T13:48:27.287Z,        numeroOrdre: 080101611121967,         timestampAfter: 2023-11-20T13:49:03.124Z
+
+timestampBefore: 2023-11-20T13:48:27.288Z,        numeroOrdre: 130808611122105,         timestampAfter: 2023-11-20T13:49:03.125Z
+
+timestampBefore: 2023-11-20T13:48:43.294Z,        numeroOrdre: 130101611122159,         timestampAfter: 2023-11-20T13:49:08.839Z
+
+timestampBefore: 2023-11-20T13:48:43.297Z,        numeroOrdre: 130101611122141,         timestampAfter: 2023-11-20T13:49:08.840Z
+
+timestampBefore: 2023-11-20T13:48:43.301Z,        numeroOrdre: 130606611122056,         timestampAfter: 2023-11-20T13:49:08.841Z
+
+timestampBefore: 2023-11-20T13:48:44.542Z,        numeroOrdre: 130808611122155,         timestampAfter: 2023-11-20T13:49:08.841Z
+
+timestampBefore: 2023-11-20T13:48:44.562Z,        numeroOrdre: 130101611122220,         timestampAfter: 2023-11-20T13:49:08.842Z
+
+timestampBefore: 2023-11-20T13:48:44.853Z,        numeroOrdre: 080101611121855,         timestampAfter: 2023-11-20T13:49:08.843Z
+
+timestampBefore: 2023-11-20T13:48:45.154Z,        numeroOrdre: 130808611122036,         timestampAfter: 2023-11-20T13:49:08.843Z
+
+timestampBefore: 2023-11-20T13:48:38.027Z,        numeroOrdre: 130808611122059,         timestampAfter: 2023-11-20T13:49:10.356Z
+
+timestampBefore: 2023-11-20T13:48:38.086Z,        numeroOrdre: 130101611122103,         timestampAfter: 2023-11-20T13:49:10.357Z
+
+timestampBefore: 2023-11-20T13:48:38.087Z,        numeroOrdre: 130101611122148,         timestampAfter: 2023-11-20T13:49:10.358Z
+
+timestampBefore: 2023-11-20T13:48:39.346Z,        numeroOrdre: 130101611122094,         timestampAfter: 2023-11-20T13:49:10.359Z
+
+timestampBefore: 2023-11-20T13:48:39.651Z,        numeroOrdre: 130404611121844,         timestampAfter: 2023-11-20T13:49:10.359Z
+
+timestampBefore: 2023-11-20T13:48:39.687Z,        numeroOrdre: 130303611121994,         timestampAfter: 2023-11-20T13:49:10.360Z
+
+timestampBefore: 2023-11-20T13:48:39.830Z,        numeroOrdre: 130505611121925,         timestampAfter: 2023-11-20T13:49:10.362Z
+
+timestampBefore: 2023-11-20T13:48:41.286Z,        numeroOrdre: 130101611122128,         timestampAfter: 2023-11-20T13:49:10.362Z
+
+timestampBefore: 2023-11-20T13:48:41.424Z,        numeroOrdre: 130505611121970,         timestampAfter: 2023-11-20T13:49:10.363Z
+
+timestampBefore: 2023-11-20T13:48:41.446Z,        numeroOrdre: 130101611122124,         timestampAfter: 2023-11-20T13:49:10.364Z
+
+timestampBefore: 2023-11-20T13:48:41.719Z,        numeroOrdre: 130606611122074,         timestampAfter: 2023-11-20T13:49:10.365Z
+
+timestampBefore: 2023-11-20T13:48:46.737Z,        numeroOrdre: 130808611122361,         timestampAfter: 2023-11-20T13:49:17.575Z
+
+timestampBefore: 2023-11-20T13:48:46.739Z,        numeroOrdre: 130606611122134,         timestampAfter: 2023-11-20T13:49:17.576Z
+
+timestampBefore: 2023-11-20T13:48:46.740Z,        numeroOrdre: 130303611122284,         timestampAfter: 2023-11-20T13:49:17.577Z
+
+timestampBefore: 2023-11-20T13:48:46.963Z,        numeroOrdre: 080110611121948,         timestampAfter: 2023-11-20T13:49:17.577Z
+
+timestampBefore: 2023-11-20T13:48:48.517Z,        numeroOrdre: 130808611121714,         timestampAfter: 2023-11-20T13:49:18.646Z
+
+timestampBefore: 2023-11-20T13:48:48.548Z,        numeroOrdre: 130606611122110,         timestampAfter: 2023-11-20T13:49:18.646Z
+
+timestampBefore: 2023-11-20T13:48:48.548Z,        numeroOrdre: 130505611122468,         timestampAfter: 2023-11-20T13:49:18.647Z
+
+timestampBefore: 2023-11-20T13:48:48.549Z,        numeroOrdre: 130808611122101,         timestampAfter: 2023-11-20T13:49:18.648Z
+
+timestampBefore: 2023-11-20T13:48:48.727Z,        numeroOrdre: 130808611122249,         timestampAfter: 2023-11-20T13:49:18.649Z
+
+timestampBefore: 2023-11-20T13:48:50.303Z,        numeroOrdre: 130101611122121,         timestampAfter: 2023-11-20T13:49:18.649Z
+
+timestampBefore: 2023-11-20T13:48:50.310Z,        numeroOrdre: 130808611122000,         timestampAfter: 2023-11-20T13:49:18.650Z
+
+timestampBefore: 2023-11-20T13:48:50.415Z,        numeroOrdre: 130606611122114,         timestampAfter: 2023-11-20T13:49:18.651Z
+
+timestampBefore: 2023-11-20T13:48:50.464Z,        numeroOrdre: 130808611122239,         timestampAfter: 2023-11-20T13:49:18.652Z
+
+timestampBefore: 2023-11-20T13:48:50.553Z,        numeroOrdre: 130808611122355,         timestampAfter: 2023-11-20T13:49:18.652Z
+
+timestampBefore: 2023-11-20T13:48:50.643Z,        numeroOrdre: 050101611122172,         timestampAfter: 2023-11-20T13:49:18.654Z
+
+timestampBefore: 2023-11-20T13:48:52.213Z,        numeroOrdre: 130808611122131,         timestampAfter: 2023-11-20T13:53:19.525Z
+
+timestampBefore: 2023-11-20T13:48:52.218Z,        numeroOrdre: 130808611122248,         timestampAfter: 2023-11-20T13:53:19.526Z
+
+timestampBefore: 2023-11-20T13:48:52.310Z,        numeroOrdre: 130707611122258,         timestampAfter: 2023-11-20T13:53:19.527Z
+
+timestampBefore: 2023-11-20T13:48:52.408Z,        numeroOrdre: 130505611122465,         timestampAfter: 2023-11-20T13:53:24.354Z
+
+timestampBefore: 2023-11-20T13:48:53.985Z,        numeroOrdre: 130606611122301,         timestampAfter: 2023-11-20T13:56:07.751Z
+
+timestampBefore: 2023-11-20T13:48:53.995Z,        numeroOrdre: 130707611121701,         timestampAfter: 2023-11-20T13:56:07.751Z
+
+timestampBefore: 2023-11-20T13:48:54.109Z,        numeroOrdre: 130707611122321,         timestampAfter: 2023-11-20T13:56:07.752Z
+
+timestampBefore: 2023-11-20T13:48:55.692Z,        numeroOrdre: 110101611122244,         timestampAfter: 2023-11-20T13:57:58.368Z
+
+timestampBefore: 2023-11-20T13:48:55.693Z,        numeroOrdre: 080101611122203,         timestampAfter: 2023-11-20T13:57:58.368Z
+
+timestampBefore: 2023-11-20T13:48:55.693Z,        numeroOrdre: 110101611122221,         timestampAfter: 2023-11-20T13:57:58.369Z
+
+timestampBefore: 2023-11-20T13:48:56.770Z,        numeroOrdre: 130101611122202,         timestampAfter: 2023-11-20T13:57:58.401Z
+
+timestampBefore: 2023-11-20T13:48:58.335Z,        numeroOrdre: 030101611122357,         timestampAfter: 2023-11-20T13:57:58.520Z
+
+timestampBefore: 2023-11-20T13:48:58.336Z,        numeroOrdre: 130101611122278,         timestampAfter: 2023-11-20T13:57:58.520Z
+
+timestampBefore: 2023-11-20T13:48:59.420Z,        numeroOrdre: 130404611122300,         timestampAfter: 2023-11-20T13:57:58.536Z
+
+timestampBefore: 2023-11-20T13:49:00.066Z,        numeroOrdre: 130707611122253,         timestampAfter: 2023-11-20T13:57:58.537Z
+
+timestampBefore: 2023-11-20T13:49:01.644Z,        numeroOrdre: 130101611122308,         timestampAfter: 2023-11-20T13:57:58.630Z
+
+timestampBefore: 2023-11-20T13:49:03.117Z,        numeroOrdre: 130808611122272,         timestampAfter: 2023-11-20T13:57:58.804Z
+
+timestampBefore: 2023-11-20T13:49:04.668Z,        numeroOrdre: 080110611122336,         timestampAfter: 2023-11-20T13:57:58.859Z
+
+timestampBefore: 2023-11-20T13:49:04.678Z,        numeroOrdre: 130404611122226,         timestampAfter: 2023-11-20T13:57:58.860Z
+
+timestampBefore: 2023-11-20T13:49:05.747Z,        numeroOrdre: 110101611122281,         timestampAfter: 2023-11-20T13:57:58.922Z
+
+timestampBefore: 2023-11-20T13:49:06.827Z,        numeroOrdre: 130606611122299,         timestampAfter: 2023-11-20T13:57:58.975Z
+
+timestampBefore: 2023-11-20T13:49:07.291Z,        numeroOrdre: 130707611122255,         timestampAfter: 2023-11-20T13:57:58.996Z
+
+timestampBefore: 2023-11-20T13:49:08.351Z,        numeroOrdre: 130606611122383,         timestampAfter: 2023-11-20T13:57:59.087Z
+
+timestampBefore: 2023-11-20T13:49:08.837Z,        numeroOrdre: 130707611122211,         timestampAfter: 2023-11-20T13:57:59.124Z
+
+timestampBefore: 2023-11-20T13:49:10.354Z,        numeroOrdre: 130404611122459,         timestampAfter: 2023-11-20T13:57:59.219Z
+
+timestampBefore: 2023-11-20T13:49:11.408Z,        numeroOrdre: 130808611122347,         timestampAfter: 2023-11-20T13:57:59.274Z
+
+timestampBefore: 2023-11-20T13:49:12.484Z,        numeroOrdre: 130505611122480,         timestampAfter: 2023-11-20T13:57:59.289Z
+
+timestampBefore: 2023-11-20T13:49:13.567Z,        numeroOrdre: 130606611122302,         timestampAfter: 2023-11-20T13:57:59.413Z
+
+timestampBefore: 2023-11-20T13:49:14.975Z,        numeroOrdre: 130505611122484,         timestampAfter: 2023-11-20T13:57:59.496Z
+
+timestampBefore: 2023-11-20T13:49:16.501Z,        numeroOrdre: 130808611122364,         timestampAfter: 2023-11-20T13:57:59.555Z
+
+timestampBefore: 2023-11-20T13:49:17.571Z,        numeroOrdre: 130909611122477,         timestampAfter: 2023-11-20T13:57:59.579Z
+
+timestampBefore: 2023-11-20T13:49:18.645Z,        numeroOrdre: 080110611122444,         timestampAfter: 2023-11-20T13:57:59.640Z
+
+timestampBefore: 2023-11-20T13:49:19.714Z,        numeroOrdre: 130909611122488,         timestampAfter: 2023-11-20T13:57:59.654Z
+
+timestampBefore: 2023-11-20T13:49:20.789Z,        numeroOrdre: 130505611122479,         timestampAfter: 2023-11-20T13:57:59.739Z
+
+timestampBefore: 2023-11-20T13:49:21.862Z,        numeroOrdre: 100101521120350,         timestampAfter: 2023-11-20T13:57:59.793Z
+
+timestampBefore: 2023-11-20T13:49:23.147Z,        numeroOrdre: 130707521120281,         timestampAfter: 2023-11-20T13:57:59.834Z
+
+timestampBefore: 2023-11-20T13:49:24.826Z,        numeroOrdre: 130404521120280,         timestampAfter: 2023-11-20T13:57:59.984Z
+
+timestampBefore: 2023-11-20T13:49:26.371Z,        numeroOrdre: 130101521120360,         timestampAfter: 2023-11-20T13:58:00.055Z
+
+timestampBefore: 2023-11-20T13:49:27.445Z,        numeroOrdre: 030401521120109,         timestampAfter: 2023-11-20T13:58:00.112Z
+
+timestampBefore: 2023-11-20T13:49:28.516Z,        numeroOrdre: 100101521120417,         timestampAfter: 2023-11-20T13:58:00.185Z
+
+timestampBefore: 2023-11-20T13:49:29.587Z,        numeroOrdre: 080101521120272,         timestampAfter: 2023-11-20T13:58:00.186Z
+
+timestampBefore: 2023-11-20T13:49:31.024Z,        numeroOrdre: 130101521120331,         timestampAfter: 2023-11-20T13:58:00.286Z
+
+timestampBefore: 2023-11-20T13:49:32.575Z,        numeroOrdre: 130202521120045,         timestampAfter: 2023-11-20T13:58:00.301Z
+
+timestampBefore: 2023-11-20T13:49:33.649Z,        numeroOrdre: 130202521120028,         timestampAfter: 2023-11-20T13:58:00.336Z
+
+timestampBefore: 2023-11-20T13:49:34.724Z,        numeroOrdre: 130202521120034,         timestampAfter: 2023-11-20T13:58:00.392Z
+
+timestampBefore: 2023-11-20T13:49:35.798Z,        numeroOrdre: 130202521120111,         timestampAfter: 2023-11-20T13:58:00.425Z
+
+timestampBefore: 2023-11-20T13:49:37.304Z,        numeroOrdre: 130404521120094,         timestampAfter: 2023-11-20T13:58:00.518Z
+
+timestampBefore: 2023-11-20T13:49:38.998Z,        numeroOrdre: 130202611122489,         timestampAfter: 2023-11-20T13:58:00.580Z
+
+timestampBefore: 2023-11-20T13:49:40.544Z,        numeroOrdre: 130101521120161,         timestampAfter: 2023-11-20T13:58:00.635Z
+
+timestampBefore: 2023-11-20T13:49:41.619Z,        numeroOrdre: 030101521120145,         timestampAfter: 2023-11-20T13:58:00.679Z
+
+timestampBefore: 2023-11-20T13:49:42.693Z,        numeroOrdre: 130404521120096,         timestampAfter: 2023-11-20T13:58:00.733Z
+
+timestampBefore: 2023-11-20T13:49:44.155Z,        numeroOrdre: 130808611122514,         timestampAfter: 2023-11-20T13:58:00.776Z
+
+timestampBefore: 2023-11-20T13:49:45.713Z,        numeroOrdre: 130808521120058,         timestampAfter: 2023-11-20T13:58:00.838Z
+
+timestampBefore: 2023-11-20T13:49:46.789Z,        numeroOrdre: 130808521120174,         timestampAfter: 2023-11-20T13:58:00.850Z
+
+timestampBefore: 2023-11-20T13:49:48.422Z,        numeroOrdre: 130808521120198,         timestampAfter: 2023-11-20T13:58:00.942Z
+
+timestampBefore: 2023-11-20T13:49:49.491Z,        numeroOrdre: 100101521120276,         timestampAfter: 2023-11-20T13:58:01.015Z
+
+timestampBefore: 2023-11-20T13:49:50.796Z,        numeroOrdre: 130101521120149,         timestampAfter: 2023-11-20T13:58:01.047Z
+
+timestampBefore: 2023-11-20T13:49:52.323Z,        numeroOrdre: 130101521120225,         timestampAfter: 2023-11-20T13:58:01.161Z
+
+timestampBefore: 2023-11-20T13:49:53.395Z,        numeroOrdre: 100101521120302,         timestampAfter: 2023-11-20T13:58:01.214Z
+
+timestampBefore: 2023-11-20T13:49:54.468Z,        numeroOrdre: 080101521120317,         timestampAfter: 2023-11-20T13:58:01.279Z
+
+timestampBefore: 2023-11-20T13:49:55.544Z,        numeroOrdre: 130202521120206,         timestampAfter: 2023-11-20T13:58:01.302Z
+
+timestampBefore: 2023-11-20T13:49:56.620Z,        numeroOrdre: 040101521120340,         timestampAfter: 2023-11-20T13:58:01.334Z
+
+timestampBefore: 2023-11-20T13:49:58.125Z,        numeroOrdre: 080101521120339,         timestampAfter: 2023-11-20T13:58:01.357Z
+
+timestampBefore: 2023-11-20T13:49:59.669Z,        numeroOrdre: 080101521120204,         timestampAfter: 2023-11-20T13:58:01.369Z
+
+timestampBefore: 2023-11-20T13:50:00.976Z,        numeroOrdre: 030401521120365,         timestampAfter: 2023-11-20T13:58:01.380Z
+
+timestampBefore: 2023-11-20T13:50:02.141Z,        numeroOrdre: 040101521120361,         timestampAfter: 2023-11-20T13:58:01.454Z
+
+timestampBefore: 2023-11-20T13:50:03.459Z,        numeroOrdre: 060601521120379,         timestampAfter: 2023-11-20T13:58:01.501Z
+
+timestampBefore: 2023-11-20T13:50:04.774Z,        numeroOrdre: 130303521120427,         timestampAfter: 2023-11-20T13:58:01.567Z
+
+timestampBefore: 2023-11-20T13:50:06.378Z,        numeroOrdre: 130202521120390,         timestampAfter: 2023-11-20T13:58:01.589Z
+
+timestampBefore: 2023-11-20T13:50:07.907Z,        numeroOrdre: 130101521120387,         timestampAfter: 2023-11-20T13:58:01.653Z
+
+timestampBefore: 2023-11-20T13:50:09.206Z,        numeroOrdre: 130303521120432,         timestampAfter: 2023-11-20T13:58:01.699Z
+
+timestampBefore: 2023-11-20T13:50:10.875Z,        numeroOrdre: 130101521120437,         timestampAfter: 2023-11-20T13:58:01.753Z
+
+timestampBefore: 2023-11-20T13:50:12.557Z,        numeroOrdre: 130202521120429,         timestampAfter: 2023-11-20T13:58:01.826Z
+
+timestampBefore: 2023-11-20T13:50:14.262Z,        numeroOrdre: 050101521121822,         timestampAfter: 2023-11-20T13:58:01.894Z
+
+timestampBefore: 2023-11-20T13:50:15.814Z,        numeroOrdre: 130404521120448,         timestampAfter: 2023-11-20T13:58:01.979Z
+
+timestampBefore: 2023-11-20T13:50:16.887Z,        numeroOrdre: 040101521120469,         timestampAfter: 2023-11-20T13:58:02.010Z
+
+timestampBefore: 2023-11-20T13:50:17.959Z,        numeroOrdre: 100101521120450,         timestampAfter: 2023-11-20T13:58:02.068Z
+
+timestampBefore: 2023-11-20T13:50:19.511Z,        numeroOrdre: 030401521120460,         timestampAfter: 2023-11-20T13:58:02.120Z
+
+timestampBefore: 2023-11-20T13:50:21.077Z,        numeroOrdre: 130202521120489,         timestampAfter: 2023-11-20T13:58:02.174Z
+
+timestampBefore: 2023-11-20T13:50:22.633Z,        numeroOrdre: 100101521120487,         timestampAfter: 2023-11-20T13:58:02.217Z
+
+timestampBefore: 2023-11-20T13:50:23.706Z,        numeroOrdre: 130101521120510,         timestampAfter: 2023-11-20T13:58:02.289Z
+
+timestampBefore: 2023-11-20T13:50:24.780Z,        numeroOrdre: 130707521120490,         timestampAfter: 2023-11-20T13:58:02.311Z
+
+timestampBefore: 2023-11-20T13:50:25.858Z,        numeroOrdre: 130303521120493,         timestampAfter: 2023-11-20T13:58:02.332Z
+
+timestampBefore: 2023-11-20T13:50:27.379Z,        numeroOrdre: 100101521120498,         timestampAfter: 2023-11-20T13:58:02.414Z
+
+timestampBefore: 2023-11-20T13:50:29.070Z,        numeroOrdre: 100101521120641,         timestampAfter: 2023-11-20T13:58:02.456Z
+
+timestampBefore: 2023-11-20T13:50:30.761Z,        numeroOrdre: 130101521120634,         timestampAfter: 2023-11-20T13:58:02.498Z
+
+timestampBefore: 2023-11-20T13:50:32.414Z,        numeroOrdre: 080101621120311,         timestampAfter: 2023-11-20T13:58:02.570Z
+
+timestampBefore: 2023-11-20T13:50:34.136Z,        numeroOrdre: 130303621120265,         timestampAfter: 2023-11-20T13:58:02.682Z
+
+timestampBefore: 2023-11-20T13:50:35.674Z,        numeroOrdre: 130303621120322,         timestampAfter: 2023-11-20T13:58:02.823Z
+
+timestampBefore: 2023-11-20T13:50:36.750Z,        numeroOrdre: 130202621120171,         timestampAfter: 2023-11-20T13:58:02.844Z
+
+timestampBefore: 2023-11-20T13:50:37.824Z,        numeroOrdre: 130202521120515,         timestampAfter: 2023-11-20T13:58:02.866Z
+
+timestampBefore: 2023-11-20T13:50:38.896Z,        numeroOrdre: 060401521120509,         timestampAfter: 2023-11-20T13:58:02.918Z
+
+timestampBefore: 2023-11-20T13:50:39.974Z,        numeroOrdre: 130505521120520,         timestampAfter: 2023-11-20T13:58:02.970Z
+
+timestampBefore: 2023-11-20T13:50:41.048Z,        numeroOrdre: 130101621120384,         timestampAfter: 2023-11-20T13:58:03.003Z
+
+timestampBefore: 2023-11-20T13:50:42.273Z,        numeroOrdre: 130101521120451,         timestampAfter: 2023-11-20T13:58:03.034Z
+
+timestampBefore: 2023-11-20T13:50:43.995Z,        numeroOrdre: 130505521120484,         timestampAfter: 2023-11-20T13:58:03.066Z
+
+timestampBefore: 2023-11-20T13:50:45.700Z,        numeroOrdre: 130505521120538,         timestampAfter: 2023-11-20T13:58:03.069Z
+
+timestampBefore: 2023-11-20T13:50:47.382Z,        numeroOrdre: 080101521120570,         timestampAfter: 2023-11-20T13:58:03.072Z
+
+timestampBefore: 2023-11-20T13:50:49.063Z,        numeroOrdre: 130101621120231,         timestampAfter: 2023-11-20T13:58:03.074Z
+
+timestampBefore: 2023-11-20T13:50:50.592Z,        numeroOrdre: 100101521120542,         timestampAfter: 2023-11-20T13:58:03.076Z
+
+timestampBefore: 2023-11-20T13:50:52.145Z,        numeroOrdre: 130707521120495,         timestampAfter: 2023-11-20T13:58:03.079Z
+
+timestampBefore: 2023-11-20T13:50:53.217Z,        numeroOrdre: 130101521120485,         timestampAfter: 2023-11-20T13:58:03.080Z
+
+timestampBefore: 2023-11-20T13:50:54.528Z,        numeroOrdre: 030401521120531,         timestampAfter: 2023-11-20T13:58:03.083Z
+
+timestampBefore: 2023-11-20T13:50:56.234Z,        numeroOrdre: 060101521120599,         timestampAfter: 2023-11-20T13:58:03.084Z
+
+timestampBefore: 2023-11-20T13:50:57.787Z,        numeroOrdre: 130505521120569,         timestampAfter: 2023-11-20T13:58:03.087Z
+
+timestampBefore: 2023-11-20T13:50:58.861Z,        numeroOrdre: 020301521120605,         timestampAfter: 2023-11-20T13:58:03.090Z
+
+timestampBefore: 2023-11-20T13:51:00.172Z,        numeroOrdre: 020301521120626,         timestampAfter: 2023-11-20T13:58:03.093Z
+
+timestampBefore: 2023-11-20T13:51:01.858Z,        numeroOrdre: 130404621120188,         timestampAfter: 2023-11-20T13:58:03.096Z
+
+timestampBefore: 2023-11-20T13:51:03.394Z,        numeroOrdre: 040101521120614,         timestampAfter: 2023-11-20T13:58:03.100Z
+
+timestampBefore: 2023-11-20T13:51:04.470Z,        numeroOrdre: 130303521120618,         timestampAfter: 2023-11-20T13:58:03.103Z
+
+timestampBefore: 2023-11-20T13:51:05.542Z,        numeroOrdre: 130808621120372,         timestampAfter: 2023-11-20T13:58:03.104Z
+
+timestampBefore: 2023-11-20T13:51:06.616Z,        numeroOrdre: 130101621120230,         timestampAfter: 2023-11-20T13:58:03.108Z
+
+timestampBefore: 2023-11-20T13:51:07.688Z,        numeroOrdre: 130808621120053,         timestampAfter: 2023-11-20T13:58:03.110Z
+
+timestampBefore: 2023-11-20T13:51:09.007Z,        numeroOrdre: 130101621120234,         timestampAfter: 2023-11-20T13:58:03.113Z
+
+timestampBefore: 2023-11-20T13:51:10.533Z,        numeroOrdre: 080101621120391,         timestampAfter: 2023-11-20T13:58:03.116Z
+
+timestampBefore: 2023-11-20T13:51:11.826Z,        numeroOrdre: 130101621120402,         timestampAfter: 2023-11-20T13:58:03.119Z
+
+timestampBefore: 2023-11-20T13:51:13.421Z,        numeroOrdre: 080101621120583,         timestampAfter: 2023-11-20T13:58:03.122Z
+
+timestampBefore: 2023-11-20T13:51:15.103Z,        numeroOrdre: 130101621120781,         timestampAfter: 2023-11-20T13:58:03.125Z
+
+timestampBefore: 2023-11-20T13:51:16.650Z,        numeroOrdre: 130101621120595,         timestampAfter: 2023-11-20T13:58:03.128Z
+
+timestampBefore: 2023-11-20T13:51:18.080Z,        numeroOrdre: 130505621120588,         timestampAfter: 2023-11-20T13:58:03.129Z
+
+timestampBefore: 2023-11-20T13:51:19.151Z,        numeroOrdre: 100101621120592,         timestampAfter: 2023-11-20T13:58:03.131Z
+
+timestampBefore: 2023-11-20T13:51:20.812Z,        numeroOrdre: 130101621120759,         timestampAfter: 2023-11-20T13:58:03.133Z
+
+timestampBefore: 2023-11-20T13:51:22.354Z,        numeroOrdre: 130606621121819,         timestampAfter: 2023-11-20T13:58:03.135Z
+
+timestampBefore: 2023-11-20T13:51:23.430Z,        numeroOrdre: 130101621122206,         timestampAfter: 2023-11-20T13:58:03.135Z
+
+timestampBefore: 2023-11-20T13:51:24.504Z,        numeroOrdre: 130202621122160,         timestampAfter: 2023-11-20T13:58:03.137Z
+
+timestampBefore: 2023-11-20T13:51:25.575Z,        numeroOrdre: 130808621120476,         timestampAfter: 2023-11-20T13:58:03.139Z
+
+timestampBefore: 2023-11-20T13:51:26.654Z,        numeroOrdre: 130404621121675,         timestampAfter: 2023-11-20T13:58:03.140Z
+
+timestampBefore: 2023-11-20T13:51:28.103Z,        numeroOrdre: 130101621122267,         timestampAfter: 2023-11-20T13:58:03.142Z
+
+timestampBefore: 2023-11-20T13:51:29.808Z,        numeroOrdre: 130303621121203,         timestampAfter: 2023-11-20T13:58:03.145Z
+
+timestampBefore: 2023-11-20T13:51:31.443Z,        numeroOrdre: 130606621121769,         timestampAfter: 2023-11-20T13:58:03.148Z
+
+timestampBefore: 2023-11-20T13:51:32.993Z,        numeroOrdre: 130909621121770,         timestampAfter: 2023-11-20T13:58:03.150Z
+
+timestampBefore: 2023-11-20T13:51:34.070Z,        numeroOrdre: 130505621121216,         timestampAfter: 2023-11-20T13:58:03.153Z
+
+timestampBefore: 2023-11-20T13:51:35.249Z,        numeroOrdre: 130909621122486,         timestampAfter: 2023-11-20T13:58:03.156Z
+
+timestampBefore: 2023-11-20T13:51:36.800Z,        numeroOrdre: 130909621122481,         timestampAfter: 2023-11-20T13:58:03.158Z
+
+timestampBefore: 2023-11-20T13:51:37.876Z,        numeroOrdre: 130303621121311,         timestampAfter: 2023-11-20T13:58:03.161Z
+
+timestampBefore: 2023-11-20T13:51:39.399Z,        numeroOrdre: 130101621122186,         timestampAfter: 2023-11-20T13:58:03.163Z
+
+timestampBefore: 2023-11-20T13:51:40.948Z,        numeroOrdre: 130101621122183,         timestampAfter: 2023-11-20T13:58:03.166Z
+
+timestampBefore: 2023-11-20T13:51:42.024Z,        numeroOrdre: 130202621121456,         timestampAfter: 2023-11-20T13:58:03.167Z
+
+timestampBefore: 2023-11-20T13:51:43.096Z,        numeroOrdre: 130101621121342,         timestampAfter: 2023-11-20T13:58:03.170Z
+
+timestampBefore: 2023-11-20T13:51:44.170Z,        numeroOrdre: 130101621121650,         timestampAfter: 2023-11-20T13:58:03.173Z
+
+timestampBefore: 2023-11-20T13:51:45.246Z,        numeroOrdre: 130606621122385,         timestampAfter: 2023-11-20T13:58:03.174Z
+
+timestampBefore: 2023-11-20T13:51:46.543Z,        numeroOrdre: 130808621121865,         timestampAfter: 2023-11-20T13:58:03.177Z
+
+timestampBefore: 2023-11-20T13:51:48.082Z,        numeroOrdre: 130808621121859,         timestampAfter: 2023-11-20T13:58:03.178Z
+
+timestampBefore: 2023-11-20T13:51:49.155Z,        numeroOrdre: 130101621122163,         timestampAfter: 2023-11-20T13:58:03.180Z
+
+timestampBefore: 2023-11-20T13:51:50.229Z,        numeroOrdre: 130505621120466,         timestampAfter: 2023-11-20T13:58:03.182Z
+
+timestampBefore: 2023-11-20T13:51:51.305Z,        numeroOrdre: 030101621120868,         timestampAfter: 2023-11-20T13:58:03.185Z
+
+timestampBefore: 2023-11-20T13:51:52.379Z,        numeroOrdre: 130202621122256,         timestampAfter: 2023-11-20T13:58:03.187Z
+
+timestampBefore: 2023-11-20T13:51:53.454Z,        numeroOrdre: 130404621120755,         timestampAfter: 2023-11-20T13:58:03.189Z
+
+timestampBefore: 2023-11-20T13:51:54.743Z,        numeroOrdre: 130909621121148,         timestampAfter: 2023-11-20T13:58:03.191Z
+
+timestampBefore: 2023-11-20T13:51:56.263Z,        numeroOrdre: 130505621121009,         timestampAfter: 2023-11-20T13:58:03.194Z
+
+timestampBefore: 2023-11-20T13:51:57.336Z,        numeroOrdre: 130225831122318,         timestampAfter: 2023-11-20T13:58:03.195Z
+
+timestampBefore: 2023-11-20T13:51:58.408Z,        numeroOrdre: 080115831122323,         timestampAfter: 2023-11-20T13:58:03.197Z
+
+timestampBefore: 2023-11-20T13:51:59.482Z,        numeroOrdre: 130101621121385,         timestampAfter: 2023-11-20T13:58:03.199Z
+
+timestampBefore: 2023-11-20T13:52:00.868Z,        numeroOrdre: 080115831122324,         timestampAfter: 2023-11-20T13:58:03.201Z
+
+timestampBefore: 2023-11-20T13:52:02.495Z,        numeroOrdre: 130225831127258,         timestampAfter: 2023-11-20T13:58:03.204Z
+
+timestampBefore: 2023-11-20T13:52:04.199Z,        numeroOrdre: 130225831127754,         timestampAfter: 2023-11-20T13:58:03.207Z
+
+timestampBefore: 2023-11-20T13:52:05.938Z,        numeroOrdre: 130225831127740,         timestampAfter: 2023-11-20T13:58:03.210Z
+
+timestampBefore: 2023-11-20T13:52:07.531Z,        numeroOrdre: 130225831128438,         timestampAfter: 2023-11-20T13:58:03.212Z
+
+timestampBefore: 2023-11-20T13:52:09.238Z,        numeroOrdre: 130225831128625,         timestampAfter: 2023-11-20T13:58:03.215Z
+
+timestampBefore: 2023-11-20T13:52:10.774Z,        numeroOrdre: 130225831128307,         timestampAfter: 2023-11-20T13:58:03.218Z
+
+timestampBefore: 2023-11-20T13:52:11.850Z,        numeroOrdre: 130225831128295,         timestampAfter: 2023-11-20T13:58:03.220Z
+
+timestampBefore: 2023-11-20T13:52:12.926Z,        numeroOrdre: 130225831130680,         timestampAfter: 2023-11-20T13:58:03.222Z
+
+timestampBefore: 2023-11-20T13:52:13.999Z,        numeroOrdre: 130225831126656,         timestampAfter: 2023-11-20T13:58:03.224Z
+
+timestampBefore: 2023-11-20T13:52:15.221Z,        numeroOrdre: 130225831126696,         timestampAfter: 2023-11-20T13:58:03.226Z
+
+timestampBefore: 2023-11-20T13:52:16.765Z,        numeroOrdre: 130225831124774,         timestampAfter: 2023-11-20T13:58:03.228Z
+
+timestampBefore: 2023-11-20T13:52:18.254Z,        numeroOrdre: 130225831126044,         timestampAfter: 2023-11-20T13:58:03.232Z
+
+timestampBefore: 2023-11-20T13:52:19.799Z,        numeroOrdre: 130225831126667,         timestampAfter: 2023-11-20T13:58:03.235Z
+
+timestampBefore: 2023-11-20T13:52:20.874Z,        numeroOrdre: 130225831126675,         timestampAfter: 2023-11-20T13:58:03.238Z
+
+timestampBefore: 2023-11-20T13:52:22.187Z,        numeroOrdre: 130225831127084,         timestampAfter: 2023-11-20T13:58:03.240Z
+
+timestampBefore: 2023-11-20T13:52:23.873Z,        numeroOrdre: 130225831127602,         timestampAfter: 2023-11-20T13:58:03.245Z
+
+timestampBefore: 2023-11-20T13:52:25.414Z,        numeroOrdre: 130225831132411,         timestampAfter: 2023-11-20T13:58:03.248Z
+
+timestampBefore: 2023-11-20T13:52:26.490Z,        numeroOrdre: 130225831133198,         timestampAfter: 2023-11-20T13:58:03.250Z
+
+timestampBefore: 2023-11-20T13:52:27.565Z,        numeroOrdre: 130225831133056,         timestampAfter: 2023-11-20T13:58:03.252Z
+
+timestampBefore: 2023-11-20T13:52:28.640Z,        numeroOrdre: 130225831132613,         timestampAfter: 2023-11-20T13:58:03.255Z
+
+timestampBefore: 2023-11-20T13:52:29.931Z,        numeroOrdre: 130225831133793,         timestampAfter: 2023-11-20T13:58:03.258Z
+
+timestampBefore: 2023-11-20T13:52:31.518Z,        numeroOrdre: 130225831133783,         timestampAfter: 2023-11-20T13:58:03.261Z
+
+timestampBefore: 2023-11-20T13:52:33.300Z,        numeroOrdre: 130225831133606,         timestampAfter: 2023-11-20T13:58:03.265Z
+
+timestampBefore: 2023-11-20T13:52:34.993Z,        numeroOrdre: 130225831134059,         timestampAfter: 2023-11-20T13:58:03.268Z
+
+timestampBefore: 2023-11-20T13:52:36.542Z,        numeroOrdre: 130225831134626,         timestampAfter: 2023-11-20T13:58:03.271Z
+
+timestampBefore: 2023-11-20T13:52:38.238Z,        numeroOrdre: 130225831134625,         timestampAfter: 2023-11-20T13:58:03.274Z
+
+timestampBefore: 2023-11-20T13:52:39.916Z,        numeroOrdre: 130225831135514,         timestampAfter: 2023-11-20T13:58:03.277Z
+
+timestampBefore: 2023-11-20T13:52:41.638Z,        numeroOrdre: 130225831134579,         timestampAfter: 2023-11-20T13:58:03.280Z
+
+timestampBefore: 2023-11-20T13:52:43.329Z,        numeroOrdre: 130225831134561,         timestampAfter: 2023-11-20T13:58:03.284Z
+
+timestampBefore: 2023-11-20T13:52:44.869Z,        numeroOrdre: 130225831131396,         timestampAfter: 2023-11-20T13:58:03.286Z
+
+timestampBefore: 2023-11-20T13:52:46.398Z,        numeroOrdre: 130225831130756,         timestampAfter: 2023-11-20T13:58:03.288Z
+
+timestampBefore: 2023-11-20T13:52:47.943Z,        numeroOrdre: 130225831128983,         timestampAfter: 2023-11-20T13:58:03.291Z
+
+timestampBefore: 2023-11-20T13:52:49.018Z,        numeroOrdre: 130225831133831,         timestampAfter: 2023-11-20T13:58:03.293Z
+
+timestampBefore: 2023-11-20T13:52:50.169Z,        numeroOrdre: 130225831131320,         timestampAfter: 2023-11-20T13:58:03.296Z
+
+timestampBefore: 2023-11-20T13:52:51.714Z,        numeroOrdre: 130225831131944,         timestampAfter: 2023-11-20T13:58:03.299Z
+
+timestampBefore: 2023-11-20T13:52:52.791Z,        numeroOrdre: 130225831131715,         timestampAfter: 2023-11-20T13:58:03.301Z
+
+timestampBefore: 2023-11-20T13:52:53.866Z,        numeroOrdre: 130225831130810,         timestampAfter: 2023-11-20T13:58:03.302Z
+
+timestampBefore: 2023-11-20T13:52:54.950Z,        numeroOrdre: 130225831132132,         timestampAfter: 2023-11-20T13:58:03.305Z
+
+timestampBefore: 2023-11-20T13:52:56.027Z,        numeroOrdre: 130225831134889,         timestampAfter: 2023-11-20T13:58:03.307Z
+
+timestampBefore: 2023-11-20T13:52:57.101Z,        numeroOrdre: 130225831135269,         timestampAfter: 2023-11-20T13:58:03.309Z
+
+timestampBefore: 2023-11-20T13:52:58.176Z,        numeroOrdre: 130225831135761,         timestampAfter: 2023-11-20T13:58:03.309Z
+
+timestampBefore: 2023-11-20T13:52:59.469Z,        numeroOrdre: 130225831137459,         timestampAfter: 2023-11-20T13:58:03.310Z
+
+timestampBefore: 2023-11-20T13:53:01.017Z,        numeroOrdre: 130225831137463,         timestampAfter: 2023-11-20T13:58:03.311Z
+
+timestampBefore: 2023-11-20T13:53:02.149Z,        numeroOrdre: 130225831137107,         timestampAfter: 2023-11-20T13:58:03.311Z
+
+timestampBefore: 2023-11-20T13:53:03.686Z,        numeroOrdre: 130225831137626,         timestampAfter: 2023-11-20T13:58:03.312Z
+
+timestampBefore: 2023-11-20T13:53:04.766Z,        numeroOrdre: 130225831137641,         timestampAfter: 2023-11-20T13:58:03.312Z
+
+timestampBefore: 2023-11-20T13:53:06.053Z,        numeroOrdre: 130225831137363,         timestampAfter: 2023-11-20T13:58:03.313Z
+
+timestampBefore: 2023-11-20T13:53:07.720Z,        numeroOrdre: 130225831136583,         timestampAfter: 2023-11-20T13:58:03.313Z
+
+timestampBefore: 2023-11-20T13:53:09.523Z,        numeroOrdre: 130225831136741,         timestampAfter: 2023-11-20T13:58:03.314Z
+
+timestampBefore: 2023-11-20T13:53:11.247Z,        numeroOrdre: 130225831136685,         timestampAfter: 2023-11-20T13:58:03.314Z
+
+timestampBefore: 2023-11-20T13:53:12.971Z,        numeroOrdre: 130225831136625,         timestampAfter: 2023-11-20T13:58:03.315Z
+
+timestampBefore: 2023-11-20T13:53:14.522Z,        numeroOrdre: 130225831137118,         timestampAfter: 2023-11-20T13:58:03.316Z
+
+timestampBefore: 2023-11-20T13:53:15.597Z,        numeroOrdre: 130225831136735,         timestampAfter: 2023-11-20T13:58:03.316Z
+
+timestampBefore: 2023-11-20T13:53:16.909Z,        numeroOrdre: 130225831138066,         timestampAfter: 2023-11-20T13:58:03.317Z
+
+timestampBefore: 2023-11-20T13:53:18.429Z,        numeroOrdre: 130225831138770,         timestampAfter: 2023-11-20T13:58:03.318Z
+
+timestampBefore: 2023-11-20T13:53:19.513Z,        numeroOrdre: 130225831138683,         timestampAfter: 2023-11-20T13:58:03.318Z
+
+timestampBefore: 2023-11-20T13:53:21.009Z,        numeroOrdre: 130225831138704,         timestampAfter: 2023-11-20T13:58:03.319Z
+
+timestampBefore: 2023-11-20T13:53:22.699Z,        numeroOrdre: 130225831138781,         timestampAfter: 2023-11-20T13:58:03.320Z
+
+timestampBefore: 2023-11-20T13:53:24.353Z,        numeroOrdre: 130225831139830,         timestampAfter: 2023-11-20T13:58:03.320Z
+
+timestampBefore: 2023-11-20T13:53:26.056Z,        numeroOrdre: 130225831140522,         timestampAfter: 2023-11-20T13:58:03.321Z
+
+timestampBefore: 2023-11-20T13:53:27.603Z,        numeroOrdre: 130225831142014,         timestampAfter: 2023-11-20T13:58:03.321Z
+
+timestampBefore: 2023-11-20T13:53:28.897Z,        numeroOrdre: 130225831142647,         timestampAfter: 2023-11-20T13:58:03.322Z
+
+timestampBefore: 2023-11-20T13:53:30.435Z,        numeroOrdre: 130225831138841,         timestampAfter: 2023-11-20T13:58:03.323Z
+
+timestampBefore: 2023-11-20T13:53:31.512Z,        numeroOrdre: 130225831138791,         timestampAfter: 2023-11-20T13:58:03.323Z
+
+timestampBefore: 2023-11-20T13:53:32.585Z,        numeroOrdre: 130225831142686,         timestampAfter: 2023-11-20T13:58:03.324Z
+
+timestampBefore: 2023-11-20T13:53:33.661Z,        numeroOrdre: 130225831145302,         timestampAfter: 2023-11-20T13:58:03.325Z
+
+timestampBefore: 2023-11-20T13:53:34.736Z,        numeroOrdre: 130225831145306,         timestampAfter: 2023-11-20T13:58:03.325Z
+
+timestampBefore: 2023-11-20T13:53:36.208Z,        numeroOrdre: 130225831146469,         timestampAfter: 2023-11-20T13:58:03.326Z
+
+timestampBefore: 2023-11-20T13:53:37.767Z,        numeroOrdre: 130225831141857,         timestampAfter: 2023-11-20T13:58:03.327Z
+
+timestampBefore: 2023-11-20T13:53:38.843Z,        numeroOrdre: 130225831138789,         timestampAfter: 2023-11-20T13:58:03.327Z
+
+timestampBefore: 2023-11-20T13:53:39.917Z,        numeroOrdre: 130225831140328,         timestampAfter: 2023-11-20T13:58:03.328Z
+
+timestampBefore: 2023-11-20T13:53:40.991Z,        numeroOrdre: 130225831138691,         timestampAfter: 2023-11-20T13:58:03.329Z
+
+timestampBefore: 2023-11-20T13:53:42.078Z,        numeroOrdre: 130225831137968,         timestampAfter: 2023-11-20T13:58:03.330Z
+
+timestampBefore: 2023-11-20T13:53:43.261Z,        numeroOrdre: 130225831137878,         timestampAfter: 2023-11-20T13:58:03.330Z
+
+timestampBefore: 2023-11-20T13:53:44.925Z,        numeroOrdre: 130225831138674,         timestampAfter: 2023-11-20T13:58:03.331Z
+
+timestampBefore: 2023-11-20T13:53:46.460Z,        numeroOrdre: 130225831137980,         timestampAfter: 2023-11-20T13:58:03.332Z
+
+timestampBefore: 2023-11-20T13:53:47.842Z,        numeroOrdre: 130225831140521,         timestampAfter: 2023-11-20T13:58:03.332Z
+
+timestampBefore: 2023-11-20T13:53:49.475Z,        numeroOrdre: 130225831138776,         timestampAfter: 2023-11-20T13:58:03.333Z
+
+timestampBefore: 2023-11-20T13:53:51.166Z,        numeroOrdre: 130225831146151,         timestampAfter: 2023-11-20T13:58:03.333Z
+
+timestampBefore: 2023-11-20T13:53:52.872Z,        numeroOrdre: 130225831146241,         timestampAfter: 2023-11-20T13:58:03.334Z
+
+timestampBefore: 2023-11-20T13:53:54.489Z,        numeroOrdre: 130225831150522,         timestampAfter: 2023-11-20T13:58:03.335Z
+
+timestampBefore: 2023-11-20T13:53:56.042Z,        numeroOrdre: 130225831150544,         timestampAfter: 2023-11-20T13:58:03.336Z
+
+timestampBefore: 2023-11-20T13:53:57.116Z,        numeroOrdre: 130225831147025,         timestampAfter: 2023-11-20T13:58:03.336Z
+
+timestampBefore: 2023-11-20T13:53:58.191Z,        numeroOrdre: 130225831147023,         timestampAfter: 2023-11-20T13:58:03.337Z
+
+timestampBefore: 2023-11-20T13:53:59.265Z,        numeroOrdre: 130225831148247,         timestampAfter: 2023-11-20T13:58:03.337Z
+
+timestampBefore: 2023-11-20T13:54:00.341Z,        numeroOrdre: 130225831147540,         timestampAfter: 2023-11-20T13:58:03.338Z
+
+timestampBefore: 2023-11-20T13:54:01.426Z,        numeroOrdre: 130225831148848,         timestampAfter: 2023-11-20T13:58:03.339Z
+
+timestampBefore: 2023-11-20T13:54:02.501Z,        numeroOrdre: 130225831148090,         timestampAfter: 2023-11-20T13:58:03.340Z
+
+timestampBefore: 2023-11-20T13:54:03.578Z,        numeroOrdre: 130225831147455,         timestampAfter: 2023-11-20T13:58:03.340Z
+
+timestampBefore: 2023-11-20T13:54:04.870Z,        numeroOrdre: 130225831148673,         timestampAfter: 2023-11-20T13:58:03.341Z
+
+timestampBefore: 2023-11-20T13:54:06.442Z,        numeroOrdre: 130225831147623,         timestampAfter: 2023-11-20T13:58:03.341Z
+
+timestampBefore: 2023-11-20T13:54:08.133Z,        numeroOrdre: 130225831148964,         timestampAfter: 2023-11-20T13:58:03.342Z
+
+timestampBefore: 2023-11-20T13:54:09.692Z,        numeroOrdre: 130225831149546,         timestampAfter: 2023-11-20T13:58:03.343Z
+
+timestampBefore: 2023-11-20T13:54:10.770Z,        numeroOrdre: 130225831149662,         timestampAfter: 2023-11-20T13:58:03.343Z
+
+timestampBefore: 2023-11-20T13:54:11.845Z,        numeroOrdre: 130225831149699,         timestampAfter: 2023-11-20T13:58:03.344Z
+
+timestampBefore: 2023-11-20T13:54:13.360Z,        numeroOrdre: 130225831147592,         timestampAfter: 2023-11-20T13:58:03.345Z
+
+timestampBefore: 2023-11-20T13:54:15.062Z,        numeroOrdre: 130225831150513,         timestampAfter: 2023-11-20T13:58:03.345Z
+
+timestampBefore: 2023-11-20T13:54:16.617Z,        numeroOrdre: 130225831150089,         timestampAfter: 2023-11-20T13:58:03.346Z
+
+timestampBefore: 2023-11-20T13:54:17.694Z,        numeroOrdre: 130225831152913,         timestampAfter: 2023-11-20T13:58:03.347Z
+
+timestampBefore: 2023-11-20T13:54:18.780Z,        numeroOrdre: 130225831149978,         timestampAfter: 2023-11-20T13:58:03.347Z
+
+timestampBefore: 2023-11-20T13:54:20.268Z,        numeroOrdre: 130225831151200,         timestampAfter: 2023-11-20T13:58:03.348Z
+
+timestampBefore: 2023-11-20T13:54:21.811Z,        numeroOrdre: 130225831154750,         timestampAfter: 2023-11-20T13:58:03.349Z
+
+timestampBefore: 2023-11-20T13:54:22.888Z,        numeroOrdre: 130225831152738,         timestampAfter: 2023-11-20T13:58:03.349Z
+
+timestampBefore: 2023-11-20T13:54:23.963Z,        numeroOrdre: 130225831153384,         timestampAfter: 2023-11-20T13:58:03.350Z
+
+timestampBefore: 2023-11-20T13:54:25.049Z,        numeroOrdre: 130225831153354,         timestampAfter: 2023-11-20T13:58:03.351Z
+
+timestampBefore: 2023-11-20T13:54:26.133Z,        numeroOrdre: 130225831150751,         timestampAfter: 2023-11-20T13:58:03.351Z
+
+timestampBefore: 2023-11-20T13:54:27.210Z,        numeroOrdre: 130225831150561,         timestampAfter: 2023-11-20T13:58:03.352Z
+
+timestampBefore: 2023-11-20T13:54:28.287Z,        numeroOrdre: 130225831151218,         timestampAfter: 2023-11-20T13:58:03.352Z
+
+timestampBefore: 2023-11-20T13:54:29.362Z,        numeroOrdre: 130225831151682,         timestampAfter: 2023-11-20T13:58:03.353Z
+
+timestampBefore: 2023-11-20T13:54:30.665Z,        numeroOrdre: 130225831150545,         timestampAfter: 2023-11-20T13:58:03.354Z
+
+timestampBefore: 2023-11-20T13:54:32.314Z,        numeroOrdre: 130225831151207,         timestampAfter: 2023-11-20T13:58:03.354Z
+
+timestampBefore: 2023-11-20T13:54:33.835Z,        numeroOrdre: 130225831151130,         timestampAfter: 2023-11-20T13:58:03.355Z
+
+timestampBefore: 2023-11-20T13:54:35.341Z,        numeroOrdre: 130225831151212,         timestampAfter: 2023-11-20T13:58:03.356Z
+
+timestampBefore: 2023-11-20T13:54:36.877Z,        numeroOrdre: 130225831151778,         timestampAfter: 2023-11-20T13:58:03.356Z
+
+timestampBefore: 2023-11-20T13:54:37.952Z,        numeroOrdre: 130225831150682,         timestampAfter: 2023-11-20T13:58:03.357Z
+
+timestampBefore: 2023-11-20T13:54:39.028Z,        numeroOrdre: 130225831152068,         timestampAfter: 2023-11-20T13:58:03.357Z
+
+timestampBefore: 2023-11-20T13:54:40.102Z,        numeroOrdre: 130225831150763,         timestampAfter: 2023-11-20T13:58:03.358Z
+
+timestampBefore: 2023-11-20T13:54:41.343Z,        numeroOrdre: 130225831152553,         timestampAfter: 2023-11-20T13:58:03.359Z
+
+timestampBefore: 2023-11-20T13:54:43.027Z,        numeroOrdre: 130225831153903,         timestampAfter: 2023-11-20T13:58:03.359Z
+
+timestampBefore: 2023-11-20T13:54:44.570Z,        numeroOrdre: 130225831153919,         timestampAfter: 2023-11-20T13:58:03.360Z
+
+timestampBefore: 2023-11-20T13:54:45.643Z,        numeroOrdre: 130808631120044,         timestampAfter: 2023-11-20T13:58:03.361Z
+
+timestampBefore: 2023-11-20T13:54:47.084Z,        numeroOrdre: 130808631120022,         timestampAfter: 2023-11-20T13:58:03.361Z
+
+timestampBefore: 2023-11-20T13:54:48.632Z,        numeroOrdre: 130808631120035,         timestampAfter: 2023-11-20T13:58:03.362Z
+
+timestampBefore: 2023-11-20T13:54:49.708Z,        numeroOrdre: 130101631120746,         timestampAfter: 2023-11-20T13:58:03.362Z
+
+timestampBefore: 2023-11-20T13:54:50.780Z,        numeroOrdre: 130808631120027,         timestampAfter: 2023-11-20T13:58:03.363Z
+
+timestampBefore: 2023-11-20T13:54:52.415Z,        numeroOrdre: 130606631120772,         timestampAfter: 2023-11-20T13:58:03.364Z
+
+timestampBefore: 2023-11-20T13:54:54.172Z,        numeroOrdre: 130808631120038,         timestampAfter: 2023-11-20T13:58:03.364Z
+
+timestampBefore: 2023-11-20T13:54:55.782Z,        numeroOrdre: 130808631120850,         timestampAfter: 2023-11-20T13:58:03.365Z
+
+timestampBefore: 2023-11-20T13:54:57.415Z,        numeroOrdre: 130808631120033,         timestampAfter: 2023-11-20T13:58:03.366Z
+
+timestampBefore: 2023-11-20T13:54:58.954Z,        numeroOrdre: 130808631120046,         timestampAfter: 2023-11-20T13:58:03.366Z
+
+timestampBefore: 2023-11-20T13:55:00.634Z,        numeroOrdre: 130808631120063,         timestampAfter: 2023-11-20T13:58:03.367Z
+
+timestampBefore: 2023-11-20T13:55:02.325Z,        numeroOrdre: 130808631120132,         timestampAfter: 2023-11-20T13:58:03.367Z
+
+timestampBefore: 2023-11-20T13:55:03.857Z,        numeroOrdre: 130808631120015,         timestampAfter: 2023-11-20T13:58:03.368Z
+
+timestampBefore: 2023-11-20T13:55:04.930Z,        numeroOrdre: 130808631120099,         timestampAfter: 2023-11-20T13:58:03.370Z
+
+timestampBefore: 2023-11-20T13:55:06.003Z,        numeroOrdre: 130808631120093,         timestampAfter: 2023-11-20T13:58:03.370Z
+
+timestampBefore: 2023-11-20T13:55:07.544Z,        numeroOrdre: 130303631120259,         timestampAfter: 2023-11-20T13:58:03.371Z
+
+timestampBefore: 2023-11-20T13:55:08.849Z,        numeroOrdre: 130303631120245,         timestampAfter: 2023-11-20T13:58:03.371Z
+
+timestampBefore: 2023-11-20T13:55:10.387Z,        numeroOrdre: 130808631120224,         timestampAfter: 2023-11-20T13:58:03.372Z
+
+timestampBefore: 2023-11-20T13:55:11.462Z,        numeroOrdre: 130808631120228,         timestampAfter: 2023-11-20T13:58:03.373Z
+
+timestampBefore: 2023-11-20T13:55:12.774Z,        numeroOrdre: 130808631120042,         timestampAfter: 2023-11-20T13:58:03.373Z
+
+timestampBefore: 2023-11-20T13:55:14.389Z,        numeroOrdre: 130101631120426,         timestampAfter: 2023-11-20T13:58:03.374Z
+
+timestampBefore: 2023-11-20T13:55:15.927Z,        numeroOrdre: 130808631120120,         timestampAfter: 2023-11-20T13:58:03.375Z
+
+timestampBefore: 2023-11-20T13:55:17.217Z,        numeroOrdre: 130909631120398,         timestampAfter: 2023-11-20T13:58:03.375Z
+
+timestampBefore: 2023-11-20T13:55:18.883Z,        numeroOrdre: 130101631120344,         timestampAfter: 2023-11-20T13:58:03.376Z
+
+timestampBefore: 2023-11-20T13:55:20.567Z,        numeroOrdre: 130505631120470,         timestampAfter: 2023-11-20T13:58:03.376Z
+
+timestampBefore: 2023-11-20T13:55:22.242Z,        numeroOrdre: 130808631120048,         timestampAfter: 2023-11-20T13:58:03.377Z
+
+timestampBefore: 2023-11-20T13:55:23.924Z,        numeroOrdre: 130101631120356,         timestampAfter: 2023-11-20T13:58:03.377Z
+
+timestampBefore: 2023-11-20T13:55:25.514Z,        numeroOrdre: 130707631120730,         timestampAfter: 2023-11-20T13:58:03.378Z
+
+timestampBefore: 2023-11-20T13:55:27.199Z,        numeroOrdre: 130101631120445,         timestampAfter: 2023-11-20T13:58:03.378Z
+
+timestampBefore: 2023-11-20T13:55:28.817Z,        numeroOrdre: 080110631120364,         timestampAfter: 2023-11-20T13:58:03.379Z
+
+timestampBefore: 2023-11-20T13:55:30.441Z,        numeroOrdre: 130303631120301,         timestampAfter: 2023-11-20T13:58:03.379Z
+
+timestampBefore: 2023-11-20T13:55:32.160Z,        numeroOrdre: 130808631120488,         timestampAfter: 2023-11-20T13:58:03.380Z
+
+timestampBefore: 2023-11-20T13:55:33.685Z,        numeroOrdre: 130808631120392,         timestampAfter: 2023-11-20T13:58:03.380Z
+
+timestampBefore: 2023-11-20T13:55:34.761Z,        numeroOrdre: 130505631120545,         timestampAfter: 2023-11-20T13:58:03.381Z
+
+timestampBefore: 2023-11-20T13:55:36.240Z,        numeroOrdre: 130808631120740,         timestampAfter: 2023-11-20T13:58:03.381Z
+
+timestampBefore: 2023-11-20T13:55:37.784Z,        numeroOrdre: 130808631120802,         timestampAfter: 2023-11-20T13:58:03.382Z
+
+timestampBefore: 2023-11-20T13:55:38.857Z,        numeroOrdre: 030101631120706,         timestampAfter: 2023-11-20T13:58:03.382Z
+
+timestampBefore: 2023-11-20T13:55:39.933Z,        numeroOrdre: 130101631120677,         timestampAfter: 2023-11-20T13:58:03.383Z
+
+timestampBefore: 2023-11-20T13:55:41.007Z,        numeroOrdre: 130707631120863,         timestampAfter: 2023-11-20T13:58:03.384Z
+
+timestampBefore: 2023-11-20T13:55:42.081Z,        numeroOrdre: 130101631120838,         timestampAfter: 2023-11-20T13:58:03.384Z
+
+timestampBefore: 2023-11-20T13:55:43.156Z,        numeroOrdre: 130101631120864,         timestampAfter: 2023-11-20T13:58:03.385Z
+
+timestampBefore: 2023-11-20T13:55:44.386Z,        numeroOrdre: 130101631121002,         timestampAfter: 2023-11-20T13:58:03.386Z
+
+timestampBefore: 2023-11-20T13:55:46.087Z,        numeroOrdre: 130909631120886,         timestampAfter: 2023-11-20T13:58:03.386Z
+
+timestampBefore: 2023-11-20T13:55:47.619Z,        numeroOrdre: 130303631120877,         timestampAfter: 2023-11-20T13:58:03.387Z
+
+timestampBefore: 2023-11-20T13:55:48.696Z,        numeroOrdre: 130505631120977,         timestampAfter: 2023-11-20T13:58:03.387Z
+
+timestampBefore: 2023-11-20T13:55:49.772Z,        numeroOrdre: 130606631120897,         timestampAfter: 2023-11-20T13:58:03.388Z
+
+timestampBefore: 2023-11-20T13:55:50.846Z,        numeroOrdre: 130101631120866,         timestampAfter: 2023-11-20T13:58:03.388Z
+
+timestampBefore: 2023-11-20T13:55:52.360Z,        numeroOrdre: 130808631121386,         timestampAfter: 2023-11-20T13:58:03.389Z
+
+timestampBefore: 2023-11-20T13:55:54.042Z,        numeroOrdre: 130303631121256,         timestampAfter: 2023-11-20T13:58:03.389Z
+
+timestampBefore: 2023-11-20T13:55:55.716Z,        numeroOrdre: 130505631120902,         timestampAfter: 2023-11-20T13:58:03.390Z
+
+timestampBefore: 2023-11-20T13:55:57.365Z,        numeroOrdre: 030101631120880,         timestampAfter: 2023-11-20T13:58:03.390Z
+
+timestampBefore: 2023-11-20T13:55:59.053Z,        numeroOrdre: 130808631121264,         timestampAfter: 2023-11-20T13:58:03.391Z
+
+timestampBefore: 2023-11-20T13:56:00.736Z,        numeroOrdre: 130808631121397,         timestampAfter: 2023-11-20T13:58:03.391Z
+
+timestampBefore: 2023-11-20T13:56:02.531Z,        numeroOrdre: 130909631121399,         timestampAfter: 2023-11-20T13:58:03.392Z
+
+timestampBefore: 2023-11-20T13:56:04.342Z,        numeroOrdre: 130101631121313,         timestampAfter: 2023-11-20T13:58:03.393Z
+
+timestampBefore: 2023-11-20T13:56:06.033Z,        numeroOrdre: 130808631121229,         timestampAfter: 2023-11-20T13:58:03.393Z
+
+timestampBefore: 2023-11-20T13:56:07.726Z,        numeroOrdre: 130808631121221,         timestampAfter: 2023-11-20T13:58:03.394Z
+
+timestampBefore: 2023-11-20T13:56:09.407Z,        numeroOrdre: 130808631121390,         timestampAfter: 2023-11-20T13:58:03.394Z
+
+timestampBefore: 2023-11-20T13:56:10.953Z,        numeroOrdre: 130101631121509,         timestampAfter: 2023-11-20T13:58:03.395Z
+
+timestampBefore: 2023-11-20T13:56:12.629Z,        numeroOrdre: 030101631121484,         timestampAfter: 2023-11-20T13:58:03.395Z
+
+timestampBefore: 2023-11-20T13:56:14.312Z,        numeroOrdre: 130101631121031,         timestampAfter: 2023-11-20T13:58:03.396Z
+
+timestampBefore: 2023-11-20T13:56:15.845Z,        numeroOrdre: 030101631120888,         timestampAfter: 2023-11-20T13:58:03.396Z
+
+timestampBefore: 2023-11-20T13:56:16.919Z,        numeroOrdre: 130707631120932,         timestampAfter: 2023-11-20T13:58:03.397Z
+
+timestampBefore: 2023-11-20T13:56:17.989Z,        numeroOrdre: 130909631121462,         timestampAfter: 2023-11-20T13:58:03.397Z
+
+timestampBefore: 2023-11-20T13:56:19.300Z,        numeroOrdre: 130101631121094,         timestampAfter: 2023-11-20T13:58:03.398Z
+
+timestampBefore: 2023-11-20T13:56:20.814Z,        numeroOrdre: 130909631121025,         timestampAfter: 2023-11-20T13:58:03.398Z
+
+timestampBefore: 2023-11-20T13:56:22.124Z,        numeroOrdre: 130101631121133,         timestampAfter: 2023-11-20T13:58:03.399Z
+
+timestampBefore: 2023-11-20T13:56:23.791Z,        numeroOrdre: 130909631120935,         timestampAfter: 2023-11-20T13:58:03.399Z
+
+timestampBefore: 2023-11-20T13:56:25.455Z,        numeroOrdre: 130303631121190,         timestampAfter: 2023-11-20T13:58:03.400Z
+
+timestampBefore: 2023-11-20T13:56:27.015Z,        numeroOrdre: 030101631120878,         timestampAfter: 2023-11-20T13:58:03.400Z
+
+timestampBefore: 2023-11-20T13:56:28.097Z,        numeroOrdre: 130808631121215,         timestampAfter: 2023-11-20T13:58:03.401Z
+
+timestampBefore: 2023-11-20T13:56:29.174Z,        numeroOrdre: 130303631121174,         timestampAfter: 2023-11-20T13:58:03.401Z
+
+timestampBefore: 2023-11-20T13:56:30.258Z,        numeroOrdre: 130202631121230,         timestampAfter: 2023-11-20T13:58:03.402Z
+
+timestampBefore: 2023-11-20T13:56:31.575Z,        numeroOrdre: 130808631121255,         timestampAfter: 2023-11-20T13:58:03.402Z
+
+timestampBefore: 2023-11-20T13:56:33.268Z,        numeroOrdre: 130202631121155,         timestampAfter: 2023-11-20T13:58:03.403Z
+
+timestampBefore: 2023-11-20T13:56:34.967Z,        numeroOrdre: 130101631121102,         timestampAfter: 2023-11-20T13:58:03.403Z
+
+timestampBefore: 2023-11-20T13:56:36.494Z,        numeroOrdre: 130808631121599,         timestampAfter: 2023-11-20T13:58:03.404Z
+
+timestampBefore: 2023-11-20T13:56:37.889Z,        numeroOrdre: 130101631121662,         timestampAfter: 2023-11-20T13:58:03.404Z
+
+timestampBefore: 2023-11-20T13:56:39.435Z,        numeroOrdre: 130909631121557,         timestampAfter: 2023-11-20T13:58:03.406Z
+
+timestampBefore: 2023-11-20T13:56:40.511Z,        numeroOrdre: 130202631121541,         timestampAfter: 2023-11-20T13:58:03.406Z
+
+timestampBefore: 2023-11-20T13:56:41.593Z,        numeroOrdre: 130808631121862,         timestampAfter: 2023-11-20T13:58:03.407Z
+
+timestampBefore: 2023-11-20T13:56:42.667Z,        numeroOrdre: 130505631121758,         timestampAfter: 2023-11-20T13:58:03.407Z
+
+timestampBefore: 2023-11-20T13:56:43.779Z,        numeroOrdre: 130808631121788,         timestampAfter: 2023-11-20T13:58:03.408Z
+
+timestampBefore: 2023-11-20T13:56:44.888Z,        numeroOrdre: 130505631121812,         timestampAfter: 2023-11-20T13:58:03.408Z
+
+timestampBefore: 2023-11-20T13:56:45.963Z,        numeroOrdre: 130101631122305,         timestampAfter: 2023-11-20T13:58:03.409Z
+
+timestampBefore: 2023-11-20T13:56:47.502Z,        numeroOrdre: 080110631121872,         timestampAfter: 2023-11-20T13:58:03.409Z
+
+timestampBefore: 2023-11-20T13:56:49.210Z,        numeroOrdre: 130606631121786,         timestampAfter: 2023-11-20T13:58:03.410Z
+
+timestampBefore: 2023-11-20T13:56:50.748Z,        numeroOrdre: 080101631121807,         timestampAfter: 2023-11-20T13:58:03.410Z
+
+timestampBefore: 2023-11-20T13:56:51.832Z,        numeroOrdre: 130808631121914,         timestampAfter: 2023-11-20T13:58:03.411Z
+
+timestampBefore: 2023-11-20T13:56:53.332Z,        numeroOrdre: 130808631121978,         timestampAfter: 2023-11-20T13:58:03.411Z
+
+timestampBefore: 2023-11-20T13:56:55.034Z,        numeroOrdre: 130202631122152,         timestampAfter: 2023-11-20T13:58:03.412Z
+
+timestampBefore: 2023-11-20T13:56:56.562Z,        numeroOrdre: 130101631122204,         timestampAfter: 2023-11-20T13:58:03.412Z
+
+timestampBefore: 2023-11-20T13:56:57.633Z,        numeroOrdre: 080110631121916,         timestampAfter: 2023-11-20T13:58:03.413Z
+
+timestampBefore: 2023-11-20T13:56:58.708Z,        numeroOrdre: 130303631121990,         timestampAfter: 2023-11-20T13:58:03.413Z
+
+timestampBefore: 2023-11-20T13:56:59.786Z,        numeroOrdre: 130101631122326,         timestampAfter: 2023-11-20T13:58:03.414Z
+
+timestampBefore: 2023-11-20T13:57:00.871Z,        numeroOrdre: 080101631121870,         timestampAfter: 2023-11-20T13:58:03.414Z
+
+timestampBefore: 2023-11-20T13:57:01.946Z,        numeroOrdre: 130606631122106,         timestampAfter: 2023-11-20T13:58:03.415Z
+
+timestampBefore: 2023-11-20T13:57:03.478Z,        numeroOrdre: 130606631121986,         timestampAfter: 2023-11-20T13:58:03.415Z
+
+timestampBefore: 2023-11-20T13:57:05.164Z,        numeroOrdre: 130808631122185,         timestampAfter: 2023-11-20T13:58:03.416Z
+
+timestampBefore: 2023-11-20T13:57:06.695Z,        numeroOrdre: 130808631121936,         timestampAfter: 2023-11-20T13:58:03.416Z
+
+timestampBefore: 2023-11-20T13:57:07.770Z,        numeroOrdre: 130303631122032,         timestampAfter: 2023-11-20T13:58:03.417Z
+
+timestampBefore: 2023-11-20T13:57:08.846Z,        numeroOrdre: 130303631153387,         timestampAfter: 2023-11-20T13:58:03.417Z
+
+timestampBefore: 2023-11-20T13:57:09.918Z,        numeroOrdre: 080110631122346,         timestampAfter: 2023-11-20T13:58:03.418Z
+
+timestampBefore: 2023-11-20T13:57:10.991Z,        numeroOrdre: 130101631122260,         timestampAfter: 2023-11-20T13:58:03.418Z
+
+timestampBefore: 2023-11-20T13:57:12.067Z,        numeroOrdre: 130606631121804,         timestampAfter: 2023-11-20T13:58:03.419Z
+
+timestampBefore: 2023-11-20T13:57:13.140Z,        numeroOrdre: 130808631122068,         timestampAfter: 2023-11-20T13:58:03.419Z
+
+timestampBefore: 2023-11-20T13:57:14.354Z,        numeroOrdre: 130707631122332,         timestampAfter: 2023-11-20T13:58:03.420Z
+
+timestampBefore: 2023-11-20T13:57:15.878Z,        numeroOrdre: 080110631122038,         timestampAfter: 2023-11-20T13:58:03.420Z
+
+timestampBefore: 2023-11-20T13:57:17.512Z,        numeroOrdre: 130808631121980,         timestampAfter: 2023-11-20T13:58:03.421Z
+
+timestampBefore: 2023-11-20T13:57:19.212Z,        numeroOrdre: 130202631122048,         timestampAfter: 2023-11-20T13:58:03.421Z
+
+timestampBefore: 2023-11-20T13:57:20.737Z,        numeroOrdre: 130606631121794,         timestampAfter: 2023-11-20T13:58:03.422Z
+
+timestampBefore: 2023-11-20T13:57:21.808Z,        numeroOrdre: 080101631121874,         timestampAfter: 2023-11-20T13:58:03.422Z
+
+timestampBefore: 2023-11-20T13:57:22.880Z,        numeroOrdre: 130808631122040,         timestampAfter: 2023-11-20T13:58:03.423Z
+
+timestampBefore: 2023-11-20T13:57:24.406Z,        numeroOrdre: 130505631121891,         timestampAfter: 2023-11-20T13:58:03.423Z
+
+timestampBefore: 2023-11-20T13:57:26.083Z,        numeroOrdre: 130202631122467,         timestampAfter: 2023-11-20T13:58:03.424Z
+
+timestampBefore: 2023-11-20T13:57:27.771Z,        numeroOrdre: 130808631122353,         timestampAfter: 2023-11-20T13:58:03.424Z
+
+timestampBefore: 2023-11-20T13:57:29.553Z,        numeroOrdre: 130202631122475,         timestampAfter: 2023-11-20T13:58:03.425Z
+
+timestampBefore: 2023-11-20T13:57:31.344Z,        numeroOrdre: 130505631122487,         timestampAfter: 2023-11-20T13:58:03.425Z
+
+timestampBefore: 2023-11-20T13:57:32.912Z,        numeroOrdre: 130101631122473,         timestampAfter: 2023-11-20T13:58:03.426Z
+
+timestampBefore: 2023-11-20T13:57:34.507Z,        numeroOrdre: 130101631122470,         timestampAfter: 2023-11-20T13:58:03.427Z
+
+timestampBefore: 2023-11-20T13:57:36.297Z,        numeroOrdre: 130606641121500,         timestampAfter: 2023-11-20T13:58:03.427Z
+
+timestampBefore: 2023-11-20T13:57:37.878Z,        numeroOrdre: 130101641120502,         timestampAfter: 2023-11-20T13:58:03.428Z
+
+timestampBefore: 2023-11-20T13:57:39.511Z,        numeroOrdre: 130808541120166,         timestampAfter: 2023-11-20T13:58:03.428Z
+
+timestampBefore: 2023-11-20T13:57:41.058Z,        numeroOrdre: 130808631122506,         timestampAfter: 2023-11-20T13:58:03.429Z
+
+timestampBefore: 2023-11-20T13:57:42.260Z,        numeroOrdre: 130808661121513,         timestampAfter: 2023-11-20T13:58:03.429Z
+
+timestampBefore: 2023-11-20T13:57:43.974Z,        numeroOrdre: 130202661120008,         timestampAfter: 2023-11-20T13:58:03.430Z
+
+timestampBefore: 2023-11-20T13:57:45.670Z,        numeroOrdre: 130808661121792,         timestampAfter: 2023-11-20T13:58:03.430Z
+
+timestampBefore: 2023-11-20T13:57:47.199Z,        numeroOrdre: 130808661122107,         timestampAfter: 2023-11-20T13:58:03.431Z
+
+timestampBefore: 2023-11-20T13:57:48.271Z,        numeroOrdre: 130808661121593,         timestampAfter: 2023-11-20T13:58:03.431Z
+
+timestampBefore: 2023-11-20T13:57:49.345Z,        numeroOrdre: 130808661120289,         timestampAfter: 2023-11-20T13:58:03.432Z
+
+timestampBefore: 2023-11-20T13:57:50.431Z,        numeroOrdre: 130808661121858,         timestampAfter: 2023-11-20T13:58:03.432Z
+
+timestampBefore: 2023-11-20T13:57:51.801Z,        numeroOrdre: 130808661121711,         timestampAfter: 2023-11-20T13:58:03.433Z
+
+timestampBefore: 2023-11-20T13:57:53.438Z,        numeroOrdre: 130808661121421,         timestampAfter: 2023-11-20T13:58:03.433Z
+
+timestampBefore: 2023-11-20T13:57:54.968Z,        numeroOrdre: 130808661120305,         timestampAfter: 2023-11-20T13:58:03.434Z
+
+timestampBefore: 2023-11-20T13:57:56.660Z,        numeroOrdre: 130808661121756,         timestampAfter: 2023-11-20T13:58:03.434Z
+
+timestampBefore: 2023-11-20T13:57:58.322Z,        numeroOrdre: 130101631122502,         timestampAfter: 2023-11-20T13:58:03.435Z
+
+timestampBefore: 2023-11-20T14:01:54.731Z,        numeroOrdre: 030101511120057,         timestampAfter: 2023-11-20T14:16:50.584Z
+
+timestampBefore: 2023-11-20T14:01:56.028Z,        numeroOrdre: 130808651120082,         timestampAfter: 2023-11-20T14:25:21.174Z
+
+timestampBefore: 2023-11-20T14:01:57.100Z,        numeroOrdre: 130808651120435,         timestampAfter: 2023-11-20T14:26:28.329Z
+
+timestampBefore: 2023-11-20T14:01:58.179Z,        numeroOrdre: 130808651120089,         timestampAfter: 2023-11-20T14:26:28.535Z
+
+timestampBefore: 2023-11-20T14:01:59.885Z,        numeroOrdre: 130202651120010,         timestampAfter: 2023-11-20T14:26:28.845Z
+
+timestampBefore: 2023-11-20T14:02:01.545Z,        numeroOrdre: 130606651120901,         timestampAfter: 2023-11-20T14:26:29.107Z
+
+timestampBefore: 2023-11-20T14:02:03.068Z,        numeroOrdre: 130808651120184,         timestampAfter: 2023-11-20T14:26:29.331Z
+
+timestampBefore: 2023-11-20T14:02:04.566Z,        numeroOrdre: 130808651121234,         timestampAfter: 2023-11-20T14:26:29.516Z
+
+timestampBefore: 2023-11-20T14:02:06.112Z,        numeroOrdre: 130808651121271,         timestampAfter: 2023-11-20T14:26:29.703Z
+
+timestampBefore: 2023-11-20T14:02:07.782Z,        numeroOrdre: 060101651121307,         timestampAfter: 2023-11-20T14:26:29.962Z
+
+timestampBefore: 2023-11-20T14:02:09.419Z,        numeroOrdre: 130505651121660,         timestampAfter: 2023-11-20T14:26:30.177Z
+
+timestampBefore: 2023-11-20T14:02:10.960Z,        numeroOrdre: 130808651120218,         timestampAfter: 2023-11-20T14:26:30.294Z
+
+timestampBefore: 2023-11-20T14:02:12.351Z,        numeroOrdre: 130808651121408,         timestampAfter: 2023-11-20T14:26:30.443Z
+
+timestampBefore: 2023-11-20T14:02:13.967Z,        numeroOrdre: 080110651121782,         timestampAfter: 2023-11-20T14:26:30.666Z
+
+timestampBefore: 2023-11-20T14:02:15.650Z,        numeroOrdre: 080110651121677,         timestampAfter: 2023-11-20T14:26:31.069Z
+
+timestampBefore: 2023-11-20T14:02:17.214Z,        numeroOrdre: 130808651120087,         timestampAfter: 2023-11-20T14:26:31.243Z
+
+timestampBefore: 2023-11-20T14:02:18.783Z,        numeroOrdre: 130808651120084,         timestampAfter: 2023-11-20T14:26:31.341Z
+
+timestampBefore: 2023-11-20T14:02:20.086Z,        numeroOrdre: 130808651120067,         timestampAfter: 2023-11-20T14:26:31.487Z
+
+timestampBefore: 2023-11-20T14:02:21.748Z,        numeroOrdre: 130202511120011,         timestampAfter: 2023-11-20T14:26:31.678Z
+
+timestampBefore: 2023-11-20T14:02:23.365Z,        numeroOrdre: 130202511120018,         timestampAfter: 2023-11-20T14:26:31.823Z
+
+timestampBefore: 2023-11-20T14:02:24.908Z,        numeroOrdre: 130808651122066,         timestampAfter: 2023-11-20T14:26:31.870Z
+
+timestampBefore: 2023-11-20T14:02:26.254Z,        numeroOrdre: 130202511120013,         timestampAfter: 2023-11-20T14:26:31.971Z
+
+timestampBefore: 2023-11-20T14:02:27.893Z,        numeroOrdre: 130202511120032,         timestampAfter: 2023-11-20T14:26:32.148Z
+
+timestampBefore: 2023-11-20T14:02:29.540Z,        numeroOrdre: 130202511120017,         timestampAfter: 2023-11-20T14:26:32.384Z
+
+timestampBefore: 2023-11-20T14:02:31.085Z,        numeroOrdre: 130202511120021,         timestampAfter: 2023-11-20T14:26:32.586Z
+
+timestampBefore: 2023-11-20T14:02:32.159Z,        numeroOrdre: 130202511120024,         timestampAfter: 2023-11-20T14:26:32.761Z
+
+timestampBefore: 2023-11-20T14:02:33.231Z,        numeroOrdre: 060401511120006,         timestampAfter: 2023-11-20T14:26:32.883Z
+
+timestampBefore: 2023-11-20T14:02:34.468Z,        numeroOrdre: 130202511120026,         timestampAfter: 2023-11-20T14:26:33.058Z
+
+timestampBefore: 2023-11-20T14:02:36.007Z,        numeroOrdre: 130202511120020,         timestampAfter: 2023-11-20T14:26:33.247Z
+
+timestampBefore: 2023-11-20T14:02:37.483Z,        numeroOrdre: 130202511120036,         timestampAfter: 2023-11-20T14:26:33.373Z
+
+timestampBefore: 2023-11-20T14:02:39.043Z,        numeroOrdre: 130202511120016,         timestampAfter: 2023-11-20T14:26:33.497Z
+
+timestampBefore: 2023-11-20T14:02:40.729Z,        numeroOrdre: 080110651121730,         timestampAfter: 2023-11-20T14:26:33.610Z
+
+timestampBefore: 2023-11-20T14:02:42.269Z,        numeroOrdre: 130808651121760,         timestampAfter: 2023-11-20T14:26:33.765Z
+
+timestampBefore: 2023-11-20T14:02:43.341Z,        numeroOrdre: 130808651122030,         timestampAfter: 2023-11-20T14:26:33.872Z
+
+timestampBefore: 2023-11-20T14:02:44.602Z,        numeroOrdre: 130808651121975,         timestampAfter: 2023-11-20T14:26:33.985Z
+
+timestampBefore: 2023-11-20T14:02:46.118Z,        numeroOrdre: 130808651121982,         timestampAfter: 2023-11-20T14:26:34.107Z
+
+timestampBefore: 2023-11-20T14:02:47.428Z,        numeroOrdre: 130202511120029,         timestampAfter: 2023-11-20T14:26:34.252Z
+
+timestampBefore: 2023-11-20T14:02:48.955Z,        numeroOrdre: 130202511120030,         timestampAfter: 2023-11-20T14:26:34.325Z
+
+timestampBefore: 2023-11-20T14:02:50.330Z,        numeroOrdre: 130202511120019,         timestampAfter: 2023-11-20T14:26:34.472Z
+
+timestampBefore: 2023-11-20T14:02:51.762Z,        numeroOrdre: 030101511120023,         timestampAfter: 2023-11-20T14:26:34.504Z
+
+timestampBefore: 2023-11-20T14:02:52.836Z,        numeroOrdre: 060401511120007,         timestampAfter: 2023-11-20T14:26:34.587Z
+
+timestampBefore: 2023-11-20T14:02:53.910Z,        numeroOrdre: 130202511120061,         timestampAfter: 2023-11-20T14:26:34.669Z
+
+timestampBefore: 2023-11-20T14:02:55.268Z,        numeroOrdre: 030101511120064,         timestampAfter: 2023-11-20T14:26:34.783Z
+
+timestampBefore: 2023-11-20T14:02:56.902Z,        numeroOrdre: 100101511120065,         timestampAfter: 2023-11-20T14:26:34.917Z
+
+timestampBefore: 2023-11-20T14:02:58.565Z,        numeroOrdre: 030101511120062,         timestampAfter: 2023-11-20T14:26:35.055Z
+
+timestampBefore: 2023-11-20T14:03:00.115Z,        numeroOrdre: 030101511120056,         timestampAfter: 2023-11-20T14:26:35.210Z
+
+timestampBefore: 2023-11-20T14:03:01.611Z,        numeroOrdre: 060401511120070,         timestampAfter: 2023-11-20T14:26:35.324Z
+
+timestampBefore: 2023-11-20T14:03:03.167Z,        numeroOrdre: 030101511120066,         timestampAfter: 2023-11-20T14:26:35.418Z
+
+timestampBefore: 2023-11-20T14:03:04.842Z,        numeroOrdre: 030101511120068,         timestampAfter: 2023-11-20T14:26:35.543Z
+
+timestampBefore: 2023-11-20T14:03:06.499Z,        numeroOrdre: 030101511120060,         timestampAfter: 2023-11-20T14:26:35.660Z
+
+timestampBefore: 2023-11-20T14:03:08.036Z,        numeroOrdre: 130202511120039,         timestampAfter: 2023-11-20T14:26:35.826Z
+
+timestampBefore: 2023-11-20T14:03:09.490Z,        numeroOrdre: 030101511120040,         timestampAfter: 2023-11-20T14:26:35.960Z
+
+timestampBefore: 2023-11-20T14:03:11.071Z,        numeroOrdre: 030101511120047,         timestampAfter: 2023-11-20T14:26:36.073Z
+
+timestampBefore: 2023-11-20T14:03:12.729Z,        numeroOrdre: 030101511120049,         timestampAfter: 2023-11-20T14:26:36.268Z
+
+timestampBefore: 2023-11-20T14:03:14.263Z,        numeroOrdre: 030101511120050,         timestampAfter: 2023-11-20T14:26:36.362Z
+
+timestampBefore: 2023-11-20T14:03:15.337Z,        numeroOrdre: 030101511120043,         timestampAfter: 2023-11-20T14:26:36.474Z
+
+timestampBefore: 2023-11-20T14:03:16.410Z,        numeroOrdre: 030101511120054,         timestampAfter: 2023-11-20T14:26:36.588Z
+
+timestampBefore: 2023-11-20T14:03:17.724Z,        numeroOrdre: 030101511120052,         timestampAfter: 2023-11-20T14:26:36.702Z
+
+timestampBefore: 2023-11-20T14:03:19.241Z,        numeroOrdre: 030101511120055,         timestampAfter: 2023-11-20T14:26:36.826Z
+
+timestampBefore: 2023-11-20T14:03:20.316Z,        numeroOrdre: 030101511120051,         timestampAfter: 2023-11-20T14:26:36.940Z
+
+timestampBefore: 2023-11-20T14:03:21.567Z,        numeroOrdre: 130808511120078,         timestampAfter: 2023-11-20T14:26:37.053Z
+
+timestampBefore: 2023-11-20T14:03:23.091Z,        numeroOrdre: 030101511120083,         timestampAfter: 2023-11-20T14:26:37.207Z
+
+timestampBefore: 2023-11-20T14:03:24.171Z,        numeroOrdre: 130202511120079,         timestampAfter: 2023-11-20T14:26:37.280Z
+
+timestampBefore: 2023-11-20T14:03:25.320Z,        numeroOrdre: 130202511120081,         timestampAfter: 2023-11-20T14:26:37.392Z
+
+timestampBefore: 2023-11-20T14:03:26.588Z,        numeroOrdre: 130202511120091,         timestampAfter: 2023-11-20T14:26:37.475Z
+
+timestampBefore: 2023-11-20T14:03:28.123Z,        numeroOrdre: 130202511120086,         timestampAfter: 2023-11-20T14:26:37.602Z
+
+timestampBefore: 2023-11-20T14:03:29.432Z,        numeroOrdre: 130202511120088,         timestampAfter: 2023-11-20T14:26:37.634Z
+
+timestampBefore: 2023-11-20T14:03:30.946Z,        numeroOrdre: 080101511120095,         timestampAfter: 2023-11-20T14:26:37.706Z
+
+timestampBefore: 2023-11-20T14:03:32.019Z,        numeroOrdre: 080101511120092,         timestampAfter: 2023-11-20T14:26:37.748Z
+
+timestampBefore: 2023-11-20T14:03:33.092Z,        numeroOrdre: 130808511120072,         timestampAfter: 2023-11-20T14:26:37.749Z
+
+timestampBefore: 2023-11-20T14:03:34.565Z,        numeroOrdre: 030101511120090,         timestampAfter: 2023-11-20T14:26:37.801Z
+
+timestampBefore: 2023-11-20T14:03:36.126Z,        numeroOrdre: 030101511120071,         timestampAfter: 2023-11-20T14:26:37.833Z
+
+timestampBefore: 2023-11-20T14:03:37.813Z,        numeroOrdre: 030101511120076,         timestampAfter: 2023-11-20T14:26:37.875Z
+
+timestampBefore: 2023-11-20T14:03:39.440Z,        numeroOrdre: 030101511120069,         timestampAfter: 2023-11-20T14:26:37.999Z
+
+timestampBefore: 2023-11-20T14:03:40.977Z,        numeroOrdre: 060401511120074,         timestampAfter: 2023-11-20T14:26:38.072Z
+
+timestampBefore: 2023-11-20T14:03:42.279Z,        numeroOrdre: 060401511120073,         timestampAfter: 2023-11-20T14:26:38.154Z
+
+timestampBefore: 2023-11-20T14:03:43.797Z,        numeroOrdre: 130808511120075,         timestampAfter: 2023-11-20T14:26:38.299Z
+
+timestampBefore: 2023-11-20T14:03:45.107Z,        numeroOrdre: 080101511120077,         timestampAfter: 2023-11-20T14:26:38.422Z
+
+timestampBefore: 2023-11-20T14:03:46.770Z,        numeroOrdre: 130404511120080,         timestampAfter: 2023-11-20T14:26:38.576Z
+
+timestampBefore: 2023-11-20T14:03:48.545Z,        numeroOrdre: 030101511120085,         timestampAfter: 2023-11-20T14:26:38.730Z
+
+timestampBefore: 2023-11-20T14:03:49.891Z,        numeroOrdre: 130202511120103,         timestampAfter: 2023-11-20T14:26:38.883Z
+
+timestampBefore: 2023-11-20T14:03:50.964Z,        numeroOrdre: 030401511120098,         timestampAfter: 2023-11-20T14:26:38.945Z
+
+timestampBefore: 2023-11-20T14:03:52.348Z,        numeroOrdre: 130202511120100,         timestampAfter: 2023-11-20T14:26:39.110Z
+
+timestampBefore: 2023-11-20T14:03:53.968Z,        numeroOrdre: 130404511120105,         timestampAfter: 2023-11-20T14:26:39.233Z
+
+timestampBefore: 2023-11-20T14:03:55.643Z,        numeroOrdre: 130404511120110,         timestampAfter: 2023-11-20T14:26:39.386Z
+
+timestampBefore: 2023-11-20T14:03:57.178Z,        numeroOrdre: 030101511120101,         timestampAfter: 2023-11-20T14:26:39.500Z
+
+timestampBefore: 2023-11-20T14:03:58.251Z,        numeroOrdre: 030101511120106,         timestampAfter: 2023-11-20T14:26:39.613Z
+
+timestampBefore: 2023-11-20T14:03:59.492Z,        numeroOrdre: 130808511120107,         timestampAfter: 2023-11-20T14:26:39.726Z
+
+timestampBefore: 2023-11-20T14:04:01.025Z,        numeroOrdre: 130404511120112,         timestampAfter: 2023-11-20T14:26:39.881Z
+
+timestampBefore: 2023-11-20T14:04:02.482Z,        numeroOrdre: 030101511120114,         timestampAfter: 2023-11-20T14:26:39.984Z
+
+timestampBefore: 2023-11-20T14:04:04.122Z,        numeroOrdre: 030101511120097,         timestampAfter: 2023-11-20T14:26:40.097Z
+
+timestampBefore: 2023-11-20T14:04:05.783Z,        numeroOrdre: 130808511120123,         timestampAfter: 2023-11-20T14:26:40.283Z
+
+timestampBefore: 2023-11-20T14:04:07.409Z,        numeroOrdre: 030101511120122,         timestampAfter: 2023-11-20T14:26:40.355Z
+
+timestampBefore: 2023-11-20T14:04:08.964Z,        numeroOrdre: 030101511120128,         timestampAfter: 2023-11-20T14:26:40.469Z
+
+timestampBefore: 2023-11-20T14:04:10.346Z,        numeroOrdre: 130404511120127,         timestampAfter: 2023-11-20T14:26:40.474Z
+
+timestampBefore: 2023-11-20T14:04:11.958Z,        numeroOrdre: 100101511120129,         timestampAfter: 2023-11-20T14:26:40.477Z
+
+timestampBefore: 2023-11-20T14:04:13.627Z,        numeroOrdre: 030101511120125,         timestampAfter: 2023-11-20T14:26:40.482Z
+
+timestampBefore: 2023-11-20T14:04:15.371Z,        numeroOrdre: 130404511120133,         timestampAfter: 2023-11-20T14:26:40.486Z
+
+timestampBefore: 2023-11-20T14:04:16.972Z,        numeroOrdre: 130202511120144,         timestampAfter: 2023-11-20T14:26:40.490Z
+
+timestampBefore: 2023-11-20T14:04:18.622Z,        numeroOrdre: 030101511120131,         timestampAfter: 2023-11-20T14:26:40.494Z
+
+timestampBefore: 2023-11-20T14:04:20.156Z,        numeroOrdre: 130404511120143,         timestampAfter: 2023-11-20T14:26:40.497Z
+
+timestampBefore: 2023-11-20T14:04:21.234Z,        numeroOrdre: 130404511120136,         timestampAfter: 2023-11-20T14:26:40.499Z
+
+timestampBefore: 2023-11-20T14:04:22.449Z,        numeroOrdre: 030401511120147,         timestampAfter: 2023-11-20T14:26:40.503Z
+
+timestampBefore: 2023-11-20T14:04:23.986Z,        numeroOrdre: 100101511120146,         timestampAfter: 2023-11-20T14:26:40.507Z
+
+timestampBefore: 2023-11-20T14:04:25.403Z,        numeroOrdre: 130202511120134,         timestampAfter: 2023-11-20T14:26:40.510Z
+
+timestampBefore: 2023-11-20T14:04:26.993Z,        numeroOrdre: 130404511120141,         timestampAfter: 2023-11-20T14:26:40.514Z
+
+timestampBefore: 2023-11-20T14:04:28.666Z,        numeroOrdre: 130404511120142,         timestampAfter: 2023-11-20T14:26:40.518Z
+
+timestampBefore: 2023-11-20T14:04:30.223Z,        numeroOrdre: 100101511120135,         timestampAfter: 2023-11-20T14:26:40.522Z
+
+timestampBefore: 2023-11-20T14:04:31.793Z,        numeroOrdre: 130404511120130,         timestampAfter: 2023-11-20T14:26:40.526Z
+
+timestampBefore: 2023-11-20T14:04:33.267Z,        numeroOrdre: 100101511120148,         timestampAfter: 2023-11-20T14:26:40.530Z
+
+timestampBefore: 2023-11-20T14:04:34.809Z,        numeroOrdre: 130808511120137,         timestampAfter: 2023-11-20T14:26:40.533Z
+
+timestampBefore: 2023-11-20T14:04:35.893Z,        numeroOrdre: 100101511120116,         timestampAfter: 2023-11-20T14:26:40.536Z
+
+timestampBefore: 2023-11-20T14:04:37.178Z,        numeroOrdre: 030401511120115,         timestampAfter: 2023-11-20T14:26:40.539Z
+
+timestampBefore: 2023-11-20T14:04:38.854Z,        numeroOrdre: 130404511120121,         timestampAfter: 2023-11-20T14:26:40.543Z
+
+timestampBefore: 2023-11-20T14:04:40.536Z,        numeroOrdre: 130202511120118,         timestampAfter: 2023-11-20T14:26:40.547Z
+
+timestampBefore: 2023-11-20T14:04:42.061Z,        numeroOrdre: 130404511120113,         timestampAfter: 2023-11-20T14:26:40.550Z
+
+timestampBefore: 2023-11-20T14:04:43.528Z,        numeroOrdre: 130404511120119,         timestampAfter: 2023-11-20T14:26:40.554Z
+
+timestampBefore: 2023-11-20T14:04:45.094Z,        numeroOrdre: 130404511120117,         timestampAfter: 2023-11-20T14:26:40.557Z
+
+timestampBefore: 2023-11-20T14:04:46.766Z,        numeroOrdre: 130404511120124,         timestampAfter: 2023-11-20T14:26:40.561Z
+
+timestampBefore: 2023-11-20T14:04:48.570Z,        numeroOrdre: 130404511120126,         timestampAfter: 2023-11-20T14:26:40.565Z
+
+timestampBefore: 2023-11-20T14:04:50.132Z,        numeroOrdre: 030401511120163,         timestampAfter: 2023-11-20T14:26:40.568Z
+
+timestampBefore: 2023-11-20T14:04:51.680Z,        numeroOrdre: 130404511120165,         timestampAfter: 2023-11-20T14:26:40.572Z
+
+timestampBefore: 2023-11-20T14:04:53.228Z,        numeroOrdre: 030401511120159,         timestampAfter: 2023-11-20T14:26:40.576Z
+
+timestampBefore: 2023-11-20T14:04:54.303Z,        numeroOrdre: 130202511120167,         timestampAfter: 2023-11-20T14:26:40.579Z
+
+timestampBefore: 2023-11-20T14:04:55.379Z,        numeroOrdre: 130404511120162,         timestampAfter: 2023-11-20T14:26:40.581Z
+
+timestampBefore: 2023-11-20T14:04:56.449Z,        numeroOrdre: 100101511120164,         timestampAfter: 2023-11-20T14:26:40.584Z
+
+timestampBefore: 2023-11-20T14:04:57.524Z,        numeroOrdre: 030401511120153,         timestampAfter: 2023-11-20T14:26:40.586Z
+
+timestampBefore: 2023-11-20T14:04:58.601Z,        numeroOrdre: 130404511120160,         timestampAfter: 2023-11-20T14:26:40.589Z
+
+timestampBefore: 2023-11-20T14:04:59.890Z,        numeroOrdre: 100101511120173,         timestampAfter: 2023-11-20T14:26:40.592Z
+
+timestampBefore: 2023-11-20T14:05:01.508Z,        numeroOrdre: 100101511120175,         timestampAfter: 2023-11-20T14:26:40.595Z
+
+timestampBefore: 2023-11-20T14:05:03.181Z,        numeroOrdre: 030401511120169,         timestampAfter: 2023-11-20T14:26:40.600Z
+
+timestampBefore: 2023-11-20T14:05:04.870Z,        numeroOrdre: 130404511120176,         timestampAfter: 2023-11-20T14:26:40.603Z
+
+timestampBefore: 2023-11-20T14:05:06.714Z,        numeroOrdre: 130202511120178,         timestampAfter: 2023-11-20T14:26:40.608Z
+
+timestampBefore: 2023-11-20T14:05:08.324Z,        numeroOrdre: 030401511120182,         timestampAfter: 2023-11-20T14:26:40.611Z
+
+timestampBefore: 2023-11-20T14:05:10.023Z,        numeroOrdre: 030101511120200,         timestampAfter: 2023-11-20T14:26:40.615Z
+
+timestampBefore: 2023-11-20T14:05:11.753Z,        numeroOrdre: 130808511120179,         timestampAfter: 2023-11-20T14:26:40.619Z
+
+timestampBefore: 2023-11-20T14:05:13.390Z,        numeroOrdre: 060401511120205,         timestampAfter: 2023-11-20T14:26:40.623Z
+
+timestampBefore: 2023-11-20T14:05:15.068Z,        numeroOrdre: 030401511120194,         timestampAfter: 2023-11-20T14:26:40.626Z
+
+timestampBefore: 2023-11-20T14:05:16.728Z,        numeroOrdre: 100101511120191,         timestampAfter: 2023-11-20T14:26:40.629Z
+
+timestampBefore: 2023-11-20T14:05:18.327Z,        numeroOrdre: 130202511120190,         timestampAfter: 2023-11-20T14:26:40.632Z
+
+timestampBefore: 2023-11-20T14:05:19.860Z,        numeroOrdre: 100101511120181,         timestampAfter: 2023-11-20T14:26:40.636Z
+
+timestampBefore: 2023-11-20T14:05:21.151Z,        numeroOrdre: 130202511120151,         timestampAfter: 2023-11-20T14:26:40.639Z
+
+timestampBefore: 2023-11-20T14:05:22.687Z,        numeroOrdre: 100101511120157,         timestampAfter: 2023-11-20T14:26:40.642Z
+
+timestampBefore: 2023-11-20T14:05:23.771Z,        numeroOrdre: 130202511120155,         timestampAfter: 2023-11-20T14:26:40.644Z
+
+timestampBefore: 2023-11-20T14:05:25.085Z,        numeroOrdre: 130404511120158,         timestampAfter: 2023-11-20T14:26:40.647Z
+
+timestampBefore: 2023-11-20T14:05:26.726Z,        numeroOrdre: 100101511120150,         timestampAfter: 2023-11-20T14:26:40.652Z
+
+timestampBefore: 2023-11-20T14:05:28.317Z,        numeroOrdre: 100101511120170,         timestampAfter: 2023-11-20T14:26:40.655Z
+
+timestampBefore: 2023-11-20T14:05:29.859Z,        numeroOrdre: 130404511120168,         timestampAfter: 2023-11-20T14:26:40.659Z
+
+timestampBefore: 2023-11-20T14:05:31.423Z,        numeroOrdre: 130202511120185,         timestampAfter: 2023-11-20T14:26:40.662Z
+
+timestampBefore: 2023-11-20T14:05:32.968Z,        numeroOrdre: 100101511120203,         timestampAfter: 2023-11-20T14:26:40.665Z
+
+timestampBefore: 2023-11-20T14:05:34.275Z,        numeroOrdre: 100101511120196,         timestampAfter: 2023-11-20T14:26:40.669Z
+
+timestampBefore: 2023-11-20T14:05:35.797Z,        numeroOrdre: 100101511120199,         timestampAfter: 2023-11-20T14:26:40.672Z
+
+timestampBefore: 2023-11-20T14:05:36.872Z,        numeroOrdre: 030401511120187,         timestampAfter: 2023-11-20T14:26:40.675Z
+
+timestampBefore: 2023-11-20T14:05:37.945Z,        numeroOrdre: 020301511120202,         timestampAfter: 2023-11-20T14:26:40.678Z
+
+timestampBefore: 2023-11-20T14:05:39.019Z,        numeroOrdre: 130202511120197,         timestampAfter: 2023-11-20T14:26:40.680Z
+
+timestampBefore: 2023-11-20T14:05:40.104Z,        numeroOrdre: 030401511120207,         timestampAfter: 2023-11-20T14:26:40.683Z
+
+timestampBefore: 2023-11-20T14:05:41.177Z,        numeroOrdre: 020301511120211,         timestampAfter: 2023-11-20T14:26:40.686Z
+
+timestampBefore: 2023-11-20T14:05:42.247Z,        numeroOrdre: 100101511120209,         timestampAfter: 2023-11-20T14:26:40.689Z
+
+timestampBefore: 2023-11-20T14:05:43.323Z,        numeroOrdre: 030101511120212,         timestampAfter: 2023-11-20T14:26:40.691Z
+
+timestampBefore: 2023-11-20T14:05:44.567Z,        numeroOrdre: 060401511120208,         timestampAfter: 2023-11-20T14:26:40.694Z
+
+timestampBefore: 2023-11-20T14:05:46.097Z,        numeroOrdre: 130202511120216,         timestampAfter: 2023-11-20T14:26:40.698Z
+
+timestampBefore: 2023-11-20T14:05:47.171Z,        numeroOrdre: 080101511120240,         timestampAfter: 2023-11-20T14:26:40.700Z
+
+timestampBefore: 2023-11-20T14:05:48.244Z,        numeroOrdre: 130202511120237,         timestampAfter: 2023-11-20T14:26:40.702Z
+
+timestampBefore: 2023-11-20T14:05:49.460Z,        numeroOrdre: 030401511120242,         timestampAfter: 2023-11-20T14:26:40.705Z
+
+timestampBefore: 2023-11-20T14:05:50.990Z,        numeroOrdre: 020301511120244,         timestampAfter: 2023-11-20T14:26:40.708Z
+
+timestampBefore: 2023-11-20T14:05:52.442Z,        numeroOrdre: 130202511120256,         timestampAfter: 2023-11-20T14:26:40.711Z
+
+timestampBefore: 2023-11-20T14:05:54.010Z,        numeroOrdre: 100101511120238,         timestampAfter: 2023-11-20T14:26:40.715Z
+
+timestampBefore: 2023-11-20T14:05:55.680Z,        numeroOrdre: 060401511120247,         timestampAfter: 2023-11-20T14:26:40.718Z
+
+timestampBefore: 2023-11-20T14:05:57.247Z,        numeroOrdre: 030401511120250,         timestampAfter: 2023-11-20T14:26:40.722Z
+
+timestampBefore: 2023-11-20T14:05:58.795Z,        numeroOrdre: 100101511120248,         timestampAfter: 2023-11-20T14:26:40.726Z
+
+timestampBefore: 2023-11-20T14:06:00.080Z,        numeroOrdre: 060401511120251,         timestampAfter: 2023-11-20T14:26:40.729Z
+
+timestampBefore: 2023-11-20T14:06:01.742Z,        numeroOrdre: 030401511120267,         timestampAfter: 2023-11-20T14:26:40.732Z
+
+timestampBefore: 2023-11-20T14:06:03.262Z,        numeroOrdre: 130101511120274,         timestampAfter: 2023-11-20T14:26:40.736Z
+
+timestampBefore: 2023-11-20T14:06:04.338Z,        numeroOrdre: 130707511120278,         timestampAfter: 2023-11-20T14:26:40.738Z
+
+timestampBefore: 2023-11-20T14:06:05.593Z,        numeroOrdre: 030401511120260,         timestampAfter: 2023-11-20T14:26:40.742Z
+
+timestampBefore: 2023-11-20T14:06:07.128Z,        numeroOrdre: 100101511120264,         timestampAfter: 2023-11-20T14:26:40.745Z
+
+timestampBefore: 2023-11-20T14:06:08.632Z,        numeroOrdre: 100101511120258,         timestampAfter: 2023-11-20T14:26:40.749Z
+
+timestampBefore: 2023-11-20T14:06:10.186Z,        numeroOrdre: 130101511120269,         timestampAfter: 2023-11-20T14:26:40.752Z
+
+timestampBefore: 2023-11-20T14:06:11.845Z,        numeroOrdre: 030401511120255,         timestampAfter: 2023-11-20T14:26:40.756Z
+
+timestampBefore: 2023-11-20T14:06:13.370Z,        numeroOrdre: 030401511120213,         timestampAfter: 2023-11-20T14:26:40.759Z
+
+timestampBefore: 2023-11-20T14:06:14.636Z,        numeroOrdre: 030401511120226,         timestampAfter: 2023-11-20T14:26:40.763Z
+
+timestampBefore: 2023-11-20T14:06:16.162Z,        numeroOrdre: 080110511120221,         timestampAfter: 2023-11-20T14:26:40.767Z
+
+timestampBefore: 2023-11-20T14:06:17.235Z,        numeroOrdre: 130202511120241,         timestampAfter: 2023-11-20T14:26:40.769Z
+
+timestampBefore: 2023-11-20T14:06:18.441Z,        numeroOrdre: 020301511120217,         timestampAfter: 2023-11-20T14:26:40.771Z
+
+timestampBefore: 2023-11-20T14:06:19.980Z,        numeroOrdre: 080101511120219,         timestampAfter: 2023-11-20T14:26:40.775Z
+
+timestampBefore: 2023-11-20T14:06:21.361Z,        numeroOrdre: 130101511120222,         timestampAfter: 2023-11-20T14:26:40.778Z
+
+timestampBefore: 2023-11-20T14:06:22.962Z,        numeroOrdre: 080101511120214,         timestampAfter: 2023-11-20T14:26:40.781Z
+
+timestampBefore: 2023-11-20T14:06:24.628Z,        numeroOrdre: 130202511120227,         timestampAfter: 2023-11-20T14:26:40.785Z
+
+timestampBefore: 2023-11-20T14:06:26.152Z,        numeroOrdre: 100101511120229,         timestampAfter: 2023-11-20T14:26:40.789Z
+
+timestampBefore: 2023-11-20T14:06:27.646Z,        numeroOrdre: 030401511120220,         timestampAfter: 2023-11-20T14:26:40.792Z
+
+timestampBefore: 2023-11-20T14:06:29.188Z,        numeroOrdre: 020301511120233,         timestampAfter: 2023-11-20T14:26:40.795Z
+
+timestampBefore: 2023-11-20T14:06:30.866Z,        numeroOrdre: 060401511120235,         timestampAfter: 2023-11-20T14:26:40.799Z
+
+timestampBefore: 2023-11-20T14:06:32.497Z,        numeroOrdre: 080101511120243,         timestampAfter: 2023-11-20T14:26:40.802Z
+
+timestampBefore: 2023-11-20T14:06:34.024Z,        numeroOrdre: 130808511120261,         timestampAfter: 2023-11-20T14:26:40.805Z
+
+timestampBefore: 2023-11-20T14:06:35.438Z,        numeroOrdre: 130202511120263,         timestampAfter: 2023-11-20T14:26:40.809Z
+
+timestampBefore: 2023-11-20T14:06:37.017Z,        numeroOrdre: 100101511120253,         timestampAfter: 2023-11-20T14:26:40.812Z
+
+timestampBefore: 2023-11-20T14:06:38.664Z,        numeroOrdre: 130101511120273,         timestampAfter: 2023-11-20T14:26:40.816Z
+
+timestampBefore: 2023-11-20T14:06:40.207Z,        numeroOrdre: 130707511120266,         timestampAfter: 2023-11-20T14:26:40.819Z
+
+timestampBefore: 2023-11-20T14:06:41.798Z,        numeroOrdre: 130101511120268,         timestampAfter: 2023-11-20T14:26:40.824Z
+
+timestampBefore: 2023-11-20T14:06:43.103Z,        numeroOrdre: 030401511120277,         timestampAfter: 2023-11-20T14:26:40.827Z
+
+timestampBefore: 2023-11-20T14:06:44.744Z,        numeroOrdre: 100101511120282,         timestampAfter: 2023-11-20T14:26:40.830Z
+
+timestampBefore: 2023-11-20T14:06:46.338Z,        numeroOrdre: 130404511120294,         timestampAfter: 2023-11-20T14:26:40.834Z
+
+timestampBefore: 2023-11-20T14:06:47.882Z,        numeroOrdre: 130404511120285,         timestampAfter: 2023-11-20T14:26:40.837Z
+
+timestampBefore: 2023-11-20T14:06:49.184Z,        numeroOrdre: 100101511120297,         timestampAfter: 2023-11-20T14:26:40.840Z
+
+timestampBefore: 2023-11-20T14:06:50.845Z,        numeroOrdre: 130404511120292,         timestampAfter: 2023-11-20T14:26:40.844Z
+
+timestampBefore: 2023-11-20T14:06:52.475Z,        numeroOrdre: 130707511120284,         timestampAfter: 2023-11-20T14:26:40.847Z
+
+timestampBefore: 2023-11-20T14:06:54.025Z,        numeroOrdre: 010601511120299,         timestampAfter: 2023-11-20T14:26:40.851Z
+
+timestampBefore: 2023-11-20T14:06:55.463Z,        numeroOrdre: 130202511120279,         timestampAfter: 2023-11-20T14:26:40.854Z
+
+timestampBefore: 2023-11-20T14:06:57.033Z,        numeroOrdre: 060601511120291,         timestampAfter: 2023-11-20T14:26:40.858Z
+
+timestampBefore: 2023-11-20T14:06:58.644Z,        numeroOrdre: 130707511120287,         timestampAfter: 2023-11-20T14:26:40.862Z
+
+timestampBefore: 2023-11-20T14:07:00.328Z,        numeroOrdre: 130707511120300,         timestampAfter: 2023-11-20T14:26:40.865Z
+
+timestampBefore: 2023-11-20T14:07:01.858Z,        numeroOrdre: 030401511120283,         timestampAfter: 2023-11-20T14:26:40.868Z
+
+timestampBefore: 2023-11-20T14:07:02.928Z,        numeroOrdre: 100101511120288,         timestampAfter: 2023-11-20T14:26:40.871Z
+
+timestampBefore: 2023-11-20T14:07:04.002Z,        numeroOrdre: 030401511120290,         timestampAfter: 2023-11-20T14:26:40.874Z
+
+timestampBefore: 2023-11-20T14:07:05.078Z,        numeroOrdre: 130707511120316,         timestampAfter: 2023-11-20T14:26:40.877Z
+
+timestampBefore: 2023-11-20T14:07:06.558Z,        numeroOrdre: 130404511120315,         timestampAfter: 2023-11-20T14:26:40.880Z
+
+timestampBefore: 2023-11-20T14:07:08.140Z,        numeroOrdre: 130707511120326,         timestampAfter: 2023-11-20T14:26:40.884Z
+
+timestampBefore: 2023-11-20T14:07:09.765Z,        numeroOrdre: 130101511120323,         timestampAfter: 2023-11-20T14:26:40.888Z
+
+timestampBefore: 2023-11-20T14:07:11.332Z,        numeroOrdre: 060601511120334,         timestampAfter: 2023-11-20T14:26:40.890Z
+
+timestampBefore: 2023-11-20T14:07:12.891Z,        numeroOrdre: 130202511120298,         timestampAfter: 2023-11-20T14:26:40.894Z
+
+timestampBefore: 2023-11-20T14:07:14.201Z,        numeroOrdre: 130707511120304,         timestampAfter: 2023-11-20T14:26:40.897Z
+
+timestampBefore: 2023-11-20T14:07:15.721Z,        numeroOrdre: 130101511120310,         timestampAfter: 2023-11-20T14:26:40.901Z
+
+timestampBefore: 2023-11-20T14:07:16.794Z,        numeroOrdre: 130101511120303,         timestampAfter: 2023-11-20T14:26:40.903Z
+
+timestampBefore: 2023-11-20T14:07:17.864Z,        numeroOrdre: 100101511120308,         timestampAfter: 2023-11-20T14:26:40.906Z
+
+timestampBefore: 2023-11-20T14:07:18.949Z,        numeroOrdre: 130707511120313,         timestampAfter: 2023-11-20T14:26:40.909Z
+
+timestampBefore: 2023-11-20T14:07:20.020Z,        numeroOrdre: 100101511120312,         timestampAfter: 2023-11-20T14:26:40.911Z
+
+timestampBefore: 2023-11-20T14:07:21.094Z,        numeroOrdre: 130808511120314,         timestampAfter: 2023-11-20T14:26:40.913Z
+
+timestampBefore: 2023-11-20T14:07:22.167Z,        numeroOrdre: 130101511120327,         timestampAfter: 2023-11-20T14:26:40.916Z
+
+timestampBefore: 2023-11-20T14:07:23.239Z,        numeroOrdre: 100101511120320,         timestampAfter: 2023-11-20T14:26:40.918Z
+
+timestampBefore: 2023-11-20T14:07:24.426Z,        numeroOrdre: 130404511120318,         timestampAfter: 2023-11-20T14:26:40.922Z
+
+timestampBefore: 2023-11-20T14:07:25.960Z,        numeroOrdre: 100101511120328,         timestampAfter: 2023-11-20T14:26:40.925Z
+
+timestampBefore: 2023-11-20T14:07:27.317Z,        numeroOrdre: 130707511120330,         timestampAfter: 2023-11-20T14:26:40.928Z
+
+timestampBefore: 2023-11-20T14:07:28.940Z,        numeroOrdre: 100101511120324,         timestampAfter: 2023-11-20T14:26:40.931Z
+
+timestampBefore: 2023-11-20T14:07:30.590Z,        numeroOrdre: 130808511120338,         timestampAfter: 2023-11-20T14:26:40.935Z
+
+timestampBefore: 2023-11-20T14:07:32.112Z,        numeroOrdre: 100101511120333,         timestampAfter: 2023-11-20T14:26:40.938Z
+
+timestampBefore: 2023-11-20T14:07:33.403Z,        numeroOrdre: 100101511120335,         timestampAfter: 2023-11-20T14:26:40.941Z
+
+timestampBefore: 2023-11-20T14:07:34.926Z,        numeroOrdre: 130707511120337,         timestampAfter: 2023-11-20T14:26:40.945Z
+
+timestampBefore: 2023-11-20T14:07:36.233Z,        numeroOrdre: 130202511120336,         timestampAfter: 2023-11-20T14:26:40.948Z
+
+timestampBefore: 2023-11-20T14:07:37.886Z,        numeroOrdre: 100101511120341,         timestampAfter: 2023-11-20T14:26:40.951Z
+
+timestampBefore: 2023-11-20T14:07:39.537Z,        numeroOrdre: 100101511120343,         timestampAfter: 2023-11-20T14:26:40.955Z
+
+timestampBefore: 2023-11-20T14:07:41.060Z,        numeroOrdre: 130202511120351,         timestampAfter: 2023-11-20T14:26:40.960Z
+
+timestampBefore: 2023-11-20T14:07:42.488Z,        numeroOrdre: 100101511120348,         timestampAfter: 2023-11-20T14:26:40.963Z
+
+timestampBefore: 2023-11-20T14:07:44.062Z,        numeroOrdre: 080101511120353,         timestampAfter: 2023-11-20T14:26:40.966Z
+
+timestampBefore: 2023-11-20T14:07:45.712Z,        numeroOrdre: 130202511120357,         timestampAfter: 2023-11-20T14:26:40.970Z
+
+timestampBefore: 2023-11-20T14:07:47.294Z,        numeroOrdre: 100101511120354,         timestampAfter: 2023-11-20T14:26:40.974Z
+
+timestampBefore: 2023-11-20T14:07:48.835Z,        numeroOrdre: 130202511120368,         timestampAfter: 2023-11-20T14:26:40.978Z
+
+timestampBefore: 2023-11-20T14:07:50.137Z,        numeroOrdre: 100101511120366,         timestampAfter: 2023-11-20T14:26:40.982Z
+
+timestampBefore: 2023-11-20T14:07:51.782Z,        numeroOrdre: 130303511120371,         timestampAfter: 2023-11-20T14:26:40.985Z
+
+timestampBefore: 2023-11-20T14:07:53.387Z,        numeroOrdre: 130303511120373,         timestampAfter: 2023-11-20T14:26:40.988Z
+
+timestampBefore: 2023-11-20T14:07:54.919Z,        numeroOrdre: 130303511120369,         timestampAfter: 2023-11-20T14:26:40.992Z
+
+timestampBefore: 2023-11-20T14:07:56.244Z,        numeroOrdre: 040101511120374,         timestampAfter: 2023-11-20T14:26:40.995Z
+
+timestampBefore: 2023-11-20T14:07:57.887Z,        numeroOrdre: 040101511120377,         timestampAfter: 2023-11-20T14:26:40.999Z
+
+timestampBefore: 2023-11-20T14:07:59.525Z,        numeroOrdre: 130303511120380,         timestampAfter: 2023-11-20T14:26:41.003Z
+
+timestampBefore: 2023-11-20T14:08:01.063Z,        numeroOrdre: 040101511120381,         timestampAfter: 2023-11-20T14:26:41.007Z
+
+timestampBefore: 2023-11-20T14:08:02.526Z,        numeroOrdre: 130303511120389,         timestampAfter: 2023-11-20T14:26:41.010Z
+
+timestampBefore: 2023-11-20T14:08:04.082Z,        numeroOrdre: 100101511120395,         timestampAfter: 2023-11-20T14:26:41.012Z
+
+timestampBefore: 2023-11-20T14:08:05.798Z,        numeroOrdre: 130303511120397,         timestampAfter: 2023-11-20T14:26:41.017Z
+
+timestampBefore: 2023-11-20T14:08:07.428Z,        numeroOrdre: 130303511120394,         timestampAfter: 2023-11-20T14:26:41.020Z
+
+timestampBefore: 2023-11-20T14:08:08.965Z,        numeroOrdre: 130303511120385,         timestampAfter: 2023-11-20T14:26:41.023Z
+
+timestampBefore: 2023-11-20T14:08:10.347Z,        numeroOrdre: 130303511120399,         timestampAfter: 2023-11-20T14:26:41.027Z
+
+timestampBefore: 2023-11-20T14:08:11.952Z,        numeroOrdre: 100101511120370,         timestampAfter: 2023-11-20T14:26:41.029Z
+
+timestampBefore: 2023-11-20T14:08:13.632Z,        numeroOrdre: 100101511120401,         timestampAfter: 2023-11-20T14:26:41.032Z
+
+timestampBefore: 2023-11-20T14:08:15.176Z,        numeroOrdre: 130303511120388,         timestampAfter: 2023-11-20T14:26:41.036Z
+
+timestampBefore: 2023-11-20T14:08:16.251Z,        numeroOrdre: 040101511120367,         timestampAfter: 2023-11-20T14:26:41.038Z
+
+timestampBefore: 2023-11-20T14:08:17.536Z,        numeroOrdre: 130303511120382,         timestampAfter: 2023-11-20T14:26:41.041Z
+
+timestampBefore: 2023-11-20T14:08:19.180Z,        numeroOrdre: 100101511120376,         timestampAfter: 2023-11-20T14:26:41.044Z
+
+timestampBefore: 2023-11-20T14:08:20.776Z,        numeroOrdre: 130303511120375,         timestampAfter: 2023-11-20T14:26:41.048Z
+
+timestampBefore: 2023-11-20T14:08:22.312Z,        numeroOrdre: 020301511120378,         timestampAfter: 2023-11-20T14:26:41.052Z
+
+timestampBefore: 2023-11-20T14:08:23.594Z,        numeroOrdre: 100101511120359,         timestampAfter: 2023-11-20T14:26:41.055Z
+
+timestampBefore: 2023-11-20T14:08:25.239Z,        numeroOrdre: 080101511120358,         timestampAfter: 2023-11-20T14:26:41.060Z
+
+timestampBefore: 2023-11-20T14:08:26.863Z,        numeroOrdre: 100101511120362,         timestampAfter: 2023-11-20T14:26:41.063Z
+
+timestampBefore: 2023-11-20T14:08:28.403Z,        numeroOrdre: 130202511120346,         timestampAfter: 2023-11-20T14:26:41.067Z
+
+timestampBefore: 2023-11-20T14:08:29.686Z,        numeroOrdre: 020301511120363,         timestampAfter: 2023-11-20T14:26:41.070Z
+
+timestampBefore: 2023-11-20T14:08:31.332Z,        numeroOrdre: 130101511120393,         timestampAfter: 2023-11-20T14:26:41.074Z
+
+timestampBefore: 2023-11-20T14:08:32.989Z,        numeroOrdre: 040101511120385,         timestampAfter: 2023-11-20T14:26:41.078Z
+
+timestampBefore: 2023-11-20T14:08:34.517Z,        numeroOrdre: 130303511120396,         timestampAfter: 2023-11-20T14:26:41.081Z
+
+timestampBefore: 2023-11-20T14:08:35.979Z,        numeroOrdre: 130303511120400,         timestampAfter: 2023-11-20T14:26:41.084Z
+
+timestampBefore: 2023-11-20T14:08:37.545Z,        numeroOrdre: 130303511120406,         timestampAfter: 2023-11-20T14:26:41.088Z
+
+timestampBefore: 2023-11-20T14:08:39.214Z,        numeroOrdre: 130303511120405,         timestampAfter: 2023-11-20T14:26:41.092Z
+
+timestampBefore: 2023-11-20T14:08:40.828Z,        numeroOrdre: 130303511120403,         timestampAfter: 2023-11-20T14:26:41.095Z
+
+timestampBefore: 2023-11-20T14:08:42.374Z,        numeroOrdre: 130808511120409,         timestampAfter: 2023-11-20T14:26:41.099Z
+
+timestampBefore: 2023-11-20T14:08:43.701Z,        numeroOrdre: 130303511120408,         timestampAfter: 2023-11-20T14:26:41.102Z
+
+timestampBefore: 2023-11-20T14:08:45.348Z,        numeroOrdre: 130303511120415,         timestampAfter: 2023-11-20T14:26:41.106Z
+
+timestampBefore: 2023-11-20T14:08:46.996Z,        numeroOrdre: 130303511120412,         timestampAfter: 2023-11-20T14:26:41.109Z
+
+timestampBefore: 2023-11-20T14:08:48.559Z,        numeroOrdre: 130505511120428,         timestampAfter: 2023-11-20T14:26:41.112Z
+
+timestampBefore: 2023-11-20T14:08:49.633Z,        numeroOrdre: 040101511120413,         timestampAfter: 2023-11-20T14:26:41.115Z
+
+timestampBefore: 2023-11-20T14:08:50.786Z,        numeroOrdre: 130101511120420,         timestampAfter: 2023-11-20T14:26:41.117Z
+
+timestampBefore: 2023-11-20T14:08:52.336Z,        numeroOrdre: 130303511120425,         timestampAfter: 2023-11-20T14:26:41.121Z
+
+timestampBefore: 2023-11-20T14:08:53.654Z,        numeroOrdre: 130303511120430,         timestampAfter: 2023-11-20T14:26:41.125Z
+
+timestampBefore: 2023-11-20T14:08:55.320Z,        numeroOrdre: 130303511120416,         timestampAfter: 2023-11-20T14:26:41.129Z
+
+timestampBefore: 2023-11-20T14:08:57.106Z,        numeroOrdre: 130202511120434,         timestampAfter: 2023-11-20T14:26:41.132Z
+
+timestampBefore: 2023-11-20T14:08:58.641Z,        numeroOrdre: 100101511120407,         timestampAfter: 2023-11-20T14:26:41.136Z
+
+timestampBefore: 2023-11-20T14:09:00.241Z,        numeroOrdre: 130404511120438,         timestampAfter: 2023-11-20T14:26:41.140Z
+
+timestampBefore: 2023-11-20T14:09:01.535Z,        numeroOrdre: 130808511120439,         timestampAfter: 2023-11-20T14:26:41.143Z
+
+timestampBefore: 2023-11-20T14:09:03.249Z,        numeroOrdre: 030101511120433,         timestampAfter: 2023-11-20T14:26:41.146Z
+
+timestampBefore: 2023-11-20T14:09:04.887Z,        numeroOrdre: 130505511120452,         timestampAfter: 2023-11-20T14:26:41.150Z
+
+timestampBefore: 2023-11-20T14:09:06.473Z,        numeroOrdre: 100101511120436,         timestampAfter: 2023-11-20T14:26:41.153Z
+
+timestampBefore: 2023-11-20T14:09:08.158Z,        numeroOrdre: 100101511120431,         timestampAfter: 2023-11-20T14:26:41.156Z
+
+timestampBefore: 2023-11-20T14:09:09.744Z,        numeroOrdre: 130101511120440,         timestampAfter: 2023-11-20T14:26:41.157Z
+
+timestampBefore: 2023-11-20T14:09:11.299Z,        numeroOrdre: 030101511120447,         timestampAfter: 2023-11-20T14:26:41.157Z
+
+timestampBefore: 2023-11-20T14:09:12.610Z,        numeroOrdre: 130808511120443,         timestampAfter: 2023-11-20T14:26:41.158Z
+
+timestampBefore: 2023-11-20T14:09:14.272Z,        numeroOrdre: 100101511120454,         timestampAfter: 2023-11-20T14:26:41.158Z
+
+timestampBefore: 2023-11-20T14:09:15.909Z,        numeroOrdre: 130404511120453,         timestampAfter: 2023-11-20T14:26:41.159Z
+
+timestampBefore: 2023-11-20T14:09:17.456Z,        numeroOrdre: 100101511120441,         timestampAfter: 2023-11-20T14:26:41.159Z
+
+timestampBefore: 2023-11-20T14:09:18.526Z,        numeroOrdre: 100101511120459,         timestampAfter: 2023-11-20T14:26:41.160Z
+
+timestampBefore: 2023-11-20T14:09:19.834Z,        numeroOrdre: 100201511120455,         timestampAfter: 2023-11-20T14:26:41.160Z
+
+timestampBefore: 2023-11-20T14:09:21.347Z,        numeroOrdre: 100201511120461,         timestampAfter: 2023-11-20T14:26:41.160Z
+
+timestampBefore: 2023-11-20T14:09:22.653Z,        numeroOrdre: 100101511120463,         timestampAfter: 2023-11-20T14:26:41.161Z
+
+timestampBefore: 2023-11-20T14:09:24.306Z,        numeroOrdre: 100101511120456,         timestampAfter: 2023-11-20T14:26:41.161Z
+
+timestampBefore: 2023-11-20T14:09:25.830Z,        numeroOrdre: 130303511120421,         timestampAfter: 2023-11-20T14:26:41.162Z
+
+timestampBefore: 2023-11-20T14:09:27.093Z,        numeroOrdre: 130101511120414,         timestampAfter: 2023-11-20T14:26:41.162Z
+
+timestampBefore: 2023-11-20T14:09:28.860Z,        numeroOrdre: 130303511120419,         timestampAfter: 2023-11-20T14:26:41.163Z
+
+timestampBefore: 2023-11-20T14:09:30.274Z,        numeroOrdre: 130101511120418,         timestampAfter: 2023-11-20T14:26:41.163Z
+
+timestampBefore: 2023-11-20T14:09:31.351Z,        numeroOrdre: 130303511120423,         timestampAfter: 2023-11-20T14:26:41.164Z
+
+timestampBefore: 2023-11-20T14:09:32.644Z,        numeroOrdre: 040101511120410,         timestampAfter: 2023-11-20T14:26:41.164Z
+
+timestampBefore: 2023-11-20T14:09:34.305Z,        numeroOrdre: 100201511120465,         timestampAfter: 2023-11-20T14:26:41.165Z
+
+timestampBefore: 2023-11-20T14:09:35.931Z,        numeroOrdre: 100101511120468,         timestampAfter: 2023-11-20T14:26:41.165Z
+
+timestampBefore: 2023-11-20T14:09:37.467Z,        numeroOrdre: 060401511120462,         timestampAfter: 2023-11-20T14:26:41.166Z
+
+timestampBefore: 2023-11-20T14:09:38.865Z,        numeroOrdre: 100201511120472,         timestampAfter: 2023-11-20T14:26:41.167Z
+
+timestampBefore: 2023-11-20T14:09:40.460Z,        numeroOrdre: 130404511120458,         timestampAfter: 2023-11-20T14:26:41.167Z
+
+timestampBefore: 2023-11-20T14:09:42.077Z,        numeroOrdre: 130505511120491,         timestampAfter: 2023-11-20T14:26:41.168Z
+
+timestampBefore: 2023-11-20T14:09:43.648Z,        numeroOrdre: 130202511120483,         timestampAfter: 2023-11-20T14:26:41.168Z
+
+timestampBefore: 2023-11-20T14:09:44.845Z,        numeroOrdre: 100101511120474,         timestampAfter: 2023-11-20T14:26:41.169Z
+
+timestampBefore: 2023-11-20T14:09:46.556Z,        numeroOrdre: 100101511120519,         timestampAfter: 2023-11-20T14:26:41.170Z
+
+timestampBefore: 2023-11-20T14:09:48.089Z,        numeroOrdre: 130303511120497,         timestampAfter: 2023-11-20T14:26:41.171Z
+
+timestampBefore: 2023-11-20T14:09:49.162Z,        numeroOrdre: 080110511120516,         timestampAfter: 2023-11-20T14:26:41.171Z
+
+timestampBefore: 2023-11-20T14:09:50.233Z,        numeroOrdre: 100101511120514,         timestampAfter: 2023-11-20T14:26:41.172Z
+
+timestampBefore: 2023-11-20T14:09:51.309Z,        numeroOrdre: 130505511120503,         timestampAfter: 2023-11-20T14:26:41.172Z
+
+timestampBefore: 2023-11-20T14:09:52.387Z,        numeroOrdre: 130505511120506,         timestampAfter: 2023-11-20T14:26:41.173Z
+
+timestampBefore: 2023-11-20T14:09:53.459Z,        numeroOrdre: 100201511120511,         timestampAfter: 2023-11-20T14:26:41.173Z
+
+timestampBefore: 2023-11-20T14:09:54.529Z,        numeroOrdre: 100201511120517,         timestampAfter: 2023-11-20T14:26:41.174Z
+
+timestampBefore: 2023-11-20T14:09:56.064Z,        numeroOrdre: 100201511120521,         timestampAfter: 2023-11-20T14:26:41.174Z
+
+timestampBefore: 2023-11-20T14:09:57.610Z,        numeroOrdre: 130505511120501,         timestampAfter: 2023-11-20T14:26:41.175Z
+
+timestampBefore: 2023-11-20T14:09:58.909Z,        numeroOrdre: 100201511120527,         timestampAfter: 2023-11-20T14:26:41.175Z
+
+timestampBefore: 2023-11-20T14:10:00.439Z,        numeroOrdre: 130505511120512,         timestampAfter: 2023-11-20T14:26:41.176Z
+
+timestampBefore: 2023-11-20T14:10:02.091Z,        numeroOrdre: 130505511120496,         timestampAfter: 2023-11-20T14:26:41.176Z
+
+timestampBefore: 2023-11-20T14:10:03.661Z,        numeroOrdre: 100201511120530,         timestampAfter: 2023-11-20T14:26:41.177Z
+
+timestampBefore: 2023-11-20T14:10:05.390Z,        numeroOrdre: 060501511120539,         timestampAfter: 2023-11-20T14:26:41.177Z
+
+timestampBefore: 2023-11-20T14:10:07.075Z,        numeroOrdre: 100201511120535,         timestampAfter: 2023-11-20T14:26:41.178Z
+
+timestampBefore: 2023-11-20T14:10:08.827Z,        numeroOrdre: 130505511120524,         timestampAfter: 2023-11-20T14:26:41.178Z
+
+timestampBefore: 2023-11-20T14:10:10.018Z,        numeroOrdre: 100101511120482,         timestampAfter: 2023-11-20T14:26:41.179Z
+
+timestampBefore: 2023-11-20T14:10:11.090Z,        numeroOrdre: 100201511120486,         timestampAfter: 2023-11-20T14:26:41.179Z
+
+timestampBefore: 2023-11-20T14:10:12.163Z,        numeroOrdre: 100201511120480,         timestampAfter: 2023-11-20T14:26:41.180Z
+
+timestampBefore: 2023-11-20T14:10:13.237Z,        numeroOrdre: 130303511120499,         timestampAfter: 2023-11-20T14:26:41.180Z
+
+timestampBefore: 2023-11-20T14:10:14.678Z,        numeroOrdre: 130707511120513,         timestampAfter: 2023-11-20T14:26:41.181Z
+
+timestampBefore: 2023-11-20T14:10:16.374Z,        numeroOrdre: 100101511120492,         timestampAfter: 2023-11-20T14:26:41.181Z
+
+timestampBefore: 2023-11-20T14:10:17.898Z,        numeroOrdre: 100101511120505,         timestampAfter: 2023-11-20T14:26:41.182Z
+
+timestampBefore: 2023-11-20T14:10:19.196Z,        numeroOrdre: 100101511120508,         timestampAfter: 2023-11-20T14:26:41.182Z
+
+timestampBefore: 2023-11-20T14:10:20.837Z,        numeroOrdre: 130303511120507,         timestampAfter: 2023-11-20T14:26:41.183Z
+
+timestampBefore: 2023-11-20T14:10:22.373Z,        numeroOrdre: 100101511120537,         timestampAfter: 2023-11-20T14:26:41.183Z
+
+timestampBefore: 2023-11-20T14:10:23.850Z,        numeroOrdre: 100101511120529,         timestampAfter: 2023-11-20T14:26:41.184Z
+
+timestampBefore: 2023-11-20T14:10:25.554Z,        numeroOrdre: 030401511120523,         timestampAfter: 2023-11-20T14:26:41.184Z
+
+timestampBefore: 2023-11-20T14:10:27.291Z,        numeroOrdre: 100110511120526,         timestampAfter: 2023-11-20T14:26:41.185Z
+
+timestampBefore: 2023-11-20T14:10:29.083Z,        numeroOrdre: 040101511120534,         timestampAfter: 2023-11-20T14:26:41.185Z
+
+timestampBefore: 2023-11-20T14:10:30.644Z,        numeroOrdre: 030201511120522,         timestampAfter: 2023-11-20T14:26:41.186Z
+
+timestampBefore: 2023-11-20T14:10:32.322Z,        numeroOrdre: 100101511120525,         timestampAfter: 2023-11-20T14:26:41.186Z
+
+timestampBefore: 2023-11-20T14:10:33.996Z,        numeroOrdre: 130808511120532,         timestampAfter: 2023-11-20T14:26:41.187Z
+
+timestampBefore: 2023-11-20T14:10:35.678Z,        numeroOrdre: 060601511120536,         timestampAfter: 2023-11-20T14:26:41.187Z
+
+timestampBefore: 2023-11-20T14:10:37.241Z,        numeroOrdre: 130808511120528,         timestampAfter: 2023-11-20T14:26:41.188Z
+
+timestampBefore: 2023-11-20T14:10:38.312Z,        numeroOrdre: 010201511120540,         timestampAfter: 2023-11-20T14:26:41.188Z
+
+timestampBefore: 2023-11-20T14:10:39.387Z,        numeroOrdre: 030201511120544,         timestampAfter: 2023-11-20T14:26:41.189Z
+
+timestampBefore: 2023-11-20T14:10:40.464Z,        numeroOrdre: 040401511120541,         timestampAfter: 2023-11-20T14:26:41.190Z
+
+timestampBefore: 2023-11-20T14:10:41.540Z,        numeroOrdre: 130505511120550,         timestampAfter: 2023-11-20T14:26:41.190Z
+
+timestampBefore: 2023-11-20T14:10:42.612Z,        numeroOrdre: 100101511120566,         timestampAfter: 2023-11-20T14:26:41.191Z
+
+timestampBefore: 2023-11-20T14:10:43.686Z,        numeroOrdre: 060501511120558,         timestampAfter: 2023-11-20T14:26:41.191Z
+
+timestampBefore: 2023-11-20T14:10:44.917Z,        numeroOrdre: 060403511120587,         timestampAfter: 2023-11-20T14:26:41.192Z
+
+timestampBefore: 2023-11-20T14:10:46.470Z,        numeroOrdre: 100101511120555,         timestampAfter: 2023-11-20T14:26:41.192Z
+
+timestampBefore: 2023-11-20T14:10:47.758Z,        numeroOrdre: 130505511120557,         timestampAfter: 2023-11-20T14:26:41.193Z
+
+timestampBefore: 2023-11-20T14:10:49.429Z,        numeroOrdre: 060403511120571,         timestampAfter: 2023-11-20T14:26:41.193Z
+
+timestampBefore: 2023-11-20T14:10:51.059Z,        numeroOrdre: 100201511120564,         timestampAfter: 2023-11-20T14:26:41.194Z
+
+timestampBefore: 2023-11-20T14:10:52.739Z,        numeroOrdre: 060501511120575,         timestampAfter: 2023-11-20T14:26:41.194Z
+
+timestampBefore: 2023-11-20T14:10:54.306Z,        numeroOrdre: 100201511120582,         timestampAfter: 2023-11-20T14:26:41.195Z
+
+timestampBefore: 2023-11-20T14:10:55.376Z,        numeroOrdre: 010201511120577,         timestampAfter: 2023-11-20T14:26:41.195Z
+
+timestampBefore: 2023-11-20T14:10:56.454Z,        numeroOrdre: 130505511120576,         timestampAfter: 2023-11-20T14:26:41.195Z
+
+timestampBefore: 2023-11-20T14:10:57.530Z,        numeroOrdre: 130505511120562,         timestampAfter: 2023-11-20T14:26:41.196Z
+
+timestampBefore: 2023-11-20T14:10:58.601Z,        numeroOrdre: 100201511120574,         timestampAfter: 2023-11-20T14:26:41.196Z
+
+timestampBefore: 2023-11-20T14:10:59.756Z,        numeroOrdre: 130505511120580,         timestampAfter: 2023-11-20T14:26:41.197Z
+
+timestampBefore: 2023-11-20T14:11:01.459Z,        numeroOrdre: 100201511120585,         timestampAfter: 2023-11-20T14:26:41.197Z
+
+timestampBefore: 2023-11-20T14:11:03.086Z,        numeroOrdre: 130505511120556,         timestampAfter: 2023-11-20T14:26:41.198Z
+
+timestampBefore: 2023-11-20T14:11:04.762Z,        numeroOrdre: 010201511120581,         timestampAfter: 2023-11-20T14:26:41.199Z
+
+timestampBefore: 2023-11-20T14:11:06.473Z,        numeroOrdre: 100201511120543,         timestampAfter: 2023-11-20T14:26:41.199Z
+
+timestampBefore: 2023-11-20T14:11:08.018Z,        numeroOrdre: 100101511120548,         timestampAfter: 2023-11-20T14:26:41.200Z
+
+timestampBefore: 2023-11-20T14:11:09.093Z,        numeroOrdre: 040401511120551,         timestampAfter: 2023-11-20T14:26:41.200Z
+
+timestampBefore: 2023-11-20T14:11:10.164Z,        numeroOrdre: 100201511120547,         timestampAfter: 2023-11-20T14:26:41.201Z
+
+timestampBefore: 2023-11-20T14:11:11.241Z,        numeroOrdre: 050401511120552,         timestampAfter: 2023-11-20T14:26:41.201Z
+
+timestampBefore: 2023-11-20T14:11:12.313Z,        numeroOrdre: 100201511120554,         timestampAfter: 2023-11-20T14:26:41.202Z
+
+timestampBefore: 2023-11-20T14:11:13.383Z,        numeroOrdre: 010201511120553,         timestampAfter: 2023-11-20T14:26:41.202Z
+
+timestampBefore: 2023-11-20T14:11:14.455Z,        numeroOrdre: 100201511120567,         timestampAfter: 2023-11-20T14:26:41.203Z
+
+timestampBefore: 2023-11-20T14:11:15.526Z,        numeroOrdre: 080101511120546,         timestampAfter: 2023-11-20T14:26:41.203Z
+
+timestampBefore: 2023-11-20T14:11:16.956Z,        numeroOrdre: 100101511120560,         timestampAfter: 2023-11-20T14:26:41.204Z
+
+timestampBefore: 2023-11-20T14:11:18.321Z,        numeroOrdre: 100201511120561,         timestampAfter: 2023-11-20T14:26:41.204Z
+
+timestampBefore: 2023-11-20T14:11:19.782Z,        numeroOrdre: 010201511120559,         timestampAfter: 2023-11-20T14:26:41.205Z
+
+timestampBefore: 2023-11-20T14:11:21.484Z,        numeroOrdre: 050401511120584,         timestampAfter: 2023-11-20T14:26:41.205Z
+
+timestampBefore: 2023-11-20T14:11:23.083Z,        numeroOrdre: 060501511120563,         timestampAfter: 2023-11-20T14:26:41.206Z
+
+timestampBefore: 2023-11-20T14:11:24.635Z,        numeroOrdre: 100201511120579,         timestampAfter: 2023-11-20T14:26:41.207Z
+
+timestampBefore: 2023-11-20T14:11:25.708Z,        numeroOrdre: 060501511120568,         timestampAfter: 2023-11-20T14:26:41.207Z
+
+timestampBefore: 2023-11-20T14:11:26.786Z,        numeroOrdre: 130505511120565,         timestampAfter: 2023-11-20T14:26:41.208Z
+
+timestampBefore: 2023-11-20T14:11:28.077Z,        numeroOrdre: 130505511120572,         timestampAfter: 2023-11-20T14:26:41.208Z
+
+timestampBefore: 2023-11-20T14:11:29.773Z,        numeroOrdre: 010201511120586,         timestampAfter: 2023-11-20T14:26:41.209Z
+
+timestampBefore: 2023-11-20T14:11:31.308Z,        numeroOrdre: 050401511120573,         timestampAfter: 2023-11-20T14:26:41.209Z
+
+timestampBefore: 2023-11-20T14:11:32.381Z,        numeroOrdre: 100201511120593,         timestampAfter: 2023-11-20T14:26:41.210Z
+
+timestampBefore: 2023-11-20T14:11:33.455Z,        numeroOrdre: 050401511120590,         timestampAfter: 2023-11-20T14:26:41.210Z
+
+timestampBefore: 2023-11-20T14:11:34.965Z,        numeroOrdre: 130505511120607,         timestampAfter: 2023-11-20T14:26:41.211Z
+
+timestampBefore: 2023-11-20T14:11:36.518Z,        numeroOrdre: 130505511120596,         timestampAfter: 2023-11-20T14:26:41.211Z
+
+timestampBefore: 2023-11-20T14:11:37.589Z,        numeroOrdre: 100101511120609,         timestampAfter: 2023-11-20T14:26:41.212Z
+
+timestampBefore: 2023-11-20T14:11:38.659Z,        numeroOrdre: 100101511120602,         timestampAfter: 2023-11-20T14:26:41.213Z
+
+timestampBefore: 2023-11-20T14:11:39.734Z,        numeroOrdre: 050401511120601,         timestampAfter: 2023-11-20T14:26:41.213Z
+
+timestampBefore: 2023-11-20T14:11:40.984Z,        numeroOrdre: 060501511120603,         timestampAfter: 2023-11-20T14:26:41.214Z
+
+timestampBefore: 2023-11-20T14:11:42.696Z,        numeroOrdre: 130505511120604,         timestampAfter: 2023-11-20T14:26:41.214Z
+
+timestampBefore: 2023-11-20T14:11:44.241Z,        numeroOrdre: 130505511120613,         timestampAfter: 2023-11-20T14:26:41.215Z
+
+timestampBefore: 2023-11-20T14:11:45.314Z,        numeroOrdre: 060501511120591,         timestampAfter: 2023-11-20T14:26:41.215Z
+
+timestampBefore: 2023-11-20T14:11:46.386Z,        numeroOrdre: 100201511120608,         timestampAfter: 2023-11-20T14:26:41.216Z
+
+timestampBefore: 2023-11-20T14:11:47.460Z,        numeroOrdre: 050401511120611,         timestampAfter: 2023-11-20T14:26:41.216Z
+
+timestampBefore: 2023-11-20T14:11:48.532Z,        numeroOrdre: 100201511120600,         timestampAfter: 2023-11-20T14:26:41.217Z
+
+timestampBefore: 2023-11-20T14:11:49.603Z,        numeroOrdre: 100201511120589,         timestampAfter: 2023-11-20T14:26:41.217Z
+
+timestampBefore: 2023-11-20T14:11:50.773Z,        numeroOrdre: 040401511120598,         timestampAfter: 2023-11-20T14:26:41.218Z
+
+timestampBefore: 2023-11-20T14:11:52.485Z,        numeroOrdre: 040401511120636,         timestampAfter: 2023-11-20T14:26:41.218Z
+
+timestampBefore: 2023-11-20T14:11:54.117Z,        numeroOrdre: 040401511120625,         timestampAfter: 2023-11-20T14:26:41.219Z
+
+timestampBefore: 2023-11-20T14:11:55.649Z,        numeroOrdre: 060403511120594,         timestampAfter: 2023-11-20T14:26:41.219Z
+
+timestampBefore: 2023-11-20T14:11:56.723Z,        numeroOrdre: 050401511120622,         timestampAfter: 2023-11-20T14:26:41.220Z
+
+timestampBefore: 2023-11-20T14:11:57.967Z,        numeroOrdre: 100110511120637,         timestampAfter: 2023-11-20T14:26:41.220Z
+
+timestampBefore: 2023-11-20T14:11:59.685Z,        numeroOrdre: 100101511120623,         timestampAfter: 2023-11-20T14:26:41.221Z
+
+timestampBefore: 2023-11-20T14:12:01.241Z,        numeroOrdre: 130303511120624,         timestampAfter: 2023-11-20T14:26:41.221Z
+
+timestampBefore: 2023-11-20T14:12:02.551Z,        numeroOrdre: 050401511120639,         timestampAfter: 2023-11-20T14:26:41.222Z
+
+timestampBefore: 2023-11-20T14:12:04.130Z,        numeroOrdre: 040401511120629,         timestampAfter: 2023-11-20T14:26:41.222Z
+
+timestampBefore: 2023-11-20T14:12:05.826Z,        numeroOrdre: 100110511120615,         timestampAfter: 2023-11-20T14:26:41.223Z
+
+timestampBefore: 2023-11-20T14:12:07.542Z,        numeroOrdre: 050401511120631,         timestampAfter: 2023-11-20T14:26:41.223Z
+
+timestampBefore: 2023-11-20T14:12:09.138Z,        numeroOrdre: 100201511120606,         timestampAfter: 2023-11-20T14:26:41.224Z
+
+timestampBefore: 2023-11-20T14:12:10.677Z,        numeroOrdre: 100201511120597,         timestampAfter: 2023-11-20T14:26:41.225Z
+
+timestampBefore: 2023-11-20T14:12:11.750Z,        numeroOrdre: 100101511120627,         timestampAfter: 2023-11-20T14:26:41.225Z
+
+timestampBefore: 2023-11-20T14:12:12.826Z,        numeroOrdre: 130505511120610,         timestampAfter: 2023-11-20T14:26:41.226Z
+
+timestampBefore: 2023-11-20T14:12:13.901Z,        numeroOrdre: 130404511120616,         timestampAfter: 2023-11-20T14:26:41.226Z
+
+timestampBefore: 2023-11-20T14:12:14.977Z,        numeroOrdre: 060401511120617,         timestampAfter: 2023-11-20T14:26:41.227Z
+
+timestampBefore: 2023-11-20T14:12:16.048Z,        numeroOrdre: 130101511120638,         timestampAfter: 2023-11-20T14:26:41.227Z
+
+timestampBefore: 2023-11-20T14:12:17.122Z,        numeroOrdre: 040401511120619,         timestampAfter: 2023-11-20T14:26:41.228Z
+
+timestampBefore: 2023-11-20T14:12:18.197Z,        numeroOrdre: 130404511120621,         timestampAfter: 2023-11-20T14:26:41.229Z
+
+timestampBefore: 2023-11-20T14:12:19.505Z,        numeroOrdre: 100101511120612,         timestampAfter: 2023-11-20T14:26:41.229Z
+
+timestampBefore: 2023-11-20T14:12:21.095Z,        numeroOrdre: 100101511120633,         timestampAfter: 2023-11-20T14:26:41.230Z
+
+timestampBefore: 2023-11-20T14:12:22.644Z,        numeroOrdre: 060501511120635,         timestampAfter: 2023-11-20T14:26:41.230Z
+
+timestampBefore: 2023-11-20T14:12:23.716Z,        numeroOrdre: 060403511120628,         timestampAfter: 2023-11-20T14:26:41.231Z
+
+timestampBefore: 2023-11-20T14:12:25.126Z,        numeroOrdre: 130101511120642,         timestampAfter: 2023-11-20T14:26:41.231Z
+
+timestampBefore: 2023-11-20T14:12:26.202Z,        numeroOrdre: 040401511120643,         timestampAfter: 2023-11-20T14:26:41.232Z
+
+timestampBefore: 2023-11-20T14:12:27.619Z,        numeroOrdre: 060501511120655,         timestampAfter: 2023-11-20T14:26:41.232Z
+
+timestampBefore: 2023-11-20T14:12:29.160Z,        numeroOrdre: 060501511120646,         timestampAfter: 2023-11-20T14:26:41.233Z
+
+timestampBefore: 2023-11-20T14:12:30.236Z,        numeroOrdre: 130115811120578,         timestampAfter: 2023-11-20T14:26:41.233Z
+
+timestampBefore: 2023-11-20T14:12:31.309Z,        numeroOrdre: 060501511120647,         timestampAfter: 2023-11-20T14:26:41.234Z
+
+timestampBefore: 2023-11-20T14:12:32.381Z,        numeroOrdre: 060501511120640,         timestampAfter: 2023-11-20T14:26:41.235Z
+
+timestampBefore: 2023-11-20T14:12:33.667Z,        numeroOrdre: 060403511120645,         timestampAfter: 2023-11-20T14:26:41.235Z
+
+timestampBefore: 2023-11-20T14:12:35.195Z,        numeroOrdre: 060501511120651,         timestampAfter: 2023-11-20T14:26:41.236Z
+
+timestampBefore: 2023-11-20T14:12:36.611Z,        numeroOrdre: 130115811120713,         timestampAfter: 2023-11-20T14:26:41.236Z
+
+timestampBefore: 2023-11-20T14:12:38.159Z,        numeroOrdre: 130115811121349,         timestampAfter: 2023-11-20T14:26:41.237Z
+
+timestampBefore: 2023-11-20T14:12:39.563Z,        numeroOrdre: 130115811120861,         timestampAfter: 2023-11-20T14:26:41.237Z
+
+timestampBefore: 2023-11-20T14:12:41.178Z,        numeroOrdre: 130115811120879,         timestampAfter: 2023-11-20T14:26:41.238Z
+
+timestampBefore: 2023-11-20T14:12:42.851Z,        numeroOrdre: 130115811121244,         timestampAfter: 2023-11-20T14:26:41.238Z
+
+timestampBefore: 2023-11-20T14:12:44.514Z,        numeroOrdre: 040401511120650,         timestampAfter: 2023-11-20T14:26:41.239Z
+
+timestampBefore: 2023-11-20T14:12:46.104Z,        numeroOrdre: 130115811120654,         timestampAfter: 2023-11-20T14:26:41.239Z
+
+timestampBefore: 2023-11-20T14:12:47.643Z,        numeroOrdre: 130115811120915,         timestampAfter: 2023-11-20T14:26:41.240Z
+
+timestampBefore: 2023-11-20T14:12:48.721Z,        numeroOrdre: 050401511120656,         timestampAfter: 2023-11-20T14:26:41.240Z
+
+timestampBefore: 2023-11-20T14:12:49.794Z,        numeroOrdre: 130115811120742,         timestampAfter: 2023-11-20T14:26:41.241Z
+
+timestampBefore: 2023-11-20T14:12:50.869Z,        numeroOrdre: 130115811121531,         timestampAfter: 2023-11-20T14:26:41.241Z
+
+timestampBefore: 2023-11-20T14:12:51.945Z,        numeroOrdre: 130115811121273,         timestampAfter: 2023-11-20T14:26:41.242Z
+
+timestampBefore: 2023-11-20T14:12:53.283Z,        numeroOrdre: 130101511120644,         timestampAfter: 2023-11-20T14:26:41.242Z
+
+timestampBefore: 2023-11-20T14:12:55.105Z,        numeroOrdre: 100101511120649,         timestampAfter: 2023-11-20T14:26:41.243Z
+
+timestampBefore: 2023-11-20T14:12:56.637Z,        numeroOrdre: 100101511120653,         timestampAfter: 2023-11-20T14:26:41.243Z
+
+timestampBefore: 2023-11-20T14:12:57.713Z,        numeroOrdre: 040401511120652,         timestampAfter: 2023-11-20T14:26:41.244Z
+
+timestampBefore: 2023-11-20T14:12:58.787Z,        numeroOrdre: 130115811120620,         timestampAfter: 2023-11-20T14:26:41.244Z
+
+timestampBefore: 2023-11-20T14:12:59.861Z,        numeroOrdre: 050401511120648,         timestampAfter: 2023-11-20T14:26:41.245Z
+
+timestampBefore: 2023-11-20T14:13:00.934Z,        numeroOrdre: 130115811120686,         timestampAfter: 2023-11-20T14:26:41.245Z
+
+timestampBefore: 2023-11-20T14:13:02.008Z,        numeroOrdre: 130115811120671,         timestampAfter: 2023-11-20T14:26:41.246Z
+
+timestampBefore: 2023-11-20T14:13:03.083Z,        numeroOrdre: 130115811121603,         timestampAfter: 2023-11-20T14:26:41.246Z
+
+timestampBefore: 2023-11-20T14:13:04.473Z,        numeroOrdre: 130115811121781,         timestampAfter: 2023-11-20T14:26:41.247Z
+
+timestampBefore: 2023-11-20T14:13:06.257Z,        numeroOrdre: 130115811121573,         timestampAfter: 2023-11-20T14:26:41.247Z
+
+timestampBefore: 2023-11-20T14:13:07.956Z,        numeroOrdre: 130115811121836,         timestampAfter: 2023-11-20T14:26:41.248Z
+
+timestampBefore: 2023-11-20T14:13:09.508Z,        numeroOrdre: 130115811121789,         timestampAfter: 2023-11-20T14:26:41.248Z
+
+timestampBefore: 2023-11-20T14:13:11.034Z,        numeroOrdre: 130115811121853,         timestampAfter: 2023-11-20T14:26:41.249Z
+
+timestampBefore: 2023-11-20T14:13:12.574Z,        numeroOrdre: 130115811121995,         timestampAfter: 2023-11-20T14:26:41.249Z
+
+timestampBefore: 2023-11-20T14:13:13.649Z,        numeroOrdre: 130115811122042,         timestampAfter: 2023-11-20T14:26:41.250Z
+
+timestampBefore: 2023-11-20T14:13:14.723Z,        numeroOrdre: 130115811121840,         timestampAfter: 2023-11-20T14:26:41.251Z
+
+timestampBefore: 2023-11-20T14:13:15.796Z,        numeroOrdre: 130115811122171,         timestampAfter: 2023-11-20T14:26:41.251Z
+
+timestampBefore: 2023-11-20T14:13:16.874Z,        numeroOrdre: 130115811122205,         timestampAfter: 2023-11-20T14:26:41.252Z
+
+timestampBefore: 2023-11-20T14:13:17.946Z,        numeroOrdre: 130115811125394,         timestampAfter: 2023-11-20T14:26:41.252Z
+
+timestampBefore: 2023-11-20T14:13:19.016Z,        numeroOrdre: 080115811122378,         timestampAfter: 2023-11-20T14:26:41.253Z
+
+timestampBefore: 2023-11-20T14:13:20.308Z,        numeroOrdre: 130115811122613,         timestampAfter: 2023-11-20T14:26:41.253Z
+
+timestampBefore: 2023-11-20T14:13:21.966Z,        numeroOrdre: 130115811123012,         timestampAfter: 2023-11-20T14:26:41.254Z
+
+timestampBefore: 2023-11-20T14:13:23.504Z,        numeroOrdre: 130115811123387,         timestampAfter: 2023-11-20T14:26:41.254Z
+
+timestampBefore: 2023-11-20T14:13:24.581Z,        numeroOrdre: 130115811124606,         timestampAfter: 2023-11-20T14:26:41.255Z
+
+timestampBefore: 2023-11-20T14:13:25.653Z,        numeroOrdre: 130115811122946,         timestampAfter: 2023-11-20T14:26:41.255Z
+
+timestampBefore: 2023-11-20T14:13:26.844Z,        numeroOrdre: 130115811124193,         timestampAfter: 2023-11-20T14:26:41.256Z
+
+timestampBefore: 2023-11-20T14:13:28.376Z,        numeroOrdre: 130115811123256,         timestampAfter: 2023-11-20T14:26:41.256Z
+
+timestampBefore: 2023-11-20T14:13:29.667Z,        numeroOrdre: 130115811122976,         timestampAfter: 2023-11-20T14:26:41.257Z
+
+timestampBefore: 2023-11-20T14:13:31.341Z,        numeroOrdre: 130115811123213,         timestampAfter: 2023-11-20T14:26:41.257Z
+
+timestampBefore: 2023-11-20T14:13:32.991Z,        numeroOrdre: 130115811123392,         timestampAfter: 2023-11-20T14:26:41.258Z
+
+timestampBefore: 2023-11-20T14:13:34.552Z,        numeroOrdre: 130115811124379,         timestampAfter: 2023-11-20T14:26:41.259Z
+
+timestampBefore: 2023-11-20T14:13:36.018Z,        numeroOrdre: 050301811122368,         timestampAfter: 2023-11-20T14:26:41.259Z
+
+timestampBefore: 2023-11-20T14:13:37.380Z,        numeroOrdre: 130115811124608,         timestampAfter: 2023-11-20T14:26:41.260Z
+
+timestampBefore: 2023-11-20T14:13:38.671Z,        numeroOrdre: 130115811124118,         timestampAfter: 2023-11-20T14:26:41.260Z
+
+timestampBefore: 2023-11-20T14:13:40.207Z,        numeroOrdre: 130115811124168,         timestampAfter: 2023-11-20T14:26:41.261Z
+
+timestampBefore: 2023-11-20T14:13:41.493Z,        numeroOrdre: 130115811124874,         timestampAfter: 2023-11-20T14:26:41.261Z
+
+timestampBefore: 2023-11-20T14:13:43.095Z,        numeroOrdre: 130115811123216,         timestampAfter: 2023-11-20T14:26:41.262Z
+
+timestampBefore: 2023-11-20T14:13:44.776Z,        numeroOrdre: 130115811127736,         timestampAfter: 2023-11-20T14:26:41.262Z
+
+timestampBefore: 2023-11-20T14:13:46.319Z,        numeroOrdre: 130115811126272,         timestampAfter: 2023-11-20T14:26:41.263Z
+
+timestampBefore: 2023-11-20T14:13:47.393Z,        numeroOrdre: 130115811126388,         timestampAfter: 2023-11-20T14:26:41.263Z
+
+timestampBefore: 2023-11-20T14:13:48.466Z,        numeroOrdre: 130115811126068,         timestampAfter: 2023-11-20T14:26:41.264Z
+
+timestampBefore: 2023-11-20T14:13:49.542Z,        numeroOrdre: 130115811127797,         timestampAfter: 2023-11-20T14:26:41.264Z
+
+timestampBefore: 2023-11-20T14:13:50.614Z,        numeroOrdre: 130115811127827,         timestampAfter: 2023-11-20T14:26:41.265Z
+
+timestampBefore: 2023-11-20T14:13:51.757Z,        numeroOrdre: 130115811127823,         timestampAfter: 2023-11-20T14:26:41.266Z
+
+timestampBefore: 2023-11-20T14:13:53.304Z,        numeroOrdre: 130115811125936,         timestampAfter: 2023-11-20T14:26:41.267Z
+
+timestampBefore: 2023-11-20T14:13:54.378Z,        numeroOrdre: 130115811127779,         timestampAfter: 2023-11-20T14:26:41.267Z
+
+timestampBefore: 2023-11-20T14:13:55.450Z,        numeroOrdre: 130115811127796,         timestampAfter: 2023-11-20T14:26:41.268Z
+
+timestampBefore: 2023-11-20T14:13:56.736Z,        numeroOrdre: 130115811126065,         timestampAfter: 2023-11-20T14:26:41.268Z
+
+timestampBefore: 2023-11-20T14:13:58.253Z,        numeroOrdre: 130115811124887,         timestampAfter: 2023-11-20T14:26:41.269Z
+
+timestampBefore: 2023-11-20T14:13:59.338Z,        numeroOrdre: 130115811124892,         timestampAfter: 2023-11-20T14:26:41.270Z
+
+timestampBefore: 2023-11-20T14:14:00.809Z,        numeroOrdre: 130115811124889,         timestampAfter: 2023-11-20T14:26:41.270Z
+
+timestampBefore: 2023-11-20T14:14:02.519Z,        numeroOrdre: 130115811126064,         timestampAfter: 2023-11-20T14:26:41.270Z
+
+timestampBefore: 2023-11-20T14:14:04.055Z,        numeroOrdre: 130115811125921,         timestampAfter: 2023-11-20T14:26:41.271Z
+
+timestampBefore: 2023-11-20T14:14:05.128Z,        numeroOrdre: 130115811125759,         timestampAfter: 2023-11-20T14:26:41.271Z
+
+timestampBefore: 2023-11-20T14:14:06.201Z,        numeroOrdre: 130115811125422,         timestampAfter: 2023-11-20T14:26:41.272Z
+
+timestampBefore: 2023-11-20T14:14:07.275Z,        numeroOrdre: 130115811125325,         timestampAfter: 2023-11-20T14:26:41.272Z
+
+timestampBefore: 2023-11-20T14:14:08.348Z,        numeroOrdre: 130115811124896,         timestampAfter: 2023-11-20T14:26:41.273Z
+
+timestampBefore: 2023-11-20T14:14:09.421Z,        numeroOrdre: 130115811125546,         timestampAfter: 2023-11-20T14:26:41.273Z
+
+timestampBefore: 2023-11-20T14:14:10.497Z,        numeroOrdre: 130115811127834,         timestampAfter: 2023-11-20T14:26:41.274Z
+
+timestampBefore: 2023-11-20T14:14:11.571Z,        numeroOrdre: 130115811127865,         timestampAfter: 2023-11-20T14:26:41.274Z
+
+timestampBefore: 2023-11-20T14:14:12.651Z,        numeroOrdre: 130115811127925,         timestampAfter: 2023-11-20T14:26:41.275Z
+
+timestampBefore: 2023-11-20T14:14:14.270Z,        numeroOrdre: 130115811127891,         timestampAfter: 2023-11-20T14:26:41.276Z
+
+timestampBefore: 2023-11-20T14:14:15.963Z,        numeroOrdre: 130115811127851,         timestampAfter: 2023-11-20T14:26:41.276Z
+
+timestampBefore: 2023-11-20T14:14:17.515Z,        numeroOrdre: 130115811127886,         timestampAfter: 2023-11-20T14:26:41.276Z
+
+timestampBefore: 2023-11-20T14:14:18.589Z,        numeroOrdre: 130115811127883,         timestampAfter: 2023-11-20T14:26:41.277Z
+
+timestampBefore: 2023-11-20T14:14:19.662Z,        numeroOrdre: 130115811127948,         timestampAfter: 2023-11-20T14:26:41.277Z
+
+timestampBefore: 2023-11-20T14:14:20.736Z,        numeroOrdre: 130115811127953,         timestampAfter: 2023-11-20T14:26:41.278Z
+
+timestampBefore: 2023-11-20T14:14:21.810Z,        numeroOrdre: 130115811128201,         timestampAfter: 2023-11-20T14:26:41.278Z
+
+timestampBefore: 2023-11-20T14:14:22.883Z,        numeroOrdre: 130115811130706,         timestampAfter: 2023-11-20T14:26:41.279Z
+
+timestampBefore: 2023-11-20T14:14:23.956Z,        numeroOrdre: 130115811129338,         timestampAfter: 2023-11-20T14:26:41.280Z
+
+timestampBefore: 2023-11-20T14:14:25.303Z,        numeroOrdre: 130115811130678,         timestampAfter: 2023-11-20T14:26:41.280Z
+
+timestampBefore: 2023-11-20T14:14:27.128Z,        numeroOrdre: 130115811129299,         timestampAfter: 2023-11-20T14:26:41.281Z
+
+timestampBefore: 2023-11-20T14:14:28.888Z,        numeroOrdre: 130115811130703,         timestampAfter: 2023-11-20T14:26:41.281Z
+
+timestampBefore: 2023-11-20T14:14:30.483Z,        numeroOrdre: 130115811129111,         timestampAfter: 2023-11-20T14:26:41.282Z
+
+timestampBefore: 2023-11-20T14:14:32.098Z,        numeroOrdre: 130115811128968,         timestampAfter: 2023-11-20T14:26:41.282Z
+
+timestampBefore: 2023-11-20T14:14:33.870Z,        numeroOrdre: 130115811128518,         timestampAfter: 2023-11-20T14:26:41.283Z
+
+timestampBefore: 2023-11-20T14:14:35.456Z,        numeroOrdre: 130115811128510,         timestampAfter: 2023-11-20T14:26:41.283Z
+
+timestampBefore: 2023-11-20T14:14:37.087Z,        numeroOrdre: 130115811128287,         timestampAfter: 2023-11-20T14:26:41.284Z
+
+timestampBefore: 2023-11-20T14:14:38.835Z,        numeroOrdre: 130115811128323,         timestampAfter: 2023-11-20T14:26:41.284Z
+
+timestampBefore: 2023-11-20T14:14:40.451Z,        numeroOrdre: 130115811129015,         timestampAfter: 2023-11-20T14:26:41.285Z
+
+timestampBefore: 2023-11-20T14:14:42.065Z,        numeroOrdre: 130115811128655,         timestampAfter: 2023-11-20T14:26:41.285Z
+
+timestampBefore: 2023-11-20T14:14:43.797Z,        numeroOrdre: 130115811128948,         timestampAfter: 2023-11-20T14:26:41.286Z
+
+timestampBefore: 2023-11-20T14:14:45.420Z,        numeroOrdre: 130115811128674,         timestampAfter: 2023-11-20T14:26:41.286Z
+
+timestampBefore: 2023-11-20T14:14:47.067Z,        numeroOrdre: 130115811129039,         timestampAfter: 2023-11-20T14:26:41.287Z
+
+timestampBefore: 2023-11-20T14:14:48.626Z,        numeroOrdre: 130115811128752,         timestampAfter: 2023-11-20T14:26:41.287Z
+
+timestampBefore: 2023-11-20T14:14:50.323Z,        numeroOrdre: 130115811129176,         timestampAfter: 2023-11-20T14:26:41.288Z
+
+timestampBefore: 2023-11-20T14:14:51.997Z,        numeroOrdre: 130115811129542,         timestampAfter: 2023-11-20T14:26:41.288Z
+
+timestampBefore: 2023-11-20T14:14:53.653Z,        numeroOrdre: 130115811128964,         timestampAfter: 2023-11-20T14:26:41.289Z
+
+timestampBefore: 2023-11-20T14:14:55.334Z,        numeroOrdre: 130115811130699,         timestampAfter: 2023-11-20T14:26:41.289Z
+
+timestampBefore: 2023-11-20T14:14:56.996Z,        numeroOrdre: 130115811130695,         timestampAfter: 2023-11-20T14:26:41.290Z
+
+timestampBefore: 2023-11-20T14:14:58.704Z,        numeroOrdre: 130115811128977,         timestampAfter: 2023-11-20T14:26:41.290Z
+
+timestampBefore: 2023-11-20T14:15:00.266Z,        numeroOrdre: 130115811130681,         timestampAfter: 2023-11-20T14:26:41.291Z
+
+timestampBefore: 2023-11-20T14:15:01.341Z,        numeroOrdre: 130115811130760,         timestampAfter: 2023-11-20T14:26:41.291Z
+
+timestampBefore: 2023-11-20T14:15:02.414Z,        numeroOrdre: 130115811130762,         timestampAfter: 2023-11-20T14:26:41.292Z
+
+timestampBefore: 2023-11-20T14:15:03.905Z,        numeroOrdre: 130115811130746,         timestampAfter: 2023-11-20T14:26:41.292Z
+
+timestampBefore: 2023-11-20T14:15:05.607Z,        numeroOrdre: 130115811130759,         timestampAfter: 2023-11-20T14:26:41.293Z
+
+timestampBefore: 2023-11-20T14:15:07.148Z,        numeroOrdre: 130115811129239,         timestampAfter: 2023-11-20T14:26:41.293Z
+
+timestampBefore: 2023-11-20T14:15:08.228Z,        numeroOrdre: 130115811129341,         timestampAfter: 2023-11-20T14:26:41.294Z
+
+timestampBefore: 2023-11-20T14:15:09.300Z,        numeroOrdre: 130115811130768,         timestampAfter: 2023-11-20T14:26:41.294Z
+
+timestampBefore: 2023-11-20T14:15:10.374Z,        numeroOrdre: 130115811130780,         timestampAfter: 2023-11-20T14:26:41.295Z
+
+timestampBefore: 2023-11-20T14:15:11.700Z,        numeroOrdre: 130115811131850,         timestampAfter: 2023-11-20T14:26:41.295Z
+
+timestampBefore: 2023-11-20T14:15:13.216Z,        numeroOrdre: 130115811131918,         timestampAfter: 2023-11-20T14:26:41.296Z
+
+timestampBefore: 2023-11-20T14:15:14.525Z,        numeroOrdre: 130115811131814,         timestampAfter: 2023-11-20T14:26:41.296Z
+
+timestampBefore: 2023-11-20T14:15:16.100Z,        numeroOrdre: 130115811132697,         timestampAfter: 2023-11-20T14:26:41.297Z
+
+timestampBefore: 2023-11-20T14:15:17.624Z,        numeroOrdre: 130115811131839,         timestampAfter: 2023-11-20T14:26:41.297Z
+
+timestampBefore: 2023-11-20T14:15:19.302Z,        numeroOrdre: 130115811130828,         timestampAfter: 2023-11-20T14:26:41.298Z
+
+timestampBefore: 2023-11-20T14:15:21.122Z,        numeroOrdre: 130115811132905,         timestampAfter: 2023-11-20T14:26:41.298Z
+
+timestampBefore: 2023-11-20T14:15:22.929Z,        numeroOrdre: 130115811134596,         timestampAfter: 2023-11-20T14:26:41.299Z
+
+timestampBefore: 2023-11-20T14:15:24.479Z,        numeroOrdre: 130115811132897,         timestampAfter: 2023-11-20T14:26:41.299Z
+
+timestampBefore: 2023-11-20T14:15:25.986Z,        numeroOrdre: 130115811132701,         timestampAfter: 2023-11-20T14:26:41.300Z
+
+timestampBefore: 2023-11-20T14:15:27.718Z,        numeroOrdre: 130115811134781,         timestampAfter: 2023-11-20T14:26:41.300Z
+
+timestampBefore: 2023-11-20T14:15:29.256Z,        numeroOrdre: 130115811134589,         timestampAfter: 2023-11-20T14:26:41.301Z
+
+timestampBefore: 2023-11-20T14:15:30.328Z,        numeroOrdre: 130115811134615,         timestampAfter: 2023-11-20T14:26:41.301Z
+
+timestampBefore: 2023-11-20T14:15:31.402Z,        numeroOrdre: 130115811133093,         timestampAfter: 2023-11-20T14:26:41.302Z
+
+timestampBefore: 2023-11-20T14:15:32.478Z,        numeroOrdre: 130115811134617,         timestampAfter: 2023-11-20T14:26:41.302Z
+
+timestampBefore: 2023-11-20T14:15:33.551Z,        numeroOrdre: 130115811132765,         timestampAfter: 2023-11-20T14:26:41.303Z
+
+timestampBefore: 2023-11-20T14:15:34.624Z,        numeroOrdre: 130115811134616,         timestampAfter: 2023-11-20T14:26:41.303Z
+
+timestampBefore: 2023-11-20T14:15:36.182Z,        numeroOrdre: 130115811132066,         timestampAfter: 2023-11-20T14:26:41.304Z
+
+timestampBefore: 2023-11-20T14:15:37.885Z,        numeroOrdre: 130115811131885,         timestampAfter: 2023-11-20T14:26:41.304Z
+
+timestampBefore: 2023-11-20T14:15:39.424Z,        numeroOrdre: 130115811132673,         timestampAfter: 2023-11-20T14:26:41.305Z
+
+timestampBefore: 2023-11-20T14:15:40.496Z,        numeroOrdre: 130115811134614,         timestampAfter: 2023-11-20T14:26:41.306Z
+
+timestampBefore: 2023-11-20T14:15:41.571Z,        numeroOrdre: 130115811131834,         timestampAfter: 2023-11-20T14:26:41.306Z
+
+timestampBefore: 2023-11-20T14:15:42.645Z,        numeroOrdre: 130115811133143,         timestampAfter: 2023-11-20T14:26:41.307Z
+
+timestampBefore: 2023-11-20T14:15:43.720Z,        numeroOrdre: 130115811132644,         timestampAfter: 2023-11-20T14:26:41.307Z
+
+timestampBefore: 2023-11-20T14:15:44.793Z,        numeroOrdre: 130115811132824,         timestampAfter: 2023-11-20T14:26:41.308Z
+
+timestampBefore: 2023-11-20T14:15:45.866Z,        numeroOrdre: 130115811133089,         timestampAfter: 2023-11-20T14:26:41.308Z
+
+timestampBefore: 2023-11-20T14:15:47.588Z,        numeroOrdre: 130115811132055,         timestampAfter: 2023-11-20T14:26:41.309Z
+
+timestampBefore: 2023-11-20T14:15:49.272Z,        numeroOrdre: 130115811132164,         timestampAfter: 2023-11-20T14:26:41.309Z
+
+timestampBefore: 2023-11-20T14:15:50.936Z,        numeroOrdre: 130115811131923,         timestampAfter: 2023-11-20T14:26:41.310Z
+
+timestampBefore: 2023-11-20T14:15:52.458Z,        numeroOrdre: 130115811132647,         timestampAfter: 2023-11-20T14:26:41.310Z
+
+timestampBefore: 2023-11-20T14:15:53.532Z,        numeroOrdre: 130115811131913,         timestampAfter: 2023-11-20T14:26:41.311Z
+
+timestampBefore: 2023-11-20T14:15:54.835Z,        numeroOrdre: 130115811132639,         timestampAfter: 2023-11-20T14:26:41.311Z
+
+timestampBefore: 2023-11-20T14:15:56.374Z,        numeroOrdre: 130115811132656,         timestampAfter: 2023-11-20T14:26:41.312Z
+
+timestampBefore: 2023-11-20T14:15:57.938Z,        numeroOrdre: 130115811132916,         timestampAfter: 2023-11-20T14:26:41.312Z
+
+timestampBefore: 2023-11-20T14:15:59.637Z,        numeroOrdre: 130115811134767,         timestampAfter: 2023-11-20T14:26:41.313Z
+
+timestampBefore: 2023-11-20T14:16:01.291Z,        numeroOrdre: 130115811135074,         timestampAfter: 2023-11-20T14:26:41.314Z
+
+timestampBefore: 2023-11-20T14:16:02.974Z,        numeroOrdre: 130115811134861,         timestampAfter: 2023-11-20T14:26:41.314Z
+
+timestampBefore: 2023-11-20T14:16:04.526Z,        numeroOrdre: 130115811135077,         timestampAfter: 2023-11-20T14:26:41.315Z
+
+timestampBefore: 2023-11-20T14:16:06.005Z,        numeroOrdre: 130115811135082,         timestampAfter: 2023-11-20T14:26:41.315Z
+
+timestampBefore: 2023-11-20T14:16:07.373Z,        numeroOrdre: 130115811135234,         timestampAfter: 2023-11-20T14:26:41.316Z
+
+timestampBefore: 2023-11-20T14:16:08.708Z,        numeroOrdre: 130115811135430,         timestampAfter: 2023-11-20T14:26:41.316Z
+
+timestampBefore: 2023-11-20T14:16:10.221Z,        numeroOrdre: 130115811135405,         timestampAfter: 2023-11-20T14:26:41.317Z
+
+timestampBefore: 2023-11-20T14:16:11.532Z,        numeroOrdre: 130115811135311,         timestampAfter: 2023-11-20T14:26:41.317Z
+
+timestampBefore: 2023-11-20T14:16:13.107Z,        numeroOrdre: 130115811135329,         timestampAfter: 2023-11-20T14:26:41.318Z
+
+timestampBefore: 2023-11-20T14:16:14.888Z,        numeroOrdre: 130115811136476,         timestampAfter: 2023-11-20T14:26:41.318Z
+
+timestampBefore: 2023-11-20T14:16:16.571Z,        numeroOrdre: 130115811137619,         timestampAfter: 2023-11-20T14:26:41.319Z
+
+timestampBefore: 2023-11-20T14:16:18.255Z,        numeroOrdre: 130115811137654,         timestampAfter: 2023-11-20T14:26:41.319Z
+
+timestampBefore: 2023-11-20T14:16:19.801Z,        numeroOrdre: 130115811137956,         timestampAfter: 2023-11-20T14:26:41.320Z
+
+timestampBefore: 2023-11-20T14:16:21.065Z,        numeroOrdre: 130115811138509,         timestampAfter: 2023-11-20T14:26:41.320Z
+
+timestampBefore: 2023-11-20T14:16:22.745Z,        numeroOrdre: 130115811138559,         timestampAfter: 2023-11-20T14:26:41.321Z
+
+timestampBefore: 2023-11-20T14:16:24.442Z,        numeroOrdre: 130115811137953,         timestampAfter: 2023-11-20T14:26:41.321Z
+
+timestampBefore: 2023-11-20T14:16:26.077Z,        numeroOrdre: 130115811138456,         timestampAfter: 2023-11-20T14:26:41.322Z
+
+timestampBefore: 2023-11-20T14:16:27.773Z,        numeroOrdre: 130115811137414,         timestampAfter: 2023-11-20T14:26:41.323Z
+
+timestampBefore: 2023-11-20T14:16:29.314Z,        numeroOrdre: 130115811136983,         timestampAfter: 2023-11-20T14:26:41.323Z
+
+timestampBefore: 2023-11-20T14:16:30.388Z,        numeroOrdre: 130115811137514,         timestampAfter: 2023-11-20T14:26:41.324Z
+
+timestampBefore: 2023-11-20T14:16:31.461Z,        numeroOrdre: 130115811136895,         timestampAfter: 2023-11-20T14:26:41.324Z
+
+timestampBefore: 2023-11-20T14:16:32.969Z,        numeroOrdre: 130115811137142,         timestampAfter: 2023-11-20T14:26:41.325Z
+
+timestampBefore: 2023-11-20T14:16:34.640Z,        numeroOrdre: 130115811137315,         timestampAfter: 2023-11-20T14:26:41.325Z
+
+timestampBefore: 2023-11-20T14:16:36.171Z,        numeroOrdre: 130115811137557,         timestampAfter: 2023-11-20T14:26:41.326Z
+
+timestampBefore: 2023-11-20T14:16:37.244Z,        numeroOrdre: 130115811136834,         timestampAfter: 2023-11-20T14:26:41.326Z
+
+timestampBefore: 2023-11-20T14:16:38.318Z,        numeroOrdre: 130115811136077,         timestampAfter: 2023-11-20T14:26:41.327Z
+
+timestampBefore: 2023-11-20T14:16:39.772Z,        numeroOrdre: 130115811136065,         timestampAfter: 2023-11-20T14:26:41.327Z
+
+timestampBefore: 2023-11-20T14:16:41.313Z,        numeroOrdre: 130115811135968,         timestampAfter: 2023-11-20T14:26:41.328Z
+
+timestampBefore: 2023-11-20T14:16:42.388Z,        numeroOrdre: 130115811135566,         timestampAfter: 2023-11-20T14:26:41.328Z
+
+timestampBefore: 2023-11-20T14:16:43.464Z,        numeroOrdre: 130115811135934,         timestampAfter: 2023-11-20T14:26:41.329Z
+
+timestampBefore: 2023-11-20T14:16:44.537Z,        numeroOrdre: 130115811135587,         timestampAfter: 2023-11-20T14:26:41.330Z
+
+timestampBefore: 2023-11-20T14:16:45.612Z,        numeroOrdre: 130115811135600,         timestampAfter: 2023-11-20T14:26:41.330Z
+
+timestampBefore: 2023-11-20T14:16:46.687Z,        numeroOrdre: 130115811136530,         timestampAfter: 2023-11-20T14:26:41.331Z
+
+timestampBefore: 2023-11-20T14:16:47.762Z,        numeroOrdre: 130115811136403,         timestampAfter: 2023-11-20T14:26:41.331Z
+
+timestampBefore: 2023-11-20T14:16:49.017Z,        numeroOrdre: 130115811136662,         timestampAfter: 2023-11-20T14:26:41.332Z
+
+timestampBefore: 2023-11-20T14:16:50.551Z,        numeroOrdre: 130115811137301,         timestampAfter: 2023-11-20T14:26:41.332Z
+
+timestampBefore: 2023-11-20T14:16:52.299Z,        numeroOrdre: 130115811137492,         timestampAfter: 2023-11-20T14:26:41.333Z
+
+timestampBefore: 2023-11-20T14:16:53.847Z,        numeroOrdre: 130115811138671,         timestampAfter: 2023-11-20T14:26:41.335Z
+
+timestampBefore: 2023-11-20T14:16:54.923Z,        numeroOrdre: 130115811138734,         timestampAfter: 2023-11-20T14:26:41.335Z
+
+timestampBefore: 2023-11-20T14:16:55.996Z,        numeroOrdre: 130115811138741,         timestampAfter: 2023-11-20T14:26:41.336Z
+
+timestampBefore: 2023-11-20T14:16:57.070Z,        numeroOrdre: 130115811138774,         timestampAfter: 2023-11-20T14:26:41.336Z
+
+timestampBefore: 2023-11-20T14:16:58.442Z,        numeroOrdre: 130115811138917,         timestampAfter: 2023-11-20T14:26:41.337Z
+
+timestampBefore: 2023-11-20T14:17:00.095Z,        numeroOrdre: 130115811139154,         timestampAfter: 2023-11-20T14:26:41.337Z
+
+timestampBefore: 2023-11-20T14:17:01.652Z,        numeroOrdre: 130115811139175,         timestampAfter: 2023-11-20T14:26:41.338Z
+
+timestampBefore: 2023-11-20T14:17:02.727Z,        numeroOrdre: 130115811140277,         timestampAfter: 2023-11-20T14:26:41.338Z
+
+timestampBefore: 2023-11-20T14:17:03.957Z,        numeroOrdre: 130115811140346,         timestampAfter: 2023-11-20T14:26:41.339Z
+
+timestampBefore: 2023-11-20T14:17:05.649Z,        numeroOrdre: 130115811140369,         timestampAfter: 2023-11-20T14:26:41.339Z
+
+timestampBefore: 2023-11-20T14:17:07.199Z,        numeroOrdre: 130115811140543,         timestampAfter: 2023-11-20T14:26:41.340Z
+
+timestampBefore: 2023-11-20T14:17:08.759Z,        numeroOrdre: 130115811140269,         timestampAfter: 2023-11-20T14:26:41.340Z
+
+timestampBefore: 2023-11-20T14:17:09.833Z,        numeroOrdre: 130115811140367,         timestampAfter: 2023-11-20T14:26:41.341Z
+
+timestampBefore: 2023-11-20T14:17:10.908Z,        numeroOrdre: 130115811140353,         timestampAfter: 2023-11-20T14:26:41.341Z
+
+timestampBefore: 2023-11-20T14:17:12.234Z,        numeroOrdre: 130115811140196,         timestampAfter: 2023-11-20T14:26:41.342Z
+
+timestampBefore: 2023-11-20T14:17:13.910Z,        numeroOrdre: 130115811140273,         timestampAfter: 2023-11-20T14:26:41.342Z
+
+timestampBefore: 2023-11-20T14:17:15.440Z,        numeroOrdre: 130115811141182,         timestampAfter: 2023-11-20T14:26:41.343Z
+
+timestampBefore: 2023-11-20T14:17:16.515Z,        numeroOrdre: 130115811141078,         timestampAfter: 2023-11-20T14:26:41.343Z
+
+timestampBefore: 2023-11-20T14:17:17.589Z,        numeroOrdre: 130115811140733,         timestampAfter: 2023-11-20T14:26:41.344Z
+
+timestampBefore: 2023-11-20T14:17:18.664Z,        numeroOrdre: 130115811140694,         timestampAfter: 2023-11-20T14:26:41.345Z
+
+timestampBefore: 2023-11-20T14:17:19.806Z,        numeroOrdre: 130115811140949,         timestampAfter: 2023-11-20T14:26:41.345Z
+
+timestampBefore: 2023-11-20T14:17:21.512Z,        numeroOrdre: 130115811141204,         timestampAfter: 2023-11-20T14:26:41.346Z
+
+timestampBefore: 2023-11-20T14:17:23.145Z,        numeroOrdre: 130115811139565,         timestampAfter: 2023-11-20T14:26:41.346Z
+
+timestampBefore: 2023-11-20T14:17:24.941Z,        numeroOrdre: 130115811141994,         timestampAfter: 2023-11-20T14:26:41.347Z
+
+timestampBefore: 2023-11-20T14:17:26.486Z,        numeroOrdre: 130115811139781,         timestampAfter: 2023-11-20T14:26:41.347Z
+
+timestampBefore: 2023-11-20T14:17:27.778Z,        numeroOrdre: 130115811140016,         timestampAfter: 2023-11-20T14:26:41.348Z
+
+timestampBefore: 2023-11-20T14:17:29.299Z,        numeroOrdre: 130115811139332,         timestampAfter: 2023-11-20T14:26:41.348Z
+
+timestampBefore: 2023-11-20T14:17:30.374Z,        numeroOrdre: 130115811139906,         timestampAfter: 2023-11-20T14:26:41.349Z
+
+timestampBefore: 2023-11-20T14:17:31.448Z,        numeroOrdre: 130115811140214,         timestampAfter: 2023-11-20T14:26:41.349Z
+
+timestampBefore: 2023-11-20T14:17:32.523Z,        numeroOrdre: 130115811139854,         timestampAfter: 2023-11-20T14:26:41.350Z
+
+timestampBefore: 2023-11-20T14:17:33.599Z,        numeroOrdre: 130115811139180,         timestampAfter: 2023-11-20T14:26:41.350Z
+
+timestampBefore: 2023-11-20T14:17:34.676Z,        numeroOrdre: 130115811139896,         timestampAfter: 2023-11-20T14:26:41.351Z
+
+timestampBefore: 2023-11-20T14:17:35.750Z,        numeroOrdre: 130115811140204,         timestampAfter: 2023-11-20T14:26:41.351Z
+
+timestampBefore: 2023-11-20T14:17:37.023Z,        numeroOrdre: 130115811139173,         timestampAfter: 2023-11-20T14:26:41.352Z
+
+timestampBefore: 2023-11-20T14:17:38.800Z,        numeroOrdre: 130115811141425,         timestampAfter: 2023-11-20T14:26:41.352Z
+
+timestampBefore: 2023-11-20T14:17:40.436Z,        numeroOrdre: 130115811141248,         timestampAfter: 2023-11-20T14:26:41.353Z
+
+timestampBefore: 2023-11-20T14:17:42.210Z,        numeroOrdre: 130115811140959,         timestampAfter: 2023-11-20T14:26:41.353Z
+
+timestampBefore: 2023-11-20T14:17:43.517Z,        numeroOrdre: 130115811140973,         timestampAfter: 2023-11-20T14:26:41.354Z
+
+timestampBefore: 2023-11-20T14:17:44.593Z,        numeroOrdre: 130115811141409,         timestampAfter: 2023-11-20T14:26:41.354Z
+
+timestampBefore: 2023-11-20T14:17:45.667Z,        numeroOrdre: 130115811141279,         timestampAfter: 2023-11-20T14:26:41.355Z
+
+timestampBefore: 2023-11-20T14:17:46.742Z,        numeroOrdre: 130115811142197,         timestampAfter: 2023-11-20T14:26:41.355Z
+
+timestampBefore: 2023-11-20T14:17:47.819Z,        numeroOrdre: 130115811141347,         timestampAfter: 2023-11-20T14:26:41.356Z
+
+timestampBefore: 2023-11-20T14:17:48.892Z,        numeroOrdre: 130115811142142,         timestampAfter: 2023-11-20T14:26:41.356Z
+
+timestampBefore: 2023-11-20T14:17:49.966Z,        numeroOrdre: 130115811141258,         timestampAfter: 2023-11-20T14:26:41.357Z
+
+timestampBefore: 2023-11-20T14:17:51.043Z,        numeroOrdre: 130115811142200,         timestampAfter: 2023-11-20T14:26:41.357Z
+
+timestampBefore: 2023-11-20T14:17:52.355Z,        numeroOrdre: 130115811142205,         timestampAfter: 2023-11-20T14:26:41.358Z
+
+timestampBefore: 2023-11-20T14:17:53.985Z,        numeroOrdre: 130115811142639,         timestampAfter: 2023-11-20T14:26:41.358Z
+
+timestampBefore: 2023-11-20T14:17:55.679Z,        numeroOrdre: 130115811143976,         timestampAfter: 2023-11-20T14:26:41.359Z
+
+timestampBefore: 2023-11-20T14:17:57.354Z,        numeroOrdre: 130225811143857,         timestampAfter: 2023-11-20T14:26:41.359Z
+
+timestampBefore: 2023-11-20T14:17:59.001Z,        numeroOrdre: 130115811143696,         timestampAfter: 2023-11-20T14:26:41.360Z
+
+timestampBefore: 2023-11-20T14:18:00.689Z,        numeroOrdre: 130115811143471,         timestampAfter: 2023-11-20T14:26:41.360Z
+
+timestampBefore: 2023-11-20T14:18:02.390Z,        numeroOrdre: 130115811143952,         timestampAfter: 2023-11-20T14:26:41.361Z
+
+timestampBefore: 2023-11-20T14:18:04.179Z,        numeroOrdre: 130115811142348,         timestampAfter: 2023-11-20T14:26:41.361Z
+
+timestampBefore: 2023-11-20T14:18:05.730Z,        numeroOrdre: 130115811142238,         timestampAfter: 2023-11-20T14:26:41.362Z
+
+timestampBefore: 2023-11-20T14:18:06.805Z,        numeroOrdre: 130115811143855,         timestampAfter: 2023-11-20T14:26:41.362Z
+
+timestampBefore: 2023-11-20T14:18:07.879Z,        numeroOrdre: 130115811143954,         timestampAfter: 2023-11-20T14:26:41.363Z
+
+timestampBefore: 2023-11-20T14:18:08.955Z,        numeroOrdre: 130115811143682,         timestampAfter: 2023-11-20T14:26:41.363Z
+
+timestampBefore: 2023-11-20T14:18:10.265Z,        numeroOrdre: 130115811143625,         timestampAfter: 2023-11-20T14:26:41.364Z
+
+timestampBefore: 2023-11-20T14:18:11.914Z,        numeroOrdre: 130115811142617,         timestampAfter: 2023-11-20T14:26:41.364Z
+
+timestampBefore: 2023-11-20T14:18:13.462Z,        numeroOrdre: 130115811144317,         timestampAfter: 2023-11-20T14:26:41.365Z
+
+timestampBefore: 2023-11-20T14:18:14.536Z,        numeroOrdre: 130115811143582,         timestampAfter: 2023-11-20T14:26:41.365Z
+
+timestampBefore: 2023-11-20T14:18:16.056Z,        numeroOrdre: 130115811144452,         timestampAfter: 2023-11-20T14:26:41.366Z
+
+timestampBefore: 2023-11-20T14:18:17.762Z,        numeroOrdre: 130115811144496,         timestampAfter: 2023-11-20T14:26:41.366Z
+
+timestampBefore: 2023-11-20T14:18:19.285Z,        numeroOrdre: 130115811144469,         timestampAfter: 2023-11-20T14:26:41.367Z
+
+timestampBefore: 2023-11-20T14:18:20.599Z,        numeroOrdre: 130225811144536,         timestampAfter: 2023-11-20T14:26:41.367Z
+
+timestampBefore: 2023-11-20T14:18:22.288Z,        numeroOrdre: 130115811142375,         timestampAfter: 2023-11-20T14:26:41.368Z
+
+timestampBefore: 2023-11-20T14:18:24.091Z,        numeroOrdre: 130115811143613,         timestampAfter: 2023-11-20T14:26:41.368Z
+
+timestampBefore: 2023-11-20T14:18:25.653Z,        numeroOrdre: 130115811142633,         timestampAfter: 2023-11-20T14:26:41.369Z
+
+timestampBefore: 2023-11-20T14:18:27.342Z,        numeroOrdre: 130115811143841,         timestampAfter: 2023-11-20T14:26:41.369Z
+
+timestampBefore: 2023-11-20T14:18:29.030Z,        numeroOrdre: 130115811144060,         timestampAfter: 2023-11-20T14:26:41.370Z
+
+timestampBefore: 2023-11-20T14:18:30.717Z,        numeroOrdre: 130115811143479,         timestampAfter: 2023-11-20T14:26:41.370Z
+
+timestampBefore: 2023-11-20T14:18:32.260Z,        numeroOrdre: 130115811142404,         timestampAfter: 2023-11-20T14:26:41.371Z
+
+timestampBefore: 2023-11-20T14:18:33.334Z,        numeroOrdre: 130115811143807,         timestampAfter: 2023-11-20T14:26:41.371Z
+
+timestampBefore: 2023-11-20T14:18:34.411Z,        numeroOrdre: 130115811143395,         timestampAfter: 2023-11-20T14:26:41.372Z
+
+timestampBefore: 2023-11-20T14:18:35.893Z,        numeroOrdre: 130115811144603,         timestampAfter: 2023-11-20T14:26:41.372Z
+
+timestampBefore: 2023-11-20T14:18:37.608Z,        numeroOrdre: 130115811144515,         timestampAfter: 2023-11-20T14:26:41.373Z
+
+timestampBefore: 2023-11-20T14:18:39.155Z,        numeroOrdre: 130115811144556,         timestampAfter: 2023-11-20T14:26:41.373Z
+
+timestampBefore: 2023-11-20T14:18:40.242Z,        numeroOrdre: 130225811144539,         timestampAfter: 2023-11-20T14:26:41.374Z
+
+timestampBefore: 2023-11-20T14:18:41.319Z,        numeroOrdre: 130115811144448,         timestampAfter: 2023-11-20T14:26:41.375Z
+
+timestampBefore: 2023-11-20T14:18:42.394Z,        numeroOrdre: 130225811144547,         timestampAfter: 2023-11-20T14:26:41.375Z
+
+timestampBefore: 2023-11-20T14:18:43.471Z,        numeroOrdre: 130115811144569,         timestampAfter: 2023-11-20T14:26:41.376Z
+
+timestampBefore: 2023-11-20T14:18:44.883Z,        numeroOrdre: 130115811144534,         timestampAfter: 2023-11-20T14:26:41.376Z
+
+timestampBefore: 2023-11-20T14:18:46.441Z,        numeroOrdre: 130115811144473,         timestampAfter: 2023-11-20T14:26:41.377Z
+
+timestampBefore: 2023-11-20T14:18:47.787Z,        numeroOrdre: 130115811144560,         timestampAfter: 2023-11-20T14:26:41.377Z
+
+timestampBefore: 2023-11-20T14:18:49.256Z,        numeroOrdre: 130225811144622,         timestampAfter: 2023-11-20T14:26:41.378Z
+
+timestampBefore: 2023-11-20T14:18:50.551Z,        numeroOrdre: 130225811144623,         timestampAfter: 2023-11-20T14:26:41.378Z
+
+timestampBefore: 2023-11-20T14:18:52.127Z,        numeroOrdre: 130115811146482,         timestampAfter: 2023-11-20T14:26:41.379Z
+
+timestampBefore: 2023-11-20T14:18:53.808Z,        numeroOrdre: 130115811146140,         timestampAfter: 2023-11-20T14:26:41.379Z
+
+timestampBefore: 2023-11-20T14:18:55.503Z,        numeroOrdre: 130115811146211,         timestampAfter: 2023-11-20T14:26:41.380Z
+
+timestampBefore: 2023-11-20T14:18:57.156Z,        numeroOrdre: 130115811146534,         timestampAfter: 2023-11-20T14:26:41.380Z
+
+timestampBefore: 2023-11-20T14:18:58.926Z,        numeroOrdre: 130115811145607,         timestampAfter: 2023-11-20T14:26:41.381Z
+
+timestampBefore: 2023-11-20T14:19:00.458Z,        numeroOrdre: 130115811145541,         timestampAfter: 2023-11-20T14:26:41.381Z
+
+timestampBefore: 2023-11-20T14:19:01.764Z,        numeroOrdre: 130115811146511,         timestampAfter: 2023-11-20T14:26:41.382Z
+
+timestampBefore: 2023-11-20T14:19:03.434Z,        numeroOrdre: 130115811145613,         timestampAfter: 2023-11-20T14:26:41.382Z
+
+timestampBefore: 2023-11-20T14:19:05.090Z,        numeroOrdre: 130115811146345,         timestampAfter: 2023-11-20T14:26:41.383Z
+
+timestampBefore: 2023-11-20T14:19:06.849Z,        numeroOrdre: 130115811146463,         timestampAfter: 2023-11-20T14:26:41.383Z
+
+timestampBefore: 2023-11-20T14:19:08.404Z,        numeroOrdre: 130115811146205,         timestampAfter: 2023-11-20T14:26:41.384Z
+
+timestampBefore: 2023-11-20T14:19:09.481Z,        numeroOrdre: 130115811145592,         timestampAfter: 2023-11-20T14:26:41.384Z
+
+timestampBefore: 2023-11-20T14:19:10.556Z,        numeroOrdre: 130115811145315,         timestampAfter: 2023-11-20T14:26:41.385Z
+
+timestampBefore: 2023-11-20T14:19:12.083Z,        numeroOrdre: 130225811144624,         timestampAfter: 2023-11-20T14:26:41.385Z
+
+timestampBefore: 2023-11-20T14:19:13.625Z,        numeroOrdre: 130115811144730,         timestampAfter: 2023-11-20T14:26:41.386Z
+
+timestampBefore: 2023-11-20T14:19:15.557Z,        numeroOrdre: 130225811145290,         timestampAfter: 2023-11-20T14:26:41.386Z
+
+timestampBefore: 2023-11-20T14:19:17.493Z,        numeroOrdre: 130115811144731,         timestampAfter: 2023-11-20T14:26:41.387Z
+
+timestampBefore: 2023-11-20T14:19:19.761Z,        numeroOrdre: 130115811145387,         timestampAfter: 2023-11-20T14:26:41.387Z
+
+timestampBefore: 2023-11-20T14:19:21.952Z,        numeroOrdre: 130115811145510,         timestampAfter: 2023-11-20T14:26:41.388Z
+
+timestampBefore: 2023-11-20T14:19:23.876Z,        numeroOrdre: 130115811145596,         timestampAfter: 2023-11-20T14:26:41.388Z
+
+timestampBefore: 2023-11-20T14:19:25.606Z,        numeroOrdre: 130115811145609,         timestampAfter: 2023-11-20T14:26:41.389Z
+
+timestampBefore: 2023-11-20T14:19:27.610Z,        numeroOrdre: 130115811146215,         timestampAfter: 2023-11-20T14:26:41.389Z
+
+timestampBefore: 2023-11-20T14:19:29.453Z,        numeroOrdre: 130115811146517,         timestampAfter: 2023-11-20T14:26:41.390Z
+
+timestampBefore: 2023-11-20T14:19:31.082Z,        numeroOrdre: 130115811146539,         timestampAfter: 2023-11-20T14:26:41.391Z
+
+timestampBefore: 2023-11-20T14:19:32.612Z,        numeroOrdre: 130115811146542,         timestampAfter: 2023-11-20T14:26:41.391Z
+
+timestampBefore: 2023-11-20T14:19:34.352Z,        numeroOrdre: 130115811146696,         timestampAfter: 2023-11-20T14:26:41.392Z
+
+timestampBefore: 2023-11-20T14:19:35.994Z,        numeroOrdre: 130115811146694,         timestampAfter: 2023-11-20T14:26:41.392Z
+
+timestampBefore: 2023-11-20T14:19:37.817Z,        numeroOrdre: 130115811147739,         timestampAfter: 2023-11-20T14:26:41.393Z
+
+timestampBefore: 2023-11-20T14:19:39.757Z,        numeroOrdre: 130115811146541,         timestampAfter: 2023-11-20T14:26:41.393Z
+
+timestampBefore: 2023-11-20T14:19:41.579Z,        numeroOrdre: 130115811146885,         timestampAfter: 2023-11-20T14:26:41.394Z
+
+timestampBefore: 2023-11-20T14:19:43.352Z,        numeroOrdre: 130115811148051,         timestampAfter: 2023-11-20T14:26:41.394Z
+
+timestampBefore: 2023-11-20T14:19:45.040Z,        numeroOrdre: 130115811148064,         timestampAfter: 2023-11-20T14:26:41.395Z
+
+timestampBefore: 2023-11-20T14:19:46.939Z,        numeroOrdre: 130115811148088,         timestampAfter: 2023-11-20T14:26:41.395Z
+
+timestampBefore: 2023-11-20T14:19:48.727Z,        numeroOrdre: 130115811146728,         timestampAfter: 2023-11-20T14:26:41.395Z
+
+timestampBefore: 2023-11-20T14:19:50.702Z,        numeroOrdre: 130115811146592,         timestampAfter: 2023-11-20T14:26:41.396Z
+
+timestampBefore: 2023-11-20T14:19:52.599Z,        numeroOrdre: 130115811147625,         timestampAfter: 2023-11-20T14:26:41.397Z
+
+timestampBefore: 2023-11-20T14:19:54.451Z,        numeroOrdre: 130115811148073,         timestampAfter: 2023-11-20T14:26:41.397Z
+
+timestampBefore: 2023-11-20T14:19:56.052Z,        numeroOrdre: 130115811148096,         timestampAfter: 2023-11-20T14:26:41.398Z
+
+timestampBefore: 2023-11-20T14:19:57.760Z,        numeroOrdre: 130115811148105,         timestampAfter: 2023-11-20T14:26:41.398Z
+
+timestampBefore: 2023-11-20T14:19:59.442Z,        numeroOrdre: 130115811147889,         timestampAfter: 2023-11-20T14:26:41.399Z
+
+timestampBefore: 2023-11-20T14:20:01.389Z,        numeroOrdre: 130115811148314,         timestampAfter: 2023-11-20T14:26:41.399Z
+
+timestampBefore: 2023-11-20T14:20:03.076Z,        numeroOrdre: 130115811148222,         timestampAfter: 2023-11-20T14:26:41.400Z
+
+timestampBefore: 2023-11-20T14:20:04.770Z,        numeroOrdre: 130115811148216,         timestampAfter: 2023-11-20T14:26:41.400Z
+
+timestampBefore: 2023-11-20T14:20:06.450Z,        numeroOrdre: 130115811148913,         timestampAfter: 2023-11-20T14:26:41.401Z
+
+timestampBefore: 2023-11-20T14:20:08.270Z,        numeroOrdre: 130115811148505,         timestampAfter: 2023-11-20T14:26:41.401Z
+
+timestampBefore: 2023-11-20T14:20:09.976Z,        numeroOrdre: 130115811148822,         timestampAfter: 2023-11-20T14:26:41.402Z
+
+timestampBefore: 2023-11-20T14:20:11.773Z,        numeroOrdre: 130115811149610,         timestampAfter: 2023-11-20T14:26:41.402Z
+
+timestampBefore: 2023-11-20T14:20:13.684Z,        numeroOrdre: 130115811148992,         timestampAfter: 2023-11-20T14:26:41.403Z
+
+timestampBefore: 2023-11-20T14:20:15.397Z,        numeroOrdre: 130115811148504,         timestampAfter: 2023-11-20T14:26:41.403Z
+
+timestampBefore: 2023-11-20T14:20:16.977Z,        numeroOrdre: 130115811149213,         timestampAfter: 2023-11-20T14:26:41.404Z
+
+timestampBefore: 2023-11-20T14:20:18.271Z,        numeroOrdre: 130115811150585,         timestampAfter: 2023-11-20T14:26:41.404Z
+
+timestampBefore: 2023-11-20T14:20:19.932Z,        numeroOrdre: 130115811149271,         timestampAfter: 2023-11-20T14:26:41.405Z
+
+timestampBefore: 2023-11-20T14:20:21.732Z,        numeroOrdre: 130115811150530,         timestampAfter: 2023-11-20T14:26:41.405Z
+
+timestampBefore: 2023-11-20T14:20:23.435Z,        numeroOrdre: 130115811153017,         timestampAfter: 2023-11-20T14:26:41.406Z
+
+timestampBefore: 2023-11-20T14:20:25.142Z,        numeroOrdre: 130115811151103,         timestampAfter: 2023-11-20T14:26:41.406Z
+
+timestampBefore: 2023-11-20T14:20:27.351Z,        numeroOrdre: 130115811150930,         timestampAfter: 2023-11-20T14:26:41.407Z
+
+timestampBefore: 2023-11-20T14:20:29.122Z,        numeroOrdre: 130115811149127,         timestampAfter: 2023-11-20T14:26:41.407Z
+
+timestampBefore: 2023-11-20T14:20:30.781Z,        numeroOrdre: 130115811149108,         timestampAfter: 2023-11-20T14:26:41.408Z
+
+timestampBefore: 2023-11-20T14:20:33.263Z,        numeroOrdre: 130115811148185,         timestampAfter: 2023-11-20T14:26:41.408Z
+
+timestampBefore: 2023-11-20T14:20:35.555Z,        numeroOrdre: 130115811150501,         timestampAfter: 2023-11-20T14:26:41.409Z
+
+timestampBefore: 2023-11-20T14:20:37.478Z,        numeroOrdre: 130115811151185,         timestampAfter: 2023-11-20T14:26:41.409Z
+
+timestampBefore: 2023-11-20T14:20:39.329Z,        numeroOrdre: 130115811149136,         timestampAfter: 2023-11-20T14:26:41.410Z
+
+timestampBefore: 2023-11-20T14:20:41.371Z,        numeroOrdre: 130115811149459,         timestampAfter: 2023-11-20T14:26:41.410Z
+
+timestampBefore: 2023-11-20T14:20:43.061Z,        numeroOrdre: 130115811149488,         timestampAfter: 2023-11-20T14:26:41.411Z
+
+timestampBefore: 2023-11-20T14:20:44.665Z,        numeroOrdre: 130115811149343,         timestampAfter: 2023-11-20T14:26:41.411Z
+
+timestampBefore: 2023-11-20T14:20:45.957Z,        numeroOrdre: 130115811151074,         timestampAfter: 2023-11-20T14:26:41.412Z
+
+timestampBefore: 2023-11-20T14:20:47.491Z,        numeroOrdre: 130115811149947,         timestampAfter: 2023-11-20T14:26:41.412Z
+
+timestampBefore: 2023-11-20T14:20:49.029Z,        numeroOrdre: 130115811150188,         timestampAfter: 2023-11-20T14:26:41.413Z
+
+timestampBefore: 2023-11-20T14:20:50.103Z,        numeroOrdre: 130115811151323,         timestampAfter: 2023-11-20T14:26:41.413Z
+
+timestampBefore: 2023-11-20T14:20:51.572Z,        numeroOrdre: 130115811151197,         timestampAfter: 2023-11-20T14:26:41.414Z
+
+timestampBefore: 2023-11-20T14:20:53.830Z,        numeroOrdre: 130115811151521,         timestampAfter: 2023-11-20T14:26:41.414Z
+
+timestampBefore: 2023-11-20T14:20:55.718Z,        numeroOrdre: 130115811150685,         timestampAfter: 2023-11-20T14:26:41.415Z
+
+timestampBefore: 2023-11-20T14:20:58.033Z,        numeroOrdre: 130115811151079,         timestampAfter: 2023-11-20T14:26:41.415Z
+
+timestampBefore: 2023-11-20T14:21:00.134Z,        numeroOrdre: 130115811151046,         timestampAfter: 2023-11-20T14:26:41.416Z
+
+timestampBefore: 2023-11-20T14:21:01.858Z,        numeroOrdre: 130115811150592,         timestampAfter: 2023-11-20T14:26:41.416Z
+
+timestampBefore: 2023-11-20T14:21:03.577Z,        numeroOrdre: 130115811152857,         timestampAfter: 2023-11-20T14:26:41.417Z
+
+timestampBefore: 2023-11-20T14:21:05.380Z,        numeroOrdre: 130115811151662,         timestampAfter: 2023-11-20T14:26:41.417Z
+
+timestampBefore: 2023-11-20T14:21:06.697Z,        numeroOrdre: 130115811151505,         timestampAfter: 2023-11-20T14:26:41.418Z
+
+timestampBefore: 2023-11-20T14:21:08.777Z,        numeroOrdre: 130115811151981,         timestampAfter: 2023-11-20T14:26:41.418Z
+
+timestampBefore: 2023-11-20T14:21:10.854Z,        numeroOrdre: 130115811152142,         timestampAfter: 2023-11-20T14:26:41.419Z
+
+timestampBefore: 2023-11-20T14:21:12.783Z,        numeroOrdre: 130115811153896,         timestampAfter: 2023-11-20T14:26:41.419Z
+
+timestampBefore: 2023-11-20T14:21:15.028Z,        numeroOrdre: 130115811153123,         timestampAfter: 2023-11-20T14:26:41.420Z
+
+timestampBefore: 2023-11-20T14:21:16.853Z,        numeroOrdre: 130115811153181,         timestampAfter: 2023-11-20T14:26:41.420Z
+
+timestampBefore: 2023-11-20T14:21:19.068Z,        numeroOrdre: 130115811153915,         timestampAfter: 2023-11-20T14:26:41.421Z
+
+timestampBefore: 2023-11-20T14:21:20.976Z,        numeroOrdre: 130115811153234,         timestampAfter: 2023-11-20T14:26:41.421Z
+
+timestampBefore: 2023-11-20T14:21:23.148Z,        numeroOrdre: 130115811153367,         timestampAfter: 2023-11-20T14:26:41.422Z
+
+timestampBefore: 2023-11-20T14:21:25.124Z,        numeroOrdre: 130115811153236,         timestampAfter: 2023-11-20T14:26:41.422Z
+
+timestampBefore: 2023-11-20T14:21:26.836Z,        numeroOrdre: 130115811153426,         timestampAfter: 2023-11-20T14:26:41.423Z
+
+timestampBefore: 2023-11-20T14:21:28.698Z,        numeroOrdre: 130115811153747,         timestampAfter: 2023-11-20T14:26:41.423Z
+
+timestampBefore: 2023-11-20T14:21:30.824Z,        numeroOrdre: 130115811153263,         timestampAfter: 2023-11-20T14:26:41.424Z
+
+timestampBefore: 2023-11-20T14:21:32.659Z,        numeroOrdre: 130115811153087,         timestampAfter: 2023-11-20T14:26:41.424Z
+
+timestampBefore: 2023-11-20T14:21:34.490Z,        numeroOrdre: 130115811153972,         timestampAfter: 2023-11-20T14:26:41.425Z
+
+timestampBefore: 2023-11-20T14:21:36.251Z,        numeroOrdre: 130808611120041,         timestampAfter: 2023-11-20T14:26:41.425Z
+
+timestampBefore: 2023-11-20T14:21:38.085Z,        numeroOrdre: 130115811155218,         timestampAfter: 2023-11-20T14:26:41.426Z
+
+timestampBefore: 2023-11-20T14:21:39.941Z,        numeroOrdre: 130115811154298,         timestampAfter: 2023-11-20T14:26:41.427Z
+
+timestampBefore: 2023-11-20T14:21:41.659Z,        numeroOrdre: 130808611120012,         timestampAfter: 2023-11-20T14:26:41.427Z
+
+timestampBefore: 2023-11-20T14:21:43.594Z,        numeroOrdre: 130115811154722,         timestampAfter: 2023-11-20T14:26:41.428Z
+
+timestampBefore: 2023-11-20T14:21:45.875Z,        numeroOrdre: 130808611120025,         timestampAfter: 2023-11-20T14:26:41.429Z
+
+timestampBefore: 2023-11-20T14:21:47.991Z,        numeroOrdre: 130115811154628,         timestampAfter: 2023-11-20T14:26:41.429Z
+
+timestampBefore: 2023-11-20T14:21:49.913Z,        numeroOrdre: 130115811154218,         timestampAfter: 2023-11-20T14:26:41.430Z
+
+timestampBefore: 2023-11-20T14:21:52.092Z,        numeroOrdre: 130115811154904,         timestampAfter: 2023-11-20T14:26:41.431Z
+
+timestampBefore: 2023-11-20T14:21:53.898Z,        numeroOrdre: 130115811154743,         timestampAfter: 2023-11-20T14:26:41.431Z
+
+timestampBefore: 2023-11-20T14:21:55.471Z,        numeroOrdre: 130115811154233,         timestampAfter: 2023-11-20T14:26:41.432Z
+
+timestampBefore: 2023-11-20T14:21:57.219Z,        numeroOrdre: 130115811155123,         timestampAfter: 2023-11-20T14:26:41.432Z
+
+timestampBefore: 2023-11-20T14:21:58.830Z,        numeroOrdre: 130202611120005,         timestampAfter: 2023-11-20T14:26:41.433Z
+
+timestampBefore: 2023-11-20T14:22:00.772Z,        numeroOrdre: 130115811153369,         timestampAfter: 2023-11-20T14:26:41.433Z
+
+timestampBefore: 2023-11-20T14:22:02.571Z,        numeroOrdre: 130115811153895,         timestampAfter: 2023-11-20T14:26:41.434Z
+
+timestampBefore: 2023-11-20T14:22:04.243Z,        numeroOrdre: 130115811154586,         timestampAfter: 2023-11-20T14:26:41.434Z
+
+timestampBefore: 2023-11-20T14:22:05.931Z,        numeroOrdre: 130115811155227,         timestampAfter: 2023-11-20T14:26:41.435Z
+
+timestampBefore: 2023-11-20T14:22:07.480Z,        numeroOrdre: 130115811154925,         timestampAfter: 2023-11-20T14:26:41.435Z
+
+timestampBefore: 2023-11-20T14:22:09.266Z,        numeroOrdre: 130202611120009,         timestampAfter: 2023-11-20T14:26:41.436Z
+
+timestampBefore: 2023-11-20T14:22:10.850Z,        numeroOrdre: 130115811154528,         timestampAfter: 2023-11-20T14:26:41.436Z
+
+timestampBefore: 2023-11-20T14:22:12.445Z,        numeroOrdre: 130202611120059,         timestampAfter: 2023-11-20T14:26:41.437Z
+
+timestampBefore: 2023-11-20T14:22:14.246Z,        numeroOrdre: 130808611120031,         timestampAfter: 2023-11-20T14:26:41.437Z
+
+timestampBefore: 2023-11-20T14:22:15.783Z,        numeroOrdre: 130808611120014,         timestampAfter: 2023-11-20T14:26:41.438Z
+
+timestampBefore: 2023-11-20T14:22:17.304Z,        numeroOrdre: 130115811154236,         timestampAfter: 2023-11-20T14:26:41.438Z
+
+timestampBefore: 2023-11-20T14:22:18.589Z,        numeroOrdre: 130808611120037,         timestampAfter: 2023-11-20T14:26:41.439Z
+
+timestampBefore: 2023-11-20T14:22:20.271Z,        numeroOrdre: 130404611120102,         timestampAfter: 2023-11-20T14:26:41.439Z
+
+timestampBefore: 2023-11-20T14:22:21.833Z,        numeroOrdre: 130808611120104,         timestampAfter: 2023-11-20T14:26:41.440Z
+
+timestampBefore: 2023-11-20T14:22:23.520Z,        numeroOrdre: 130202611120108,         timestampAfter: 2023-11-20T14:26:41.440Z
+
+timestampBefore: 2023-11-20T14:22:24.929Z,        numeroOrdre: 130202611120223,         timestampAfter: 2023-11-20T14:26:41.441Z
+
+timestampBefore: 2023-11-20T14:22:26.243Z,        numeroOrdre: 130202611120138,         timestampAfter: 2023-11-20T14:26:41.441Z
+
+timestampBefore: 2023-11-20T14:22:27.901Z,        numeroOrdre: 130101611120152,         timestampAfter: 2023-11-20T14:26:41.442Z
+
+timestampBefore: 2023-11-20T14:22:29.587Z,        numeroOrdre: 130101611120140,         timestampAfter: 2023-11-20T14:26:41.442Z
+
+timestampBefore: 2023-11-20T14:22:31.142Z,        numeroOrdre: 130202611120183,         timestampAfter: 2023-11-20T14:26:41.443Z
+
+timestampBefore: 2023-11-20T14:22:32.217Z,        numeroOrdre: 130808611120189,         timestampAfter: 2023-11-20T14:26:41.443Z
+
+timestampBefore: 2023-11-20T14:22:33.747Z,        numeroOrdre: 130202611120139,         timestampAfter: 2023-11-20T14:26:41.444Z
+
+timestampBefore: 2023-11-20T14:22:35.446Z,        numeroOrdre: 130808611120349,         timestampAfter: 2023-11-20T14:26:41.444Z
+
+timestampBefore: 2023-11-20T14:22:36.808Z,        numeroOrdre: 130303611120270,         timestampAfter: 2023-11-20T14:26:41.445Z
+
+timestampBefore: 2023-11-20T14:22:38.336Z,        numeroOrdre: 080101611120329,         timestampAfter: 2023-11-20T14:26:41.445Z
+
+timestampBefore: 2023-11-20T14:22:39.419Z,        numeroOrdre: 130808611120271,         timestampAfter: 2023-11-20T14:26:41.446Z
+
+timestampBefore: 2023-11-20T14:22:40.495Z,        numeroOrdre: 130303611120293,         timestampAfter: 2023-11-20T14:26:41.446Z
+
+timestampBefore: 2023-11-20T14:22:41.572Z,        numeroOrdre: 130303611120309,         timestampAfter: 2023-11-20T14:26:41.447Z
+
+timestampBefore: 2023-11-20T14:22:42.647Z,        numeroOrdre: 130707611120249,         timestampAfter: 2023-11-20T14:26:41.448Z
+
+timestampBefore: 2023-11-20T14:22:43.927Z,        numeroOrdre: 130101611120307,         timestampAfter: 2023-11-20T14:26:41.448Z
+
+timestampBefore: 2023-11-20T14:22:45.473Z,        numeroOrdre: 130202611120345,         timestampAfter: 2023-11-20T14:26:41.449Z
+
+timestampBefore: 2023-11-20T14:22:47.036Z,        numeroOrdre: 080101611120332,         timestampAfter: 2023-11-20T14:26:41.449Z
+
+timestampBefore: 2023-11-20T14:22:48.345Z,        numeroOrdre: 130101611120321,         timestampAfter: 2023-11-20T14:26:41.450Z
+
+timestampBefore: 2023-11-20T14:22:49.917Z,        numeroOrdre: 130303611120296,         timestampAfter: 2023-11-20T14:26:41.450Z
+
+timestampBefore: 2023-11-20T14:22:51.624Z,        numeroOrdre: 130303611120286,         timestampAfter: 2023-11-20T14:26:41.451Z
+
+timestampBefore: 2023-11-20T14:22:53.376Z,        numeroOrdre: 130101611120295,         timestampAfter: 2023-11-20T14:26:41.451Z
+
+timestampBefore: 2023-11-20T14:22:55.306Z,        numeroOrdre: 130303611120342,         timestampAfter: 2023-11-20T14:26:41.452Z
+
+timestampBefore: 2023-11-20T14:22:57.457Z,        numeroOrdre: 130707611120246,         timestampAfter: 2023-11-20T14:26:41.452Z
+
+timestampBefore: 2023-11-20T14:22:59.084Z,        numeroOrdre: 130303611120252,         timestampAfter: 2023-11-20T14:26:41.453Z
+
+timestampBefore: 2023-11-20T14:23:00.616Z,        numeroOrdre: 130101611120355,         timestampAfter: 2023-11-20T14:26:41.453Z
+
+timestampBefore: 2023-11-20T14:23:01.924Z,        numeroOrdre: 130101611120352,         timestampAfter: 2023-11-20T14:26:41.454Z
+
+timestampBefore: 2023-11-20T14:23:03.801Z,        numeroOrdre: 130505611120404,         timestampAfter: 2023-11-20T14:26:41.454Z
+
+timestampBefore: 2023-11-20T14:23:05.344Z,        numeroOrdre: 100101611120386,         timestampAfter: 2023-11-20T14:26:41.455Z
+
+timestampBefore: 2023-11-20T14:23:06.975Z,        numeroOrdre: 130101611120383,         timestampAfter: 2023-11-20T14:26:41.455Z
+
+timestampBefore: 2023-11-20T14:23:08.552Z,        numeroOrdre: 130101611120411,         timestampAfter: 2023-11-20T14:26:41.456Z
+
+timestampBefore: 2023-11-20T14:23:10.211Z,        numeroOrdre: 130808611120195,         timestampAfter: 2023-11-20T14:26:41.457Z
+
+timestampBefore: 2023-11-20T14:23:11.766Z,        numeroOrdre: 030101611120239,         timestampAfter: 2023-11-20T14:26:41.457Z
+
+timestampBefore: 2023-11-20T14:23:13.230Z,        numeroOrdre: 130808611120193,         timestampAfter: 2023-11-20T14:26:41.458Z
+
+timestampBefore: 2023-11-20T14:23:14.927Z,        numeroOrdre: 130101611120154,         timestampAfter: 2023-11-20T14:26:41.459Z
+
+timestampBefore: 2023-11-20T14:23:16.784Z,        numeroOrdre: 130808611120424,         timestampAfter: 2023-11-20T14:26:41.459Z
+
+timestampBefore: 2023-11-20T14:23:18.713Z,        numeroOrdre: 130101611120156,         timestampAfter: 2023-11-20T14:26:41.460Z
+
+timestampBefore: 2023-11-20T14:23:20.527Z,        numeroOrdre: 080110611120262,         timestampAfter: 2023-11-20T14:26:41.460Z
+
+timestampBefore: 2023-11-20T14:23:21.991Z,        numeroOrdre: 130101611120347,         timestampAfter: 2023-11-20T14:26:41.461Z
+
+timestampBefore: 2023-11-20T14:23:23.795Z,        numeroOrdre: 130303611120275,         timestampAfter: 2023-11-20T14:26:41.461Z
+
+timestampBefore: 2023-11-20T14:23:25.596Z,        numeroOrdre: 130505611120422,         timestampAfter: 2023-11-20T14:26:41.462Z
+
+timestampBefore: 2023-11-20T14:23:27.176Z,        numeroOrdre: 130303611120444,         timestampAfter: 2023-11-20T14:26:41.462Z
+
+timestampBefore: 2023-11-20T14:23:28.858Z,        numeroOrdre: 130808611120446,         timestampAfter: 2023-11-20T14:26:41.463Z
+
+timestampBefore: 2023-11-20T14:23:30.547Z,        numeroOrdre: 130404611120457,         timestampAfter: 2023-11-20T14:26:41.463Z
+
+timestampBefore: 2023-11-20T14:23:32.247Z,        numeroOrdre: 130404611120473,         timestampAfter: 2023-11-20T14:26:41.464Z
+
+timestampBefore: 2023-11-20T14:23:34.210Z,        numeroOrdre: 130101611120477,         timestampAfter: 2023-11-20T14:26:41.464Z
+
+timestampBefore: 2023-11-20T14:23:35.768Z,        numeroOrdre: 130303611120449,         timestampAfter: 2023-11-20T14:26:41.465Z
+
+timestampBefore: 2023-11-20T14:23:36.843Z,        numeroOrdre: 130202611120475,         timestampAfter: 2023-11-20T14:26:41.465Z
+
+timestampBefore: 2023-11-20T14:23:37.918Z,        numeroOrdre: 130202611120467,         timestampAfter: 2023-11-20T14:26:41.466Z
+
+timestampBefore: 2023-11-20T14:23:39.451Z,        numeroOrdre: 080101611120464,         timestampAfter: 2023-11-20T14:26:41.466Z
+
+timestampBefore: 2023-11-20T14:23:41.334Z,        numeroOrdre: 100101611120716,         timestampAfter: 2023-11-20T14:26:41.467Z
+
+timestampBefore: 2023-11-20T14:23:43.109Z,        numeroOrdre: 130505611120533,         timestampAfter: 2023-11-20T14:26:41.467Z
+
+timestampBefore: 2023-11-20T14:23:44.943Z,        numeroOrdre: 130202611120500,         timestampAfter: 2023-11-20T14:26:41.468Z
+
+timestampBefore: 2023-11-20T14:23:46.703Z,        numeroOrdre: 130808611120494,         timestampAfter: 2023-11-20T14:26:41.468Z
+
+timestampBefore: 2023-11-20T14:23:48.316Z,        numeroOrdre: 080101611120630,         timestampAfter: 2023-11-20T14:26:41.469Z
+
+timestampBefore: 2023-11-20T14:23:49.863Z,        numeroOrdre: 130505611120721,         timestampAfter: 2023-11-20T14:26:41.469Z
+
+timestampBefore: 2023-11-20T14:23:51.166Z,        numeroOrdre: 130202611120479,         timestampAfter: 2023-11-20T14:26:41.470Z
+
+timestampBefore: 2023-11-20T14:23:52.790Z,        numeroOrdre: 130101611120657,         timestampAfter: 2023-11-20T14:26:41.470Z
+
+timestampBefore: 2023-11-20T14:23:54.326Z,        numeroOrdre: 130404611120632,         timestampAfter: 2023-11-20T14:26:41.471Z
+
+timestampBefore: 2023-11-20T14:23:55.711Z,        numeroOrdre: 130505611120518,         timestampAfter: 2023-11-20T14:26:41.471Z
+
+timestampBefore: 2023-11-20T14:23:57.322Z,        numeroOrdre: 130101611120733,         timestampAfter: 2023-11-20T14:26:41.472Z
+
+timestampBefore: 2023-11-20T14:23:59.092Z,        numeroOrdre: 130101611120688,         timestampAfter: 2023-11-20T14:26:41.472Z
+
+timestampBefore: 2023-11-20T14:24:00.880Z,        numeroOrdre: 130101611120712,         timestampAfter: 2023-11-20T14:26:41.472Z
+
+timestampBefore: 2023-11-20T14:24:02.587Z,        numeroOrdre: 130303611120736,         timestampAfter: 2023-11-20T14:26:41.473Z
+
+timestampBefore: 2023-11-20T14:24:04.285Z,        numeroOrdre: 040101611120782,         timestampAfter: 2023-11-20T14:26:41.473Z
+
+timestampBefore: 2023-11-20T14:24:05.947Z,        numeroOrdre: 130606611120768,         timestampAfter: 2023-11-20T14:26:41.474Z
+
+timestampBefore: 2023-11-20T14:24:07.641Z,        numeroOrdre: 130606611120758,         timestampAfter: 2023-11-20T14:26:41.474Z
+
+timestampBefore: 2023-11-20T14:24:09.178Z,        numeroOrdre: 130303611120738,         timestampAfter: 2023-11-20T14:26:41.475Z
+
+timestampBefore: 2023-11-20T14:24:10.645Z,        numeroOrdre: 130303611120788,         timestampAfter: 2023-11-20T14:26:41.475Z
+
+timestampBefore: 2023-11-20T14:24:12.199Z,        numeroOrdre: 130808611120813,         timestampAfter: 2023-11-20T14:26:41.476Z
+
+timestampBefore: 2023-11-20T14:24:13.275Z,        numeroOrdre: 130606611120764,         timestampAfter: 2023-11-20T14:26:41.476Z
+
+timestampBefore: 2023-11-20T14:24:14.350Z,        numeroOrdre: 130202611120471,         timestampAfter: 2023-11-20T14:26:41.477Z
+
+timestampBefore: 2023-11-20T14:24:15.423Z,        numeroOrdre: 080101611120478,         timestampAfter: 2023-11-20T14:26:41.477Z
+
+timestampBefore: 2023-11-20T14:24:16.498Z,        numeroOrdre: 030101611120659,         timestampAfter: 2023-11-20T14:26:41.478Z
+
+timestampBefore: 2023-11-20T14:24:17.571Z,        numeroOrdre: 130101611120481,         timestampAfter: 2023-11-20T14:26:41.478Z
+
+timestampBefore: 2023-11-20T14:24:18.767Z,        numeroOrdre: 130202611120504,         timestampAfter: 2023-11-20T14:26:41.479Z
+
+timestampBefore: 2023-11-20T14:24:20.440Z,        numeroOrdre: 130202611120839,         timestampAfter: 2023-11-20T14:26:41.479Z
+
+timestampBefore: 2023-11-20T14:24:22.002Z,        numeroOrdre: 130101611120869,         timestampAfter: 2023-11-20T14:26:41.480Z
+
+timestampBefore: 2023-11-20T14:24:23.547Z,        numeroOrdre: 130505611120874,         timestampAfter: 2023-11-20T14:26:41.480Z
+
+timestampBefore: 2023-11-20T14:24:24.620Z,        numeroOrdre: 130101611120832,         timestampAfter: 2023-11-20T14:26:41.481Z
+
+timestampBefore: 2023-11-20T14:24:25.695Z,        numeroOrdre: 130101611120853,         timestampAfter: 2023-11-20T14:26:41.481Z
+
+timestampBefore: 2023-11-20T14:24:26.768Z,        numeroOrdre: 130909611120885,         timestampAfter: 2023-11-20T14:26:41.482Z
+
+timestampBefore: 2023-11-20T14:24:27.844Z,        numeroOrdre: 130606611120882,         timestampAfter: 2023-11-20T14:26:41.482Z
+
+timestampBefore: 2023-11-20T14:24:28.920Z,        numeroOrdre: 130606611121018,         timestampAfter: 2023-11-20T14:26:41.483Z
+
+timestampBefore: 2023-11-20T14:24:29.992Z,        numeroOrdre: 080101611120940,         timestampAfter: 2023-11-20T14:26:41.483Z
+
+timestampBefore: 2023-11-20T14:24:31.069Z,        numeroOrdre: 130404611120936,         timestampAfter: 2023-11-20T14:26:41.484Z
+
+timestampBefore: 2023-11-20T14:24:32.142Z,        numeroOrdre: 080101611120938,         timestampAfter: 2023-11-20T14:26:41.484Z
+
+timestampBefore: 2023-11-20T14:24:33.594Z,        numeroOrdre: 080101611120941,         timestampAfter: 2023-11-20T14:26:41.485Z
+
+timestampBefore: 2023-11-20T14:24:35.129Z,        numeroOrdre: 130606611121022,         timestampAfter: 2023-11-20T14:26:41.485Z
+
+timestampBefore: 2023-11-20T14:24:36.202Z,        numeroOrdre: 130909611121044,         timestampAfter: 2023-11-20T14:26:41.486Z
+
+timestampBefore: 2023-11-20T14:24:37.775Z,        numeroOrdre: 130606611121007,         timestampAfter: 2023-11-20T14:26:41.486Z
+
+timestampBefore: 2023-11-20T14:24:39.178Z,        numeroOrdre: 130101611121052,         timestampAfter: 2023-11-20T14:26:41.487Z
+
+timestampBefore: 2023-11-20T14:24:40.254Z,        numeroOrdre: 130606611121029,         timestampAfter: 2023-11-20T14:26:41.487Z
+
+timestampBefore: 2023-11-20T14:24:41.332Z,        numeroOrdre: 130606611121032,         timestampAfter: 2023-11-20T14:26:41.488Z
+
+timestampBefore: 2023-11-20T14:24:42.406Z,        numeroOrdre: 130101611121036,         timestampAfter: 2023-11-20T14:26:41.488Z
+
+timestampBefore: 2023-11-20T14:24:43.480Z,        numeroOrdre: 130101611121106,         timestampAfter: 2023-11-20T14:26:41.488Z
+
+timestampBefore: 2023-11-20T14:24:44.554Z,        numeroOrdre: 130808611121225,         timestampAfter: 2023-11-20T14:26:41.489Z
+
+timestampBefore: 2023-11-20T14:24:45.631Z,        numeroOrdre: 130606611121262,         timestampAfter: 2023-11-20T14:26:41.489Z
+
+timestampBefore: 2023-11-20T14:24:46.716Z,        numeroOrdre: 130303611121224,         timestampAfter: 2023-11-20T14:26:41.490Z
+
+timestampBefore: 2023-11-20T14:24:48.006Z,        numeroOrdre: 130303611121201,         timestampAfter: 2023-11-20T14:26:41.490Z
+
+timestampBefore: 2023-11-20T14:24:49.538Z,        numeroOrdre: 130808611121258,         timestampAfter: 2023-11-20T14:26:41.491Z
+
+timestampBefore: 2023-11-20T14:24:50.613Z,        numeroOrdre: 130101611121175,         timestampAfter: 2023-11-20T14:26:41.491Z
+
+timestampBefore: 2023-11-20T14:24:51.840Z,        numeroOrdre: 130808611121276,         timestampAfter: 2023-11-20T14:26:41.492Z
+
+timestampBefore: 2023-11-20T14:24:53.384Z,        numeroOrdre: 130303611121208,         timestampAfter: 2023-11-20T14:26:41.492Z
+
+timestampBefore: 2023-11-20T14:24:54.460Z,        numeroOrdre: 130606611121303,         timestampAfter: 2023-11-20T14:26:41.493Z
+
+timestampBefore: 2023-11-20T14:24:55.945Z,        numeroOrdre: 130303611121272,         timestampAfter: 2023-11-20T14:26:41.493Z
+
+timestampBefore: 2023-11-20T14:24:57.512Z,        numeroOrdre: 130404611121206,         timestampAfter: 2023-11-20T14:26:41.494Z
+
+timestampBefore: 2023-11-20T14:24:59.049Z,        numeroOrdre: 130909611121240,         timestampAfter: 2023-11-20T14:26:41.494Z
+
+timestampBefore: 2023-11-20T14:25:00.362Z,        numeroOrdre: 130303611121219,         timestampAfter: 2023-11-20T14:26:41.495Z
+
+timestampBefore: 2023-11-20T14:25:01.949Z,        numeroOrdre: 130202611121042,         timestampAfter: 2023-11-20T14:26:41.495Z
+
+timestampBefore: 2023-11-20T14:25:03.650Z,        numeroOrdre: 130101611121185,         timestampAfter: 2023-11-20T14:26:41.496Z
+
+timestampBefore: 2023-11-20T14:25:05.339Z,        numeroOrdre: 130101611121068,         timestampAfter: 2023-11-20T14:26:41.496Z
+
+timestampBefore: 2023-11-20T14:25:07.018Z,        numeroOrdre: 130606611121164,         timestampAfter: 2023-11-20T14:26:41.497Z
+
+timestampBefore: 2023-11-20T14:25:08.704Z,        numeroOrdre: 130303611121212,         timestampAfter: 2023-11-20T14:26:41.497Z
+
+timestampBefore: 2023-11-20T14:25:10.400Z,        numeroOrdre: 130606611121170,         timestampAfter: 2023-11-20T14:26:41.498Z
+
+timestampBefore: 2023-11-20T14:25:11.995Z,        numeroOrdre: 060101611121169,         timestampAfter: 2023-11-20T14:26:41.498Z
+
+timestampBefore: 2023-11-20T14:25:13.549Z,        numeroOrdre: 130202611121053,         timestampAfter: 2023-11-20T14:26:41.499Z
+
+timestampBefore: 2023-11-20T14:25:14.622Z,        numeroOrdre: 130101611121145,         timestampAfter: 2023-11-20T14:26:41.499Z
+
+timestampBefore: 2023-11-20T14:25:15.697Z,        numeroOrdre: 130808611121289,         timestampAfter: 2023-11-20T14:26:41.500Z
+
+timestampBefore: 2023-11-20T14:25:16.768Z,        numeroOrdre: 080101611121162,         timestampAfter: 2023-11-20T14:26:41.500Z
+
+timestampBefore: 2023-11-20T14:25:17.904Z,        numeroOrdre: 130808611121283,         timestampAfter: 2023-11-20T14:26:41.501Z
+
+timestampBefore: 2023-11-20T14:25:19.626Z,        numeroOrdre: 130303611121316,         timestampAfter: 2023-11-20T14:26:41.501Z
+
+timestampBefore: 2023-11-20T14:25:21.162Z,        numeroOrdre: 130101611121411,         timestampAfter: 2023-11-20T14:26:41.502Z
+
+timestampBefore: 2023-11-20T14:25:22.889Z,        numeroOrdre: 130101611121370,         timestampAfter: 2023-11-20T14:26:41.502Z
+
+timestampBefore: 2023-11-20T14:25:24.430Z,        numeroOrdre: 130707611121432,         timestampAfter: 2023-11-20T14:26:41.503Z
+
+timestampBefore: 2023-11-20T14:25:25.851Z,        numeroOrdre: 130202611121465,         timestampAfter: 2023-11-20T14:26:41.503Z
+
+timestampBefore: 2023-11-20T14:25:27.395Z,        numeroOrdre: 130101611121319,         timestampAfter: 2023-11-20T14:26:41.504Z
+
+timestampBefore: 2023-11-20T14:25:29.018Z,        numeroOrdre: 060101611121510,         timestampAfter: 2023-11-20T14:26:41.504Z
+
+timestampBefore: 2023-11-20T14:25:31.078Z,        numeroOrdre: 130505611121469,         timestampAfter: 2023-11-20T14:26:41.504Z
+
+timestampBefore: 2023-11-20T14:25:32.818Z,        numeroOrdre: 130505611121471,         timestampAfter: 2023-11-20T14:26:41.505Z
+
+timestampBefore: 2023-11-20T14:25:34.364Z,        numeroOrdre: 130101611121523,         timestampAfter: 2023-11-20T14:26:41.505Z
+
+timestampBefore: 2023-11-20T14:25:35.437Z,        numeroOrdre: 130808611121545,         timestampAfter: 2023-11-20T14:26:41.506Z
+
+timestampBefore: 2023-11-20T14:25:36.514Z,        numeroOrdre: 130505611121517,         timestampAfter: 2023-11-20T14:26:41.506Z
+
+timestampBefore: 2023-11-20T14:25:37.807Z,        numeroOrdre: 060101611121485,         timestampAfter: 2023-11-20T14:26:41.507Z
+
+timestampBefore: 2023-11-20T14:25:39.582Z,        numeroOrdre: 130505611121476,         timestampAfter: 2023-11-20T14:26:41.507Z
+
+timestampBefore: 2023-11-20T14:25:41.173Z,        numeroOrdre: 130202611121537,         timestampAfter: 2023-11-20T14:26:41.508Z
+
+timestampBefore: 2023-11-20T14:25:42.898Z,        numeroOrdre: 080110611121508,         timestampAfter: 2023-11-20T14:26:41.508Z
+
+timestampBefore: 2023-11-20T14:25:44.584Z,        numeroOrdre: 080101611121463,         timestampAfter: 2023-11-20T14:26:41.509Z
+
+timestampBefore: 2023-11-20T14:25:46.106Z,        numeroOrdre: 130101611121501,         timestampAfter: 2023-11-20T14:26:41.509Z
+
+timestampBefore: 2023-11-20T14:25:47.182Z,        numeroOrdre: 130202611121552,         timestampAfter: 2023-11-20T14:26:41.510Z
+
+timestampBefore: 2023-11-20T14:25:48.627Z,        numeroOrdre: 130808611121547,         timestampAfter: 2023-11-20T14:26:41.510Z
+
+timestampBefore: 2023-11-20T14:25:50.208Z,        numeroOrdre: 130808611121589,         timestampAfter: 2023-11-20T14:26:41.511Z
+
+timestampBefore: 2023-11-20T14:25:51.786Z,        numeroOrdre: 110101611121558,         timestampAfter: 2023-11-20T14:26:41.511Z
+
+timestampBefore: 2023-11-20T14:25:53.357Z,        numeroOrdre: 130808611121559,         timestampAfter: 2023-11-20T14:26:41.512Z
+
+timestampBefore: 2023-11-20T14:25:55.059Z,        numeroOrdre: 130404611121429,         timestampAfter: 2023-11-20T14:26:41.512Z
+
+timestampBefore: 2023-11-20T14:25:56.714Z,        numeroOrdre: 130808611121549,         timestampAfter: 2023-11-20T14:26:41.513Z
+
+timestampBefore: 2023-11-20T14:25:58.245Z,        numeroOrdre: 130808611121324,         timestampAfter: 2023-11-20T14:26:41.513Z
+
+timestampBefore: 2023-11-20T14:25:59.799Z,        numeroOrdre: 130808611121401,         timestampAfter: 2023-11-20T14:26:41.513Z
+
+timestampBefore: 2023-11-20T14:26:01.505Z,        numeroOrdre: 130808611121615,         timestampAfter: 2023-11-20T14:26:41.514Z
+
+timestampBefore: 2023-11-20T14:26:03.044Z,        numeroOrdre: 130101611121379,         timestampAfter: 2023-11-20T14:26:41.514Z
+
+timestampBefore: 2023-11-20T14:26:04.115Z,        numeroOrdre: 080101611121345,         timestampAfter: 2023-11-20T14:26:41.515Z
+
+timestampBefore: 2023-11-20T14:26:05.189Z,        numeroOrdre: 130808611121440,         timestampAfter: 2023-11-20T14:26:41.515Z
+
+timestampBefore: 2023-11-20T14:26:06.264Z,        numeroOrdre: 130808611121416,         timestampAfter: 2023-11-20T14:26:41.516Z
+
+timestampBefore: 2023-11-20T14:26:07.339Z,        numeroOrdre: 130808611121437,         timestampAfter: 2023-11-20T14:26:41.516Z
+
+timestampBefore: 2023-11-20T14:26:08.416Z,        numeroOrdre: 130606611121410,         timestampAfter: 2023-11-20T14:26:41.517Z
+
+timestampBefore: 2023-11-20T14:26:09.492Z,        numeroOrdre: 130303611121433,         timestampAfter: 2023-11-20T14:26:41.517Z
+
+timestampBefore: 2023-11-20T14:26:10.567Z,        numeroOrdre: 130202611121458,         timestampAfter: 2023-11-20T14:26:41.518Z
+
+timestampBefore: 2023-11-20T14:26:11.897Z,        numeroOrdre: 130808611121560,         timestampAfter: 2023-11-20T14:26:41.518Z
+
+timestampBefore: 2023-11-20T14:26:13.728Z,        numeroOrdre: 080110611121611,         timestampAfter: 2023-11-20T14:26:41.519Z
+
+timestampBefore: 2023-11-20T14:26:15.301Z,        numeroOrdre: 130808611121563,         timestampAfter: 2023-11-20T14:26:41.519Z
+
+timestampBefore: 2023-11-20T14:26:16.373Z,        numeroOrdre: 130909611121569,         timestampAfter: 2023-11-20T14:26:41.520Z
+
+timestampBefore: 2023-11-20T14:26:17.614Z,        numeroOrdre: 130505611121635,         timestampAfter: 2023-11-20T14:26:41.520Z
+
+timestampBefore: 2023-11-20T14:26:19.312Z,        numeroOrdre: 130808611121672,         timestampAfter: 2023-11-20T14:26:41.521Z
+
+timestampBefore: 2023-11-20T14:26:20.861Z,        numeroOrdre: 130909611121621,         timestampAfter: 2023-11-20T14:26:41.521Z
+
+timestampBefore: 2023-11-20T14:26:21.937Z,        numeroOrdre: 130202611121658,         timestampAfter: 2023-11-20T14:26:41.522Z
+
+timestampBefore: 2023-11-20T14:26:23.015Z,        numeroOrdre: 130404611121623,         timestampAfter: 2023-11-20T14:26:41.522Z
+
+timestampBefore: 2023-11-20T14:26:24.090Z,        numeroOrdre: 130808611121678,         timestampAfter: 2023-11-20T14:26:41.523Z
+
+timestampBefore: 2023-11-20T14:26:25.583Z,        numeroOrdre: 130202611121674,         timestampAfter: 2023-11-20T14:26:41.523Z
+
+timestampBefore: 2023-11-20T14:26:27.128Z,        numeroOrdre: 130909611121629,         timestampAfter: 2023-11-20T14:26:41.524Z
+
+timestampBefore: 2023-11-20T14:26:28.202Z,        numeroOrdre: 130808611121767,         timestampAfter: 2023-11-20T14:26:41.524Z
+

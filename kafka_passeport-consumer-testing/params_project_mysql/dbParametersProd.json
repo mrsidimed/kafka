@@ -1,0 +1,8 @@
+{
+    "host": "10.10.100.230",
+    "user": "kafka",
+    "password": "kafka",
+    "database": "quittances"
+}
+
+

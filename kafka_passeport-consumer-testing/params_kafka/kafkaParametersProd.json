@@ -1,0 +1,14 @@
+
+
+
+{
+    "clientId": "kafka_passeport_cid",  
+    "brokers": ["192.168.7.201:30001"],
+    "topicProducer": "or-document",
+    "topicConsumer": "pay-or-doc",
+    "consumerGroupId": "kafka_passeport_gid",
+    "intervalDuration": 20000,
+    "numberOfOrders": 10
+}
+
+

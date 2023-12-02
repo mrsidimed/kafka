@@ -1,0 +1,11 @@
+
+
+
+
+{
+    "clientId": "kafka_carte_grise_cid" ,   
+    "brokers": ["192.168.7.200:30002"] ,
+    "topicProducer":  "or-carte-grise" ,
+    "topicConsumer":   "pay-or-cg" ,
+    "consumerGroupId": "kafka_carte_grise_gid" 
+}

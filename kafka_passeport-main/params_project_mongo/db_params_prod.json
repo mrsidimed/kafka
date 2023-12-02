@@ -1,0 +1,8 @@
+{
+    "database": {
+      "user": "root",
+      "password": "password",
+      "name": "anrpts",
+      "host": "localhost:27017"
+    }
+}

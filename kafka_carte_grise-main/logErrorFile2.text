@@ -1,0 +1,925 @@
+  charge_utile: 505,
+  montant: '1500.00',
+  cac_ar: 'إ ن ب',
+  cac_fr: 'DTT',
+  date_generation: 2022-10-03T14:47:58.921Z }
+waiting for new orders
+waiting for new orders
+waiting for new orders
+waiting for new orders
+
+
+sent data = 
+{ numero: '98928',
+  vin: '2T1BURHE8HC818224',
+  marque: 'Toyota',
+  type: 'Corolla',
+  genre: 'VP',
+  puissance_fiscal: 7,
+  matricule: '9463 AY 00',
+  date_mutation: 2022-10-02T22:00:00.000Z,
+  nombre_places: 4,
+  proprietaire: 'B C I',
+  type_demande: 'MUTATION',
+  charge_utile: 505,
+  montant: '1500.00',
+  cac_ar: 'إ ن ب',
+  cac_fr: 'DTT',
+  date_generation: 2022-10-03T14:48:48.953Z }
+waiting for new orders
+waiting for new orders
+waiting for new orders
+waiting for new orders
+waiting for new orders
+waiting for new orders
+waiting for new orders
+waiting for new orders
+waiting for new orders
+waiting for new orders
+waiting for new orders
+waiting for new orders
+waiting for new orders
+waiting for new orders
+waiting for new orders
+waiting for new orders
+waiting for new orders
+waiting for new orders
+waiting for new orders
+waiting for new orders
+waiting for new orders
+waiting for new orders
+waiting for new orders
+waiting for new orders
+waiting for new orders
+waiting for new orders
+waiting for new orders
+waiting for new orders
+waiting for new orders
+waiting for new orders
+waiting for new orders
+waiting for new orders
+waiting for new orders
+waiting for new orders
+waiting for new orders
+waiting for new orders
+waiting for new orders
+waiting for new orders
+waiting for new orders
+waiting for new orders
+waiting for new orders
+waiting for new orders
+waiting for new orders
+/root/workspace/kafka_carte_grise/simpleProducerCG.js:581
+                                                                row['montant'] = row_type_genre['mutation_dans_delai'];
+                                                                                 ^
+
+ReferenceError: row_type_genre is not defined
+    at Query.con.query (/root/workspace/kafka_carte_grise/simpleProducerCG.js:581:82)
+    at Query.handleReadyForQuery (/root/workspace/kafka_carte_grise/node_modules/pg/lib/query.js:138:12)
+    at Client._handleReadyForQuery (/root/workspace/kafka_carte_grise/node_modules/pg/lib/client.js:290:19)
+    at Connection.emit (events.js:198:13)
+    at parse (/root/workspace/kafka_carte_grise/node_modules/pg/lib/connection.js:114:12)
+    at Parser.parse (/root/workspace/kafka_carte_grise/node_modules/pg-protocol/dist/parser.js:40:17)
+    at Socket.stream.on (/root/workspace/kafka_carte_grise/node_modules/pg-protocol/dist/index.js:11:42)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    at readableAddChunk (_stream_readable.js:269:11)
+{"level":"error","message":"Forever detected script exited with code: 1"}
+{"level":"error","message":"Script restart attempt #7"}
+Connecting.....
+Connected!
+{"level":"INFO","timestamp":"2022-10-03T14:56:09.327Z","logger":"kafkajs","message":"[Consumer] Starting","groupId":"kafka_carte_grise_gid"}
+/root/workspace/kafka_carte_grise/simpleProducerCG.js:581
+                                                                row['montant'] = row_type_genre['mutation_dans_delai'];
+                                                                                 ^
+
+ReferenceError: row_type_genre is not defined
+    at Query.con.query (/root/workspace/kafka_carte_grise/simpleProducerCG.js:581:82)
+    at Query.handleReadyForQuery (/root/workspace/kafka_carte_grise/node_modules/pg/lib/query.js:138:12)
+    at Client._handleReadyForQuery (/root/workspace/kafka_carte_grise/node_modules/pg/lib/client.js:290:19)
+    at Connection.emit (events.js:198:13)
+    at parse (/root/workspace/kafka_carte_grise/node_modules/pg/lib/connection.js:114:12)
+    at Parser.parse (/root/workspace/kafka_carte_grise/node_modules/pg-protocol/dist/parser.js:40:17)
+    at Socket.stream.on (/root/workspace/kafka_carte_grise/node_modules/pg-protocol/dist/index.js:11:42)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    at readableAddChunk (_stream_readable.js:269:11)
+{"level":"error","message":"Forever detected script exited with code: 1"}
+{"level":"error","message":"Script restart attempt #8"}
+Connecting.....
+Connected!
+{"level":"INFO","timestamp":"2022-10-03T14:56:19.646Z","logger":"kafkajs","message":"[Consumer] Starting","groupId":"kafka_carte_grise_gid"}
+/root/workspace/kafka_carte_grise/simpleProducerCG.js:581
+                                                                row['montant'] = row_type_genre['mutation_dans_delai'];
+                                                                                 ^
+
+ReferenceError: row_type_genre is not defined
+    at Query.con.query (/root/workspace/kafka_carte_grise/simpleProducerCG.js:581:82)
+    at Query.handleReadyForQuery (/root/workspace/kafka_carte_grise/node_modules/pg/lib/query.js:138:12)
+    at Client._handleReadyForQuery (/root/workspace/kafka_carte_grise/node_modules/pg/lib/client.js:290:19)
+    at Connection.emit (events.js:198:13)
+    at parse (/root/workspace/kafka_carte_grise/node_modules/pg/lib/connection.js:114:12)
+    at Parser.parse (/root/workspace/kafka_carte_grise/node_modules/pg-protocol/dist/parser.js:40:17)
+    at Socket.stream.on (/root/workspace/kafka_carte_grise/node_modules/pg-protocol/dist/index.js:11:42)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    at readableAddChunk (_stream_readable.js:269:11)
+{"level":"error","message":"Forever detected script exited with code: 1"}
+{"level":"error","message":"Script restart attempt #9"}
+Connecting.....
+Connected!
+{"level":"INFO","timestamp":"2022-10-03T14:56:29.972Z","logger":"kafkajs","message":"[Consumer] Starting","groupId":"kafka_carte_grise_gid"}
+{"level":"INFO","timestamp":"2022-10-03T14:56:35.876Z","logger":"kafkajs","message":"[ConsumerGroup] Consumer has joined the group","groupId":"kafka_carte_grise_gid","memberId":"kafka_carte_grise_cid-558fbaf1-4f73-405b-a067-07aa761caebf","leaderId":"kafka_carte_grise_cid-558fbaf1-4f73-405b-a067-07aa761caebf","isLeader":true,"memberAssignment":{"pay-or-cg":[0]},"groupProtocol":"RoundRobinAssigner","duration":5903}
+/root/workspace/kafka_carte_grise/simpleProducerCG.js:581
+                                                                row['montant'] = row_type_genre['mutation_dans_delai'];
+                                                                                 ^
+
+ReferenceError: row_type_genre is not defined
+    at Query.con.query (/root/workspace/kafka_carte_grise/simpleProducerCG.js:581:82)
+    at Query.handleReadyForQuery (/root/workspace/kafka_carte_grise/node_modules/pg/lib/query.js:138:12)
+    at Client._handleReadyForQuery (/root/workspace/kafka_carte_grise/node_modules/pg/lib/client.js:290:19)
+    at Connection.emit (events.js:198:13)
+    at parse (/root/workspace/kafka_carte_grise/node_modules/pg/lib/connection.js:114:12)
+    at Parser.parse (/root/workspace/kafka_carte_grise/node_modules/pg-protocol/dist/parser.js:40:17)
+    at Socket.stream.on (/root/workspace/kafka_carte_grise/node_modules/pg-protocol/dist/index.js:11:42)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    at readableAddChunk (_stream_readable.js:269:11)
+{"level":"error","message":"Forever detected script exited with code: 1"}
+{"level":"error","message":"Script restart attempt #10"}
+Connecting.....
+Connected!
+{"level":"INFO","timestamp":"2022-10-03T14:56:40.266Z","logger":"kafkajs","message":"[Consumer] Starting","groupId":"kafka_carte_grise_gid"}
+/root/workspace/kafka_carte_grise/simpleProducerCG.js:581
+                                                                row['montant'] = row_type_genre['mutation_dans_delai'];
+                                                                                 ^
+
+ReferenceError: row_type_genre is not defined
+    at Query.con.query (/root/workspace/kafka_carte_grise/simpleProducerCG.js:581:82)
+    at Query.handleReadyForQuery (/root/workspace/kafka_carte_grise/node_modules/pg/lib/query.js:138:12)
+    at Client._handleReadyForQuery (/root/workspace/kafka_carte_grise/node_modules/pg/lib/client.js:290:19)
+    at Connection.emit (events.js:198:13)
+    at parse (/root/workspace/kafka_carte_grise/node_modules/pg/lib/connection.js:114:12)
+    at Parser.parse (/root/workspace/kafka_carte_grise/node_modules/pg-protocol/dist/parser.js:40:17)
+    at Socket.stream.on (/root/workspace/kafka_carte_grise/node_modules/pg-protocol/dist/index.js:11:42)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    at readableAddChunk (_stream_readable.js:269:11)
+{"level":"error","message":"Forever detected script exited with code: 1"}
+{"level":"error","message":"Script restart attempt #11"}
+Connecting.....
+Connected!
+{"level":"INFO","timestamp":"2022-10-03T14:56:50.585Z","logger":"kafkajs","message":"[Consumer] Starting","groupId":"kafka_carte_grise_gid"}
+/root/workspace/kafka_carte_grise/simpleProducerCG.js:581
+                                                                row['montant'] = row_type_genre['mutation_dans_delai'];
+                                                                                 ^
+
+ReferenceError: row_type_genre is not defined
+    at Query.con.query (/root/workspace/kafka_carte_grise/simpleProducerCG.js:581:82)
+    at Query.handleReadyForQuery (/root/workspace/kafka_carte_grise/node_modules/pg/lib/query.js:138:12)
+    at Client._handleReadyForQuery (/root/workspace/kafka_carte_grise/node_modules/pg/lib/client.js:290:19)
+    at Connection.emit (events.js:198:13)
+    at parse (/root/workspace/kafka_carte_grise/node_modules/pg/lib/connection.js:114:12)
+    at Parser.parse (/root/workspace/kafka_carte_grise/node_modules/pg-protocol/dist/parser.js:40:17)
+    at Socket.stream.on (/root/workspace/kafka_carte_grise/node_modules/pg-protocol/dist/index.js:11:42)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    at readableAddChunk (_stream_readable.js:269:11)
+{"level":"error","message":"Forever detected script exited with code: 1"}
+{"level":"error","message":"Script restart attempt #12"}
+Connecting.....
+Connected!
+{"level":"INFO","timestamp":"2022-10-03T14:57:00.846Z","logger":"kafkajs","message":"[Consumer] Starting","groupId":"kafka_carte_grise_gid"}
+/root/workspace/kafka_carte_grise/simpleProducerCG.js:581
+                                                                row['montant'] = row_type_genre['mutation_dans_delai'];
+                                                                                 ^
+
+ReferenceError: row_type_genre is not defined
+    at Query.con.query (/root/workspace/kafka_carte_grise/simpleProducerCG.js:581:82)
+    at Query.handleReadyForQuery (/root/workspace/kafka_carte_grise/node_modules/pg/lib/query.js:138:12)
+    at Client._handleReadyForQuery (/root/workspace/kafka_carte_grise/node_modules/pg/lib/client.js:290:19)
+    at Connection.emit (events.js:198:13)
+    at parse (/root/workspace/kafka_carte_grise/node_modules/pg/lib/connection.js:114:12)
+    at Parser.parse (/root/workspace/kafka_carte_grise/node_modules/pg-protocol/dist/parser.js:40:17)
+    at Socket.stream.on (/root/workspace/kafka_carte_grise/node_modules/pg-protocol/dist/index.js:11:42)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    at readableAddChunk (_stream_readable.js:269:11)
+{"level":"error","message":"Forever detected script exited with code: 1"}
+{"level":"error","message":"Script restart attempt #13"}
+Connecting.....
+Connected!
+{"level":"INFO","timestamp":"2022-10-03T14:57:11.120Z","logger":"kafkajs","message":"[Consumer] Starting","groupId":"kafka_carte_grise_gid"}
+/root/workspace/kafka_carte_grise/simpleProducerCG.js:581
+                                                                row['montant'] = row_type_genre['mutation_dans_delai'];
+                                                                                 ^
+
+ReferenceError: row_type_genre is not defined
+    at Query.con.query (/root/workspace/kafka_carte_grise/simpleProducerCG.js:581:82)
+    at Query.handleReadyForQuery (/root/workspace/kafka_carte_grise/node_modules/pg/lib/query.js:138:12)
+    at Client._handleReadyForQuery (/root/workspace/kafka_carte_grise/node_modules/pg/lib/client.js:290:19)
+    at Connection.emit (events.js:198:13)
+    at parse (/root/workspace/kafka_carte_grise/node_modules/pg/lib/connection.js:114:12)
+    at Parser.parse (/root/workspace/kafka_carte_grise/node_modules/pg-protocol/dist/parser.js:40:17)
+    at Socket.stream.on (/root/workspace/kafka_carte_grise/node_modules/pg-protocol/dist/index.js:11:42)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    at readableAddChunk (_stream_readable.js:269:11)
+{"level":"error","message":"Forever detected script exited with code: 1"}
+{"level":"error","message":"Script restart attempt #14"}
+Connecting.....
+Connected!
+{"level":"INFO","timestamp":"2022-10-03T14:57:21.411Z","logger":"kafkajs","message":"[Consumer] Starting","groupId":"kafka_carte_grise_gid"}
+/root/workspace/kafka_carte_grise/simpleProducerCG.js:581
+                                                                row['montant'] = row_type_genre['mutation_dans_delai'];
+                                                                                 ^
+
+ReferenceError: row_type_genre is not defined
+    at Query.con.query (/root/workspace/kafka_carte_grise/simpleProducerCG.js:581:82)
+    at Query.handleReadyForQuery (/root/workspace/kafka_carte_grise/node_modules/pg/lib/query.js:138:12)
+    at Client._handleReadyForQuery (/root/workspace/kafka_carte_grise/node_modules/pg/lib/client.js:290:19)
+    at Connection.emit (events.js:198:13)
+    at parse (/root/workspace/kafka_carte_grise/node_modules/pg/lib/connection.js:114:12)
+    at Parser.parse (/root/workspace/kafka_carte_grise/node_modules/pg-protocol/dist/parser.js:40:17)
+    at Socket.stream.on (/root/workspace/kafka_carte_grise/node_modules/pg-protocol/dist/index.js:11:42)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    at readableAddChunk (_stream_readable.js:269:11)
+{"level":"error","message":"Forever detected script exited with code: 1"}
+{"level":"error","message":"Script restart attempt #15"}
+Connecting.....
+Connected!
+{"level":"INFO","timestamp":"2022-10-03T14:57:31.692Z","logger":"kafkajs","message":"[Consumer] Starting","groupId":"kafka_carte_grise_gid"}
+/root/workspace/kafka_carte_grise/simpleProducerCG.js:581
+                                                                row['montant'] = row_type_genre['mutation_dans_delai'];
+                                                                                 ^
+
+ReferenceError: row_type_genre is not defined
+    at Query.con.query (/root/workspace/kafka_carte_grise/simpleProducerCG.js:581:82)
+    at Query.handleReadyForQuery (/root/workspace/kafka_carte_grise/node_modules/pg/lib/query.js:138:12)
+    at Client._handleReadyForQuery (/root/workspace/kafka_carte_grise/node_modules/pg/lib/client.js:290:19)
+    at Connection.emit (events.js:198:13)
+    at parse (/root/workspace/kafka_carte_grise/node_modules/pg/lib/connection.js:114:12)
+    at Parser.parse (/root/workspace/kafka_carte_grise/node_modules/pg-protocol/dist/parser.js:40:17)
+    at Socket.stream.on (/root/workspace/kafka_carte_grise/node_modules/pg-protocol/dist/index.js:11:42)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    at readableAddChunk (_stream_readable.js:269:11)
+{"level":"error","message":"Forever detected script exited with code: 1"}
+{"level":"error","message":"Script restart attempt #16"}
+Connecting.....
+Connected!
+{"level":"INFO","timestamp":"2022-10-03T14:57:41.991Z","logger":"kafkajs","message":"[Consumer] Starting","groupId":"kafka_carte_grise_gid"}
+/root/workspace/kafka_carte_grise/simpleProducerCG.js:581
+                                                                row['montant'] = row_type_genre['mutation_dans_delai'];
+                                                                                 ^
+
+ReferenceError: row_type_genre is not defined
+    at Query.con.query (/root/workspace/kafka_carte_grise/simpleProducerCG.js:581:82)
+    at Query.handleReadyForQuery (/root/workspace/kafka_carte_grise/node_modules/pg/lib/query.js:138:12)
+    at Client._handleReadyForQuery (/root/workspace/kafka_carte_grise/node_modules/pg/lib/client.js:290:19)
+    at Connection.emit (events.js:198:13)
+    at parse (/root/workspace/kafka_carte_grise/node_modules/pg/lib/connection.js:114:12)
+    at Parser.parse (/root/workspace/kafka_carte_grise/node_modules/pg-protocol/dist/parser.js:40:17)
+    at Socket.stream.on (/root/workspace/kafka_carte_grise/node_modules/pg-protocol/dist/index.js:11:42)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    at readableAddChunk (_stream_readable.js:269:11)
+{"level":"error","message":"Forever detected script exited with code: 1"}
+{"level":"error","message":"Script restart attempt #17"}
+Connecting.....
+Connected!
+{"level":"INFO","timestamp":"2022-10-03T14:57:52.285Z","logger":"kafkajs","message":"[Consumer] Starting","groupId":"kafka_carte_grise_gid"}
+/root/workspace/kafka_carte_grise/simpleProducerCG.js:581
+                                                                row['montant'] = row_type_genre['mutation_dans_delai'];
+                                                                                 ^
+
+ReferenceError: row_type_genre is not defined
+    at Query.con.query (/root/workspace/kafka_carte_grise/simpleProducerCG.js:581:82)
+    at Query.handleReadyForQuery (/root/workspace/kafka_carte_grise/node_modules/pg/lib/query.js:138:12)
+    at Client._handleReadyForQuery (/root/workspace/kafka_carte_grise/node_modules/pg/lib/client.js:290:19)
+    at Connection.emit (events.js:198:13)
+    at parse (/root/workspace/kafka_carte_grise/node_modules/pg/lib/connection.js:114:12)
+    at Parser.parse (/root/workspace/kafka_carte_grise/node_modules/pg-protocol/dist/parser.js:40:17)
+    at Socket.stream.on (/root/workspace/kafka_carte_grise/node_modules/pg-protocol/dist/index.js:11:42)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    at readableAddChunk (_stream_readable.js:269:11)
+{"level":"error","message":"Forever detected script exited with code: 1"}
+{"level":"error","message":"Script restart attempt #18"}
+Connecting.....
+Connected!
+{"level":"INFO","timestamp":"2022-10-03T14:58:02.582Z","logger":"kafkajs","message":"[Consumer] Starting","groupId":"kafka_carte_grise_gid"}
+/root/workspace/kafka_carte_grise/simpleProducerCG.js:581
+                                                                row['montant'] = row_type_genre['mutation_dans_delai'];
+                                                                                 ^
+
+ReferenceError: row_type_genre is not defined
+    at Query.con.query (/root/workspace/kafka_carte_grise/simpleProducerCG.js:581:82)
+    at Query.handleReadyForQuery (/root/workspace/kafka_carte_grise/node_modules/pg/lib/query.js:138:12)
+    at Client._handleReadyForQuery (/root/workspace/kafka_carte_grise/node_modules/pg/lib/client.js:290:19)
+    at Connection.emit (events.js:198:13)
+    at parse (/root/workspace/kafka_carte_grise/node_modules/pg/lib/connection.js:114:12)
+    at Parser.parse (/root/workspace/kafka_carte_grise/node_modules/pg-protocol/dist/parser.js:40:17)
+    at Socket.stream.on (/root/workspace/kafka_carte_grise/node_modules/pg-protocol/dist/index.js:11:42)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    at readableAddChunk (_stream_readable.js:269:11)
+{"level":"error","message":"Forever detected script exited with code: 1"}
+{"level":"error","message":"Script restart attempt #19"}
+Connecting.....
+Connected!
+{"level":"INFO","timestamp":"2022-10-03T14:58:12.880Z","logger":"kafkajs","message":"[Consumer] Starting","groupId":"kafka_carte_grise_gid"}
+/root/workspace/kafka_carte_grise/simpleProducerCG.js:581
+                                                                row['montant'] = row_type_genre['mutation_dans_delai'];
+                                                                                 ^
+
+ReferenceError: row_type_genre is not defined
+    at Query.con.query (/root/workspace/kafka_carte_grise/simpleProducerCG.js:581:82)
+    at Query.handleReadyForQuery (/root/workspace/kafka_carte_grise/node_modules/pg/lib/query.js:138:12)
+    at Client._handleReadyForQuery (/root/workspace/kafka_carte_grise/node_modules/pg/lib/client.js:290:19)
+    at Connection.emit (events.js:198:13)
+    at parse (/root/workspace/kafka_carte_grise/node_modules/pg/lib/connection.js:114:12)
+    at Parser.parse (/root/workspace/kafka_carte_grise/node_modules/pg-protocol/dist/parser.js:40:17)
+    at Socket.stream.on (/root/workspace/kafka_carte_grise/node_modules/pg-protocol/dist/index.js:11:42)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    at readableAddChunk (_stream_readable.js:269:11)
+{"level":"error","message":"Forever detected script exited with code: 1"}
+{"level":"error","message":"Script restart attempt #20"}
+Connecting.....
+Connected!
+{"level":"INFO","timestamp":"2022-10-03T14:58:23.148Z","logger":"kafkajs","message":"[Consumer] Starting","groupId":"kafka_carte_grise_gid"}
+/root/workspace/kafka_carte_grise/simpleProducerCG.js:581
+                                                                row['montant'] = row_type_genre['mutation_dans_delai'];
+                                                                                 ^
+
+ReferenceError: row_type_genre is not defined
+    at Query.con.query (/root/workspace/kafka_carte_grise/simpleProducerCG.js:581:82)
+    at Query.handleReadyForQuery (/root/workspace/kafka_carte_grise/node_modules/pg/lib/query.js:138:12)
+    at Client._handleReadyForQuery (/root/workspace/kafka_carte_grise/node_modules/pg/lib/client.js:290:19)
+    at Connection.emit (events.js:198:13)
+    at parse (/root/workspace/kafka_carte_grise/node_modules/pg/lib/connection.js:114:12)
+    at Parser.parse (/root/workspace/kafka_carte_grise/node_modules/pg-protocol/dist/parser.js:40:17)
+    at Socket.stream.on (/root/workspace/kafka_carte_grise/node_modules/pg-protocol/dist/index.js:11:42)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    at readableAddChunk (_stream_readable.js:269:11)
+{"level":"error","message":"Forever detected script exited with code: 1"}
+{"level":"error","message":"Script restart attempt #21"}
+Connecting.....
+Connected!
+{"level":"INFO","timestamp":"2022-10-03T14:58:33.445Z","logger":"kafkajs","message":"[Consumer] Starting","groupId":"kafka_carte_grise_gid"}
+/root/workspace/kafka_carte_grise/simpleProducerCG.js:581
+                                                                row['montant'] = row_type_genre['mutation_dans_delai'];
+                                                                                 ^
+
+ReferenceError: row_type_genre is not defined
+    at Query.con.query (/root/workspace/kafka_carte_grise/simpleProducerCG.js:581:82)
+    at Query.handleReadyForQuery (/root/workspace/kafka_carte_grise/node_modules/pg/lib/query.js:138:12)
+    at Client._handleReadyForQuery (/root/workspace/kafka_carte_grise/node_modules/pg/lib/client.js:290:19)
+    at Connection.emit (events.js:198:13)
+    at parse (/root/workspace/kafka_carte_grise/node_modules/pg/lib/connection.js:114:12)
+    at Parser.parse (/root/workspace/kafka_carte_grise/node_modules/pg-protocol/dist/parser.js:40:17)
+    at Socket.stream.on (/root/workspace/kafka_carte_grise/node_modules/pg-protocol/dist/index.js:11:42)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    at readableAddChunk (_stream_readable.js:269:11)
+{"level":"error","message":"Forever detected script exited with code: 1"}
+{"level":"error","message":"Script restart attempt #22"}
+Connecting.....
+Connected!
+{"level":"INFO","timestamp":"2022-10-03T14:58:43.735Z","logger":"kafkajs","message":"[Consumer] Starting","groupId":"kafka_carte_grise_gid"}
+/root/workspace/kafka_carte_grise/simpleProducerCG.js:581
+                                                                row['montant'] = row_type_genre['mutation_dans_delai'];
+                                                                                 ^
+
+ReferenceError: row_type_genre is not defined
+    at Query.con.query (/root/workspace/kafka_carte_grise/simpleProducerCG.js:581:82)
+    at Query.handleReadyForQuery (/root/workspace/kafka_carte_grise/node_modules/pg/lib/query.js:138:12)
+    at Client._handleReadyForQuery (/root/workspace/kafka_carte_grise/node_modules/pg/lib/client.js:290:19)
+    at Connection.emit (events.js:198:13)
+    at parse (/root/workspace/kafka_carte_grise/node_modules/pg/lib/connection.js:114:12)
+    at Parser.parse (/root/workspace/kafka_carte_grise/node_modules/pg-protocol/dist/parser.js:40:17)
+    at Socket.stream.on (/root/workspace/kafka_carte_grise/node_modules/pg-protocol/dist/index.js:11:42)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    at readableAddChunk (_stream_readable.js:269:11)
+{"level":"error","message":"Forever detected script exited with code: 1"}
+{"level":"error","message":"Script restart attempt #23"}
+Connecting.....
+Connected!
+{"level":"INFO","timestamp":"2022-10-03T14:58:53.995Z","logger":"kafkajs","message":"[Consumer] Starting","groupId":"kafka_carte_grise_gid"}
+/root/workspace/kafka_carte_grise/simpleProducerCG.js:581
+                                                                row['montant'] = row_type_genre['mutation_dans_delai'];
+                                                                                 ^
+
+ReferenceError: row_type_genre is not defined
+    at Query.con.query (/root/workspace/kafka_carte_grise/simpleProducerCG.js:581:82)
+    at Query.handleReadyForQuery (/root/workspace/kafka_carte_grise/node_modules/pg/lib/query.js:138:12)
+    at Client._handleReadyForQuery (/root/workspace/kafka_carte_grise/node_modules/pg/lib/client.js:290:19)
+    at Connection.emit (events.js:198:13)
+    at parse (/root/workspace/kafka_carte_grise/node_modules/pg/lib/connection.js:114:12)
+    at Parser.parse (/root/workspace/kafka_carte_grise/node_modules/pg-protocol/dist/parser.js:40:17)
+    at Socket.stream.on (/root/workspace/kafka_carte_grise/node_modules/pg-protocol/dist/index.js:11:42)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    at readableAddChunk (_stream_readable.js:269:11)
+{"level":"error","message":"Forever detected script exited with code: 1"}
+{"level":"error","message":"Script restart attempt #24"}
+Connecting.....
+Connected!
+{"level":"INFO","timestamp":"2022-10-03T14:59:04.313Z","logger":"kafkajs","message":"[Consumer] Starting","groupId":"kafka_carte_grise_gid"}
+/root/workspace/kafka_carte_grise/simpleProducerCG.js:581
+                                                                row['montant'] = row_type_genre['mutation_dans_delai'];
+                                                                                 ^
+
+ReferenceError: row_type_genre is not defined
+    at Query.con.query (/root/workspace/kafka_carte_grise/simpleProducerCG.js:581:82)
+    at Query.handleReadyForQuery (/root/workspace/kafka_carte_grise/node_modules/pg/lib/query.js:138:12)
+    at Client._handleReadyForQuery (/root/workspace/kafka_carte_grise/node_modules/pg/lib/client.js:290:19)
+    at Connection.emit (events.js:198:13)
+    at parse (/root/workspace/kafka_carte_grise/node_modules/pg/lib/connection.js:114:12)
+    at Parser.parse (/root/workspace/kafka_carte_grise/node_modules/pg-protocol/dist/parser.js:40:17)
+    at Socket.stream.on (/root/workspace/kafka_carte_grise/node_modules/pg-protocol/dist/index.js:11:42)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    at readableAddChunk (_stream_readable.js:269:11)
+{"level":"error","message":"Forever detected script exited with code: 1"}
+{"level":"error","message":"Script restart attempt #25"}
+Connecting.....
+Connected!
+{"level":"INFO","timestamp":"2022-10-03T14:59:14.619Z","logger":"kafkajs","message":"[Consumer] Starting","groupId":"kafka_carte_grise_gid"}
+/root/workspace/kafka_carte_grise/simpleProducerCG.js:581
+                                                                row['montant'] = row_type_genre['mutation_dans_delai'];
+                                                                                 ^
+
+ReferenceError: row_type_genre is not defined
+    at Query.con.query (/root/workspace/kafka_carte_grise/simpleProducerCG.js:581:82)
+    at Query.handleReadyForQuery (/root/workspace/kafka_carte_grise/node_modules/pg/lib/query.js:138:12)
+    at Client._handleReadyForQuery (/root/workspace/kafka_carte_grise/node_modules/pg/lib/client.js:290:19)
+    at Connection.emit (events.js:198:13)
+    at parse (/root/workspace/kafka_carte_grise/node_modules/pg/lib/connection.js:114:12)
+    at Parser.parse (/root/workspace/kafka_carte_grise/node_modules/pg-protocol/dist/parser.js:40:17)
+    at Socket.stream.on (/root/workspace/kafka_carte_grise/node_modules/pg-protocol/dist/index.js:11:42)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    at readableAddChunk (_stream_readable.js:269:11)
+{"level":"error","message":"Forever detected script exited with code: 1"}
+{"level":"error","message":"Script restart attempt #26"}
+Connecting.....
+Connected!
+{"level":"INFO","timestamp":"2022-10-03T14:59:24.884Z","logger":"kafkajs","message":"[Consumer] Starting","groupId":"kafka_carte_grise_gid"}
+/root/workspace/kafka_carte_grise/simpleProducerCG.js:581
+                                                                row['montant'] = row_type_genre['mutation_dans_delai'];
+                                                                                 ^
+
+ReferenceError: row_type_genre is not defined
+    at Query.con.query (/root/workspace/kafka_carte_grise/simpleProducerCG.js:581:82)
+    at Query.handleReadyForQuery (/root/workspace/kafka_carte_grise/node_modules/pg/lib/query.js:138:12)
+    at Client._handleReadyForQuery (/root/workspace/kafka_carte_grise/node_modules/pg/lib/client.js:290:19)
+    at Connection.emit (events.js:198:13)
+    at parse (/root/workspace/kafka_carte_grise/node_modules/pg/lib/connection.js:114:12)
+    at Parser.parse (/root/workspace/kafka_carte_grise/node_modules/pg-protocol/dist/parser.js:40:17)
+    at Socket.stream.on (/root/workspace/kafka_carte_grise/node_modules/pg-protocol/dist/index.js:11:42)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    at readableAddChunk (_stream_readable.js:269:11)
+{"level":"error","message":"Forever detected script exited with code: 1"}
+{"level":"error","message":"Script restart attempt #27"}
+Connecting.....
+Connected!
+{"level":"INFO","timestamp":"2022-10-03T14:59:35.166Z","logger":"kafkajs","message":"[Consumer] Starting","groupId":"kafka_carte_grise_gid"}
+/root/workspace/kafka_carte_grise/simpleProducerCG.js:581
+                                                                row['montant'] = row_type_genre['mutation_dans_delai'];
+                                                                                 ^
+
+ReferenceError: row_type_genre is not defined
+    at Query.con.query (/root/workspace/kafka_carte_grise/simpleProducerCG.js:581:82)
+    at Query.handleReadyForQuery (/root/workspace/kafka_carte_grise/node_modules/pg/lib/query.js:138:12)
+    at Client._handleReadyForQuery (/root/workspace/kafka_carte_grise/node_modules/pg/lib/client.js:290:19)
+    at Connection.emit (events.js:198:13)
+    at parse (/root/workspace/kafka_carte_grise/node_modules/pg/lib/connection.js:114:12)
+    at Parser.parse (/root/workspace/kafka_carte_grise/node_modules/pg-protocol/dist/parser.js:40:17)
+    at Socket.stream.on (/root/workspace/kafka_carte_grise/node_modules/pg-protocol/dist/index.js:11:42)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    at readableAddChunk (_stream_readable.js:269:11)
+{"level":"error","message":"Forever detected script exited with code: 1"}
+{"level":"error","message":"Script restart attempt #28"}
+Connecting.....
+Connected!
+{"level":"INFO","timestamp":"2022-10-03T14:59:45.456Z","logger":"kafkajs","message":"[Consumer] Starting","groupId":"kafka_carte_grise_gid"}
+/root/workspace/kafka_carte_grise/simpleProducerCG.js:581
+                                                                row['montant'] = row_type_genre['mutation_dans_delai'];
+                                                                                 ^
+
+ReferenceError: row_type_genre is not defined
+    at Query.con.query (/root/workspace/kafka_carte_grise/simpleProducerCG.js:581:82)
+    at Query.handleReadyForQuery (/root/workspace/kafka_carte_grise/node_modules/pg/lib/query.js:138:12)
+    at Client._handleReadyForQuery (/root/workspace/kafka_carte_grise/node_modules/pg/lib/client.js:290:19)
+    at Connection.emit (events.js:198:13)
+    at parse (/root/workspace/kafka_carte_grise/node_modules/pg/lib/connection.js:114:12)
+    at Parser.parse (/root/workspace/kafka_carte_grise/node_modules/pg-protocol/dist/parser.js:40:17)
+    at Socket.stream.on (/root/workspace/kafka_carte_grise/node_modules/pg-protocol/dist/index.js:11:42)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    at readableAddChunk (_stream_readable.js:269:11)
+{"level":"error","message":"Forever detected script exited with code: 1"}
+{"level":"error","message":"Script restart attempt #29"}
+Connecting.....
+Connected!
+{"level":"INFO","timestamp":"2022-10-03T14:59:55.747Z","logger":"kafkajs","message":"[Consumer] Starting","groupId":"kafka_carte_grise_gid"}
+/root/workspace/kafka_carte_grise/simpleProducerCG.js:581
+                                                                row['montant'] = row_type_genre['mutation_dans_delai'];
+                                                                                 ^
+
+ReferenceError: row_type_genre is not defined
+    at Query.con.query (/root/workspace/kafka_carte_grise/simpleProducerCG.js:581:82)
+    at Query.handleReadyForQuery (/root/workspace/kafka_carte_grise/node_modules/pg/lib/query.js:138:12)
+    at Client._handleReadyForQuery (/root/workspace/kafka_carte_grise/node_modules/pg/lib/client.js:290:19)
+    at Connection.emit (events.js:198:13)
+    at parse (/root/workspace/kafka_carte_grise/node_modules/pg/lib/connection.js:114:12)
+    at Parser.parse (/root/workspace/kafka_carte_grise/node_modules/pg-protocol/dist/parser.js:40:17)
+    at Socket.stream.on (/root/workspace/kafka_carte_grise/node_modules/pg-protocol/dist/index.js:11:42)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    at readableAddChunk (_stream_readable.js:269:11)
+{"level":"error","message":"Forever detected script exited with code: 1"}
+{"level":"error","message":"Script restart attempt #30"}
+Connecting.....
+Connected!
+{"level":"INFO","timestamp":"2022-10-03T15:00:06.031Z","logger":"kafkajs","message":"[Consumer] Starting","groupId":"kafka_carte_grise_gid"}
+{"level":"INFO","timestamp":"2022-10-03T15:00:15.506Z","logger":"kafkajs","message":"[ConsumerGroup] Consumer has joined the group","groupId":"kafka_carte_grise_gid","memberId":"kafka_carte_grise_cid-8db2207e-b4e9-455c-b09c-d2d634e0a128","leaderId":"kafka_carte_grise_cid-8db2207e-b4e9-455c-b09c-d2d634e0a128","isLeader":true,"memberAssignment":{"pay-or-cg":[0]},"groupProtocol":"RoundRobinAssigner","duration":9473}
+/root/workspace/kafka_carte_grise/simpleProducerCG.js:581
+                                                                row['montant'] = row_type_genre['mutation_dans_delai'];
+                                                                                 ^
+
+ReferenceError: row_type_genre is not defined
+    at Query.con.query (/root/workspace/kafka_carte_grise/simpleProducerCG.js:581:82)
+    at Query.handleReadyForQuery (/root/workspace/kafka_carte_grise/node_modules/pg/lib/query.js:138:12)
+    at Client._handleReadyForQuery (/root/workspace/kafka_carte_grise/node_modules/pg/lib/client.js:290:19)
+    at Connection.emit (events.js:198:13)
+    at parse (/root/workspace/kafka_carte_grise/node_modules/pg/lib/connection.js:114:12)
+    at Parser.parse (/root/workspace/kafka_carte_grise/node_modules/pg-protocol/dist/parser.js:40:17)
+    at Socket.stream.on (/root/workspace/kafka_carte_grise/node_modules/pg-protocol/dist/index.js:11:42)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    at readableAddChunk (_stream_readable.js:269:11)
+{"level":"error","message":"Forever detected script exited with code: 1"}
+{"level":"error","message":"Script restart attempt #31"}
+Connecting.....
+Connected!
+{"level":"INFO","timestamp":"2022-10-03T15:00:16.309Z","logger":"kafkajs","message":"[Consumer] Starting","groupId":"kafka_carte_grise_gid"}
+/root/workspace/kafka_carte_grise/simpleProducerCG.js:581
+                                                                row['montant'] = row_type_genre['mutation_dans_delai'];
+                                                                                 ^
+
+ReferenceError: row_type_genre is not defined
+    at Query.con.query (/root/workspace/kafka_carte_grise/simpleProducerCG.js:581:82)
+    at Query.handleReadyForQuery (/root/workspace/kafka_carte_grise/node_modules/pg/lib/query.js:138:12)
+    at Client._handleReadyForQuery (/root/workspace/kafka_carte_grise/node_modules/pg/lib/client.js:290:19)
+    at Connection.emit (events.js:198:13)
+    at parse (/root/workspace/kafka_carte_grise/node_modules/pg/lib/connection.js:114:12)
+    at Parser.parse (/root/workspace/kafka_carte_grise/node_modules/pg-protocol/dist/parser.js:40:17)
+    at Socket.stream.on (/root/workspace/kafka_carte_grise/node_modules/pg-protocol/dist/index.js:11:42)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    at readableAddChunk (_stream_readable.js:269:11)
+{"level":"error","message":"Forever detected script exited with code: 1"}
+{"level":"error","message":"Script restart attempt #32"}
+Connecting.....
+Connected!
+{"level":"INFO","timestamp":"2022-10-03T15:00:26.589Z","logger":"kafkajs","message":"[Consumer] Starting","groupId":"kafka_carte_grise_gid"}
+/root/workspace/kafka_carte_grise/simpleProducerCG.js:581
+                                                                row['montant'] = row_type_genre['mutation_dans_delai'];
+                                                                                 ^
+
+ReferenceError: row_type_genre is not defined
+    at Query.con.query (/root/workspace/kafka_carte_grise/simpleProducerCG.js:581:82)
+    at Query.handleReadyForQuery (/root/workspace/kafka_carte_grise/node_modules/pg/lib/query.js:138:12)
+    at Client._handleReadyForQuery (/root/workspace/kafka_carte_grise/node_modules/pg/lib/client.js:290:19)
+    at Connection.emit (events.js:198:13)
+    at parse (/root/workspace/kafka_carte_grise/node_modules/pg/lib/connection.js:114:12)
+    at Parser.parse (/root/workspace/kafka_carte_grise/node_modules/pg-protocol/dist/parser.js:40:17)
+    at Socket.stream.on (/root/workspace/kafka_carte_grise/node_modules/pg-protocol/dist/index.js:11:42)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    at readableAddChunk (_stream_readable.js:269:11)
+{"level":"error","message":"Forever detected script exited with code: 1"}
+{"level":"error","message":"Script restart attempt #33"}
+Connecting.....
+Connected!
+{"level":"INFO","timestamp":"2022-10-03T15:00:36.908Z","logger":"kafkajs","message":"[Consumer] Starting","groupId":"kafka_carte_grise_gid"}
+/root/workspace/kafka_carte_grise/simpleProducerCG.js:581
+                                                                row['montant'] = row_type_genre['mutation_dans_delai'];
+                                                                                 ^
+
+ReferenceError: row_type_genre is not defined
+    at Query.con.query (/root/workspace/kafka_carte_grise/simpleProducerCG.js:581:82)
+    at Query.handleReadyForQuery (/root/workspace/kafka_carte_grise/node_modules/pg/lib/query.js:138:12)
+    at Client._handleReadyForQuery (/root/workspace/kafka_carte_grise/node_modules/pg/lib/client.js:290:19)
+    at Connection.emit (events.js:198:13)
+    at parse (/root/workspace/kafka_carte_grise/node_modules/pg/lib/connection.js:114:12)
+    at Parser.parse (/root/workspace/kafka_carte_grise/node_modules/pg-protocol/dist/parser.js:40:17)
+    at Socket.stream.on (/root/workspace/kafka_carte_grise/node_modules/pg-protocol/dist/index.js:11:42)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    at readableAddChunk (_stream_readable.js:269:11)
+{"level":"error","message":"Forever detected script exited with code: 1"}
+{"level":"error","message":"Script restart attempt #34"}
+Connecting.....
+Connected!
+{"level":"INFO","timestamp":"2022-10-03T15:00:47.161Z","logger":"kafkajs","message":"[Consumer] Starting","groupId":"kafka_carte_grise_gid"}
+/root/workspace/kafka_carte_grise/simpleProducerCG.js:581
+                                                                row['montant'] = row_type_genre['mutation_dans_delai'];
+                                                                                 ^
+
+ReferenceError: row_type_genre is not defined
+    at Query.con.query (/root/workspace/kafka_carte_grise/simpleProducerCG.js:581:82)
+    at Query.handleReadyForQuery (/root/workspace/kafka_carte_grise/node_modules/pg/lib/query.js:138:12)
+    at Client._handleReadyForQuery (/root/workspace/kafka_carte_grise/node_modules/pg/lib/client.js:290:19)
+    at Connection.emit (events.js:198:13)
+    at parse (/root/workspace/kafka_carte_grise/node_modules/pg/lib/connection.js:114:12)
+    at Parser.parse (/root/workspace/kafka_carte_grise/node_modules/pg-protocol/dist/parser.js:40:17)
+    at Socket.stream.on (/root/workspace/kafka_carte_grise/node_modules/pg-protocol/dist/index.js:11:42)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    at readableAddChunk (_stream_readable.js:269:11)
+{"level":"error","message":"Forever detected script exited with code: 1"}
+{"level":"error","message":"Script restart attempt #35"}
+Connecting.....
+Connected!
+{"level":"INFO","timestamp":"2022-10-03T15:00:57.445Z","logger":"kafkajs","message":"[Consumer] Starting","groupId":"kafka_carte_grise_gid"}
+/root/workspace/kafka_carte_grise/simpleProducerCG.js:581
+                                                                row['montant'] = row_type_genre['mutation_dans_delai'];
+                                                                                 ^
+
+ReferenceError: row_type_genre is not defined
+    at Query.con.query (/root/workspace/kafka_carte_grise/simpleProducerCG.js:581:82)
+    at Query.handleReadyForQuery (/root/workspace/kafka_carte_grise/node_modules/pg/lib/query.js:138:12)
+    at Client._handleReadyForQuery (/root/workspace/kafka_carte_grise/node_modules/pg/lib/client.js:290:19)
+    at Connection.emit (events.js:198:13)
+    at parse (/root/workspace/kafka_carte_grise/node_modules/pg/lib/connection.js:114:12)
+    at Parser.parse (/root/workspace/kafka_carte_grise/node_modules/pg-protocol/dist/parser.js:40:17)
+    at Socket.stream.on (/root/workspace/kafka_carte_grise/node_modules/pg-protocol/dist/index.js:11:42)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    at readableAddChunk (_stream_readable.js:269:11)
+{"level":"error","message":"Forever detected script exited with code: 1"}
+{"level":"error","message":"Script restart attempt #36"}
+Connecting.....
+Connected!
+{"level":"INFO","timestamp":"2022-10-03T15:01:07.793Z","logger":"kafkajs","message":"[Consumer] Starting","groupId":"kafka_carte_grise_gid"}
+/root/workspace/kafka_carte_grise/simpleProducerCG.js:581
+                                                                row['montant'] = row_type_genre['mutation_dans_delai'];
+                                                                                 ^
+
+ReferenceError: row_type_genre is not defined
+    at Query.con.query (/root/workspace/kafka_carte_grise/simpleProducerCG.js:581:82)
+    at Query.handleReadyForQuery (/root/workspace/kafka_carte_grise/node_modules/pg/lib/query.js:138:12)
+    at Client._handleReadyForQuery (/root/workspace/kafka_carte_grise/node_modules/pg/lib/client.js:290:19)
+    at Connection.emit (events.js:198:13)
+    at parse (/root/workspace/kafka_carte_grise/node_modules/pg/lib/connection.js:114:12)
+    at Parser.parse (/root/workspace/kafka_carte_grise/node_modules/pg-protocol/dist/parser.js:40:17)
+    at Socket.stream.on (/root/workspace/kafka_carte_grise/node_modules/pg-protocol/dist/index.js:11:42)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    at readableAddChunk (_stream_readable.js:269:11)
+{"level":"error","message":"Forever detected script exited with code: 1"}
+{"level":"error","message":"Script restart attempt #37"}
+Connecting.....
+Connected!
+{"level":"INFO","timestamp":"2022-10-03T15:01:18.013Z","logger":"kafkajs","message":"[Consumer] Starting","groupId":"kafka_carte_grise_gid"}
+/root/workspace/kafka_carte_grise/simpleProducerCG.js:581
+                                                                row['montant'] = row_type_genre['mutation_dans_delai'];
+                                                                                 ^
+
+ReferenceError: row_type_genre is not defined
+    at Query.con.query (/root/workspace/kafka_carte_grise/simpleProducerCG.js:581:82)
+    at Query.handleReadyForQuery (/root/workspace/kafka_carte_grise/node_modules/pg/lib/query.js:138:12)
+    at Client._handleReadyForQuery (/root/workspace/kafka_carte_grise/node_modules/pg/lib/client.js:290:19)
+    at Connection.emit (events.js:198:13)
+    at parse (/root/workspace/kafka_carte_grise/node_modules/pg/lib/connection.js:114:12)
+    at Parser.parse (/root/workspace/kafka_carte_grise/node_modules/pg-protocol/dist/parser.js:40:17)
+    at Socket.stream.on (/root/workspace/kafka_carte_grise/node_modules/pg-protocol/dist/index.js:11:42)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    at readableAddChunk (_stream_readable.js:269:11)
+{"level":"error","message":"Forever detected script exited with code: 1"}
+{"level":"error","message":"Script restart attempt #38"}
+Connecting.....
+Connected!
+{"level":"INFO","timestamp":"2022-10-03T15:01:28.313Z","logger":"kafkajs","message":"[Consumer] Starting","groupId":"kafka_carte_grise_gid"}
+/root/workspace/kafka_carte_grise/simpleProducerCG.js:581
+                                                                row['montant'] = row_type_genre['mutation_dans_delai'];
+                                                                                 ^
+
+ReferenceError: row_type_genre is not defined
+    at Query.con.query (/root/workspace/kafka_carte_grise/simpleProducerCG.js:581:82)
+    at Query.handleReadyForQuery (/root/workspace/kafka_carte_grise/node_modules/pg/lib/query.js:138:12)
+    at Client._handleReadyForQuery (/root/workspace/kafka_carte_grise/node_modules/pg/lib/client.js:290:19)
+    at Connection.emit (events.js:198:13)
+    at parse (/root/workspace/kafka_carte_grise/node_modules/pg/lib/connection.js:114:12)
+    at Parser.parse (/root/workspace/kafka_carte_grise/node_modules/pg-protocol/dist/parser.js:40:17)
+    at Socket.stream.on (/root/workspace/kafka_carte_grise/node_modules/pg-protocol/dist/index.js:11:42)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    at readableAddChunk (_stream_readable.js:269:11)
+{"level":"error","message":"Forever detected script exited with code: 1"}
+{"level":"error","message":"Script restart attempt #39"}
+Connecting.....
+Connected!
+{"level":"INFO","timestamp":"2022-10-03T15:01:38.590Z","logger":"kafkajs","message":"[Consumer] Starting","groupId":"kafka_carte_grise_gid"}
+{"level":"INFO","timestamp":"2022-10-03T15:01:48.077Z","logger":"kafkajs","message":"[ConsumerGroup] Consumer has joined the group","groupId":"kafka_carte_grise_gid","memberId":"kafka_carte_grise_cid-b1d89ade-ccfd-4a83-9796-ce3e4742bca4","leaderId":"kafka_carte_grise_cid-b1d89ade-ccfd-4a83-9796-ce3e4742bca4","isLeader":true,"memberAssignment":{},"groupProtocol":"RoundRobinAssigner","duration":9485}
+/root/workspace/kafka_carte_grise/simpleProducerCG.js:581
+                                                                row['montant'] = row_type_genre['mutation_dans_delai'];
+                                                                                 ^
+
+ReferenceError: row_type_genre is not defined
+    at Query.con.query (/root/workspace/kafka_carte_grise/simpleProducerCG.js:581:82)
+    at Query.handleReadyForQuery (/root/workspace/kafka_carte_grise/node_modules/pg/lib/query.js:138:12)
+    at Client._handleReadyForQuery (/root/workspace/kafka_carte_grise/node_modules/pg/lib/client.js:290:19)
+    at Connection.emit (events.js:198:13)
+    at parse (/root/workspace/kafka_carte_grise/node_modules/pg/lib/connection.js:114:12)
+    at Parser.parse (/root/workspace/kafka_carte_grise/node_modules/pg-protocol/dist/parser.js:40:17)
+    at Socket.stream.on (/root/workspace/kafka_carte_grise/node_modules/pg-protocol/dist/index.js:11:42)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    at readableAddChunk (_stream_readable.js:269:11)
+{"level":"error","message":"Forever detected script exited with code: 1"}
+{"level":"error","message":"Script restart attempt #40"}
+Connecting.....
+Connected!
+{"level":"INFO","timestamp":"2022-10-03T15:01:48.907Z","logger":"kafkajs","message":"[Consumer] Starting","groupId":"kafka_carte_grise_gid"}
+/root/workspace/kafka_carte_grise/simpleProducerCG.js:581
+                                                                row['montant'] = row_type_genre['mutation_dans_delai'];
+                                                                                 ^
+
+ReferenceError: row_type_genre is not defined
+    at Query.con.query (/root/workspace/kafka_carte_grise/simpleProducerCG.js:581:82)
+    at Query.handleReadyForQuery (/root/workspace/kafka_carte_grise/node_modules/pg/lib/query.js:138:12)
+    at Client._handleReadyForQuery (/root/workspace/kafka_carte_grise/node_modules/pg/lib/client.js:290:19)
+    at Connection.emit (events.js:198:13)
+    at parse (/root/workspace/kafka_carte_grise/node_modules/pg/lib/connection.js:114:12)
+    at Parser.parse (/root/workspace/kafka_carte_grise/node_modules/pg-protocol/dist/parser.js:40:17)
+    at Socket.stream.on (/root/workspace/kafka_carte_grise/node_modules/pg-protocol/dist/index.js:11:42)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    at readableAddChunk (_stream_readable.js:269:11)
+{"level":"error","message":"Forever detected script exited with code: 1"}
+{"level":"error","message":"Script restart attempt #41"}
+Connecting.....
+Connected!
+{"level":"INFO","timestamp":"2022-10-03T15:01:59.161Z","logger":"kafkajs","message":"[Consumer] Starting","groupId":"kafka_carte_grise_gid"}
+/root/workspace/kafka_carte_grise/simpleProducerCG.js:581
+                                                                row['montant'] = row_type_genre['mutation_dans_delai'];
+                                                                                 ^
+
+ReferenceError: row_type_genre is not defined
+    at Query.con.query (/root/workspace/kafka_carte_grise/simpleProducerCG.js:581:82)
+    at Query.handleReadyForQuery (/root/workspace/kafka_carte_grise/node_modules/pg/lib/query.js:138:12)
+    at Client._handleReadyForQuery (/root/workspace/kafka_carte_grise/node_modules/pg/lib/client.js:290:19)
+    at Connection.emit (events.js:198:13)
+    at parse (/root/workspace/kafka_carte_grise/node_modules/pg/lib/connection.js:114:12)
+    at Parser.parse (/root/workspace/kafka_carte_grise/node_modules/pg-protocol/dist/parser.js:40:17)
+    at Socket.stream.on (/root/workspace/kafka_carte_grise/node_modules/pg-protocol/dist/index.js:11:42)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    at readableAddChunk (_stream_readable.js:269:11)
+{"level":"error","message":"Forever detected script exited with code: 1"}
+{"level":"error","message":"Script restart attempt #42"}
+Connecting.....
+Connected!
+{"level":"INFO","timestamp":"2022-10-03T15:02:09.550Z","logger":"kafkajs","message":"[Consumer] Starting","groupId":"kafka_carte_grise_gid"}
+/root/workspace/kafka_carte_grise/simpleProducerCG.js:581
+                                                                row['montant'] = row_type_genre['mutation_dans_delai'];
+                                                                                 ^
+
+ReferenceError: row_type_genre is not defined
+    at Query.con.query (/root/workspace/kafka_carte_grise/simpleProducerCG.js:581:82)
+    at Query.handleReadyForQuery (/root/workspace/kafka_carte_grise/node_modules/pg/lib/query.js:138:12)
+    at Client._handleReadyForQuery (/root/workspace/kafka_carte_grise/node_modules/pg/lib/client.js:290:19)
+    at Connection.emit (events.js:198:13)
+    at parse (/root/workspace/kafka_carte_grise/node_modules/pg/lib/connection.js:114:12)
+    at Parser.parse (/root/workspace/kafka_carte_grise/node_modules/pg-protocol/dist/parser.js:40:17)
+    at Socket.stream.on (/root/workspace/kafka_carte_grise/node_modules/pg-protocol/dist/index.js:11:42)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    at readableAddChunk (_stream_readable.js:269:11)
+{"level":"error","message":"Forever detected script exited with code: 1"}
+{"level":"error","message":"Script restart attempt #43"}
+Connecting.....
+Connected!
+{"level":"INFO","timestamp":"2022-10-03T15:02:19.779Z","logger":"kafkajs","message":"[Consumer] Starting","groupId":"kafka_carte_grise_gid"}
+/root/workspace/kafka_carte_grise/simpleProducerCG.js:581
+                                                                row['montant'] = row_type_genre['mutation_dans_delai'];
+                                                                                 ^
+
+ReferenceError: row_type_genre is not defined
+    at Query.con.query (/root/workspace/kafka_carte_grise/simpleProducerCG.js:581:82)
+    at Query.handleReadyForQuery (/root/workspace/kafka_carte_grise/node_modules/pg/lib/query.js:138:12)
+    at Client._handleReadyForQuery (/root/workspace/kafka_carte_grise/node_modules/pg/lib/client.js:290:19)
+    at Connection.emit (events.js:198:13)
+    at parse (/root/workspace/kafka_carte_grise/node_modules/pg/lib/connection.js:114:12)
+    at Parser.parse (/root/workspace/kafka_carte_grise/node_modules/pg-protocol/dist/parser.js:40:17)
+    at Socket.stream.on (/root/workspace/kafka_carte_grise/node_modules/pg-protocol/dist/index.js:11:42)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    at readableAddChunk (_stream_readable.js:269:11)
+{"level":"error","message":"Forever detected script exited with code: 1"}
+{"level":"error","message":"Script restart attempt #44"}
+Connecting.....
+Connected!
+{"level":"INFO","timestamp":"2022-10-03T15:02:30.059Z","logger":"kafkajs","message":"[Consumer] Starting","groupId":"kafka_carte_grise_gid"}
+
+
+sent data = 
+{ numero: '98929',
+  vin: 'JTEBZ29J700023051',
+  marque: 'Toyota',
+  type: 'LC',
+  genre: 'Tout Terrain (4WD)',
+  puissance_fiscal: 10,
+  matricule: '1752 AU 00',
+  nni: '9271655664',
+  date_mutation: 2022-10-07T22:00:00.000Z,
+  nombre_places: 5,
+  proprietaire: 'Mohameden Mar Fall',
+  type_demande: 'MUTATION',
+  charge_utile: 860,
+  montant: '4500.00',
+  cac_ar: 'إ ن ب',
+  cac_fr: 'DTT',
+  date_generation: 2022-10-03T15:02:40.173Z }
+
+
+sent data = 
+{ numero: '98930',
+  vin: 'VF1FC0JAF26931464',
+  marque: 'Renault',
+  type: 'Kango',
+  genre: 'VP',
+  puissance_fiscal: 7,
+  matricule: null,
+  nni: '1201751334',
+  nombre_places: 4,
+  proprietaire: 'Saad Bouh Mohamed Elmoukhtar',
+  type_demande: 'IMMATRICULATION',
+  charge_utile: 475,
+  montant: '1500.00',
+  cac_ar: 'إ ن ب',
+  cac_fr: 'DTT',
+  date_generation: 2022-10-03T15:02:40.172Z }
+{"level":"INFO","timestamp":"2022-10-03T15:02:49.832Z","logger":"kafkajs","message":"[ConsumerGroup] Consumer has joined the group","groupId":"kafka_carte_grise_gid","memberId":"kafka_carte_grise_cid-59be93d6-acec-47ab-bda3-f500e37f633d","leaderId":"kafka_carte_grise_cid-59be93d6-acec-47ab-bda3-f500e37f633d","isLeader":true,"memberAssignment":{"pay-or-cg":[0]},"groupProtocol":"RoundRobinAssigner","duration":19772}
+waiting for new orders
+waiting for new orders
+waiting for new orders
+{"level":"ERROR","timestamp":"2022-10-03T15:03:19.963Z","logger":"kafkajs","message":"[Connection] Response Heartbeat(key: 12, version: 3)","broker":"192.168.7.200:30001","clientId":"kafka_carte_grise_cid","error":"The group is rebalancing, so a rejoin is needed","correlationId":19,"size":10}
+{"level":"WARN","timestamp":"2022-10-03T15:03:19.963Z","logger":"kafkajs","message":"[Runner] The group is rebalancing, re-joining","groupId":"kafka_carte_grise_gid","memberId":"kafka_carte_grise_cid-59be93d6-acec-47ab-bda3-f500e37f633d","error":"The group is rebalancing, so a rejoin is needed","retryCount":0,"retryTime":248}
+{"level":"INFO","timestamp":"2022-10-03T15:03:20.016Z","logger":"kafkajs","message":"[ConsumerGroup] Consumer has joined the group","groupId":"kafka_carte_grise_gid","memberId":"kafka_carte_grise_cid-59be93d6-acec-47ab-bda3-f500e37f633d","leaderId":"kafka_carte_grise_cid-59be93d6-acec-47ab-bda3-f500e37f633d","isLeader":true,"memberAssignment":{"pay-or-cg":[0]},"groupProtocol":"RoundRobinAssigner","duration":52}
+
+
+sent data = 
+{ numero: '98931',
+  vin: 'SB1BW56LX0E135810',
+  marque: 'Toyota',
+  type: 'Avensis',
+  genre: 'VP',
+  puissance_fiscal: 7,
+  matricule: null,
+  nni: '2006736486',
+  nombre_places: 4,
+  proprietaire: 'Ahmed Salem Hamoud',
+  type_demande: 'IMMATRICULATION',
+  charge_utile: 475,
+  montant: '1500.00',
+  cac_ar: 'إ ن ب',
+  cac_fr: 'DTT',
+  date_generation: 2022-10-03T15:03:20.138Z }
+waiting for new orders
+waiting for new orders
+waiting for new orders
+waiting for new orders
+waiting for new orders
+waiting for new orders
+waiting for new orders
+waiting for new orders
+waiting for new orders
+waiting for new orders
+waiting for new orders
+waiting for new orders
+waiting for new orders
+waiting for new orders
+waiting for new orders
+waiting for new orders
+waiting for new orders
+waiting for new orders
+waiting for new orders
+waiting for new orders
+waiting for new orders
+waiting for new orders
+waiting for new orders
+waiting for new orders
+waiting for new orders
+
