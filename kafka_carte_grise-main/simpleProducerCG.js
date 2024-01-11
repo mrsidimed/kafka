@@ -103,7 +103,7 @@ const kafka = new Kafka({
 
 const consumer = kafka.consumer({ "groupId": kafkaParams['consumerGroupId'] })
 
-runConsumer();
+//runConsumer();
 
 const { DISCONNECT } = consumer.events
 const removeListener = consumer.on(DISCONNECT, e => { 
@@ -134,7 +134,8 @@ setInterval(() => {
                 for (var i = 0; i < data.length; i++) {
 
 
-                    runProducer(data[i]);
+                console.log(data[i]);
+                   // runProducer(data[i]);
 
 
                 }
@@ -381,7 +382,7 @@ function getOrdre2(callback) {
                                     on vehicule.id_genre = genre.id_genre
                             --   inner join  properietair  on certificat.id_prop = properietaire.nni
                         
-                        WHERE certificat.sent = 0 and certificat.etat_wf like 'validé_douane%'
+                        WHERE certificat.sent = 0 and certificat.etat_wf like 'validé_douane%'  
                         limit 10
 
                         `;
@@ -410,9 +411,10 @@ function getOrdre2(callback) {
                             if (res.rows.length == 0) {
                                 callback(null, []);
                             } else {
-
+//1802411202315032100001
                                 for (let row of res.rows) {
 
+                                    cpt++;
                                     var proprietaire_query = "", flag = "";
 
                                     if (row['nni'] != null) {
@@ -609,7 +611,7 @@ function getOrdre2(callback) {
 
                                                             row['numero'] = row['numero'].toString();
 
-                                                            cpt++;
+                                                            
 
                                                             row['date_generation'] = new Date();
                                                             delete row['id_pays'];
