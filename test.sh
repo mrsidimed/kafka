@@ -16,3 +16,59 @@ for pid in $pids
 do
     echo "$pid"
 done
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#!/bin/bash
+
+# Store the output of 'forever list' to a variable
+foreverList=$(forever list)
+
+# Use awk to extract PIDs from the 'forever list' output
+# Assumes that PIDs are in the second column of the output
+pids=$(echo "$foreverList" | awk 'NR>2 {print $6}')
+
+# Loop through each PID and stop the corresponding process
+for pid in $pids
+do
+    forever stop "$pid"
+done
+
+# Log the restart timestamp
+timestamp=$(date '+%Y-%m-%d %H:%M:%S')
+echo "restart at $timestamp" >> /root/workspace/restartLogs.txt
+
+sleep 2
+
+cd /root/workspace/kafka_carte_grise
+forever start simpleProducerCG.js
+
+cd /root/workspace/kafka_titres-main
+forever start consumerMYSQL.js
+
+cd /root/workspace/kafka_titres-main
+forever start producerMYSQL.js

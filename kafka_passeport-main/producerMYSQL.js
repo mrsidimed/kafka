@@ -154,6 +154,9 @@ var occupiedFlag = false;
 
                         data[i]['typeDocument'] =  data[i]['TYPEDOC'] + '-' + data[i]['typeDocument'];
                         delete data[i].TYPEDOC;
+
+                        data[i]['montant'] =  data[i]['montant'] + data[i]['transport'];
+
                         runProducer(data[i]);
                     }
                 } else {

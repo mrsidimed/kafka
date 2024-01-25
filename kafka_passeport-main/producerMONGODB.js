@@ -251,7 +251,9 @@ const fetchData = async () => {
             for (var h = 0; h < dataHewiyeti.length; h++) {
              
                 dataHewiyeti[h]['date_generation'] = new Date();
-                dataHewiyeti[h]['transport'] = 0;
+                //dataHewiyeti[h]['transport'] = 0;
+
+                dataHewiyeti[h]['montant'] = dataHewiyeti[h]['montant'] + dataHewiyeti[h]['transport'];
 
                 runProducerHewiyeti(dataHewiyeti[h]);
             }
