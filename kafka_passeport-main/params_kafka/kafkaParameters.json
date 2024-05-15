@@ -2,11 +2,11 @@
 
 { 
     "clientId": "myapp1", 
-    "brokers": ["kafka:9092"],
+    "brokers": ["localhost:9092"],
     "topicProducer": "topicP3",
     "topicConsumer": "topicC3",
     "consumerGroupId": "gid333",
-    "intervalDuration": 20000,
+    "intervalDuration": 5000,
     "numberOfOrders": 10
 }
 
