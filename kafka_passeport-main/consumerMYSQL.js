@@ -403,12 +403,11 @@ async function runConsumer() {
 
 
         console.log("waiting for recettes ===========");
+        let quittanceNos = [];
+        let maxLength = 300;
         await consumer.run({
 
 
-
-
-            
             "eachMessage": async result => {
                 //console.log(`RVD Msg ${result.message.value} on partition ${result.partition}`)
                 console.log('')
@@ -423,16 +422,40 @@ async function runConsumer() {
                 logPaiement(JSON.stringify(paiement));
                 console.log("received data  data['quittance']['quittanceNo']= " + recette['quittance']['quittanceNo']);
 
-              
-                insertIntoRecettes(recette, function (err, data) {
-                    if (err) {
-                        console.error("Error in insertIntoRecettes:", err);
-                    } else {
-                        console.log("insertIntoRecettes success:", data);
+
+                            // Get the quittanceNo
+                let quittanceNo = recette['quittance']['quittanceNo'];
+
+                // Add to the list if not already present
+                if (!quittanceNos.includes(quittanceNo)) {
+                    quittanceNos.push(quittanceNo);
+
+                    console.log("quittanceNos.length = "+quittanceNos.length);
+
+                   
+                    
+                    // Keep only the last maxLength unique values
+                    if (quittanceNos.length > maxLength) {
+                        quittanceNos.shift();
                     }
-                });
- 
-                await new Promise(resolve => setTimeout(resolve, 50));
+
+                    insertIntoRecettes(recette, function (err, data) {
+                        if (err) {
+                            console.error("Error in insertIntoRecettes:", err);
+                        } else {
+                            console.log("insertIntoRecettes success:", data);
+                        }
+                    });
+     
+                    await new Promise(resolve => setTimeout(resolve, 50));
+                }else{
+
+                    console.log("Duplicata error detected and avoided quittanceNo : "+ quittanceNo);
+                    logException("Duplicata error detected and avoided quittanceNo : "+ quittanceNo);
+                    
+                }
+              
+                
 
 
             }
@@ -925,7 +948,7 @@ function executeTwoQueries(query1, query2, numero, callback) {
 //     console.log("inside insert recette 4");
 //     const db = mysql.createConnection({
 //         host: dbParamsMysql['host'],
-//         user: dbParamsMysql['user'],
+//         user: dbParamsMysql['user'],is
 //         password: dbParamsMysql['password'],
 //         database: dbParamsMysql['database']
 //     });

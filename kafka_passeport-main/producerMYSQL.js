@@ -369,6 +369,8 @@ async function runProducer(ordre) {
                 console.log('');
                 console.log('sent data === ');
 
+                logOrdre(JSON.stringify(ordre));
+
                 console.log(ordre);
                  
 
@@ -410,6 +412,16 @@ async function runProducer(ordre) {
         console.error(`Something bad happened ${ex}`)
     }
 
+
+}
+
+function logOrdre(ordre) {
+
+    console.log("inside paiement");
+    if (!fs.existsSync('./ordres')) {
+        fs.mkdirSync('./ordres');
+    }
+    fs.appendFileSync('./ordres/' + new Date().toISOString().split('T')[0], new Date().toISOString() + ' : ' + ordre + '\n\n');
 
 }
 

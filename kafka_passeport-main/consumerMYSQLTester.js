@@ -97,7 +97,7 @@ var occupiedFlag = false;
   
 var recettes = []; // Array to hold all recettes
 
-let listOfNumbers = [ 2, 2, 3];
+let listOfNumbers = [ 1,2,3,4,1];
 
 for (let i of listOfNumbers) {
 //for (var i = 0; i < 2; i++) {
