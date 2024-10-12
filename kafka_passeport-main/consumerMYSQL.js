@@ -144,11 +144,13 @@ function getData() {
 
 
 
+
 function insertIntoRecettes(data, callback) {
 
 
+    console.log("--------->mydebut " + data['quittance']['quittanceNo'] + " " + Date.now());
 
-    console.log("inside insertIntoRecettes the function");
+
     var flag = true;
     var handle = setInterval(
 
@@ -175,7 +177,7 @@ function insertIntoRecettes(data, callback) {
 
     function insertIntoRecettesNestedFunction(callback) {
 
-        console.log("inside insertIntoRecettesNestedFunction the function");
+
 
         if (flag) {
 
@@ -183,7 +185,7 @@ function insertIntoRecettes(data, callback) {
 
             mySingletonConnection.getConnection(function (err, con) {
 
-                console.log("inside  mySingletonConnection");
+
 
                 if (err) {
                     logException(err);
@@ -193,125 +195,69 @@ function insertIntoRecettes(data, callback) {
 
 
 
-                    var queryIir = "SELECT ordres.numero , ordres.codecac  , ordres.nni , ordres.typedoc as typedoc , ordres.PRENOM_FR as prenomFr, ordres.PRENOM_AR as prenomAr , ordres.NOM_FAMILLE_FR as nomFamilleFr ,  ordres.NOM_FAMILLE_AR as nomFamilleAr , ordres.DATE_NAISSANCE as dateNaissance, ordres.LIEU_NAISSANCE_FR as lieuNaissanceFr , ordres.LIEU_NAISSANCE_AR as lieuNaissanceAr , ordres.MONTANT as montant  , ordres.TRANSPORT as transport   ,typedemande.libelle  as typedemande , typedocument.libelle  as typedocument  ,cac.nom_cac as cacFr , cac.nom_cac as cacAr, cac.nom_cacar as cacAr  FROM ordres inner join typedemande on typedemande.code = ordres.TYPEDEM inner join typedocument on typedocument.code = ordres.TYPEDOC inner join cac on ordres.codecac = cac.cac  where numero = " + data['ordreRecette']['numero'];
-                    con.query(queryIir, function (err1, retour, fields) {
+                    let ordreRecetteNumero = data['ordreRecette']['numero'];
+                    let codecac, typedoc, transport = 0;
 
-                        console.log("inside  queryIir");
-                        console.log(retour);
+                    if (ordreRecetteNumero.startsWith('9')) {
+                        codecac = '900000';
+                        typedoc = parseInt(ordreRecetteNumero.charAt(4));  // 5th character, as indices start from 0
+                    } else {
+                        codecac = ordreRecetteNumero.slice(0, 6); // First 6 characters
+                        typedoc = parseInt(ordreRecetteNumero.charAt(6));   // 7th character
+                    }
 
 
-                        if (err1) {
+                    var Nature_encaiss = '';
+
+                    if (typedoc == 5) {
+                        Nature_encaiss = 'CNI';
+                    } else if (typedoc == 6) {
+                        Nature_encaiss = 'NP';
+                    } else if (typedoc == 7) {
+                        Nature_encaiss = 'VIP';
+                    } else if (typedoc == 8) {
+                        Nature_encaiss = 'CR';
+                    } else if (typedoc == 9) {
+                        Nature_encaiss = 'EXTR';
+                    }
 
 
-                            logException(err1 + "error while executing query = " + queryIir);
-                            flag = true;
-                            //callback(err1, null);
+                    var mynewdate = formatDate(new Date());
+
+
+
+                    console.log("mynewdate " + mynewdate);
+                    var queryInsertPdf2 = "Insert Into  recettes_pdf(   Quittance ,quittance_pdf ) " +
+                        "VALUES (    '" + data['quittance']['quittanceNo'] + "'  ,  '" + data['quittanceB64'] + "' )";
+                    var queryInsertion = "Insert Into  recettes ( date_validation , Nature_encaiss, paiement_en_ligne , MontantTrans , montant , cac , etat , date_saisie, Orde_recette  , date_quittance , reference, serviceBancaire , idTransaction  , Quittance , numeroTelephone  ) " +
+                        "VALUES (  SYSDATE() ,'" + Nature_encaiss + "', 1 , " + transport + " ," + data['ordreRecette']['montant'] + ", '" + codecac + "' , 'Reçue', '" + mynewdate + "' , '" + data['ordreRecette']['numero'] + "'   , '" + data['datePaiement'] + "' ,  '" + data['reference'] + "', '" + data['serviceBancaire'] + "' , '" + data['idTransaction'] + "'  , '" + data['quittance']['quittanceNo'] + "'  ,  '" + data['numeroTelephone'] + "'  )";
+                    var queryUpdateAcquite = "UPDATE ordres SET acquite = 1, Nrecette = 'PE' where NUMERO = '" + data['ordreRecette']['numero'] + "'";
+
+
+                    executeThreeQueries(queryInsertion, queryInsertPdf2, queryUpdateAcquite, data['ordreRecette']['numero'], typedoc, data['quittance']['quittanceNo'], function (err, results) {
+                        console.log("inside insert recette 5");
+
+
+                        if (err == null && results == null) {
+
+                            console.log('data not inserted because');
+                            callback(null, null);
+                        } else if (err != null) {
+
+                            logException(err);
+                            console.log('An error occurred: ', err);
+
+                            logException(data['ordreRecette']['numero'] + " is beeing reinserted reinserted ");
+                            console.log(data['ordreRecette']['numero'] + " is beeing reinserted reinserted ");
+                            return setTimeout(() => executeThreeQueries(queryInsertion, queryInsertPdf2, queryUpdateAcquite, data['ordreRecette']['numero'], typedoc, data['quittance']['quittanceNo'], callback), 5000);
+
+                        } else {
+                            console.log('Queries executed successfully: ');
+                            callback(null, results);
                         }
-
-                        else if (retour.length > 0) {
-
-                            var Nature_encaiss = '';
-
-                            if (retour[0]['typedoc'] == 5) {
-                                Nature_encaiss = 'CNI';
-                            } else if (retour[0]['typedoc'] == 6) {
-                                Nature_encaiss = 'NP';
-                            } else if (retour[0]['typedoc'] == 7) {
-                                Nature_encaiss = 'VIP';
-                            } else if (retour[0]['typedoc'] == 8) {
-                                Nature_encaiss = 'CR';
-                            } else if (retour[0]['typedoc'] == 9) {
-                                Nature_encaiss = 'EXTR';
-                            }
-
-
-                            var mynewdate = formatDate(new Date());
-
-
-                            
-                            console.log("mynewdate " + mynewdate);
-                            var queryInsertPdf2 = "Insert Into  recettes_pdf(   Quittance ,quittance_pdf ) " +
-                                "VALUES (    '" + data['quittance']['quittanceNo'] + "'  ,  '" + data['quittanceB64'] + "' )";
-                            var queryInsertion = "Insert Into  recettes ( date_validation , Nature_encaiss, paiement_en_ligne , MontantTrans , montant , cac , etat , date_saisie, Orde_recette  , date_quittance , reference, serviceBancaire , idTransaction  , Quittance , numeroTelephone  ) " +
-                                "VALUES (  SYSDATE() ,'" + Nature_encaiss + "', 1 , " + retour[0]['transport'] + " ," + data['ordreRecette']['montant'] + ", '" + retour[0]['codecac'] + "' , 'Reçue', '" + mynewdate + "' , '" + data['ordreRecette']['numero'] + "'   , '" + data['datePaiement'] + "' ,  '" + data['reference'] + "', '" + data['serviceBancaire'] + "' , '" + data['idTransaction'] + "'  , '" + data['quittance']['quittanceNo'] + "'  ,  '" + data['numeroTelephone'] + "'  )";
-                            var queryUpdateAcquite = "UPDATE ordres SET acquite = 1, Nrecette = 'PE' where NUMERO = '" + retour[0]['numero'] + "'";
-
-                            //executeTwoStatementsWithCommit(queryInsertion, queryInsertPdf2);
-                            //executeTwoQueries(queryInsertion, queryInsertPdf2);
-
-                            // executeTwoQueries(queryInsertion, queryUpdateAcquite , retour[0]['numero'],function (err, results) {
-                            //     console.log("inside insert recette 5");
-                            //     if (err) {
-                            //         console.log('An error occurred: ', err);
-                            //     } else {
-                            //         console.log('Queries executed successfully: ', results);
-                            //         callback(null, results)
-                            //     }
-                            // });
-
-
-                            executeThreeQueries(queryInsertion, queryInsertPdf2, queryUpdateAcquite, retour[0]['numero'], function (err, results) {
-                                console.log("inside insert recette 5");
-
-                                
-                                if( err==null &&  results==null){
-
-                                    console.log('data not inserted because');
-                                    callback(null, null);
-                                } else if (err!=null) {
-                
-                                    logException(err);
-                                    console.log('An error occurred: ', err);
-
-                                    logException(retour[0]['numero'] + " is beeing reinserted reinserted " );
-                                    console.log(retour[0]['numero'] + " is beeing reinserted reinserted " );
-                                    return setTimeout(() => executeThreeQueries(queryInsertion, queryInsertPdf2, queryUpdateAcquite, retour[0]['numero'], callback), 5000);
-
-                                 }else {
-                                    console.log('Queries executed successfully: ', results);
-                                    callback(null, results);
-                                }
-                            });
-
-                            // executeTwoQueries(queryInsertion, queryInsertPdf2, function (err, results) {
-                            //     console.log("inside insert recette 5");
-                            //     if (err) {
-                            //         console.log('An error occurred: ', err);
-                            //     } else {
-                            //         console.log('Queries executed successfully: ', results);
-                            //         callback(null, results)
-                            //     }
-                            // });
-                            // con.query(queryInsertion, function (err2, result, fields) {
-
-                            //     if (err2) {
-                            //         logException(err2 + " ; error while executing  query : " + queryInsertion);
-                            //         flag = true;
-                            //         // callback(err2, null);
-
-                            //     } else {
-
-                            //         var queryInsertPdf = "Insert Into  recettes_pdf(   Quittance ,quittance_pdf ) " +
-                            //             "VALUES (    '" + data['quittance']['quittanceNo'] + "'  ,  '" + data['quittanceB64'] + "' )";
-                            //         con.query(queryInsertPdf, function (err3, result, fields) {
-
-                            //             if (err3) {
-                            //                 logException(err3 + " error while executing query :  " + queryInsertPdf);
-                            //                 flag = true;
-                            //                 // callback(err3, null);
-                            //             } else {
-                            //                 callback(null, result);
-                            //             }
-
-                            //         });
-                            //     }
-                            // });
-
-
-
-                        }
-
                     });
+
+
                 }
             })
         }
@@ -331,56 +277,56 @@ async function runConsumer() {
 
     try {
 
-        
-            //    console.log("---------------------------------------------------------------------");
-        
-            //    recette['ordreRecette'] = {
-            //        'numero': '060401511120007',
-            //        'montant': 3000
-            //    }
-       
-            //    recette['ordreRecette']['montant']
-       
-            //    recette['reference'] = 'myreference';
-            //    recette['serviceBancaire'] = 'myserviceBancaire';
-               
-            //    recette['datePaiement'] = '2020-04-17';
-            //    recette['numeroTelephone'] = '36055860';
-            //    recette['quittanceB64'] = 'base64Image';
-            //    //data['quittance']['quittanceNo'] =  ''+getRandomNumberBetween(0,1000000);
-       
-            //    recette['quittance'] = {
-            //       // 'quittanceNo': '' + getRandomNumberBetween(0, 1000000)
-            //        'quittanceNo': '' +685449
-            //    }
-       
-       
-            //    // recette['quittance'] = {
-            //    //     'quittanceNo': 'maQuittance'  
-            //    // }
-       
-       
-            //    recette['idTransaction'] = 'myidTransaction' + getRandomNumberBetween(0, 1000000);
-       
-            //    //recette['idTransaction'] = 'myidTransaction' ;
-               
-        
-            //    insertIntoRecettes(recette, function (err, data) {
-       
-            //        if (err) {
-       
-            //            logException(err + " during the insert of recette['idTransaction'] = " + recette['idTransaction']);
-       
-            //        } else {
-                  
-            //            console.log('Two rows inserted and one row updated');
-       
-            //        }
-       
-            //    });
-       
 
-           
+        //    console.log("---------------------------------------------------------------------");
+
+        //    recette['ordreRecette'] = {
+        //        'numero': '060401511120007',
+        //        'montant': 3000
+        //    }
+
+        //    recette['ordreRecette']['montant']
+
+        //    recette['reference'] = 'myreference';
+        //    recette['serviceBancaire'] = 'myserviceBancaire';
+
+        //    recette['datePaiement'] = '2020-04-17';
+        //    recette['numeroTelephone'] = '36055860';
+        //    recette['quittanceB64'] = 'base64Image';
+        //    //data['quittance']['quittanceNo'] =  ''+getRandomNumberBetween(0,1000000);
+
+        //    recette['quittance'] = {
+        //       // 'quittanceNo': '' + getRandomNumberBetween(0, 1000000)
+        //        'quittanceNo': '' +685449
+        //    }
+
+
+        //    // recette['quittance'] = {
+        //    //     'quittanceNo': 'maQuittance'  
+        //    // }
+
+
+        //    recette['idTransaction'] = 'myidTransaction' + getRandomNumberBetween(0, 1000000);
+
+        //    //recette['idTransaction'] = 'myidTransaction' ;
+
+
+        //    insertIntoRecettes(recette, function (err, data) {
+
+        //        if (err) {
+
+        //            logException(err + " during the insert of recette['idTransaction'] = " + recette['idTransaction']);
+
+        //        } else {
+
+        //            console.log('Two rows inserted and one row updated');
+
+        //        }
+
+        //    });
+
+
+
 
 
 
@@ -404,7 +350,11 @@ async function runConsumer() {
 
         console.log("waiting for recettes ===========");
         let quittanceNos = [];
-        let maxLength = 300;
+        let maxLength = 200;
+
+        const util = require('util');
+        const insertIntoRecettesAsync = util.promisify(insertIntoRecettes);
+
         await consumer.run({
 
 
@@ -416,50 +366,68 @@ async function runConsumer() {
                 recette = JSON.parse(`${result.message.value}`);
                 paiement = JSON.parse(`${result.message.value}`);
 
-                console.log(recette)
+                //console.log(recette)
                 paiement['quittanceB64'] = null;
 
                 logPaiement(JSON.stringify(paiement));
                 console.log("received data  data['quittance']['quittanceNo']= " + recette['quittance']['quittanceNo']);
 
 
-                            // Get the quittanceNo
+                // Get the quittanceNo
                 let quittanceNo = recette['quittance']['quittanceNo'];
 
                 // Add to the list if not already present
                 if (!quittanceNos.includes(quittanceNo)) {
+                    //if (true) {
+
                     quittanceNos.push(quittanceNo);
 
-                    console.log("quittanceNos.length = "+quittanceNos.length);
+                    console.log("quittanceNos.length = " + quittanceNos.length);
 
-                   
-                    
+
+
                     // Keep only the last maxLength unique values
                     if (quittanceNos.length > maxLength) {
                         quittanceNos.shift();
                     }
 
-                    insertIntoRecettes(recette, function (err, data) {
-                        if (err) {
-                            console.error("Error in insertIntoRecettes:", err);
-                        } else {
-                            console.log("insertIntoRecettes success:", data);
-                        }
-                    });
-     
-                    await new Promise(resolve => setTimeout(resolve, 50));
-                }else{
+                    // console.log("---->debut "+recette['quittance']['quittanceNo']);
+                    // insertIntoRecettes(recette, function (err, data) {
+                    //     if (err) {
+                    //         console.error("Error in insertIntoRecettes:", err);
+                    //     } else {
+                    //         console.log("---->fin "+data);
+                    //         //console.log("insertIntoRecettes success:", data);
+                    //     }
+                    // });
 
-                    console.log("Duplicata error detected and avoided quittanceNo : "+ quittanceNo);
-                    logException("Duplicata error detected and avoided quittanceNo : "+ quittanceNo);
-                    
+
+
+
+
+                    try {
+
+                        // console.log("---->debut " + recette['quittance']['quittanceNo']+" : "+ Date.now());
+                        await insertIntoRecettesAsync(recette);
+                        //  console.log("---->fin " + recette['quittance']['quittanceNo']+" : "+ Date.now());
+                    } catch (err) {
+                        console.error("Error in insertIntoRecettes:", err);
+                    }
+
+
+                } else {
+
+                    console.log("Duplicata error detected and avoided quittanceNo : " + quittanceNo);
+                    logException("Duplicata error detected and avoided quittanceNo : " + quittanceNo);
+
                 }
-              
-                
+
+
 
 
             }
         })
+
 
     }
     catch (ex) {
@@ -489,10 +457,10 @@ async function runConsumer() {
 }
 
 
- 
 
 
- 
+
+
 function formatDate(date) {
     let year = date.getFullYear();
     let month = (date.getMonth() + 1).toString().padStart(2, '0');
@@ -583,7 +551,7 @@ function setAsAcquite(numero, callback) {
 
             flag = false;
 
-            
+
 
             mySingletonConnection.getConnection(function (err, con) {
 
@@ -640,245 +608,286 @@ function logTimestampBeforeAndAfterInsertion(timestampBefore, timestampAfter, ti
 
 
 
-
-function executeThreeQueries(query1, query2, query3, numero, callback) {
-    console.log("inside executeThreeQueries" );
+function executeThreeQueries(query1, query2, query3, numero, typeDoc, quittanceNO, callback) {
+    console.log("inside executeThreeQueries");
 
     flag = true;
     const timestampStart = new Date();
 
     mySingletonConnection.getConnection((err, db) => {
         if (err) {
-            
             console.error('Error connecting to the database', err);
             logException('' + err);
-
-            //throw new Error('error in executing3queries');
             return callback(new Error('error in executing3queries'), null);
-            //return callback(null, false);
-            //return setTimeout(() => executeThreeQueries(query1, query2, query3, numero, callback), 5000);
         }
 
         console.log("Database connection established");
 
         db.beginTransaction(function (err) {
             if (err) {
-        
-                
                 console.log('Error in transaction', err);
                 logException('' + err);
-                //throw new Error('error in executing3queries');
                 return callback(new Error('error in executing3queries'), null);
-                //return callback(null, false);
-            
-                //return setTimeout(() => executeThreeQueries(query1, query2, query3, numero, callback), 5000);
             }
 
             console.log("Transaction started");
 
             db.query(query1, function (error, results1, fields) {
                 if (error) {
-
-                     
                     console.log('Error in first query', error);
                     logException('' + error);
 
                     if (error.code === 'ER_DUP_ENTRY' || error.code === 1062) {
                         var mytimestamp = new Date();
-                        console.error('Duplicate entry detected. Aborting transaction.'+mytimestamp);
+                        console.error('Duplicate entry detected. Aborting transaction.' + mytimestamp);
                         logException('Duplicate entry detected. Aborting transaction.');
                         return callback(null, null);
-                        // return db.rollback(function () {
-                        //     console.error('Rollback due to duplicate entry in first query');
-                        // });
                     }
 
                     return db.rollback(function () {
                         console.error('Rollback due to first query error');
-                        
-                        //return setTimeout(() => executeThreeQueries(query1, query2, query3, numero, callback), 5000);
-                        //throw new Error('error in executing3queries');
                         return callback(new Error('error in executing3queries'), null);
-
-                      
-                        //return callback(null, false);
-                    }); 
+                    });
                 }
 
-                db.query(query2, function (error, results2, fields) {
-                    if (error) {
-                         
-                        console.log('Error in second query', error);
-                        logException('' + error);
-
-                        if (error.code === 'ER_DUP_ENTRY' || error.code === 1062) {
-                            console.error('Duplicate entry detected. Aborting transaction.');
-                            logException('Duplicate entry detected. Aborting transaction.');
-                            return callback(null, null);
-                            // return db.rollback(function () {
-                            //     console.error('Rollback due to duplicate entry in second query');
-                            // });
+                // If typeDoc is 9, commit after the first query
+                if (typeDoc == 9) {
+                    db.commit(function (err) {
+                        if (err) {
+                            console.log('Error in commit', err);
+                            logException('' + err);
+                            return db.rollback(function () {
+                                console.error('Rollback due to commit error');
+                                return callback(new Error('error in executing3queries'), null);
+                            });
                         }
 
-                        return db.rollback(function () {
-                            console.error('Rollback due to second query error');
+                        const timestampEnd = new Date();
+                        const timeDifference = (timestampEnd - timestampStart) / 1000; // Difference in seconds
+                        logTimestampBeforeAndAfterInsertion(timestampStart.toISOString(), timestampEnd.toISOString(), timeDifference, numero);
 
-                            //throw new Error('error in executing3queries');
-                            return callback(new Error('error in executing3queries'), null);
-                            //return callback(null, false);
-                            //return setTimeout(() => executeThreeQueries(query1, query2, query3, numero, callback), 5000);
-                        }); 
-                    }
+                        console.log('Query1 was successful!');
+                        console.log('------>myfin ' + quittanceNO + ' ' + Date.now());
+                        return callback(null, quittanceNO);
 
-                    db.query(query3, function (error, results3, fields) {
+
+                    });
+                } else {
+                    // Proceed with the second and third queries
+                    db.query(query2, function (error, results2, fields) {
                         if (error) {
-
-                            flag = false;
-                            console.log('Error in third query', error);
+                            console.log('Error in second query', error);
                             logException('' + error);
 
                             if (error.code === 'ER_DUP_ENTRY' || error.code === 1062) {
                                 console.error('Duplicate entry detected. Aborting transaction.');
                                 logException('Duplicate entry detected. Aborting transaction.');
                                 return callback(null, null);
-                                // return db.rollback(function () {
-                                //     console.error('Rollback due to duplicate entry in third query');
-                                // });
                             }
 
                             return db.rollback(function () {
-                                console.error('Rollback due to third query error');
-
-                                //throw new Error('error in executing3queries');
+                                console.error('Rollback due to second query error');
                                 return callback(new Error('error in executing3queries'), null);
-                                //return callback(null, false);
-                                //return setTimeout(() => executeThreeQueries(query1, query2, query3, numero, callback), 5000);
-                            }); 
+                            });
                         }
 
-                        db.commit(function (err) {
-                            if (err) {
+                        db.query(query3, function (error, results3, fields) {
+                            if (error) {
+                                flag = false;
+                                console.log('Error in third query', error);
+                                logException('' + error);
 
-                                
-                                console.log('Error in commit', err);
-                                logException('' + err);
+                                if (error.code === 'ER_DUP_ENTRY' || error.code === 1062) {
+                                    console.error('Duplicate entry detected. Aborting transaction.');
+                                    logException('Duplicate entry detected. Aborting transaction.');
+                                    return callback(null, null);
+                                }
+
                                 return db.rollback(function () {
-                                    console.error('Rollback due to commit error');
-
+                                    console.error('Rollback due to third query error');
                                     return callback(new Error('error in executing3queries'), null);
-                                     
-                                    //throw new Error('error in executing3queries');
-                                    //return callback(null, false);
-                                   // return setTimeout(() => executeThreeQueries(query1, query2, query3, numero, callback), 5000);
                                 });
                             }
 
-                            const timestampEnd = new Date();
-                            const timeDifference = (timestampEnd - timestampStart) / 1000; // Difference in seconds
-                            logTimestampBeforeAndAfterInsertion(timestampStart.toISOString(), timestampEnd.toISOString(), timeDifference, numero);
+                            db.commit(function (err) {
+                                if (err) {
+                                    console.log('Error in commit', err);
+                                    logException('' + err);
+                                    return db.rollback(function () {
+                                        console.error('Rollback due to commit error');
+                                        return callback(new Error('error in executing3queries'), null);
+                                    });
+                                }
 
-                            console.log('All three queries were successful!');
-                            // Do not end the connection here, as it's managed by the singleton
-                             
-                            return callback(null, [results1, results2, results3]);
+                                const timestampEnd = new Date();
+                                const timeDifference = (timestampEnd - timestampStart) / 1000; // Difference in seconds
+                                logTimestampBeforeAndAfterInsertion(timestampStart.toISOString(), timestampEnd.toISOString(), timeDifference, numero);
+
+                                console.log('All three queries were successful!');
+
+                                console.log('------>myfin ' + quittanceNO);
+                                return callback(null, quittanceNO);
+                            });
                         });
-
-                        
                     });
-                });
+                }
             });
         });
     });
 }
 
 
-// function executeThreeQueries(query1, query2, query3, numero, callback) {
-//     console.log("inside executeThreeQueries");
 
+// function executeThreeQueries(query1, query2, query3, numero, callback) {
+//     console.log("inside executeThreeQueries" );
+
+//     flag = true;
 //     const timestampStart = new Date();
 
 //     mySingletonConnection.getConnection((err, db) => {
 //         if (err) {
+
 //             console.error('Error connecting to the database', err);
-//             logException(  err  );
-//             return setTimeout(() => executeThreeQueries(query1, query2, query3, numero, callback), 5000);
+//             logException('' + err);
+
+//             //throw new Error('error in executing3queries');
+//             return callback(new Error('error in executing3queries'), null);
+//             //return callback(null, false);
+//             //return setTimeout(() => executeThreeQueries(query1, query2, query3, numero, callback), 5000);
 //         }
 
 //         console.log("Database connection established");
 
 //         db.beginTransaction(function (err) {
 //             if (err) {
+
+
 //                 console.log('Error in transaction', err);
-//                 logException(  err  );
-//                 return setTimeout(() => executeThreeQueries(query1, query2, query3, numero , callback), 5000);
+//                 logException('' + err);
+//                 //throw new Error('error in executing3queries');
+//                 return callback(new Error('error in executing3queries'), null);
+//                 //return callback(null, false);
+
+//                 //return setTimeout(() => executeThreeQueries(query1, query2, query3, numero, callback), 5000);
 //             }
 
 //             console.log("Transaction started");
 
 //             db.query(query1, function (error, results1, fields) {
 //                 if (error) {
+
+
 //                     console.log('Error in first query', error);
-//                     logException(  err );
+//                     logException('' + error);
+
+//                     if (error.code === 'ER_DUP_ENTRY' || error.code === 1062) {
+//                         var mytimestamp = new Date();
+//                         console.error('Duplicate entry detected. Aborting transaction.'+mytimestamp);
+//                         logException('Duplicate entry detected. Aborting transaction.');
+//                         return callback(null, null);
+//                         // return db.rollback(function () {
+//                         //     console.error('Rollback due to duplicate entry in first query');
+//                         // });
+//                     }
+
 //                     return db.rollback(function () {
 //                         console.error('Rollback due to first query error');
-//                         return setTimeout(() => executeThreeQueries(query1, query2, query3, numero, callback), 5000);
-//                     });
+
+//                         //return setTimeout(() => executeThreeQueries(query1, query2, query3, numero, callback), 5000);
+//                         //throw new Error('error in executing3queries');
+//                         return callback(new Error('error in executing3queries'), null);
+
+
+//                         //return callback(null, false);
+//                     }); 
 //                 }
-
-
-
 
 //                 db.query(query2, function (error, results2, fields) {
 //                     if (error) {
+
 //                         console.log('Error in second query', error);
-//                         logException(  err );
+//                         logException('' + error);
+
+//                         if (error.code === 'ER_DUP_ENTRY' || error.code === 1062) {
+//                             console.error('Duplicate entry detected. Aborting transaction.');
+//                             logException('Duplicate entry detected. Aborting transaction.');
+//                             return callback(null, null);
+//                             // return db.rollback(function () {
+//                             //     console.error('Rollback due to duplicate entry in second query');
+//                             // });
+//                         }
+
 //                         return db.rollback(function () {
 //                             console.error('Rollback due to second query error');
-//                             return setTimeout(() => executeThreeQueries(query1, query2, query3, numero, callback), 5000);
-//                         });
+
+//                             //throw new Error('error in executing3queries');
+//                             return callback(new Error('error in executing3queries'), null);
+//                             //return callback(null, false);
+//                             //return setTimeout(() => executeThreeQueries(query1, query2, query3, numero, callback), 5000);
+//                         }); 
 //                     }
-
-
 
 //                     db.query(query3, function (error, results3, fields) {
 //                         if (error) {
+
+//                             flag = false;
 //                             console.log('Error in third query', error);
-//                             logException(  err  );
+//                             logException('' + error);
+
+//                             if (error.code === 'ER_DUP_ENTRY' || error.code === 1062) {
+//                                 console.error('Duplicate entry detected. Aborting transaction.');
+//                                 logException('Duplicate entry detected. Aborting transaction.');
+//                                 return callback(null, null);
+//                                 // return db.rollback(function () {
+//                                 //     console.error('Rollback due to duplicate entry in third query');
+//                                 // });
+//                             }
+
 //                             return db.rollback(function () {
 //                                 console.error('Rollback due to third query error');
-//                                 return setTimeout(() => executeThreeQueries(query1, query2, query3, numero , callback), 5000);
-//                             });
+
+//                                 //throw new Error('error in executing3queries');
+//                                 return callback(new Error('error in executing3queries'), null);
+//                                 //return callback(null, false);
+//                                 //return setTimeout(() => executeThreeQueries(query1, query2, query3, numero, callback), 5000);
+//                             }); 
 //                         }
-
-
-
 
 //                         db.commit(function (err) {
 //                             if (err) {
+
+
 //                                 console.log('Error in commit', err);
-//                                 logException(  err  );
+//                                 logException('' + err);
 //                                 return db.rollback(function () {
 //                                     console.error('Rollback due to commit error');
-//                                     return setTimeout(() => executeThreeQueries(query1, query2, query3, numero, callback), 5000);
+
+//                                     return callback(new Error('error in executing3queries'), null);
+
+//                                     //throw new Error('error in executing3queries');
+//                                     //return callback(null, false);
+//                                    // return setTimeout(() => executeThreeQueries(query1, query2, query3, numero, callback), 5000);
 //                                 });
 //                             }
 
 //                             const timestampEnd = new Date();
-
 //                             const timeDifference = (timestampEnd - timestampStart) / 1000; // Difference in seconds
-
-//                             logTimestampBeforeAndAfterInsertion(timestampStart.toISOString() , timestampEnd.toISOString() , timeDifference , numero);
+//                             logTimestampBeforeAndAfterInsertion(timestampStart.toISOString(), timestampEnd.toISOString(), timeDifference, numero);
 
 //                             console.log('All three queries were successful!');
 //                             // Do not end the connection here, as it's managed by the singleton
+
 //                             return callback(null, [results1, results2, results3]);
 //                         });
+
+
 //                     });
 //                 });
 //             });
 //         });
 //     });
 // }
+
 
 
 
