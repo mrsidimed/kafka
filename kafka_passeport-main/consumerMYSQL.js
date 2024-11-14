@@ -198,7 +198,12 @@ function insertIntoRecettes(data, callback) {
                     let ordreRecetteNumero = data['ordreRecette']['numero'];
                     let codecac, typedoc, transport = 0;
 
-                    if (ordreRecetteNumero.startsWith('9')) {
+                    if (ordreRecetteNumero.startsWith('8')) {
+
+                        codecac = '800000';
+                        typedoc = parseInt(ordreRecetteNumero.charAt(4));  // 5th character, as indices start from 0
+
+                    } else if (ordreRecetteNumero.startsWith('9')) {
                         codecac = '900000';
                         typedoc = parseInt(ordreRecetteNumero.charAt(4));  // 5th character, as indices start from 0
                     } else {
@@ -219,6 +224,8 @@ function insertIntoRecettes(data, callback) {
                         Nature_encaiss = 'CR';
                     } else if (typedoc == 9) {
                         Nature_encaiss = 'EXTR';
+                    }else if (typedoc == 4) {
+                        Nature_encaiss = 'CJ';
                     }
 
 
@@ -492,10 +499,10 @@ function logException(error) {
 function logPaiement(paiement) {
 
     console.log("inside paiement");
-    if (!fs.existsSync('./paiements')) {
-        fs.mkdirSync('./paiements');
-    }
-    fs.appendFileSync('./paiements/' + new Date().toISOString().split('T')[0], new Date().toISOString() + ' : ' + paiement + '\n\n');
+     if (!fs.existsSync('./paiements')) {
+         fs.mkdirSync('./paiements');
+     }
+     fs.appendFileSync('./paiements/' + new Date().toISOString().split('T')[0], new Date().toISOString() + ' : ' + paiement + '\n\n');
 
 }
 
@@ -598,11 +605,11 @@ function getRandomNumberBetween(min, max) {
 
 function logTimestampBeforeAndAfterInsertion(timestampBefore, timestampAfter, timeDifference, numeroOrdre) {
 
-
-    if (!fs.existsSync('./logsInsertion')) {
-        fs.mkdirSync('./logsInsertion');
-    }
-    fs.appendFileSync('./logsInsertion/' + new Date().toISOString().split('T')[0], 'timeDiffSeconds: ' + timeDifference + ',          timestampBefore: ' + timestampBefore + ',       timestampAfter  : ' + timestampAfter + ',         numeroOrdre: ' + numeroOrdre + ' \n\n');
+    console.log('timeDiffSeconds: ' + timeDifference + ',          timestampBefore: ' + timestampBefore + ',       timestampAfter  : ' + timestampAfter + ',         numeroOrdre: ' + numeroOrdre + ' \n\n')
+     if (!fs.existsSync('./logsInsertion')) {
+         fs.mkdirSync('./logsInsertion');
+     }
+     fs.appendFileSync('./logsInsertion/' + new Date().toISOString().split('T')[0], 'timeDiffSeconds: ' + timeDifference + ',          timestampBefore: ' + timestampBefore + ',       timestampAfter  : ' + timestampAfter + ',         numeroOrdre: ' + numeroOrdre + ' \n\n');
 
 }
 

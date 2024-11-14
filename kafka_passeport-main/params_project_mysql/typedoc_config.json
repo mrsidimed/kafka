@@ -2,6 +2,7 @@
     "passeport_normal": false,
     "passeport_vip": false,
     "carte_identite": true,
-    "carte_resident": true,
-    "extrait_naissance": true
+    "carte_resident": false,
+    "extrait_naissance": false,
+    "casier_judiciaire": true
 }

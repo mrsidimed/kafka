@@ -57,7 +57,8 @@ const docTypeMapping = {
     passeport_vip: '7',
     carte_identite: '5',
     carte_resident: '8',
-    extrait_naissance: '9'
+    extrait_naissance: '9',
+    casier_judiciaire: '4'
 };
 
 
@@ -226,6 +227,7 @@ function getOrdre(callback) {
                     // ordres.TYPEDOC = '5' (ID : "carte_identite")
                     // ordres.TYPEDOC = '8' (CR :  "carte_resident")
                     // ordres.TYPEDOC = '9' (NP : "extrait_naissance")
+                    // ordres.TYPEDOC = '4' (CJ : "casier_judiciaire")
 
                     // Prepare the SQL query
                     const typedocValues = Object.keys(config)
@@ -238,9 +240,10 @@ function getOrdre(callback) {
 
                     var queryOrdre = "SELECT ordres.numero , ordres.nni , ordres.TYPEDOC , ordres.PRENOM_FR as prenomFr, ordres.PRENOM_AR as prenomAr , ordres.NOM_FAMILLE_FR as nomFamilleFr ,  ordres.NOM_FAMILLE_AR as nomFamilleAr , ordres.DATE_NAISSANCE as dateNaissance, ordres.LIEU_NAISSANCE_FR as lieuNaissanceFr , ordres.LIEU_NAISSANCE_AR as lieuNaissanceAr , ordres.MONTANT as montant , ordres.TRANSPORT as transport  ,typedemande.libelle  as typeDemande , typedocument.libelle  as typeDocument  ,cac.nom_cac as cacFr , cac.nom_cac as cacAr, cac.nom_cacar as cacAr  FROM ordres inner join typedemande on typedemande.code = ordres.TYPEDEM inner join typedocument on typedocument.code = ordres.TYPEDOC inner join cac on ordres.codecac = cac.cac "
                         //   +" where sent = 0  and (ordres.TYPEDOC = '6' or ordres.TYPEDOC = '7'  ) and ordres.numero not like '00%' limit 10";
-                        + "WHERE sent = 0 AND " + typedocSqlPart + " AND ordres.numero NOT LIKE '00%' LIMIT " + kafkaParams["numberOfOrders"];
+                        + "WHERE sent = 0 AND " + typedocSqlPart + " AND (ordres.numero NOT LIKE '00%' OR ordres.TYPEDOC = '5') LIMIT " + kafkaParams["numberOfOrders"];
  
 
+                        console.log(queryOrdre);
 
                     con.query(queryOrdre, function (err, result, fields) {
 
