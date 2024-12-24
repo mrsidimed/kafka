@@ -97,8 +97,8 @@ var occupiedFlag = false;
   
 var recettes = []; // Array to hold all recettes
 
-let listOfNumbersBefore = [1, 2, 3, 4, 5];
-let valueToAdd = 700;
+let listOfNumbersBefore = [1];
+let valueToAdd = 900;
 
 let listOfNumbers = listOfNumbersBefore.map(number => number + valueToAdd);
 

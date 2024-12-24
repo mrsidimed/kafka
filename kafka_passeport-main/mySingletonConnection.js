@@ -33,7 +33,7 @@ class singletonConnection {
 
             var mycon = mysql.createConnection({
                 host: dbParams['host'],
-		port: dbParams['port'],
+		        port: dbParams['port'],
                 user: dbParams['user'],
                 password: dbParams['password'],
                 database: dbParams['database']
@@ -45,7 +45,9 @@ class singletonConnection {
                 if (err) {
                   
                     console.log("error while connectig to the DB");
-		    console.log("err = "+err);
+		            console.log("err = "+err);
+
+                    logException(err);
 
                     return callback(err, null);
 
@@ -63,6 +65,7 @@ class singletonConnection {
 
 
             mycon.on('error', function (err) {
+                logException(err);
                 return callback(err, null);
 
             });
@@ -74,6 +77,19 @@ class singletonConnection {
     }
 
 }
+
+
+
+function logException(error) {
+
+
+    if (!fs.existsSync('./logs')) {
+        fs.mkdirSync('./logs');
+    }
+    fs.appendFileSync('./logs/' + new Date().toISOString().split('T')[0], new Date().toISOString() + ' mySingletonConnection.js: ' + error + '\n\n');
+
+}
+
 
 const mySingletonConnection = new singletonConnection();
 

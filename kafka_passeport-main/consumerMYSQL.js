@@ -224,7 +224,7 @@ function insertIntoRecettes(data, callback) {
                         Nature_encaiss = 'CR';
                     } else if (typedoc == 9) {
                         Nature_encaiss = 'EXTR';
-                    }else if (typedoc == 4) {
+                    } else if (typedoc == 4) {
                         Nature_encaiss = 'CJ';
                     }
 
@@ -241,7 +241,8 @@ function insertIntoRecettes(data, callback) {
                     var queryUpdateAcquite = "UPDATE ordres SET acquite = 1, Nrecette = 'PE' where NUMERO = '" + data['ordreRecette']['numero'] + "'";
 
 
-                    executeThreeQueries(queryInsertion, queryInsertPdf2, queryUpdateAcquite, data['ordreRecette']['numero'], typedoc, data['quittance']['quittanceNo'], function (err, results) {
+                    //executeThreeQueries(queryInsertion, queryInsertPdf2, queryUpdateAcquite, data['ordreRecette']['numero'], typedoc, data['quittance']['quittanceNo'], function (err, results) {
+                    executeTwoQueries(queryInsertion, queryInsertPdf2, data['ordreRecette']['numero'], typedoc, data['quittance']['quittanceNo'], function (err, results) {
                         console.log("inside insert recette 5");
 
 
@@ -256,7 +257,8 @@ function insertIntoRecettes(data, callback) {
 
                             logException(data['ordreRecette']['numero'] + " is beeing reinserted reinserted ");
                             console.log(data['ordreRecette']['numero'] + " is beeing reinserted reinserted ");
-                            return setTimeout(() => executeThreeQueries(queryInsertion, queryInsertPdf2, queryUpdateAcquite, data['ordreRecette']['numero'], typedoc, data['quittance']['quittanceNo'], callback), 5000);
+                            //return setTimeout(() => executeThreeQueries(queryInsertion, queryInsertPdf2, queryUpdateAcquite, data['ordreRecette']['numero'], typedoc, data['quittance']['quittanceNo'], callback), 5000);
+                            return setTimeout(() => executeTwoQueries(queryInsertion, queryInsertPdf2, data['ordreRecette']['numero'], typedoc, data['quittance']['quittanceNo'], callback), 5000);
 
                         } else {
                             console.log('Queries executed successfully: ');
@@ -357,7 +359,7 @@ async function runConsumer() {
 
         console.log("waiting for recettes ===========");
         let quittanceNos = [];
-        let maxLength = 200;
+        let maxLength = 1000;
 
         const util = require('util');
         const insertIntoRecettesAsync = util.promisify(insertIntoRecettes);
@@ -499,10 +501,10 @@ function logException(error) {
 function logPaiement(paiement) {
 
     console.log("inside paiement");
-     if (!fs.existsSync('./paiements')) {
-         fs.mkdirSync('./paiements');
-     }
-     fs.appendFileSync('./paiements/' + new Date().toISOString().split('T')[0], new Date().toISOString() + ' : ' + paiement + '\n\n');
+    if (!fs.existsSync('./paiements')) {
+        fs.mkdirSync('./paiements');
+    }
+    fs.appendFileSync('./paiements/' + new Date().toISOString().split('T')[0], new Date().toISOString() + ' : ' + paiement + '\n\n');
 
 }
 
@@ -606,10 +608,10 @@ function getRandomNumberBetween(min, max) {
 function logTimestampBeforeAndAfterInsertion(timestampBefore, timestampAfter, timeDifference, numeroOrdre) {
 
     console.log('timeDiffSeconds: ' + timeDifference + ',          timestampBefore: ' + timestampBefore + ',       timestampAfter  : ' + timestampAfter + ',         numeroOrdre: ' + numeroOrdre + ' \n\n')
-     if (!fs.existsSync('./logsInsertion')) {
-         fs.mkdirSync('./logsInsertion');
-     }
-     fs.appendFileSync('./logsInsertion/' + new Date().toISOString().split('T')[0], 'timeDiffSeconds: ' + timeDifference + ',          timestampBefore: ' + timestampBefore + ',       timestampAfter  : ' + timestampAfter + ',         numeroOrdre: ' + numeroOrdre + ' \n\n');
+    if (!fs.existsSync('./logsInsertion')) {
+        fs.mkdirSync('./logsInsertion');
+    }
+    fs.appendFileSync('./logsInsertion/' + new Date().toISOString().split('T')[0], 'timeDiffSeconds: ' + timeDifference + ',          timestampBefore: ' + timestampBefore + ',       timestampAfter  : ' + timestampAfter + ',         numeroOrdre: ' + numeroOrdre + ' \n\n');
 
 }
 
@@ -736,6 +738,161 @@ function executeThreeQueries(query1, query2, query3, numero, typeDoc, quittanceN
                                 return callback(null, quittanceNO);
                             });
                         });
+                    });
+                }
+            });
+        });
+    });
+}
+
+
+
+
+
+
+
+function executeTwoQueries(query1, query2, numero, typeDoc, quittanceNO, callback) {
+    console.log("inside executeTwoQueries");
+
+    flag = true;
+    const timestampStart = new Date();
+
+    mySingletonConnection.getConnection((err, db) => {
+        if (err) {
+            console.error('Error connecting to the database', err);
+            logException('' + err);
+            return callback(new Error('error in executing3queries'), null);
+        }
+
+        console.log("Database connection established");
+
+        db.beginTransaction(function (err) {
+            if (err) {
+                console.log('Error in transaction', err);
+                logException('' + err);
+                return callback(new Error('error in executing3queries'), null);
+            }
+
+            console.log("Transaction started");
+
+            db.query(query1, function (error, results1, fields) {
+                if (error) {
+                    console.log('Error in first query', error);
+                    logException('' + error);
+
+                    if (error.code === 'ER_DUP_ENTRY' || error.code === 1062) {
+                        var mytimestamp = new Date();
+                        console.error('Duplicate entry detected. Aborting transaction.' + mytimestamp);
+                        logException('Duplicate entry detected. Aborting transaction.');
+                        return callback(null, null);
+                    }
+
+                    return db.rollback(function () {
+                        console.error('Rollback due to first query error');
+                        return callback(new Error('error in executing3queries'), null);
+                    });
+                }
+
+                // If typeDoc is 9, commit after the first query
+                if (typeDoc == 9) {
+                    db.commit(function (err) {
+                        if (err) {
+                            console.log('Error in commit', err);
+                            logException('' + err);
+                            return db.rollback(function () {
+                                console.error('Rollback due to commit error');
+                                return callback(new Error('error in executing3queries'), null);
+                            });
+                        }
+
+                        const timestampEnd = new Date();
+                        const timeDifference = (timestampEnd - timestampStart) / 1000; // Difference in seconds
+                        logTimestampBeforeAndAfterInsertion(timestampStart.toISOString(), timestampEnd.toISOString(), timeDifference, numero);
+
+                        console.log('Query1 was successful!');
+                        console.log('------>myfin ' + quittanceNO + ' ' + Date.now());
+                        return callback(null, quittanceNO);
+
+
+                    });
+                } else {
+                    // Proceed with the second and third queries
+                    db.query(query2, function (error, results2, fields) {
+                        if (error) {
+                            console.log('Error in second query', error);
+                            logException('' + error);
+
+                            if (error.code === 'ER_DUP_ENTRY' || error.code === 1062) {
+                                console.error('Duplicate entry detected. Aborting transaction.');
+                                logException('Duplicate entry detected. Aborting transaction.');
+                                return callback(null, null);
+                            }
+
+                            return db.rollback(function () {
+                                console.error('Rollback due to second query error');
+                                return callback(new Error('error in executing3queries'), null);
+                            });
+                        }
+
+
+                        db.commit(function (err) {
+                            if (err) {
+                                console.log('Error in commit', err);
+                                logException('' + err);
+                                return db.rollback(function () {
+                                    console.error('Rollback due to commit error');
+                                    return callback(new Error('error in executing2queries'), null);
+                                });
+                            }
+
+                            const timestampEnd = new Date();
+                            const timeDifference = (timestampEnd - timestampStart) / 1000; // Difference in seconds
+                            logTimestampBeforeAndAfterInsertion(timestampStart.toISOString(), timestampEnd.toISOString(), timeDifference, numero);
+
+                            console.log('All Two queries were successful!');
+
+                            console.log('------>myfin ' + quittanceNO);
+                            return callback(null, quittanceNO);
+                        });
+
+                        // db.query(query3, function (error, results3, fields) {
+                        //     if (error) {
+                        //         flag = false;
+                        //         console.log('Error in third query', error);
+                        //         logException('' + error);
+
+                        //         if (error.code === 'ER_DUP_ENTRY' || error.code === 1062) {
+                        //             console.error('Duplicate entry detected. Aborting transaction.');
+                        //             logException('Duplicate entry detected. Aborting transaction.');
+                        //             return callback(null, null);
+                        //         }
+
+                        //         return db.rollback(function () {
+                        //             console.error('Rollback due to third query error');
+                        //             return callback(new Error('error in executing3queries'), null);
+                        //         });
+                        //     }
+
+                        //     db.commit(function (err) {
+                        //         if (err) {
+                        //             console.log('Error in commit', err);
+                        //             logException('' + err);
+                        //             return db.rollback(function () {
+                        //                 console.error('Rollback due to commit error');
+                        //                 return callback(new Error('error in executing3queries'), null);
+                        //             });
+                        //         }
+
+                        //         const timestampEnd = new Date();
+                        //         const timeDifference = (timestampEnd - timestampStart) / 1000; // Difference in seconds
+                        //         logTimestampBeforeAndAfterInsertion(timestampStart.toISOString(), timestampEnd.toISOString(), timeDifference, numero);
+
+                        //         console.log('All three queries were successful!');
+
+                        //         console.log('------>myfin ' + quittanceNO);
+                        //         return callback(null, quittanceNO);
+                        //     });
+                        // });
                     });
                 }
             });
@@ -898,65 +1055,6 @@ function executeThreeQueries(query1, query2, query3, numero, typeDoc, quittanceN
 
 
 
-function executeTwoQueries(query1, query2, numero, callback) {
-    console.log("inside executeTwoQueries");
-    const timestampStart = new Date();
-
-    mySingletonConnection.getConnection((err, db) => {
-        if (err) {
-            console.error('Error connecting to the database', err);
-            logException('' + err);
-            return setTimeout(() => executeTwoQueries(query1, query2, callback), 5000);
-        }
-
-        db.beginTransaction(function (err) {
-            if (err) {
-                console.log('Error in transaction', err);
-                logException('' + err);
-                return setTimeout(() => executeTwoQueries(query1, query2, callback), 5000);
-            }
-
-            db.query(query1, function (error, results, fields) {
-                if (error) {
-                    return db.rollback(function () {
-                        console.log('Error in first query', error);
-                        logException('' + err);
-                        return setTimeout(() => executeTwoQueries(query1, query2, callback), 5000);
-                    });
-                }
-
-                db.query(query2, function (error, results, fields) {
-                    if (error) {
-                        return db.rollback(function () {
-                            console.log('Error in second query', error);
-                            logException('' + err);
-                            return setTimeout(() => executeTwoQueries(query1, query2, callback), 5000);
-                        });
-                    }
-
-                    db.commit(function (err) {
-                        if (err) {
-                            return db.rollback(function () {
-                                console.log('Error in commit', err);
-                                logException('' + err);
-                                return setTimeout(() => executeTwoQueries(query1, query2, callback), 5000);
-                            });
-                        }
-                        console.log('Both queries were successful!');
-
-                        const timestampEnd = new Date();
-
-                        const timeDifference = (timestampEnd - timestampStart) / 1000; // Difference in seconds
-
-                        logTimestampBeforeAndAfterInsertion(timestampStart.toISOString(), timestampEnd.toISOString(), timeDifference, numero);
-                        // Do not end the connection here, as it's managed by the singleton
-                        return callback(null, results);
-                    });
-                });
-            });
-        });
-    });
-}
 
 
 // function executeTwoQueries(query1, query2, callback) {

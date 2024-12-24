@@ -1,0 +1,46 @@
+timeDiffSeconds: 0.017,          timestampBefore: 2024-12-24T13:11:03.791Z,       timestampAfter  : 2024-12-24T13:11:03.808Z,         numeroOrdre: 060401511120007 
+
+timeDiffSeconds: 0.013,          timestampBefore: 2024-12-24T13:11:03.815Z,       timestampAfter  : 2024-12-24T13:11:03.828Z,         numeroOrdre: 060401511120007 
+
+timeDiffSeconds: 0.021,          timestampBefore: 2024-12-24T13:11:03.829Z,       timestampAfter  : 2024-12-24T13:11:03.850Z,         numeroOrdre: 060401511120007 
+
+timeDiffSeconds: 0.011,          timestampBefore: 2024-12-24T13:11:03.852Z,       timestampAfter  : 2024-12-24T13:11:03.863Z,         numeroOrdre: 060401511120007 
+
+timeDiffSeconds: 0.01,          timestampBefore: 2024-12-24T13:11:03.865Z,       timestampAfter  : 2024-12-24T13:11:03.875Z,         numeroOrdre: 060401511120007 
+
+timeDiffSeconds: 0.014,          timestampBefore: 2024-12-24T13:14:52.066Z,       timestampAfter  : 2024-12-24T13:14:52.080Z,         numeroOrdre: 060401511120007 
+
+timeDiffSeconds: 0.009,          timestampBefore: 2024-12-24T13:14:52.097Z,       timestampAfter  : 2024-12-24T13:14:52.106Z,         numeroOrdre: 060401511120007 
+
+timeDiffSeconds: 0.008,          timestampBefore: 2024-12-24T13:14:52.107Z,       timestampAfter  : 2024-12-24T13:14:52.115Z,         numeroOrdre: 060401511120007 
+
+timeDiffSeconds: 0.008,          timestampBefore: 2024-12-24T13:14:52.117Z,       timestampAfter  : 2024-12-24T13:14:52.125Z,         numeroOrdre: 060401511120007 
+
+timeDiffSeconds: 0.009,          timestampBefore: 2024-12-24T13:14:52.127Z,       timestampAfter  : 2024-12-24T13:14:52.136Z,         numeroOrdre: 060401511120007 
+
+timeDiffSeconds: 0.009,          timestampBefore: 2024-12-24T13:17:51.813Z,       timestampAfter  : 2024-12-24T13:17:51.822Z,         numeroOrdre: 060401511120007 
+
+timeDiffSeconds: 0.018,          timestampBefore: 2024-12-24T13:48:08.633Z,       timestampAfter  : 2024-12-24T13:48:08.651Z,         numeroOrdre: 060401511120007 
+
+timeDiffSeconds: 0.023,          timestampBefore: 2024-12-24T15:08:47.292Z,       timestampAfter  : 2024-12-24T15:08:47.315Z,         numeroOrdre: UPDATE ordres SET acquite = 1, Nrecette = 'PE' where NUMERO = '060401511120007' 
+
+timeDiffSeconds: 0.03,          timestampBefore: 2024-12-24T15:14:43.246Z,       timestampAfter  : 2024-12-24T15:14:43.276Z,         numeroOrdre: 060401511120007 
+
+timeDiffSeconds: 0.021,          timestampBefore: 2024-12-24T15:16:18.755Z,       timestampAfter  : 2024-12-24T15:16:18.776Z,         numeroOrdre: 060401511120007 
+
+timeDiffSeconds: 0.023,          timestampBefore: 2024-12-24T15:20:14.282Z,       timestampAfter  : 2024-12-24T15:20:14.305Z,         numeroOrdre: 060401511120007 
+
+timeDiffSeconds: 0.023,          timestampBefore: 2024-12-24T15:21:44.728Z,       timestampAfter  : 2024-12-24T15:21:44.751Z,         numeroOrdre: 060401511120007 
+
+timeDiffSeconds: 0.012,          timestampBefore: 2024-12-24T15:24:54.969Z,       timestampAfter  : 2024-12-24T15:24:54.981Z,         numeroOrdre: 060401511120007 
+
+timeDiffSeconds: 0.025,          timestampBefore: 2024-12-24T15:27:10.142Z,       timestampAfter  : 2024-12-24T15:27:10.167Z,         numeroOrdre: 060401511120007 
+
+timeDiffSeconds: 0.019,          timestampBefore: 2024-12-24T15:51:07.612Z,       timestampAfter  : 2024-12-24T15:51:07.631Z,         numeroOrdre: 060401511120007 
+
+timeDiffSeconds: 0.014,          timestampBefore: 2024-12-24T16:08:04.552Z,       timestampAfter  : 2024-12-24T16:08:04.566Z,         numeroOrdre: 060401511120007 
+
+timeDiffSeconds: 0.02,          timestampBefore: 2024-12-24T17:34:51.596Z,       timestampAfter  : 2024-12-24T17:34:51.616Z,         numeroOrdre: 060401511120007 
+
+timeDiffSeconds: 0.018,          timestampBefore: 2024-12-24T17:36:27.000Z,       timestampAfter  : 2024-12-24T17:36:27.018Z,         numeroOrdre: 060401511120007 
+
