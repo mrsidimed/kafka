@@ -141,6 +141,9 @@ var occupiedFlag = false;
 //     , kafkaParams["intervalDuration"]);
  
 
+    let arrayNums =  []  ;
+    let counter =  0  ;
+    let lotReceivedSize =  0  ;
 
     function sendOrders() {
         if (!occupiedFlag) {
@@ -149,6 +152,7 @@ var occupiedFlag = false;
                 if (err) {
                     logException(err);
                 } else if (data.length > 0) {
+                    lotReceivedSize = data.length;
                     for (var i = 0; i < data.length; i++) {
                         data[i]['date_generation'] = new Date();
                  
@@ -244,7 +248,7 @@ function getOrdre(callback) {
                         + "WHERE sent = 0  LIMIT " + kafkaParams["numberOfOrders"];
  
 
-                        console.log(queryOrdre);
+                      //  console.log(queryOrdre);
 
                     con.query(queryOrdre, function (err, result, fields) {
 
@@ -280,7 +284,7 @@ function getOrdre(callback) {
 }
 
 
-function updateOrdre(numero, callback) {
+function updateOrdre(numero, arrayNums, callback) {
 
     var flag = true;
     var handle = setInterval(
@@ -316,7 +320,11 @@ function updateOrdre(numero, callback) {
                     flag = true;
 
                 } else {
-                    var queryUpdateOrdre = "UPDATE ordres SET sent = 1 where NUMERO = '" + numero + "'";
+
+                    var queryUpdateOrdre = "UPDATE ordres SET sent = 1 WHERE NUMERO IN (" + arrayNums.map(num => `'${num}'`).join(", ") + ")";
+
+
+                  //  var queryUpdateOrdre = "UPDATE ordres SET sent = 1 where NUMERO = '" + numero + "'";
                     con.query(queryUpdateOrdre, function (err, result, fields) {
 
                         if (err) {
@@ -328,6 +336,9 @@ function updateOrdre(numero, callback) {
 
                         } else {
                             //clearInterval(handle);
+
+                            console.log("all orders were updated ");
+                            console.log(queryUpdateOrdre);
 
 
                             callback(null, result);
@@ -356,6 +367,9 @@ async function runProducer(ordre) {
         //   console.log("Connected!")
         //A-M 0 , N-Z 1 
         //  const partition = msg[0] < "N" ? 0 : 1;
+
+        
+
         const result = await producer.send({
             //  "topic": "topic2"  kafkaParams["topicConsumer"][],
             "topic": kafkaParams["topicProducer"],
@@ -377,13 +391,28 @@ async function runProducer(ordre) {
 
                 console.log(ordre);
                  
+                arrayNums.push(ordre['numero']);
+                counter++;
 
-                updateOrdre(ordre['numero'], function (err, data) {
+                
+
+            }else{
+
+                counter++;
+
+            }
+
+            if(counter==lotReceivedSize){
+
+                updateOrdre(ordre['numero'], arrayNums, function (err, data) {
 
                     if (err) {
 
                         logException(err);
 
+                    }else{
+                        arrayNums = [];
+                        counter = 0;
                     }
 
                 });

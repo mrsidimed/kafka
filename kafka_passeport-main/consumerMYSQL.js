@@ -236,8 +236,8 @@ function insertIntoRecettes(data, callback) {
                     console.log("mynewdate " + mynewdate);
                     var queryInsertPdf2 = "Insert Into  recettes_pdf(   Quittance ,quittance_pdf ) " +
                         "VALUES (    '" + data['quittance']['quittanceNo'] + "'  ,  '" + data['quittanceB64'] + "' )";
-                    var queryInsertion = "Insert Into  recettes ( date_validation , Nature_encaiss, paiement_en_ligne , MontantTrans , montant , cac , etat , date_saisie, Orde_recette  , date_quittance , reference, serviceBancaire , idTransaction  , Quittance , numeroTelephone  ) " +
-                        "VALUES (  SYSDATE() ,'" + Nature_encaiss + "', 1 , " + transport + " ," + data['ordreRecette']['montant'] + ", '" + codecac + "' , 'Reçue', '" + mynewdate + "' , '" + data['ordreRecette']['numero'] + "'   , '" + data['datePaiement'] + "' ,  '" + data['reference'] + "', '" + data['serviceBancaire'] + "' , '" + data['idTransaction'] + "'  , '" + data['quittance']['quittanceNo'] + "'  ,  '" + data['numeroTelephone'] + "'  )";
+                    var queryInsertion = "Insert Into  recettes ( date_validation , Nature_encaiss, paiement_en_ligne , MontantTrans , montant , cac , etat , date_saisie, Orde_recette  , date_quittance , reference, serviceBancaire , idTransaction  , Quittance , numeroTelephone , nni ) " +
+                        "VALUES (  SYSDATE() ,'" + Nature_encaiss + "', 1 , " + transport + " ," + data['ordreRecette']['montant'] + ", '" + codecac + "' , 'Reçue', '" + mynewdate + "' , '" + data['ordreRecette']['numero'] + "'   , '" + data['datePaiement'] + "' ,  '" + data['reference'] + "', '" + data['serviceBancaire'] + "' , '" + data['idTransaction'] + "'  , '" + data['quittance']['quittanceNo'] + "'  ,  '" + data['numeroTelephone'] + "'  , '" + data['ordreRecette']['nni'] + "'  )";
                     var queryUpdateAcquite = "UPDATE ordres SET acquite = 1, Nrecette = 'PE' where NUMERO = '" + data['ordreRecette']['numero'] + "'";
 
 
@@ -274,9 +274,6 @@ function insertIntoRecettes(data, callback) {
 
     }
 }
-
-
-
 
 async function runConsumer() {
 

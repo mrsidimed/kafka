@@ -2,7 +2,7 @@
 {
 
     
-    "host":  "postgres_container" ,
+    "host":  "localhost" ,
     "database": "cartegrise",
     "user": "postgres",
     "password":  "postgres",

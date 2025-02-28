@@ -1,0 +1,2454 @@
+2025-02-28T15:54:04.542Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:54:11.775Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED 127.0.0.1:9092
+
+2025-02-28T15:54:11.778Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:54:14.532Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:54:21.442Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED 127.0.0.1:9092
+
+2025-02-28T15:54:21.445Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:54:21.779Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:54:24.536Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:54:31.450Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:54:31.785Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:54:32.312Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED 127.0.0.1:9092
+
+2025-02-28T15:54:32.315Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:54:33.575Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:54:42.263Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED 127.0.0.1:9092
+
+2025-02-28T15:54:42.268Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:54:43.571Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:54:52.074Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED 127.0.0.1:9092
+
+2025-02-28T15:54:52.079Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:54:52.279Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:54:53.583Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:55:02.095Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:55:02.274Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:55:03.578Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:55:03.892Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED 127.0.0.1:9092
+
+2025-02-28T15:55:03.895Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:55:12.055Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED 127.0.0.1:9092
+
+2025-02-28T15:55:12.057Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:55:12.088Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:55:12.276Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:55:13.578Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:55:13.896Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:55:19.865Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED 127.0.0.1:9092
+
+2025-02-28T15:55:19.875Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:55:22.058Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:55:22.089Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:55:22.281Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:55:23.580Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:55:23.903Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:55:29.225Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED 127.0.0.1:9092
+
+2025-02-28T15:55:29.228Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:55:29.877Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:55:32.063Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:55:32.091Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:55:32.283Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:55:33.583Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:55:33.905Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:55:38.335Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED 127.0.0.1:9092
+
+2025-02-28T15:55:38.339Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:55:39.229Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:55:39.878Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:55:42.069Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:55:42.092Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:55:42.286Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:55:43.584Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:55:43.907Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:55:48.148Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED 127.0.0.1:9092
+
+2025-02-28T15:55:48.151Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:55:48.341Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:55:49.231Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:55:49.880Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:55:52.072Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:55:52.094Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:55:52.286Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:55:53.588Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:55:53.910Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:55:56.229Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED 127.0.0.1:9092
+
+2025-02-28T15:55:56.232Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:55:58.155Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:55:58.344Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:55:59.232Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:55:59.886Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:56:02.074Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:56:02.095Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:56:02.290Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:56:03.591Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:56:03.911Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:56:04.656Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED 127.0.0.1:9092
+
+2025-02-28T15:56:04.658Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:56:06.235Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:56:08.157Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:56:08.347Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:56:09.235Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:56:09.888Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:56:12.079Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:56:12.096Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:56:12.293Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:56:13.594Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:56:13.912Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:56:14.662Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:56:16.123Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED 127.0.0.1:9092
+
+2025-02-28T15:56:16.125Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:56:16.240Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:56:18.158Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:56:18.349Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:56:19.237Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:56:19.891Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:56:22.081Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:56:22.097Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:56:22.294Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:56:23.597Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:56:23.703Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED 127.0.0.1:9092
+
+2025-02-28T15:56:23.705Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:56:23.914Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:56:24.664Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:56:26.127Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:56:26.242Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:56:28.161Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:56:28.350Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:56:29.240Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:56:29.892Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:56:32.084Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:56:32.098Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:56:32.296Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:56:33.600Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:56:33.706Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:56:33.920Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:56:34.665Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:56:35.362Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED 127.0.0.1:9092
+
+2025-02-28T15:56:35.372Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:56:36.129Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:56:36.243Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:56:38.165Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:56:38.351Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:56:39.248Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:56:39.892Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:56:42.090Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:56:42.098Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:56:42.300Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:56:43.605Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:56:43.710Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:56:43.921Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:56:44.667Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:56:45.370Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:56:45.457Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED 127.0.0.1:9092
+
+2025-02-28T15:56:45.459Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:56:46.131Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:56:46.244Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:56:48.167Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:56:48.354Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:56:49.251Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:56:49.898Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:56:52.093Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:56:52.100Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:56:52.301Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:56:53.606Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:56:53.711Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:56:53.923Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:56:54.669Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:56:55.371Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:56:55.461Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:56:56.135Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:56:56.248Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:56:57.245Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED 127.0.0.1:9092
+
+2025-02-28T15:56:57.248Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:56:58.167Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:56:58.354Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:56:59.251Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:56:59.899Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:57:02.095Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:57:02.102Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:57:02.302Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:57:03.609Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:57:03.712Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:57:03.857Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED 127.0.0.1:9092
+
+2025-02-28T15:57:03.860Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:57:03.926Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:57:04.673Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:57:05.373Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:57:05.461Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:57:06.140Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:57:06.249Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:57:07.255Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:57:08.170Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:57:08.355Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:57:09.254Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:57:09.901Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:57:12.098Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:57:12.103Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:57:12.306Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:57:12.579Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED 127.0.0.1:9092
+
+2025-02-28T15:57:12.581Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:57:13.611Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:57:13.715Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:57:13.864Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:57:13.928Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:57:14.676Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:57:15.378Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:57:15.463Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:57:16.142Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:57:16.250Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:57:17.258Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:57:18.172Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:57:18.358Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:57:19.257Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:57:19.905Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:57:22.102Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:57:22.105Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:57:22.214Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED 127.0.0.1:9092
+
+2025-02-28T15:57:22.216Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:57:22.307Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:57:22.584Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:57:23.614Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:57:23.717Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:57:23.865Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:57:23.930Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:57:24.677Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:57:25.381Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:57:25.465Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:57:26.146Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:57:26.253Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:57:27.262Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:57:28.175Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:57:28.359Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:57:29.259Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:57:29.908Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:57:30.382Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED 127.0.0.1:9092
+
+2025-02-28T15:57:30.385Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:57:32.104Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:57:32.106Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:57:32.219Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:57:32.308Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:57:32.585Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:57:33.614Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:57:33.718Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:57:33.866Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:57:33.931Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:57:34.682Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:57:35.387Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:57:35.470Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:57:36.146Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:57:36.254Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:57:37.265Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:57:38.176Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:57:38.361Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:57:39.263Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:57:39.914Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:57:40.387Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:57:42.031Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED 127.0.0.1:9092
+
+2025-02-28T15:57:42.033Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:57:42.108Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:57:42.110Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:57:42.220Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:57:42.311Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:57:42.589Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:57:43.618Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:57:43.718Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:57:43.870Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:57:43.933Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:57:44.685Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:57:45.387Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:57:45.468Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:57:46.150Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:57:46.255Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:57:47.269Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:57:48.179Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:57:48.363Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:57:49.265Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:57:49.922Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:57:50.391Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:57:50.945Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED 127.0.0.1:9092
+
+2025-02-28T15:57:50.960Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:57:52.034Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:57:52.109Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:57:52.110Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:57:52.224Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:57:52.312Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:57:52.590Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:57:53.619Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:57:53.719Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:57:53.873Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:57:53.935Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:57:54.685Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:57:55.389Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:57:55.469Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:57:56.153Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:57:56.257Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:57:56.924Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED 127.0.0.1:9092
+
+2025-02-28T15:57:56.926Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:57:57.271Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:57:58.185Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:57:58.367Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:57:59.268Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:57:59.918Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:58:00.392Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:58:00.960Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:58:02.038Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:58:02.109Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:58:02.110Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:58:02.223Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:58:02.313Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:58:02.592Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:58:03.622Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:58:03.722Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:58:03.874Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:58:03.936Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:58:04.688Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:58:05.391Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:58:05.471Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:58:06.155Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:58:06.263Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:58:06.929Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:58:07.273Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:58:07.502Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED 127.0.0.1:9092
+
+2025-02-28T15:58:07.504Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:58:08.187Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:58:08.378Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:58:09.273Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:58:09.922Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:58:10.395Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:58:10.962Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:58:12.040Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:58:12.111Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:58:12.113Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:58:12.225Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:58:12.314Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:58:12.594Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:58:13.630Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:58:13.723Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:58:13.878Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:58:13.938Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:58:14.692Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:58:15.394Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:58:15.473Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:58:16.161Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:58:16.269Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:58:16.912Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED 127.0.0.1:9092
+
+2025-02-28T15:58:16.915Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:58:16.930Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:58:17.275Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:58:17.508Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:58:18.189Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:58:18.375Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:58:19.276Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:58:19.926Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:58:20.396Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:58:20.963Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:58:22.045Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:58:22.112Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:58:22.114Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:58:22.226Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:58:22.316Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:58:22.596Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:58:23.627Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:58:23.724Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:58:23.881Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:58:23.943Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:58:24.695Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:58:25.399Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:58:25.474Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:58:25.968Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED 127.0.0.1:9092
+
+2025-02-28T15:58:25.971Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:58:26.165Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:58:26.273Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:58:26.918Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:58:26.931Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:58:27.278Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:58:27.509Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:58:28.193Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:58:28.378Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:58:29.277Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:58:29.929Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:58:30.401Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:58:30.966Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:58:32.048Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:58:32.117Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:58:32.120Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:58:32.227Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:58:32.317Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:58:32.599Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:58:33.636Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:58:33.726Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:58:33.882Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:58:33.942Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:58:34.698Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:58:35.254Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED 127.0.0.1:9092
+
+2025-02-28T15:58:35.260Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:58:35.400Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:58:35.477Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:58:35.974Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:58:36.167Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:58:36.277Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:58:36.924Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:58:36.932Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:58:37.281Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:58:37.511Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:58:38.195Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:58:38.382Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:58:39.364Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:58:39.932Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:58:40.401Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:58:40.970Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:58:42.062Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:58:42.118Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:58:42.118Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:58:42.230Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:58:42.321Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:58:42.603Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:58:43.635Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:58:43.727Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:58:43.884Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:58:43.944Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:58:44.246Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED 127.0.0.1:9092
+
+2025-02-28T15:58:44.249Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:58:44.699Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:58:45.259Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:58:45.402Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:58:45.478Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:58:45.978Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:58:46.168Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:58:46.278Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:58:46.926Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:58:46.934Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:58:47.285Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:58:47.511Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:58:48.199Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:58:48.384Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:58:49.324Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:58:49.935Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:58:50.402Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:58:50.971Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:58:52.062Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:58:52.120Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:58:52.121Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:58:52.234Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:58:52.324Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:58:52.603Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:58:53.637Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:58:53.729Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:58:53.886Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:58:53.946Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:58:54.249Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:58:54.691Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED 127.0.0.1:9092
+
+2025-02-28T15:58:54.693Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:58:54.699Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:58:55.259Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:58:55.404Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:58:55.478Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:58:55.983Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:58:56.171Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:58:56.279Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:58:56.928Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:58:56.935Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:58:57.287Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:58:57.513Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:58:58.203Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:58:58.384Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:58:59.325Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:58:59.935Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:59:00.404Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:59:00.972Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:59:02.063Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:59:02.125Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:59:02.126Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:59:02.235Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:59:02.325Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:59:02.605Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:59:03.567Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED 127.0.0.1:9092
+
+2025-02-28T15:59:03.568Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:59:03.640Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:59:03.730Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:59:03.886Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:59:03.948Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:59:04.251Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:59:04.696Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:59:04.700Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:59:05.272Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:59:05.406Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:59:05.480Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:59:05.984Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:59:06.171Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:59:06.282Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:59:06.930Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:59:06.936Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:59:07.288Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:59:07.518Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:59:08.205Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:59:08.384Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:59:09.327Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:59:09.936Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:59:10.405Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:59:10.972Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:59:12.066Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:59:12.125Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:59:12.126Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:59:12.238Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:59:12.328Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:59:12.607Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:59:13.572Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:59:13.642Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:59:13.733Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:59:13.888Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:59:13.950Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:59:14.253Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:59:14.701Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:59:14.703Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:59:15.266Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:59:15.408Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:59:15.482Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:59:15.895Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED 127.0.0.1:9092
+
+2025-02-28T15:59:15.898Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:59:15.987Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:59:16.173Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:59:16.284Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:59:16.932Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:59:16.937Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:59:17.289Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:59:17.521Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:59:18.207Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:59:18.385Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:59:19.329Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:59:19.938Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:59:20.409Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:59:20.974Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:59:22.070Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:59:22.127Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:59:22.128Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:59:22.241Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:59:22.329Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:59:22.609Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:59:23.574Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:59:23.643Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:59:23.736Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:59:23.889Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:59:23.951Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:59:24.256Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:59:24.702Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:59:24.704Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:59:25.269Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:59:25.410Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:59:25.485Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:59:25.902Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:59:25.993Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:59:26.174Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:59:26.286Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:59:26.935Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:59:26.938Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:59:27.290Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:59:27.521Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:59:28.209Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:59:28.388Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:59:29.332Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:59:29.940Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:59:30.219Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED 127.0.0.1:9092
+
+2025-02-28T15:59:30.222Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:59:30.411Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:59:30.975Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:59:32.071Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:59:32.129Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:59:32.130Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:59:32.241Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:59:32.330Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:59:32.612Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:59:33.575Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:59:33.644Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:59:33.741Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:59:33.893Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:59:33.953Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:59:34.259Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:59:34.705Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:59:34.707Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:59:35.271Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:59:35.412Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:59:35.487Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:59:35.904Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:59:35.996Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:59:36.177Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:59:36.289Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:59:36.943Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:59:36.944Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:59:37.298Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:59:37.522Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:59:38.210Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:59:38.389Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:59:38.494Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED 127.0.0.1:9092
+
+2025-02-28T15:59:38.496Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:59:39.335Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:59:39.941Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:59:40.225Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:59:40.416Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:59:40.978Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:59:42.073Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:59:42.133Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:59:42.135Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:59:42.241Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:59:42.333Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:59:42.612Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:59:43.577Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:59:43.645Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:59:43.745Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:59:43.894Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:59:43.965Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:59:44.261Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:59:44.707Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:59:44.709Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:59:45.274Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:59:45.416Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:59:45.489Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:59:45.905Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:59:46.002Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:59:46.179Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:59:46.290Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:59:46.945Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:59:46.946Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:59:47.298Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:59:47.525Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:59:48.212Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:59:48.392Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:59:48.497Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:59:49.338Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:59:49.943Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:59:50.228Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:59:50.419Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:59:50.466Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED 127.0.0.1:9092
+
+2025-02-28T15:59:50.469Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:59:50.979Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:59:52.077Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:59:52.136Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:59:52.138Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:59:52.244Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:59:52.334Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:59:52.616Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:59:53.583Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:59:53.648Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:59:53.747Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:59:53.897Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:59:53.966Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:59:54.265Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:59:54.710Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:59:54.711Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:59:55.277Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:59:55.417Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:59:55.490Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:59:55.909Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:59:55.999Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:59:56.181Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:59:56.293Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:59:56.949Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:59:56.950Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:59:57.300Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:59:57.526Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:59:58.216Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:59:58.392Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:59:58.499Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:59:59.342Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T15:59:59.945Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:00:00.230Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:00:00.419Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:00:00.469Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:00:00.979Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:00:02.080Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:00:02.135Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:00:02.136Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:00:02.245Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:00:02.335Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:00:02.618Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:00:03.584Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:00:03.652Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:00:03.750Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:00:03.900Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:00:03.967Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:00:04.267Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:00:04.711Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:00:04.712Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:00:04.833Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED 127.0.0.1:9092
+
+2025-02-28T16:00:04.835Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:00:05.278Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:00:05.421Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:00:05.491Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:00:05.912Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:00:06.000Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:00:06.182Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:00:06.295Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:00:06.952Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:00:06.953Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:00:07.300Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:00:07.528Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:00:08.218Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:00:08.394Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:00:08.499Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:00:09.345Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:00:09.949Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:00:10.233Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:00:10.421Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:00:10.473Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:00:10.981Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:00:12.084Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:00:12.136Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:00:12.137Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:00:12.248Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:00:12.336Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:00:12.621Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:00:12.745Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED 127.0.0.1:9092
+
+2025-02-28T16:00:12.747Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:00:13.586Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:00:13.653Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:00:13.753Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:00:13.905Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:00:13.971Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:00:14.269Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:00:14.712Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:00:14.713Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:00:14.840Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:00:15.281Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:00:15.426Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:00:15.493Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:00:15.915Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:00:16.001Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:00:16.185Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:00:16.298Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:00:16.953Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:00:16.955Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:00:17.302Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:00:17.529Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:00:18.220Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:00:18.395Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:00:18.503Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:00:19.352Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:00:19.950Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:00:20.234Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:00:20.422Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:00:20.475Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:00:20.985Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:00:22.083Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:00:22.139Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:00:22.139Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:00:22.249Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:00:22.338Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:00:22.624Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:00:22.749Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:00:23.588Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:00:23.654Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:00:23.718Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED 127.0.0.1:9092
+
+2025-02-28T16:00:23.721Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:00:23.754Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:00:23.905Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:00:23.974Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:00:24.269Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:00:24.713Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:00:24.715Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:00:24.842Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:00:25.286Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:00:25.425Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:00:25.495Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:00:25.915Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:00:26.006Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:00:26.186Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:00:26.301Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:00:26.957Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:00:26.959Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:00:27.304Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:00:27.530Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:00:28.222Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:00:28.397Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:00:28.503Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:00:29.353Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:00:29.954Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:00:30.237Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:00:30.430Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:00:30.477Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:00:30.988Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:00:31.787Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED 127.0.0.1:9092
+
+2025-02-28T16:00:31.788Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:00:32.085Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:00:32.144Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:00:32.145Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:00:32.252Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:00:32.340Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:00:32.626Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:00:32.751Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:00:33.590Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:00:33.655Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:00:33.721Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:00:33.755Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:00:33.911Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:00:33.975Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:00:34.271Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:00:34.715Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:00:34.716Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:00:34.846Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:00:35.289Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:00:35.429Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:00:35.497Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:00:35.918Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:00:36.010Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:00:36.188Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:00:36.303Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:00:36.965Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:00:36.967Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:00:37.307Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:00:37.532Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:00:38.226Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:00:38.398Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:00:38.506Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:00:39.356Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:00:39.957Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:00:40.240Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:00:40.363Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED 127.0.0.1:9092
+
+2025-02-28T16:00:40.366Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:00:40.432Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:00:40.479Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:00:40.989Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:00:41.791Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:00:42.088Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:00:42.146Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:00:42.147Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:00:42.254Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:00:42.341Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:00:42.629Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:00:42.752Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:00:43.591Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:00:43.657Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:00:43.724Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:00:43.758Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:00:43.913Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:00:43.978Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:00:44.272Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:00:44.724Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:00:44.725Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:00:44.847Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:00:45.295Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:00:45.429Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:00:45.501Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:00:45.919Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:00:46.014Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:00:46.192Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:00:46.305Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:00:46.966Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:00:46.967Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:00:47.312Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:00:47.536Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:00:48.229Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:00:48.410Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:00:48.508Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:00:49.358Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:00:49.960Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:00:50.244Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:00:50.367Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:00:50.434Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:00:50.480Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:00:50.991Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:00:51.795Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:00:51.982Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED 127.0.0.1:9092
+
+2025-02-28T16:00:51.985Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:00:52.091Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:00:52.148Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:00:52.149Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:00:52.256Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:00:52.342Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:00:52.631Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:00:52.754Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:00:53.592Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:00:53.658Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:00:53.727Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:00:53.760Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:00:53.914Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:00:53.979Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:00:54.275Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:00:54.722Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:00:54.724Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:00:54.853Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:00:55.298Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:00:55.435Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:00:55.502Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:00:55.922Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:00:56.016Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:00:56.195Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:00:56.307Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:00:56.973Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:00:56.975Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:00:57.314Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:00:57.536Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:00:58.235Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:00:58.407Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:00:58.512Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:00:59.361Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:00:59.961Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:01:00.245Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:01:00.367Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:01:00.435Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:01:00.481Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:01:00.994Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:01:01.803Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:01:01.986Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:01:02.094Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:01:02.151Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:01:02.152Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:01:02.258Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:01:02.343Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:01:02.632Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:01:02.756Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:01:03.112Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED 127.0.0.1:9092
+
+2025-02-28T16:01:03.117Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:01:03.593Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:01:03.659Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:01:03.730Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:01:03.761Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:01:03.917Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:01:03.980Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:01:04.277Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:01:04.725Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:01:04.727Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:01:04.855Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:01:05.301Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:01:05.433Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:01:05.503Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:01:05.922Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:01:06.017Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:01:06.198Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:01:06.307Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:01:06.975Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:01:06.977Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:01:07.316Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:01:07.539Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:01:08.236Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:01:08.408Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:01:08.513Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:01:09.362Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:01:09.965Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:01:10.247Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:01:10.370Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:01:10.436Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:01:10.483Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:01:10.997Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:01:11.809Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:01:11.993Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:01:12.097Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:01:12.151Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:01:12.152Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:01:12.259Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:01:12.346Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:01:12.635Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:01:12.756Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:01:13.117Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:01:13.598Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:01:13.660Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:01:13.733Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:01:13.763Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:01:13.921Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:01:13.982Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:01:14.281Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:01:14.725Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:01:14.727Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:01:14.858Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:01:15.304Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:01:15.434Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:01:15.506Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:01:15.924Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:01:16.019Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:01:16.204Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:01:16.312Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:01:16.979Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:01:16.980Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:01:17.317Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:01:17.542Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:01:18.241Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:01:18.411Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:01:18.516Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:01:18.646Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED 127.0.0.1:9092
+
+2025-02-28T16:01:18.648Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:01:19.363Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:01:19.968Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:01:20.250Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:01:20.373Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:01:20.437Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:01:20.485Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:01:20.999Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:01:21.812Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:01:21.996Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:01:22.118Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:01:22.151Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:01:22.151Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:01:22.261Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:01:22.348Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:01:22.636Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:01:22.763Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:01:23.117Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:01:23.598Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:01:23.664Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:01:23.738Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:01:23.766Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:01:23.944Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:01:31.645Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED 127.0.0.1:9092
+
+2025-02-28T16:01:31.649Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:01:33.940Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:01:41.654Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:01:43.892Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED 127.0.0.1:9092
+
+2025-02-28T16:01:43.897Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:01:43.943Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:01:51.511Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED 127.0.0.1:9092
+
+2025-02-28T16:01:51.514Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:01:51.652Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:01:52.869Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:02:02.279Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED 127.0.0.1:9092
+
+2025-02-28T16:02:02.282Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:02:02.868Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:02:08.866Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED 127.0.0.1:9092
+
+2025-02-28T16:02:08.869Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:02:12.284Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:02:12.872Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:02:18.155Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED 127.0.0.1:9092
+
+2025-02-28T16:02:18.158Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:02:18.873Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:02:22.287Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:02:22.875Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:02:28.163Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:02:28.876Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:02:29.862Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED 127.0.0.1:9092
+
+2025-02-28T16:02:29.864Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:02:32.294Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:02:32.879Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:02:38.170Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:02:38.877Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:02:39.868Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:02:40.820Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED 127.0.0.1:9092
+
+2025-02-28T16:02:40.823Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:02:42.298Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:02:42.883Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:02:48.175Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:02:48.883Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:02:49.870Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:02:50.028Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED 127.0.0.1:9092
+
+2025-02-28T16:02:50.031Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:02:50.822Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:02:52.292Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:02:52.887Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:02:58.179Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:02:58.880Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:02:59.874Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:03:00.033Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:03:00.278Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED 127.0.0.1:9092
+
+2025-02-28T16:03:00.280Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:03:00.826Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:03:02.293Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:03:02.889Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:03:08.114Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED 127.0.0.1:9092
+
+2025-02-28T16:03:08.117Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:03:08.179Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:03:08.886Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:03:09.877Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:03:10.036Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:03:10.282Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:03:10.828Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:03:12.299Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:03:12.890Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:03:16.747Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED 127.0.0.1:9092
+
+2025-02-28T16:03:16.750Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:03:18.118Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:03:18.181Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:03:18.888Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:03:19.879Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:03:20.037Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:03:20.284Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:03:20.829Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:03:22.298Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:03:22.896Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:03:26.435Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED 127.0.0.1:9092
+
+2025-02-28T16:03:26.438Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:03:26.751Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:03:28.119Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:03:28.183Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:03:28.889Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:03:29.882Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:03:30.038Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:03:30.285Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:03:30.835Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:03:32.300Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:03:32.897Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:03:36.453Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:03:36.752Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:03:38.123Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:03:38.184Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:03:38.892Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:03:39.888Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:03:40.041Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:03:40.239Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED 127.0.0.1:9092
+
+2025-02-28T16:03:40.241Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:03:40.290Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:03:40.837Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:03:42.302Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:03:42.897Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:03:46.449Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:03:46.754Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:03:48.128Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:03:48.131Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED 127.0.0.1:9092
+
+2025-02-28T16:03:48.136Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:03:48.186Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:03:48.897Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:03:49.889Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:03:50.046Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:03:50.249Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:03:50.293Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:03:50.843Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:03:52.306Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:03:52.902Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:03:54.920Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED 127.0.0.1:9092
+
+2025-02-28T16:03:54.924Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:03:56.455Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:03:56.759Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:03:58.129Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:03:58.136Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:03:58.188Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:03:58.899Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:03:59.892Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:04:00.049Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:04:00.252Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:04:00.298Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:04:00.742Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED 127.0.0.1:9092
+
+2025-02-28T16:04:00.744Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:04:00.844Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:04:02.219Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:04:10.930Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED 127.0.0.1:9092
+
+2025-02-28T16:04:10.934Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:04:12.218Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:04:37.952Z : KafkaJSNumberOfRetriesExceeded: Connection timeout
+
+2025-02-28T16:04:38.048Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:04:38.083Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:04:38.096Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:04:47.983Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:04:48.042Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:04:48.045Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:04:49.549Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED 127.0.0.1:9092
+
+2025-02-28T16:04:49.551Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:04:58.813Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED 127.0.0.1:9092
+
+2025-02-28T16:04:58.816Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:04:59.727Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:04:59.783Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:04:59.784Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:05:01.295Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:05:08.827Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:05:09.729Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:05:09.786Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:05:09.787Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:05:10.155Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED 127.0.0.1:9092
+
+2025-02-28T16:05:10.158Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:05:11.297Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:05:17.914Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED 127.0.0.1:9092
+
+2025-02-28T16:05:17.919Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:05:18.828Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:05:19.733Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:05:19.789Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:05:19.793Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:05:20.160Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:05:21.301Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:05:27.400Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED 127.0.0.1:9092
+
+2025-02-28T16:05:27.403Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:05:27.920Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:05:28.827Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:05:29.738Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:05:29.789Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:05:29.791Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:05:30.163Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:05:31.303Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:05:37.416Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:05:37.923Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:05:38.828Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:05:39.272Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED 127.0.0.1:9092
+
+2025-02-28T16:05:39.274Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:05:39.737Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:05:39.791Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:05:39.793Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:05:40.165Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:05:41.306Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:05:47.413Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:05:47.927Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:05:48.832Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:05:49.277Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:05:49.537Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED 127.0.0.1:9092
+
+2025-02-28T16:05:49.540Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:05:49.740Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:05:49.792Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:05:49.793Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:05:50.170Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:05:51.309Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:05:57.416Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:05:57.927Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:05:58.116Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED 127.0.0.1:9092
+
+2025-02-28T16:05:58.121Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:05:58.834Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:05:59.279Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:05:59.545Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:05:59.743Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:05:59.795Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:05:59.796Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:06:00.173Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:06:01.316Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:06:07.420Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:06:07.932Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:06:08.122Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:06:08.766Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED 127.0.0.1:9092
+
+2025-02-28T16:06:08.768Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:06:08.836Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:06:09.288Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:06:09.549Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:06:09.745Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:06:09.797Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:06:09.798Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:06:10.177Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:06:11.313Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:06:17.427Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:06:17.934Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:06:18.128Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:06:18.771Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:06:18.841Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:06:19.030Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED 127.0.0.1:9092
+
+2025-02-28T16:06:19.032Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:06:19.289Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:06:19.550Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:06:19.748Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:06:19.799Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:06:19.801Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:06:20.182Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:06:21.315Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:06:27.427Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:06:28.142Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:06:38.014Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED 127.0.0.1:9092
+
+2025-02-28T16:06:38.018Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:06:38.134Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:06:48.019Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:06:48.137Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:06:49.884Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED 127.0.0.1:9092
+
+2025-02-28T16:06:49.885Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:06:56.648Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED 127.0.0.1:9092
+
+2025-02-28T16:06:56.651Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:06:58.020Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:06:58.140Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:06:59.894Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+
+2025-02-28T16:07:06.662Z : Error: connect ECONNREFUSED 127.0.0.1:5432; error while connectig to the DB
+

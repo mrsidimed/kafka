@@ -67,7 +67,7 @@ CREATE TABLE recettes (
     id_recette SERIAL PRIMARY KEY,
     date_validation TIMESTAMP,
     path VARCHAR(255),
-    paiement_en_ligne BOOLEAN,
+    paiement_en_ligne smallint NOT NULL DEFAULT 0,
     etat VARCHAR(255),
     date_quittance DATE,
     reference VARCHAR(255),
@@ -122,7 +122,7 @@ VALUES (1, 'Country A');
 
 -- Insert data into recettes
 INSERT INTO recettes (date_validation, path, paiement_en_ligne, etat, date_quittance, reference, serviceBancaire, idTransaction, Quittance, numeroTelephone, quittance_pdf, numero_recette)
-VALUES (NOW(), 'path/to/file', TRUE, 'Reçue', '2022-01-01', 'REF123', 'Service A', 'TRANS123', 'QUITT123', '1234567890', 'PDFB64', 'REC123');
+VALUES (NOW(), 'path/to/file', 1, 'Reçue', '2022-01-01', 'REF123', 'Service A', 'TRANS123', 'QUITT123', '1234567890', 'PDFB64', 'REC123');
 
 -- Insert data into type_genre
 INSERT INTO type_genre (type, nb_place_max, nb_place_min, poid_max, poid_min, immatriculation, mutation_hors_delai, mutation_dans_delai, remplacement, duplicata)

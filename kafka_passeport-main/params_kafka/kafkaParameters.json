@@ -7,7 +7,7 @@
     "topicConsumer": "topicC3",
     "consumerGroupId": "gid333",
     "intervalDuration": 5000,
-    "numberOfOrders": 10
+    "numberOfOrders": 2
 }
 
 

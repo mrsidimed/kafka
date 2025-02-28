@@ -112,17 +112,26 @@ const removeListener = consumer.on(DISCONNECT, e => {
     runConsumer();
 });
 
+ 
+ 
+    
+ 
+
+
+ 
+
+
+ 
+
 
 
 async function runConsumer() {
     try {
 
+ 
+        var recette = {};
 
-        
-
-
-        console.log("heyffffff");
-        var data={};
+            data ={};
                  
         data['numeroOrdreRecette'] = '578/DTT/22';
         data['reference'] = 'myreference';
@@ -132,34 +141,36 @@ async function runConsumer() {
         data['numeroQuittance'] = 'mynumeroQuittance8979';
         data['numeroTelephone'] = '36000000';
         data['quittanceB64'] = "base64Image";
+        data['quittance'] = {
+            'quittanceNo': '' + 1 // Increment to ensure uniqueness
+        };
         data['ordreRecette'] = {
             "numero": "588/DTT/22"
         };
         
-        data['quittance']['quittanceNo'] = 'myQuittanceNumber'
         
         
         insertIntoRecettes(data, function (err, data) {
-
-
-            console.log("pppppp");
         
+        
+            
             if (err) {
-                console.log(err)
                 logException(err + " during the insert of recette['idTransaction'] = " + recette['idTransaction']);
                 saveDataDuringException(JSON.stringify(recette), recette['idTransaction']);
         
                 //throw err;
             } else {
+
+
+                logRecette(data);
                 console.log('a row is inserted');
             }
         
         });
-        
+         
 
-        console.log("pppppp");
+
         
-        var recette = {};
         console.log("Connecting.....")
         await consumer.connect()
         console.log("Connected!")
@@ -218,9 +229,9 @@ async function runConsumer() {
     catch (ex) {
         logException(ex);
 
-        // if (recette['idTransaction']) {
-        //     saveDataDuringException(JSON.stringify(recette), recette['idTransaction']);
-        // }
+        if (recette['idTransaction']) {
+            saveDataDuringException(JSON.stringify(recette), recette['idTransaction']);
+        }
 
         var myError = ""+ex;
 
@@ -239,10 +250,10 @@ async function runConsumer() {
 }
 
 
+
 function insertIntoRecettes(data, callback) {
 
 
-    
     var iirflag = true;
     var handle = setInterval(
 
@@ -269,13 +280,18 @@ function insertIntoRecettes(data, callback) {
 
     function insertIntoRecettesNestedFunction(callback) {
 
+        console.log("insertIntoRecettesNestedFunction 1");
         if (iirflag) {
+
+            console.log("insertIntoRecettesNestedFunction 2");
 
             iirflag = false;
 
             mySingletonConnection.getConnection(function (err, con) {
 
                 if (err) {
+                    
+                    console.log(err +"insertIntoRecettesNestedFunction 3");
 
                     logException(err);
                     mySingletonConnection.destroyConnection(function (err1, con) {
@@ -284,18 +300,22 @@ function insertIntoRecettes(data, callback) {
 
                 } else {
 
+                    console.log("insertIntoRecettesNestedFunction 4");
                     query = "Insert Into  recettes ( date_validation , path ,paiement_en_ligne ,    etat            , date_quittance                , reference                    , serviceBancaire                   , idTransaction                    , Quittance                          , numeroTelephone  , quittance_pdf , numero_recette ) \
-                            VALUES (  now()        , 'none'  , 1                 ,  'Reçue'    , '" + data['datePaiement'] + "' ,  '" + data['reference'] + "', '" + data['serviceBancaire'] + "' , '" + data['idTransaction'] + "'  , '" + data['quittance']['quittanceNo'] + "'  ,  '" + data['numeroTelephone'] + "' ,  '" + data['quittanceB64'] + "'  , '" + data['ordreRecette']['numero'] + "'    )"
+                            VALUES (  now()        , 'none'  , 1                ,  'Reçue'    , '" + data['datePaiement'] + "' ,  '" + data['reference'] + "', '" + data['serviceBancaire'] + "' , '" + data['idTransaction'] + "'  , '" + data['quittance']['quittanceNo'] + "'  ,  '" + data['numeroTelephone'] + "' ,  '" + data['quittanceB64'] + "'  , '" + data['ordreRecette']['numero'] + "'    )"
 
                     con.query(query, (err2, res) => {
 
                         if (err2) {
+                            console.log(err2 + "insertIntoRecettesNestedFunction 5");
                             logException(err2 +"  ; error while executing query = "+query);
                             mySingletonConnection.destroyConnection(function (err1, con) {
                                 iirflag = true;
                             })
                         } else {
-                            callback(null, res);
+
+                            console.log("insertIntoRecettesNestedFunction 6");
+                            callback(null, data);
                         }
 
                     });
@@ -307,6 +327,36 @@ function insertIntoRecettes(data, callback) {
 
 
 };
+
+
+
+
+
+
+
+
+function logRecette(recette) {
+
+
+    if (!fs.existsSync('./recettes')) {
+        fs.mkdirSync('./recettes');
+    }
+    fs.appendFileSync('./recettes/' + new Date().toISOString().split('T')[0], new Date().toISOString() + ' : ' + JSON.stringify(recette) + '\n\n');
+
+}
+
+
+
+function logTimestampBeforeAndAfterInsertion(timestampBefore, timestampAfter, timeDifference, numeroOrdre) {
+
+    console.log('timeDiffSeconds: ' + timeDifference + ',          timestampBefore: ' + timestampBefore + ',       timestampAfter  : ' + timestampAfter + ',         numeroOrdre: ' + numeroOrdre + ' \n\n')
+    if (!fs.existsSync('./logsInsertion')) {
+        fs.mkdirSync('./logsInsertion');
+    }
+    fs.appendFileSync('./logsInsertion/' + new Date().toISOString().split('T')[0], 'timeDiffSeconds: ' + timeDifference + ',          timestampBefore: ' + timestampBefore + ',       timestampAfter  : ' + timestampAfter + ',         numeroOrdre: ' + numeroOrdre + ' \n\n');
+
+}
+
 
 
 

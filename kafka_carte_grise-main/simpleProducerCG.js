@@ -103,57 +103,28 @@ const kafka = new Kafka({
 
 const consumer = kafka.consumer({ "groupId": kafkaParams['consumerGroupId'] })
 
-//runConsumer();
+ 
+data ={};
+                 
+data['numeroOrdreRecette'] = '578/DTT/22';
+data['reference'] = 'myreference';
+data['serviceBancaire'] = 'myserviceBancaire';
+data['idTransaction'] = 'myidTransaction';
+data['datePaiement'] = '2022-05-17';
+data['numeroQuittance'] = 'mynumeroQuittance8979';
+data['numeroTelephone'] = '36000000';
+data['quittanceB64'] = "base64Image";
 
-const { DISCONNECT } = consumer.events
-const removeListener = consumer.on(DISCONNECT, e => { 
-
-    console.log(`------------------DISCONNECT at ${e.timestamp}`);
-    runConsumer();
-});
-
-var occupiedFlag = false;
-
-setInterval(() => {
-
-
-
-
-    if (!occupiedFlag) {
-
-
-        occupiedFlag = true;
-        getOrdre2(function (err, data) {
+data['quittance'] = {
+    "quittanceNo": 3333
+};
+data['ordreRecette'] = {
+    "numero": "588/DTT/22"
+};
+ 
 
 
-            if (err) {
-                console.lor("error");
-                logException(err+" ; error at getOrdre2 level ");
-            } else if (data && data.length > 0) {
-
-                for (var i = 0; i < data.length; i++) {
-
-
-                console.log(data[i]);
-                   // runProducer(data[i]);
-
-
-                }
-
-            } else {
-                console.log('waiting for new orders');
-            }
-            occupiedFlag = false;
-            //console.log(data);
-        });
-    } else {
-        console.log("curriently occupied");
-    }
-
-
-}
-    , 10000);
-
+runProducer(data);
 
 
 
@@ -167,7 +138,7 @@ async function runProducer(ordre) {
         //A-M 0 , N-Z 1 
         //  const partition = msg[0] < "N" ? 0 : 1;
         const result = await producer.send({
-            "topic": kafkaParams['topicProducer'],
+            "topic": kafkaParams['topicConsumer'],
             "messages": [
                 {
                     "value": JSON.stringify(ordre),
@@ -185,7 +156,7 @@ async function runProducer(ordre) {
                 console.log(ordre);
 
 
-
+/*
                 updateOrdre(ordre['numero'], function (err, data) {
 
 
@@ -199,6 +170,7 @@ async function runProducer(ordre) {
 
 
                 });
+                */
             }
 
         })
@@ -382,7 +354,7 @@ function getOrdre2(callback) {
                                     on vehicule.id_genre = genre.id_genre
                             --   inner join  properietair  on certificat.id_prop = properietaire.nni
                         
-                        WHERE certificat.sent = 0 and certificat.etat_wf like 'validé_douane%'  
+                        WHERE certificat.sent = 0 and certificat.etat_wf like 'validé_douane%' 
                         limit 10
 
                         `;
@@ -403,6 +375,8 @@ function getOrdre2(callback) {
 
                         } else {
 
+                            console.log('inside query');
+
                             output = [];
 
                             var cpt = 0;
@@ -411,10 +385,9 @@ function getOrdre2(callback) {
                             if (res.rows.length == 0) {
                                 callback(null, []);
                             } else {
-//1802411202315032100001
+
                                 for (let row of res.rows) {
 
-                                    cpt++;
                                     var proprietaire_query = "", flag = "";
 
                                     if (row['nni'] != null) {
@@ -458,7 +431,7 @@ function getOrdre2(callback) {
                                             // callback(err, null);
                                         } else if (res3 != null && res3.rows.length > 0) {
 
-
+                                            console.log('inside proprietaire_query');
                                             //  console.log("res3.rows[0] = " + JSON.stringify(res3.rows[0]));
 
                                             if (res3.rows[0]['nom_complet_prop'] != null) {
@@ -522,6 +495,7 @@ function getOrdre2(callback) {
                                                 //  callback(err, null);
                                             } else {
 
+                                                console.log('inside query_genre');
 
                                                 var res_genre;
 
@@ -558,6 +532,9 @@ function getOrdre2(callback) {
 
                                                     } else {
 
+                                                        console.log('inside query_type_genre');
+
+                                                        
 
                                                         var resulat = [];
                                                         var i = 0;
@@ -611,7 +588,7 @@ function getOrdre2(callback) {
 
                                                             row['numero'] = row['numero'].toString();
 
-                                                            
+                                                            cpt++;
 
                                                             row['date_generation'] = new Date();
                                                             delete row['id_pays'];
@@ -621,15 +598,18 @@ function getOrdre2(callback) {
 
                                                                 delete row['date_mutation'];
                                                             }
+                                                            
                                                             output.push(row);
                                                             if (cpt == res.rows.length) {
 
+                                                                
 
                                                                 if (err5) { // i think its unnecessary but if it works, dont change it.
                                                                     flag = true;
                                                                     //    callback(err, null);
                                                                 } else {
 
+                                                                    
                                                                     callback(null, output);
                                                                 }
 

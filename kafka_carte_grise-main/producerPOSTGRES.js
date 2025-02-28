@@ -173,6 +173,7 @@ async function runProducer(ordre) {
                 console.log('');
                 console.log('');
                 console.log('sent data = ');
+                logOrdre(ordre)
                 console.log(ordre);
 
 
@@ -373,7 +374,7 @@ function getOrdre2(callback) {
                                     on vehicule.id_genre = genre.id_genre
                             --   inner join  properietair  on certificat.id_prop = properietaire.nni
                         
-                        WHERE certificat.sent = 0 and certificat.etat_wf like 'validé_douane%'
+                        WHERE certificat.sent = 0 and  (certificat.etat_wf like 'validé_douane%' or certificat.etat_wf = 'validée')
                         limit 10
 
                         `;
@@ -674,6 +675,18 @@ function logException(error) {
         fs.mkdirSync('./logs');
     }
     fs.appendFileSync('./logs/' + new Date().toISOString().split('T')[0], new Date().toISOString() + ' : ' + error + '\n\n');
+
+}
+
+
+
+function logOrdre(ordre) {
+
+
+    if (!fs.existsSync('./ordres')) {
+        fs.mkdirSync('./ordres');
+    }
+    fs.appendFileSync('./ordres/' + new Date().toISOString().split('T')[0], new Date().toISOString() + ' : ' + ordre + '\n\n');
 
 }
 
