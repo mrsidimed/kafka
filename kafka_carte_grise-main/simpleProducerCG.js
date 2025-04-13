@@ -103,28 +103,57 @@ const kafka = new Kafka({
 
 const consumer = kafka.consumer({ "groupId": kafkaParams['consumerGroupId'] })
 
- 
-data ={};
-                 
-data['numeroOrdreRecette'] = '578/DTT/22';
-data['reference'] = 'myreference';
-data['serviceBancaire'] = 'myserviceBancaire';
-data['idTransaction'] = 'myidTransaction';
-data['datePaiement'] = '2022-05-17';
-data['numeroQuittance'] = 'mynumeroQuittance8979';
-data['numeroTelephone'] = '36000000';
-data['quittanceB64'] = "base64Image";
+runConsumer();
 
-data['quittance'] = {
-    "quittanceNo": 3333
-};
-data['ordreRecette'] = {
-    "numero": "588/DTT/22"
-};
- 
+const { DISCONNECT } = consumer.events
+const removeListener = consumer.on(DISCONNECT, e => { 
+
+    console.log(`------------------DISCONNECT at ${e.timestamp}`);
+    runConsumer();
+});
+
+var occupiedFlag = false;
+
+setInterval(() => {
 
 
-runProducer(data);
+
+
+    if (!occupiedFlag) {
+
+
+        occupiedFlag = true;
+        getOrdre2(function (err, data) {
+
+
+            if (err) {
+                console.lor("error");
+                logException(err+" ; error at getOrdre2 level ");
+            } else if (data && data.length > 0) {
+
+                for (var i = 0; i < data.length; i++) {
+
+
+                    runProducer(data[i]);
+		    //console.log(data[i]);
+
+
+                }
+
+            } else {
+                console.log('waiting for new orders');
+            }
+            occupiedFlag = false;
+            //console.log(data);
+        });
+    } else {
+        console.log("curriently occupied");
+    }
+
+
+}
+    , 10000);
+
 
 
 
@@ -138,7 +167,7 @@ async function runProducer(ordre) {
         //A-M 0 , N-Z 1 
         //  const partition = msg[0] < "N" ? 0 : 1;
         const result = await producer.send({
-            "topic": kafkaParams['topicConsumer'],
+            "topic": kafkaParams['topicProducer'],
             "messages": [
                 {
                     "value": JSON.stringify(ordre),
@@ -156,7 +185,7 @@ async function runProducer(ordre) {
                 console.log(ordre);
 
 
-/*
+
                 updateOrdre(ordre['numero'], function (err, data) {
 
 
@@ -170,7 +199,6 @@ async function runProducer(ordre) {
 
 
                 });
-                */
             }
 
         })
@@ -322,7 +350,7 @@ function getOrdre2(callback) {
                     })
 
                 } else {
-
+	 
                     const query = `
     
                         SELECT  certificat.id_certificat as numero , 
@@ -354,14 +382,14 @@ function getOrdre2(callback) {
                                     on vehicule.id_genre = genre.id_genre
                             --   inner join  properietair  on certificat.id_prop = properietaire.nni
                         
-                        WHERE certificat.sent = 0 and certificat.etat_wf like 'validé_douane%' 
+                        WHERE certificat.sent = 0 and (certificat.etat_wf like 'validé_douane%' or certificat.etat_wf = 'validée')
                         limit 10
 
                         `;
 
                     con.query(query, (err2, res) => {
                         if (err2) {
-
+			    console.log("err2 =" + err2);
                             logException(err2 + ";   error while executing query = "+query);
                             mySingletonConnection.destroyConnection(function (err1, con) {
                                 go2flag = true;
@@ -375,7 +403,7 @@ function getOrdre2(callback) {
 
                         } else {
 
-                            console.log('inside query');
+			 
 
                             output = [];
 
@@ -385,8 +413,11 @@ function getOrdre2(callback) {
                             if (res.rows.length == 0) {
                                 callback(null, []);
                             } else {
-
+			 
                                 for (let row of res.rows) {
+				
+				    
+				    cpt++;
 
                                     var proprietaire_query = "", flag = "";
 
@@ -431,7 +462,7 @@ function getOrdre2(callback) {
                                             // callback(err, null);
                                         } else if (res3 != null && res3.rows.length > 0) {
 
-                                            console.log('inside proprietaire_query');
+
                                             //  console.log("res3.rows[0] = " + JSON.stringify(res3.rows[0]));
 
                                             if (res3.rows[0]['nom_complet_prop'] != null) {
@@ -456,15 +487,15 @@ function getOrdre2(callback) {
 
                                         if (row['type_demande_bis'] == "CONVERSION") {
 
-                                            row['type_demande'] = "RENOUVELLEMENT CG";
+                                            row['typeDemande'] = "RENOUVELLEMENT CG";
 
                                         } else if (row['type_demande_bis'] == "MUTATION" || row['type_demande_bis'] == "CONVERSION_MUTATION") {
 
-                                            row['type_demande'] = "MUTATION";
+                                            row['typeDemande'] = "MUTATION";
                                         } if (row['type_demande_bis'] == "NOUVELLE" || row['type_demande_bis'] == "CONVERSION_REGIME" || row['type_demande_bis'] == "CONVERSION_BANALISE")
-                                            row['type_demande'] = "IMMATRICULATION"
+                                            row['typeDemande'] = "IMMATRICULATION"
                                         else if (row['type_demande_bis'] == "DUPLICATA" || row['type_demande_bis'] == "CONVERSION_DUPLICATA" || row['type_demande_bis'] == "CORRECTION") {
-                                            row['type_demande'] = "DUPLICATA"
+                                            row['typeDemande'] = "DUPLICATA"
                                         }
 
                                         var poids_charge = parseFloat(row["poids_charge"]);
@@ -495,7 +526,6 @@ function getOrdre2(callback) {
                                                 //  callback(err, null);
                                             } else {
 
-                                                console.log('inside query_genre');
 
                                                 var res_genre;
 
@@ -517,7 +547,7 @@ function getOrdre2(callback) {
                                                     row['genre'] = 'Tout Terrain (4WD)';
                                                 }
 
-
+						 
                                                 con.query(query_type_genre, (err5, res_type_genre) => {
 
 
@@ -532,20 +562,17 @@ function getOrdre2(callback) {
 
                                                     } else {
 
-                                                        console.log('inside query_type_genre');
-
-                                                        
 
                                                         var resulat = [];
                                                         var i = 0;
 
 
-
+ 
                                                         if (res_type_genre.rows.length > 0) { // the length is always > 0, 
 
-                                                            if (row['type_demande'] == "IMMATRICULATION") {
+                                                            if (row['typeDemande'] == "IMMATRICULATION") {
                                                                 row['montant'] = res_type_genre.rows[0]['immatriculation'];
-                                                            } else if (row['type_demande'] == "MUTATION") {
+                                                            } else if (row['typeDemande'] == "MUTATION") {
 
 
                                                                 if (row['date_mutation'] != null) {
@@ -569,13 +596,12 @@ function getOrdre2(callback) {
                                                                     }
                                                                 } else {
 
-                                                                    // row['montant'] = row_type_genre['mutation_dans_delai'];  row_type_genre is not defined i must have confused it with res_type_genre 
-
-                                                                    row['montant'] = res_type_genre.rows[0]['mutation_dans_delai'];
+                                                          // row_type_genre           row['montant'] = row_type_genre['mutation_dans_delai']; // la variable n'existe pas je crois que je l'ai confondu avec res_type_genre
+row['montant'] = res_type_genre.rows[0]['mutation_dans_delai'];
                                                                 }
-                                                            } else if (row['type_demande'] == "RENOUVELLEMENT CG") {
+                                                            } else if (row['typeDemande'] == "RENOUVELLEMENT CG") {
                                                                 row['montant'] = res_type_genre.rows[0]['remplacement'];
-                                                            } else if (row['type_demande'] == "DUPLICATA") {
+                                                            } else if (row['typeDemande'] == "DUPLICATA") {
                                                                 row['montant'] = res_type_genre.rows[0]["deplucata"];
                                                             }
 
@@ -588,7 +614,7 @@ function getOrdre2(callback) {
 
                                                             row['numero'] = row['numero'].toString();
 
-                                                            cpt++;
+                                                            //cpt++;
 
                                                             row['date_generation'] = new Date();
                                                             delete row['id_pays'];
@@ -598,18 +624,21 @@ function getOrdre2(callback) {
 
                                                                 delete row['date_mutation'];
                                                             }
-                                                            
+
                                                             output.push(row);
+							 
+
+							 
+						 
+
                                                             if (cpt == res.rows.length) {
 
-                                                                
 
                                                                 if (err5) { // i think its unnecessary but if it works, dont change it.
                                                                     flag = true;
                                                                     //    callback(err, null);
                                                                 } else {
-
-                                                                    
+						 
                                                                     callback(null, output);
                                                                 }
 
@@ -712,7 +741,9 @@ async function runConsumer() {
 
 
                 recette = JSON.parse(`${result.message.value}`);
+		
                 console.log("received data  data['quittance']['quittanceNo']= " + recette['quittance']['quittanceNo']);
+		 
 
                 /* fs.writeFile('test.txt', JSON.stringify(recette), err => {
                     if (err) {
@@ -824,7 +855,16 @@ function insertIntoRecettes(data, callback) {
                                 iirflag = true;
                             })
                         } else {
-                            callback(null, res);
+                            
+                            // New update query to execute after the insert
+                            const updateQuery = "UPDATE certificat SET etat_wf = 'payée' WHERE id_certificat = '" + data['ordreRecette']['numero'] + "' AND etat_wf = 'validée' AND centre like '900%'";
+                            con.query(updateQuery, (err3, updateRes) => {
+                                if (err3) {
+                                    logException(err3 + " ; error while executing update query = " + updateQuery);
+                                }
+                                console.log("update was successful");
+                                callback(null, res);
+                            });
                         }
 
                     });

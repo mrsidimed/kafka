@@ -21,7 +21,8 @@ CREATE TABLE certificat (
     date_vente DATE,
     type_demande VARCHAR(255),
     id_veh INT,-- Assuming there is a column for vehicle id
-    etat_wf VARCHAR(255)
+    etat_wf VARCHAR(255),
+    centre VARCHAR(10)
 );
 
 -- Table: vehicule
