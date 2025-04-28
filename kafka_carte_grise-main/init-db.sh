@@ -22,7 +22,8 @@ CREATE TABLE certificat (
     type_demande VARCHAR(255),
     id_veh INT,-- Assuming there is a column for vehicle id
     etat_wf VARCHAR(255),
-    centre VARCHAR(10)
+    centre VARCHAR(10),
+    montant numeric(8,2)
 );
 
 -- Table: vehicule

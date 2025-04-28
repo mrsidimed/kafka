@@ -186,7 +186,7 @@ async function runProducer(ordre) {
 
 
 
-                updateOrdre(ordre['numero'], function (err, data) {
+                updateOrdre(ordre['numero'], ordre['montant'], function (err, data) {
 
 
                     if (err) {
@@ -225,14 +225,14 @@ async function runProducer(ordre) {
 
 
 
-function updateOrdre(numero, callback) {
+function updateOrdre(numero, montant, callback) {
 
     uoflag = true;
     var handle = setInterval(
 
         function () {
 
-            updateOrdreNestedFunction(function (err, resu) {
+            updateOrdreNestedFunction(montant, function (err, resu) {
 
                 clearInterval(handle);
                 callback(null, resu);
@@ -241,14 +241,14 @@ function updateOrdre(numero, callback) {
         }
         , 10000);
 
-    updateOrdreNestedFunction(function (err, resu) {
+    updateOrdreNestedFunction(montant , function (err, resu) {
 
         clearInterval(handle);
         callback(null, resu);
     });
 
 
-    function updateOrdreNestedFunction(callback) {
+    function updateOrdreNestedFunction(montant , callback) {
         if (uoflag) {
 
             uoflag = false;
@@ -271,11 +271,11 @@ function updateOrdre(numero, callback) {
                     if (numero.indexOf('/DTT/') > -1) {
 
                         numeroBis = numero.split('/DTT/');
-                        query = "UPDATE certificat SET sent = 1 where id_certificat = '" + numeroBis[0] + "'";
+                        query = "UPDATE certificat SET sent = 1, montant ="+montant+" where id_certificat = '" + numeroBis[0] + "'";
 
                     } else {
 
-                        query = "UPDATE certificat SET sent = 1 where id_certificat = '" + numero + "'";
+                        query = "UPDATE certificat SET sent = 1 , montant = "+ montant+" where id_certificat = '" + numero + "'";
                     }
 
                     con.query(query, (err2, res) => {
