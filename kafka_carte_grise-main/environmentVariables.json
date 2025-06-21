@@ -2,7 +2,12 @@
 
 {
 
-    "production": false
+    "production": false,
+    "endpointUrlRecetteLocal": "http://localhost:4000/recettes",
+    "endpointUrlRecetteProd": "http://houwiyeti-ec.fo.sigpts.anrpts.mr/siv/handleRecette"
+
+
+ 
 
 }
 

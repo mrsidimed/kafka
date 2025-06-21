@@ -21,6 +21,7 @@ envVars = require('./environmentVariables.json');
 var dbParams, kafkaParams;
 
 
+
 /* 
 
 {

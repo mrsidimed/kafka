@@ -1,0 +1,4 @@
+2025-06-20T03:53:36.353Z : {"numeroOrdreRecette":"888/DTT/22","reference":"myreference","serviceBancaire":"myserviceBancaire","idTransaction":"myidTransaction","datePaiement":"2022-05-17","numeroQuittance":"mynumeroQuittance8979","numeroTelephone":"36000000","quittanceB64":null,"quittance":{"quittanceNo":3333},"ordreRecette":{"numero":"1"}}
+
+2025-06-20T03:56:12.104Z : {"numeroOrdreRecette":"888/DTT/22","reference":"myreference","serviceBancaire":"myserviceBancaire","idTransaction":"myidTransaction","datePaiement":"2022-05-17","numeroQuittance":"mynumeroQuittance8979","numeroTelephone":"36000000","quittanceB64":null,"quittance":{"quittanceNo":3333},"ordreRecette":{"numero":"1"}}
+
