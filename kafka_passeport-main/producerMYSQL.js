@@ -58,7 +58,8 @@ const docTypeMapping = {
     carte_identite: '5',
     carte_resident: '8',
     extrait_naissance: '9',
-    casier_judiciaire: '4'
+    casier_judiciaire: '4',
+    extrait_diplome: '15'
 };
 
 
@@ -240,12 +241,12 @@ function getOrdre(callback) {
 
                     const typedocSqlPart = `ordres.TYPEDOC IN (${typedocValues.join(', ')})`;
 
-                    
-
+                    console.log(typedocSqlPart);
 
                     var queryOrdre = "SELECT ordres.numero , ordres.nni , ordres.TYPEDOC , ordres.PRENOM_FR as prenomFr, ordres.PRENOM_AR as prenomAr , ordres.NOM_FAMILLE_FR as nomFamilleFr ,  ordres.NOM_FAMILLE_AR as nomFamilleAr , ordres.DATE_NAISSANCE as dateNaissance, ordres.LIEU_NAISSANCE_FR as lieuNaissanceFr , ordres.LIEU_NAISSANCE_AR as lieuNaissanceAr , ordres.MONTANT as montant , ordres.TRANSPORT as transport  ,typedemande.libelle  as typeDemande , typedocument.libelle  as typeDocument  ,cac.nom_cac as cacFr , cac.nom_cac as cacAr, cac.nom_cacar as cacAr  FROM ordres inner join typedemande on typedemande.code = ordres.TYPEDEM inner join typedocument on typedocument.code = ordres.TYPEDOC inner join cac on ordres.codecac = cac.cac "
                         //   +" where sent = 0  and (ordres.TYPEDOC = '6' or ordres.TYPEDOC = '7'  ) and ordres.numero not like '00%' limit 10";
-                        + "WHERE sent = 0  LIMIT " + kafkaParams["numberOfOrders"];
+                
+                        + "WHERE sent = 0 AND " + typedocSqlPart + "  LIMIT " + kafkaParams["numberOfOrders"];
  
 
                       //  console.log(queryOrdre);
