@@ -198,19 +198,24 @@ function insertIntoRecettes(data, callback) {
                     let ordreRecetteNumero = data['ordreRecette']['numero'];
                     let codecac, typedoc, transport = 0;
 
+                    
+                    typedoc =data['ordreRecette']['typeDocument'].split("-")[0] ;   
+
                     if (ordreRecetteNumero.startsWith('8')) {
 
                         codecac = '800000';
-                        typedoc = parseInt(ordreRecetteNumero.charAt(4));  // 5th character, as indices start from 0
+                      //  typedoc = parseInt(ordreRecetteNumero.charAt(4));  // 5th character, as indices start from 0
 
                     } else if (ordreRecetteNumero.startsWith('9')) {
                         codecac = '900000';
-                        typedoc = parseInt(ordreRecetteNumero.charAt(4));  // 5th character, as indices start from 0
+                     //   typedoc = parseInt(ordreRecetteNumero.charAt(4));  // 5th character, as indices start from 0
                     } else {
                         codecac = ordreRecetteNumero.slice(0, 6); // First 6 characters
-                        typedoc = parseInt(ordreRecetteNumero.charAt(6));   // 7th character
+//typedoc = parseInt(ordreRecetteNumero.charAt(6));   // 7th character
                     }
 
+
+                    
 
                     var Nature_encaiss = '';
 
@@ -226,6 +231,8 @@ function insertIntoRecettes(data, callback) {
                         Nature_encaiss = 'EXTR';
                     } else if (typedoc == 4) {
                         Nature_encaiss = 'CJ';
+                    } else if (typedoc == 15) {
+                        Nature_encaiss = 'EXTRD';
                     }
 
 
@@ -614,134 +621,6 @@ function logTimestampBeforeAndAfterInsertion(timestampBefore, timestampAfter, ti
 
 
 
-function executeThreeQueries(query1, query2, query3, numero, typeDoc, quittanceNO, callback) {
-    console.log("inside executeThreeQueries");
-
-    flag = true;
-    const timestampStart = new Date();
-
-    mySingletonConnection.getConnection((err, db) => {
-        if (err) {
-            console.error('Error connecting to the database', err);
-            logException('' + err);
-            return callback(new Error('error in executing3queries'), null);
-        }
-
-        console.log("Database connection established");
-
-        db.beginTransaction(function (err) {
-            if (err) {
-                console.log('Error in transaction', err);
-                logException('' + err);
-                return callback(new Error('error in executing3queries'), null);
-            }
-
-            console.log("Transaction started");
-
-            db.query(query1, function (error, results1, fields) {
-                if (error) {
-                    console.log('Error in first query', error);
-                    logException('' + error);
-
-                    if (error.code === 'ER_DUP_ENTRY' || error.code === 1062) {
-                        var mytimestamp = new Date();
-                        console.error('Duplicate entry detected. Aborting transaction.' + mytimestamp);
-                        logException('Duplicate entry detected. Aborting transaction.');
-                        return callback(null, null);
-                    }
-
-                    return db.rollback(function () {
-                        console.error('Rollback due to first query error');
-                        return callback(new Error('error in executing3queries'), null);
-                    });
-                }
-
-                // If typeDoc is 9, commit after the first query
-                if (typeDoc == 9) {
-                    db.commit(function (err) {
-                        if (err) {
-                            console.log('Error in commit', err);
-                            logException('' + err);
-                            return db.rollback(function () {
-                                console.error('Rollback due to commit error');
-                                return callback(new Error('error in executing3queries'), null);
-                            });
-                        }
-
-                        const timestampEnd = new Date();
-                        const timeDifference = (timestampEnd - timestampStart) / 1000; // Difference in seconds
-                        logTimestampBeforeAndAfterInsertion(timestampStart.toISOString(), timestampEnd.toISOString(), timeDifference, numero);
-
-                        console.log('Query1 was successful!');
-                        console.log('------>myfin ' + quittanceNO + ' ' + Date.now());
-                        return callback(null, quittanceNO);
-
-
-                    });
-                } else {
-                    // Proceed with the second and third queries
-                    db.query(query2, function (error, results2, fields) {
-                        if (error) {
-                            console.log('Error in second query', error);
-                            logException('' + error);
-
-                            if (error.code === 'ER_DUP_ENTRY' || error.code === 1062) {
-                                console.error('Duplicate entry detected. Aborting transaction.');
-                                logException('Duplicate entry detected. Aborting transaction.');
-                                return callback(null, null);
-                            }
-
-                            return db.rollback(function () {
-                                console.error('Rollback due to second query error');
-                                return callback(new Error('error in executing3queries'), null);
-                            });
-                        }
-
-                        db.query(query3, function (error, results3, fields) {
-                            if (error) {
-                                flag = false;
-                                console.log('Error in third query', error);
-                                logException('' + error);
-
-                                if (error.code === 'ER_DUP_ENTRY' || error.code === 1062) {
-                                    console.error('Duplicate entry detected. Aborting transaction.');
-                                    logException('Duplicate entry detected. Aborting transaction.');
-                                    return callback(null, null);
-                                }
-
-                                return db.rollback(function () {
-                                    console.error('Rollback due to third query error');
-                                    return callback(new Error('error in executing3queries'), null);
-                                });
-                            }
-
-                            db.commit(function (err) {
-                                if (err) {
-                                    console.log('Error in commit', err);
-                                    logException('' + err);
-                                    return db.rollback(function () {
-                                        console.error('Rollback due to commit error');
-                                        return callback(new Error('error in executing3queries'), null);
-                                    });
-                                }
-
-                                const timestampEnd = new Date();
-                                const timeDifference = (timestampEnd - timestampStart) / 1000; // Difference in seconds
-                                logTimestampBeforeAndAfterInsertion(timestampStart.toISOString(), timestampEnd.toISOString(), timeDifference, numero);
-
-                                console.log('All three queries were successful!');
-
-                                console.log('------>myfin ' + quittanceNO);
-                                return callback(null, quittanceNO);
-                            });
-                        });
-                    });
-                }
-            });
-        });
-    });
-}
-
 
 
 
@@ -791,7 +670,7 @@ function executeTwoQueries(query1, query2, numero, typeDoc, quittanceNO, callbac
                 }
 
                 // If typeDoc is 9, commit after the first query
-                if (typeDoc == 9) {
+                if (typeDoc in ['9','4','15']) {
                     db.commit(function (err) {
                         if (err) {
                             console.log('Error in commit', err);
