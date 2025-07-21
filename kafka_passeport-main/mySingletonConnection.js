@@ -1,6 +1,6 @@
 const mysql = require('mysql');
 envVars = require('./environmentVariables.json');
-
+const fs = require('fs');
 
 
 
