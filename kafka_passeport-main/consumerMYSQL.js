@@ -15,6 +15,7 @@ var dbParamsMysql, kafkaParams, dbParamsMongo;
 
 
 
+
 if (envVars['production']) {
 
     //recettesFolder = "/root/Documents/recettes_passeport/";
@@ -88,8 +89,23 @@ const kafka = new Kafka({
 })
 
 
-const consumer = kafka.consumer({ "groupId": kafkaParams["consumerGroupId"] })
+//const consumer = kafka.consumer({ "groupId": kafkaParams["consumerGroupId"] }) 
 
+const consumer = kafka.consumer({
+    groupId: kafkaParams["consumerGroupId"],
+    // keep heartbeats frequent relative to session timeout
+    sessionTimeout: 60000,        // 60s
+    heartbeatInterval: 20000,     // <= 1/3 of sessionTimeout
+    // optional: give rebalances enough time if inserts are slow
+    rebalanceTimeout: 90000
+  })
+
+
+const { HEARTBEAT, REBALANCING, STABLE, CRASH } = consumer.events;
+consumer.on(HEARTBEAT, e => console.log('heartbeat', e.timestamp));
+consumer.on(REBALANCING, e => console.log('rebalancing', e.groupId));
+//consumer.on(STABLE, e => console.log('stable', e.groupId));
+consumer.on(CRASH, e => console.error('crash', e.payload && e.payload.error));
 
 runConsumer();
 
@@ -195,7 +211,7 @@ function insertIntoRecettes(data, callback) {
 
 
             var mynewdate = formatDate(new Date());
-
+             
 
             console.log("mynewdate " + mynewdate);
             var queryInsertPdf2 = "Insert Into  recettes_pdf(   Quittance ,quittance_pdf ) " +
@@ -376,7 +392,226 @@ function insertIntoRecettesOLD(data, callback) {
     }
 }
 
+
 async function runConsumer() {
+    try {
+      console.log("Connecting.....");
+      await consumer.connect();
+      console.log("Connected!");
+  
+      await consumer.subscribe({
+        topic: kafkaParams["topicConsumer"],
+        fromBeginning: false, // important in prod
+      });
+  
+      console.log("waiting for recettes ===========");
+  
+      const util = require('util');
+      const insertIntoRecettesAsync = util.promisify(insertIntoRecettes);
+  
+      await consumer.run({
+        autoCommit: false,
+        eachBatchAutoResolve: false,
+        partitionsConsumedConcurrently: 1,
+  
+        eachBatch: async ({ batch, resolveOffset, heartbeat, isRunning, isStale }) => {
+          // Helper to commit NEXT offset for a given message
+          const commitNextOffset = async (msg) => {
+            try {
+              await consumer.commitOffsets([{
+                topic: batch.topic,
+                partition: batch.partition,
+                offset: (BigInt(msg.offset) + 1n).toString(),
+              }]);
+            } catch (e) {
+              // If commit fails, DO NOT throw here; let the loop continue and
+              // KafkaJS will retry or we will reprocess on restart.
+              console.warn('Commit failed (will likely reprocess on restart):', e.message || e);
+            }
+          };
+  
+          for (const message of batch.messages) {
+            const startTs = new Date();
+  
+            if (!isRunning() || isStale()) break;
+  
+            // 1) Parse payload
+            let recette;
+            try {
+              recette = JSON.parse(message.value.toString());
+            } catch (e) {
+              console.error('Bad JSON, skipping and committing past it:', e.message || e);
+              // mark resolved for runner bookkeeping
+              resolveOffset(message.offset);
+              // commit past this bad record so it won't reappear
+              await commitNextOffset(message);
+              await heartbeat();
+              continue;
+            }
+  
+            // 2) Process with bounded retries + heartbeats
+            let processed = false;
+            const maxAttempts = 6; // ~2m worst case with backoff below
+            for (let attempt = 1; attempt <= maxAttempts; attempt++) {
+              try {
+                await insertIntoRecettesAsync(recette);
+                processed = true;
+                break;
+              } catch (err) {
+                // store raw payload so nothing is lost
+                try {
+                  if (recette.idTransaction) {
+                    saveDataDuringException(JSON.stringify(recette), recette.idTransaction);
+                  }
+                } catch {}
+  
+                console.warn(`Insert failed (attempt ${attempt}/${maxAttempts}):`, err.message || err);
+  
+                if (attempt === maxAttempts) {
+                  // Give up for now — DO NOT COMMIT this message.
+                  // It will be redelivered later (at-least-once).
+                  break;
+                }
+  
+                // Backoff while keeping the session alive
+                const delayMs = Math.min(2000 * attempt, 15000);
+                const deadline = Date.now() + delayMs;
+                while (Date.now() < deadline) {
+                  await heartbeat();
+                  await new Promise(r => setTimeout(r, 500));
+                }
+              }
+            }
+  
+            // 3) Commit only if processed (or intentionally skipped malformed JSON above)
+            if (processed) {
+              // tell the runner we’re done with this offset
+              resolveOffset(message.offset);
+              // commit the *next* offset so this record won't be replayed
+              await commitNextOffset(message);
+              await heartbeat();
+  
+              const endTs = new Date();
+              const diffSec = (endTs - startTs) / 1000;
+              try {
+                logTimestampBeforeAndAfterInsertion(
+                  startTs.toISOString(),
+                  endTs.toISOString(),
+                  diffSec,
+                  recette.ordreRecette.numero
+                );
+              } catch {}
+            } else {
+              // Not processed (e.g., DB down or poison that we want to retry later):
+              // DO NOT resolve/commit; exit the loop early to avoid burning CPU.
+              // Kafka will redeliver from this offset later.
+              break;
+            }
+          }
+        },
+      });
+  
+    } catch (ex) {
+      logException(ex);
+      // Do NOT call runConsumer() recursively. Let KafkaJS handle reconnects/rebalances.
+    }
+  }
+
+async function runConsumerOld2() {
+    try {
+      console.log("Connecting.....")
+      await consumer.connect()
+      console.log("Connected!")
+  
+      await consumer.subscribe({
+        topic: kafkaParams["topicConsumer"],
+        fromBeginning: true
+      })
+  
+      console.log("waiting for recettes ===========");
+
+      const util = require('util');
+      const insertIntoRecettesAsync = util.promisify(insertIntoRecettes);
+  
+      await consumer.run({
+        autoCommit: false,
+        eachBatchAutoResolve: false,
+        // process partitions sequentially to simplify DB constraints
+        partitionsConsumedConcurrently: 1,
+        eachBatch: async ({ batch, resolveOffset, heartbeat, commitOffsetsIfNecessary, isRunning, isStale }) => {
+          for (const message of batch.messages) {
+
+            const StartTimestamp = new Date();
+            if (!isRunning() || isStale()) break;
+  
+            let recette;
+            try {
+              recette = JSON.parse(message.value.toString());
+            } catch (e) {
+              // bad payload: skip but advance offset
+              console.error('Bad JSON, skipping:', e);
+              resolveOffset(message.offset);
+              await commitOffsetsIfNecessary();
+              await heartbeat();
+              continue;
+            }
+  
+            // retry with bounded backoff; IMPORTANT: call heartbeat during waits
+            const maxAttempts = 6; // ~2m worst case below
+            let attempt = 0;
+            while (attempt < maxAttempts) {
+              try {
+                await insertIntoRecettesAsync(recette);
+                // minimal log: successful insert
+                
+                break;
+              } catch (err) {
+                attempt++;
+                // persist the raw payload so you never lose it
+                try { if (recette.idTransaction) saveDataDuringException(JSON.stringify(recette), recette.idTransaction); } catch {}
+                console.warn(`Insert failed (attempt ${attempt}/${maxAttempts}):`, err && err.message ? err.message : err);
+  
+                if (attempt >= maxAttempts) {
+                  // give up for now; DO NOT commit this offset so we can reprocess later
+                  // optionally dead-letter here
+                  throw err;
+                }
+                // backoff with heartbeats
+                const delayMs = Math.min(2000 * attempt, 15000);
+                const start = Date.now();
+                while (Date.now() - start < delayMs) {
+                  await heartbeat();      // keep the session alive during backoff
+                  await new Promise(r => setTimeout(r, 500));
+                }
+              }
+            }
+
+            // only after successful insert:
+            resolveOffset(message.offset);
+            await commitOffsetsIfNecessary();
+            await heartbeat();  // keep session fresh between messages
+
+
+
+            const EndTimestamp = new Date();
+            const DifferenceTime = (EndTimestamp - StartTimestamp) / 1000; // Difference in seconds
+
+            logTimestampBeforeAndAfterInsertion(StartTimestamp.toISOString(), EndTimestamp.toISOString(), DifferenceTime, recette['ordreRecette']['numero']);
+
+
+
+          }
+        }
+      });
+  
+    } catch (ex) {
+      logException(ex);
+      // Do NOT call runConsumer() recursively here. Let KafkaJS reconnect.
+    }
+  }
+
+
+async function runConsumerOld() {
 
 
     var recette = {};
@@ -534,7 +769,7 @@ function formatDate(date) {
 
     return `${year}-${month}-${day} ${hours}:${minutes}:${seconds}`;
 }
-
+// neziha , youssef 
 
 
 function logException(error) {
@@ -640,7 +875,8 @@ function executeTwoQueries(query1, query2, numero, typeDoc, quittanceNO, callbac
                 }
 
                 // If typeDoc is 9 4 15, commit after the first query
-                if (typeDoc in ['9', '4', '15']) {
+               // if (typeDoc in ['9', '4', '15']) {
+                if (['9','4','15'].includes(typeDoc)){
                     db.commit(function (err4) {
                         if (err4) {
                             console.log('Error in commit', err4);
@@ -652,7 +888,7 @@ function executeTwoQueries(query1, query2, numero, typeDoc, quittanceNO, callbac
 
                         const timestampEnd = new Date();
                         const timeDifference = (timestampEnd - timestampStart) / 1000; // Difference in seconds
-                        logTimestampBeforeAndAfterInsertion(timestampStart.toISOString(), timestampEnd.toISOString(), timeDifference, numero);
+                        //logTimestampBeforeAndAfterInsertion(timestampStart.toISOString(), timestampEnd.toISOString(), timeDifference, numero);
 
                         console.log('Query1 was successful!');
                         console.log('------>myfin ' + quittanceNO + ' ' + Date.now());
@@ -690,9 +926,9 @@ function executeTwoQueries(query1, query2, numero, typeDoc, quittanceNO, callbac
 
                             const timestampEnd = new Date();
                             const timeDifference = (timestampEnd - timestampStart) / 1000; // Difference in seconds
-                            logTimestampBeforeAndAfterInsertion(timestampStart.toISOString(), timestampEnd.toISOString(), timeDifference, numero);
+                   //         logTimestampBeforeAndAfterInsertion(timestampStart.toISOString(), timestampEnd.toISOString(), timeDifference, numero);
 
-                            console.log('All Two queries were successful!');
+                            console.log('All Two queries were successful!---------------------------');
 
                             console.log('------>myfin ' + quittanceNO);
                             return callback(null, quittanceNO);

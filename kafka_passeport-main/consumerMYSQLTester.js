@@ -97,7 +97,7 @@ var occupiedFlag = false;
 
 var recettes = []; // Array to hold all recettes
 
-let listOfNumbersBefore = [3];
+let listOfNumbersBefore = [11];
 let valueToAdd = 100;
 
 let listOfNumbers = listOfNumbersBefore.map(number => number + valueToAdd);
@@ -132,7 +132,7 @@ for (let i of listOfNumbers) {
                       "prenomAr": "??? ????", 
                       "prenomFr": "Sidi Mohamed",
                        "typeDemande": "Première demande",
-                        "typeDocument": "15-Extrait de Diplôme",
+                        "typeDocument": "6-Passeport standard",
                          "updatedAt": "2024-10-09T10:56:24.795914" },
 
 
