@@ -264,134 +264,6 @@ function insertIntoRecettes(data, callback) {
 
 
 
-function insertIntoRecettesOLD(data, callback) {
-
-
-    console.log("--------->mydebut " + data['quittance']['quittanceNo'] + " " + Date.now());
-
-
-    var flag = true;
-    var handle = setInterval(
-
-        function () {
-
-
-            insertIntoRecettesNestedFunction(function (err, resu) {
-
-                clearInterval(handle);
-                callback(null, resu);
-            })
-
-        }
-        , 10000);
-
-
-    insertIntoRecettesNestedFunction(function (err, resu) {
-
-        clearInterval(handle);
-        callback(null, resu);
-    });
-
-
-
-    function insertIntoRecettesNestedFunction(callback) {
-
-        if (flag) {
-
-            flag = false;
-
-            mySingletonConnection.getConnection(function (err, con) {
-
-                if (err) {
-                    logException(err);
-                    flag = true;
-
-                } else {
-
-                    let ordreRecetteNumero = data['ordreRecette']['numero'];
-                    let codecac, typedoc, transport = 0;
-
-                    typedoc = data['ordreRecette']['typeDocument'].split("-")[0];
-
-                    if (ordreRecetteNumero.startsWith('8')) {
-
-                        codecac = '800000';
-                        //  typedoc = parseInt(ordreRecetteNumero.charAt(4));  // 5th character, as indices start from 0
-
-                    } else if (ordreRecetteNumero.startsWith('9')) {
-                        codecac = '900000';
-                        //   typedoc = parseInt(ordreRecetteNumero.charAt(4));  // 5th character, as indices start from 0
-                    } else {
-                        codecac = ordreRecetteNumero.slice(0, 6); // First 6 characters
-                        //typedoc = parseInt(ordreRecetteNumero.charAt(6));   // 7th character
-                    }
-
-
-                    var Nature_encaiss = '';
-
-                    if (typedoc == 5) {
-                        Nature_encaiss = 'CNI';
-                    } else if (typedoc == 6) {
-                        Nature_encaiss = 'NP';
-                    } else if (typedoc == 7) {
-                        Nature_encaiss = 'VIP';
-                    } else if (typedoc == 8) {
-                        Nature_encaiss = 'CR';
-                    } else if (typedoc == 9) {
-                        Nature_encaiss = 'EXTR';
-                    } else if (typedoc == 4) {
-                        Nature_encaiss = 'CJ';
-                    } else if (typedoc == 15) {
-                        Nature_encaiss = 'EXTRD';
-                    }
-
-
-                    var mynewdate = formatDate(new Date());
-
-
-
-                    console.log("mynewdate " + mynewdate);
-                    var queryInsertPdf2 = "Insert Into  recettes_pdf(   Quittance ,quittance_pdf ) " +
-                        "VALUES (    '" + data['quittance']['quittanceNo'] + "'  ,  '" + data['quittanceB64'] + "' )";
-                    var queryInsertion = "Insert Into  recettes ( date_validation , Nature_encaiss, paiement_en_ligne , MontantTrans , montant , cac , etat , date_saisie, Orde_recette  , date_quittance , reference, serviceBancaire , idTransaction  , Quittance , numeroTelephone , nni ) " +
-                        "VALUES (  SYSDATE() ,'" + Nature_encaiss + "', 1 , " + transport + " ," + data['ordreRecette']['montant'] + ", '" + codecac + "' , 'Reçue', '" + mynewdate + "' , '" + data['ordreRecette']['numero'] + "'   , '" + data['datePaiement'] + "' ,  '" + data['reference'] + "', '" + data['serviceBancaire'] + "' , '" + data['idTransaction'] + "'  , '" + data['quittance']['quittanceNo'] + "'  ,  '" + data['numeroTelephone'] + "'  , '" + data['ordreRecette']['nni'] + "'  )";
-                    var queryUpdateAcquite = "UPDATE ordres SET acquite = 1, Nrecette = 'PE' where NUMERO = '" + data['ordreRecette']['numero'] + "'";
-
-
-                    //executeThreeQueries(queryInsertion, queryInsertPdf2, queryUpdateAcquite, data['ordreRecette']['numero'], typedoc, data['quittance']['quittanceNo'], function (err, results) {
-                    executeTwoQueries(queryInsertion, queryInsertPdf2, data['ordreRecette']['numero'], typedoc, data['quittance']['quittanceNo'], function (err, results) {
-                        console.log("inside insert recette 5");
-
-
-                        if (err == null && results == null) {
-
-                            console.log('data not inserted because');
-                            callback(null, null);
-                        } else if (err != null) {
-
-                            logException(err);
-                            console.log('An error occurred: ', err);
-
-                            logException(data['ordreRecette']['numero'] + " is beeing reinserted reinserted ");
-                            console.log(data['ordreRecette']['numero'] + " is beeing reinserted reinserted ");
-                            //return setTimeout(() => executeThreeQueries(queryInsertion, queryInsertPdf2, queryUpdateAcquite, data['ordreRecette']['numero'], typedoc, data['quittance']['quittanceNo'], callback), 5000);
-                            return setTimeout(() => executeTwoQueries(queryInsertion, queryInsertPdf2, data['ordreRecette']['numero'], typedoc, data['quittance']['quittanceNo'], callback), 5000);
-
-                        } else {
-                            console.log('Queries executed successfully: ');
-                            callback(null, results);
-                        }
-                    });
-
-
-                }
-            })
-        }
-
-
-    }
-}
-
 
 async function runConsumer() {
     try {
@@ -427,6 +299,7 @@ async function runConsumer() {
               // If commit fails, DO NOT throw here; let the loop continue and
               // KafkaJS will retry or we will reprocess on restart.
               console.warn('Commit failed (will likely reprocess on restart):', e.message || e);
+              logException('Commit failed (will likely reprocess on restart):', e.message || e) ;
             }
           };
   
@@ -436,9 +309,11 @@ async function runConsumer() {
             if (!isRunning() || isStale()) break;
   
             // 1) Parse payload
-            let recette;
+            let recette , paiement;
+
             try {
               recette = JSON.parse(message.value.toString());
+              paiement = recette;
             } catch (e) {
               console.error('Bad JSON, skipping and committing past it:', e.message || e);
               // mark resolved for runner bookkeeping
@@ -466,6 +341,8 @@ async function runConsumer() {
                 } catch {}
   
                 console.warn(`Insert failed (attempt ${attempt}/${maxAttempts}):`, err.message || err);
+                logException(`Insert failed (attempt ${attempt}/${maxAttempts}):`, err.message || err) ;
+                
   
                 if (attempt === maxAttempts) {
                   // Give up for now — DO NOT COMMIT this message.
@@ -485,8 +362,11 @@ async function runConsumer() {
   
             // 3) Commit only if processed (or intentionally skipped malformed JSON above)
             if (processed) {
+
+              
               // tell the runner we’re done with this offset
               resolveOffset(message.offset);
+              logPaiement(JSON.stringify(paiement));
               // commit the *next* offset so this record won't be replayed
               await commitNextOffset(message);
               await heartbeat();
@@ -517,249 +397,25 @@ async function runConsumer() {
     }
   }
 
-async function runConsumerOld2() {
-    try {
-      console.log("Connecting.....")
-      await consumer.connect()
-      console.log("Connected!")
+
+
+
+
+
+
   
-      await consumer.subscribe({
-        topic: kafkaParams["topicConsumer"],
-        fromBeginning: true
-      })
-  
-      console.log("waiting for recettes ===========");
-
-      const util = require('util');
-      const insertIntoRecettesAsync = util.promisify(insertIntoRecettes);
-  
-      await consumer.run({
-        autoCommit: false,
-        eachBatchAutoResolve: false,
-        // process partitions sequentially to simplify DB constraints
-        partitionsConsumedConcurrently: 1,
-        eachBatch: async ({ batch, resolveOffset, heartbeat, commitOffsetsIfNecessary, isRunning, isStale }) => {
-          for (const message of batch.messages) {
-
-            const StartTimestamp = new Date();
-            if (!isRunning() || isStale()) break;
-  
-            let recette;
-            try {
-              recette = JSON.parse(message.value.toString());
-            } catch (e) {
-              // bad payload: skip but advance offset
-              console.error('Bad JSON, skipping:', e);
-              resolveOffset(message.offset);
-              await commitOffsetsIfNecessary();
-              await heartbeat();
-              continue;
-            }
-  
-            // retry with bounded backoff; IMPORTANT: call heartbeat during waits
-            const maxAttempts = 6; // ~2m worst case below
-            let attempt = 0;
-            while (attempt < maxAttempts) {
-              try {
-                await insertIntoRecettesAsync(recette);
-                // minimal log: successful insert
-                
-                break;
-              } catch (err) {
-                attempt++;
-                // persist the raw payload so you never lose it
-                try { if (recette.idTransaction) saveDataDuringException(JSON.stringify(recette), recette.idTransaction); } catch {}
-                console.warn(`Insert failed (attempt ${attempt}/${maxAttempts}):`, err && err.message ? err.message : err);
-  
-                if (attempt >= maxAttempts) {
-                  // give up for now; DO NOT commit this offset so we can reprocess later
-                  // optionally dead-letter here
-                  throw err;
-                }
-                // backoff with heartbeats
-                const delayMs = Math.min(2000 * attempt, 15000);
-                const start = Date.now();
-                while (Date.now() - start < delayMs) {
-                  await heartbeat();      // keep the session alive during backoff
-                  await new Promise(r => setTimeout(r, 500));
-                }
-              }
-            }
-
-            // only after successful insert:
-            resolveOffset(message.offset);
-            await commitOffsetsIfNecessary();
-            await heartbeat();  // keep session fresh between messages
 
 
-
-            const EndTimestamp = new Date();
-            const DifferenceTime = (EndTimestamp - StartTimestamp) / 1000; // Difference in seconds
-
-            logTimestampBeforeAndAfterInsertion(StartTimestamp.toISOString(), EndTimestamp.toISOString(), DifferenceTime, recette['ordreRecette']['numero']);
-
-
-
-          }
-        }
-      });
-  
-    } catch (ex) {
-      logException(ex);
-      // Do NOT call runConsumer() recursively here. Let KafkaJS reconnect.
-    }
-  }
-
-
-async function runConsumerOld() {
-
-
-    var recette = {};
-
-
-    try {
-
-
-        console.log("Connecting.....")
-        await consumer.connect()
-        console.log("Connected!")
-
-        console.log("kafkaParams['topicConsumer'] =" + kafkaParams["topicConsumer"]);
-        await consumer.subscribe({
-            //  "topic": "topic1",
-            "topic": kafkaParams["topicConsumer"],
-            "fromBeginning": true
-        })
-
-
-
-        console.log("waiting for recettes ===========");
-        let quittanceNos = [];
-        let maxLength = 1000;
-
-        const util = require('util');
-        const insertIntoRecettesAsync = util.promisify(insertIntoRecettes);
-
-        // await consumer.run({
-
-        function insertWithRetry(recette, paiement, topic, partition, message) {
-            insertIntoRecettesAsync(recette, async function (err, result) {
-                if (err) {
-                    console.log('it has not worked, insert of recertte of quittanceNo : ' + paiement['quittance']['quittanceNo']);
-                    logException('it has not worked, insert of recertte of quittanceNo : ' + paiement['quittance']['quittanceNo']);
-
-                    setTimeout(() => {
-                        insertWithRetry(recette, paiement, topic, partition, message);
-                    }, 2000); // 2 seconds delay
-
-                } else {
-                    console.log('it has worked =================');
-                    logPaiement(JSON.stringify(paiement));
-                    await consumer.commitOffsets([
-                        {
-                            topic,
-                            partition,
-                            offset: (Number(message.offset) + 1).toString()
-                        }
-                    ]);
-                }
-            });
-        }
-
-
-        await consumer.run({
-            autoCommit: false,                // <-- you decide when to commit
-            eachMessage: async ({
-                topic, partition, message
-            }) => {
-
-
-                //  "eachMessage": async result => {
-                //console.log(`RVD Msg ${result.message.value} on partition ${result.partition}`)
-                console.log('')
-                console.log('')
-
-                recette = JSON.parse(message.value.toString());
-                paiement = JSON.parse(message.value.toString());
-
-                //console.log(recette)
-                paiement['quittanceB64'] = null;
-
-
-                console.log("received data  data['quittance']['quittanceNo']= " + recette['quittance']['quittanceNo']);
-
-
-                // Get the quittanceNo
-                let quittanceNo = recette['quittance']['quittanceNo'];
-
-
-                let success = false;
-                while (!success) {
-                    try {
-                        await insertIntoRecettesAsync(recette); // must return a Promise
-                        logPaiement(JSON.stringify(paiement));
-                        await consumer.commitOffsets([
-                            {
-                                topic,
-                                partition,
-                                offset: (Number(message.offset) + 1).toString()
-                            }
-                        ]);
-                        success = true; // exit loop
-                    } catch (err) {
-                        logException('Insert failed, will retry: ' + err);
-                        // Wait before retrying
-                        await new Promise(res => setTimeout(res, 2000));
-                    }
-                }
-
-                try {
-
-
-                } catch (err) {
-                    // ❌ Endpoint unavailable – *do not* commit
-                    console.error('🔴  forward failed, will retry:', err.message);
-
-                    throw err;   // at-least-once semantics
-                }
-
-            }
-        });
-
-
-    }
-    catch (ex) {
-
-        console.log("mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm");
-        logException(ex);
-
-        if (recette['idTransaction']) {
-            saveDataDuringException(JSON.stringify(recette), recette['idTransaction']);
-        }
-        var myError = "" + ex;
-
-        if (myError.includes("KafkaJSNumberOfRetriesExceeded")) {
-
-            runConsumer();
-
-        }
-
-        //console.log(ex);
-        // console.error(`Something bad happened ${ex}`)
-    }
-    finally {
-
-    }
-
-
-}
+ 
 
 
 
 
 
 
-function formatDate(date) {
+
+
+  function formatDate(date) {
     let year = date.getFullYear();
     let month = (date.getMonth() + 1).toString().padStart(2, '0');
     let day = date.getDate().toString().padStart(2, '0');
