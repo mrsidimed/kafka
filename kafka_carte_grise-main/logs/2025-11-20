@@ -1,0 +1,38 @@
+2025-11-20T13:47:33.239Z : POST http://localhost:4000/recettes failed: connect ECONNREFUSED ::1:4000
+
+2025-11-20T13:47:33.577Z : POST http://localhost:4000/recettes failed: connect ECONNREFUSED ::1:4000
+
+2025-11-20T13:47:34.254Z : POST http://localhost:4000/recettes failed: connect ECONNREFUSED ::1:4000
+
+2025-11-20T13:47:35.864Z : POST http://localhost:4000/recettes failed: connect ECONNREFUSED ::1:4000
+
+2025-11-20T13:47:39.340Z : POST http://localhost:4000/recettes failed: connect ECONNREFUSED ::1:4000
+
+2025-11-20T13:47:47.101Z : POST http://localhost:4000/recettes failed: connect ECONNREFUSED ::1:4000
+
+2025-11-20T13:47:47.143Z : KafkaJSConnectionError: Connection error: write after end
+
+2025-11-20T13:52:53.689Z : POST http://localhost:4000/recettes failed: connect ECONNREFUSED ::1:4000
+
+2025-11-20T13:52:54.016Z : POST http://localhost:4000/recettes failed: connect ECONNREFUSED ::1:4000
+
+2025-11-20T13:52:54.660Z : POST http://localhost:4000/recettes failed: connect ECONNREFUSED ::1:4000
+
+2025-11-20T13:52:55.913Z : POST http://localhost:4000/recettes failed: connect ECONNREFUSED ::1:4000
+
+2025-11-20T13:52:57.974Z : POST http://localhost:4000/recettes failed: connect ECONNREFUSED ::1:4000
+
+2025-11-20T13:53:02.311Z : POST http://localhost:4000/recettes failed: connect ECONNREFUSED ::1:4000
+
+2025-11-20T13:53:02.331Z : KafkaJSConnectionClosedError: Closed connection
+
+2025-11-20T13:53:14.277Z : POST http://localhost:4000/recettes failed: connect ECONNREFUSED ::1:4000
+
+2025-11-20T13:53:14.575Z : POST http://localhost:4000/recettes failed: connect ECONNREFUSED ::1:4000
+
+2025-11-20T13:53:15.206Z : POST http://localhost:4000/recettes failed: connect ECONNREFUSED ::1:4000
+
+2025-11-20T13:53:16.635Z : POST http://localhost:4000/recettes failed: connect ECONNREFUSED ::1:4000
+
+2025-11-20T13:53:19.679Z : POST http://localhost:4000/recettes failed: connect ECONNREFUSED ::1:4000
+

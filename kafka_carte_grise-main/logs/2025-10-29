@@ -1,0 +1,880 @@
+2025-10-29T00:00:34.019Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T00:01:42.578Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T00:23:08.412Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T00:23:16.867Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T00:24:21.411Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T00:25:31.421Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T00:26:39.746Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T00:27:47.416Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T00:27:54.096Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T00:30:03.761Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T00:31:11.833Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T00:31:23.499Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T00:32:29.835Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T00:33:33.411Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T00:34:41.550Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T00:34:49.828Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T01:05:50.707Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T01:05:59.028Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T01:07:07.627Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T01:08:17.464Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T01:09:25.676Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T01:09:33.375Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T01:41:46.793Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T01:42:51.443Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T01:42:58.810Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T02:03:13.584Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T02:03:24.352Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T02:05:34.425Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T02:22:03.495Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T02:37:53.774Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T02:38:02.536Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T02:39:10.433Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T02:39:16.464Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T02:39:27.673Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T02:39:51.614Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T02:41:01.369Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T02:41:08.040Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T02:42:17.158Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T03:07:04.717Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T03:07:13.013Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T03:08:22.441Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T03:09:30.436Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T03:10:38.876Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T03:27:45.465Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T03:28:55.874Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T03:30:02.544Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T03:31:06.513Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T03:46:30.943Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T03:47:35.441Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T03:48:43.831Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T03:53:54.232Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T03:54:03.962Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T03:55:13.067Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T03:56:19.446Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T03:57:28.451Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T03:57:36.804Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T03:58:44.128Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T03:59:50.783Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T04:00:59.450Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T04:02:07.475Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T04:02:17.277Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T04:03:21.449Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T04:04:30.445Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T04:04:37.002Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T04:05:46.718Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T04:05:53.473Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T04:07:02.106Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T04:24:04.826Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T04:25:12.448Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T04:25:22.573Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T04:26:30.379Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T04:27:36.775Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T04:39:01.823Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T04:40:12.498Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T04:55:45.473Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T05:00:50.685Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T05:00:57.821Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T05:10:07.821Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T05:11:12.459Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T05:11:21.126Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T05:12:31.028Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T05:14:39.809Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T05:14:47.469Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T05:15:52.924Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T05:16:59.764Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T05:18:08.928Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T05:19:16.213Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T05:20:24.700Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T05:20:35.714Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T05:21:44.030Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T05:22:58.457Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T05:24:06.683Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T05:24:13.431Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T05:25:22.305Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T05:26:27.476Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T05:27:37.670Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T05:27:47.003Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T05:28:55.968Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T05:29:04.041Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T05:30:14.358Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T05:31:21.527Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T05:31:27.894Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T05:32:33.911Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T05:33:38.876Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T05:33:44.800Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T05:35:55.458Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T05:36:01.832Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T05:37:07.311Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T05:39:57.703Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T05:40:04.615Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T05:41:11.239Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T05:42:18.771Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T05:57:33.470Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T06:03:38.746Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T06:03:46.996Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T06:04:51.463Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T06:04:57.871Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T06:06:07.919Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T06:07:15.056Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T06:08:22.021Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T06:21:28.725Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T06:21:37.892Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T06:21:43.595Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T06:40:57.543Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T06:56:46.536Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T06:57:51.730Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T06:58:59.466Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T06:59:07.806Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T07:00:15.912Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T07:01:22.907Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T07:02:31.473Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T07:02:40.743Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T07:03:48.998Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T07:04:58.148Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T07:06:04.635Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T07:07:12.472Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T07:08:21.477Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T07:26:01.609Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T07:27:06.746Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T07:28:15.529Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T07:28:23.138Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T07:29:28.477Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T07:29:36.247Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T07:30:44.064Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T07:31:50.898Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T07:33:01.545Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T07:43:06.006Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T07:43:11.463Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T07:44:19.389Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T07:44:25.764Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T07:45:31.750Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T07:46:41.090Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T07:47:50.143Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T07:48:56.264Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T08:04:45.553Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T08:05:50.702Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T08:06:59.609Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T08:07:13.582Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T08:07:24.616Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T08:07:34.741Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T08:07:42.723Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T08:08:51.564Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T08:08:59.046Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T08:09:09.919Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T08:10:17.481Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T08:10:27.998Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T08:10:38.868Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T08:10:47.100Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T08:11:55.676Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T08:13:03.766Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T08:14:10.483Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T08:15:22.187Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T08:16:33.354Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T08:33:07.714Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T08:33:16.112Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T08:34:26.624Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T08:34:35.281Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T08:35:40.629Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T08:35:48.100Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T08:36:54.424Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T08:38:02.748Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T08:39:10.936Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T08:40:15.488Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T08:40:24.787Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T08:41:32.695Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T08:41:42.324Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T08:42:49.858Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T08:43:58.585Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T08:45:03.611Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T08:46:11.925Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T09:02:08.554Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T09:18:27.341Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T09:18:35.003Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T09:18:43.876Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T09:29:49.643Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T09:43:47.918Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T09:43:56.020Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T09:45:01.631Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T09:45:10.875Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T09:46:20.497Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T09:47:26.499Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T09:47:38.043Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T09:48:45.724Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T09:48:53.672Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T09:50:01.436Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T09:51:10.280Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T09:52:18.599Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T09:53:27.038Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T10:11:01.715Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T10:11:15.231Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T10:12:22.013Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T10:13:32.147Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T10:14:41.520Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T10:15:48.707Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T10:16:56.661Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T10:18:06.110Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T10:19:16.080Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T10:20:26.401Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T10:34:27.667Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T10:34:37.640Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T10:35:10.934Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T10:36:19.817Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T10:44:48.877Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T10:44:59.989Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T10:47:10.655Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T10:48:19.505Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T10:48:26.550Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T11:06:20.854Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T11:06:29.885Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T11:07:39.524Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T11:07:47.548Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T11:08:52.506Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T11:08:58.894Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T11:10:02.525Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T11:11:11.533Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T11:11:19.371Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T11:35:07.476Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T11:35:17.365Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T11:36:54.056Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T11:37:02.368Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T11:45:47.664Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T11:45:56.778Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T11:46:05.464Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T11:46:13.414Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T12:01:52.723Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T12:02:22.522Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T12:02:30.892Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T12:03:03.285Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T12:03:39.601Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T12:04:13.644Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T12:04:46.502Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T12:21:47.453Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T12:21:55.498Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T12:22:29.614Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T12:23:03.512Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T12:24:04.621Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T12:24:12.707Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T12:24:46.991Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T12:42:20.942Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T12:42:51.433Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T12:43:03.324Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T12:43:47.854Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T12:43:57.796Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T12:44:04.507Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T12:44:13.748Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T12:44:24.561Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T12:44:33.959Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T12:44:43.843Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T12:44:50.519Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T12:45:03.293Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T12:45:10.986Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T12:45:22.100Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T12:45:54.635Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T13:01:30.274Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T13:01:41.601Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T13:02:15.971Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T13:02:49.331Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T13:03:23.231Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T13:03:54.628Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T13:04:30.177Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T13:05:04.572Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T13:20:55.883Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T13:21:29.631Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T13:21:38.157Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T13:22:11.209Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T13:23:10.871Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T13:23:16.490Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T13:23:48.057Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T13:29:26.469Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T13:29:35.886Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T13:30:43.349Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T13:30:53.345Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T13:31:59.487Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T13:32:08.851Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T13:47:37.923Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T14:10:51.726Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T14:10:58.666Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T14:11:06.807Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T14:11:14.519Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T14:11:25.682Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T14:11:31.379Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T14:11:42.852Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T14:11:54.351Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T14:12:02.757Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T14:12:10.112Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T14:12:18.436Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T14:12:30.193Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T14:12:42.247Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T14:12:49.847Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T14:12:57.018Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T14:13:05.129Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T14:13:11.907Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T14:13:18.024Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T14:13:26.957Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T14:13:33.443Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T14:16:38.560Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T14:29:37.037Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T14:29:45.955Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T14:29:54.489Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T14:30:02.854Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T14:30:15.470Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T14:30:24.170Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T14:30:35.546Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T14:30:48.847Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T14:31:00.447Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T14:31:07.517Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T14:31:19.047Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T14:31:29.868Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T14:31:38.178Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T14:31:43.965Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T14:31:54.072Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T14:32:01.582Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T14:32:12.882Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T14:32:26.339Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T14:32:35.674Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T14:32:44.054Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T14:32:52.046Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T14:33:00.221Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T14:33:08.952Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T14:33:16.662Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T14:33:25.149Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T14:33:31.741Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T14:33:42.618Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T14:33:50.781Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T14:33:57.839Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T14:34:05.627Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T14:34:15.310Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T14:34:22.225Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T14:49:55.770Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T14:50:05.999Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T15:07:11.901Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T15:26:28.186Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T15:26:39.079Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T15:26:48.115Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T15:26:56.989Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T15:27:06.423Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T15:27:18.253Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T15:27:28.553Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T15:27:35.261Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T15:27:47.138Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T15:27:58.629Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T15:28:08.794Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T15:28:20.249Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T15:28:28.511Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T15:28:37.468Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T15:28:47.917Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T15:28:55.801Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T15:29:06.863Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T15:29:17.374Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T15:29:27.289Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T15:29:37.547Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T15:29:47.749Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T15:29:56.253Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T15:30:06.751Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T15:30:15.039Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T15:30:23.967Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T15:30:31.247Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T15:30:40.996Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T15:30:49.316Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T15:30:57.515Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T15:31:06.364Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T15:31:19.148Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T15:31:28.673Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T15:31:35.076Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T15:31:44.420Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T15:31:54.026Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T15:32:04.726Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T15:32:13.947Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T15:32:20.584Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T15:32:30.053Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T15:32:40.120Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T15:32:49.947Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T15:32:58.393Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T15:33:10.672Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T15:33:18.214Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T15:33:27.633Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T15:33:37.522Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T15:33:54.911Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T15:34:05.274Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T15:34:12.960Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T15:34:20.768Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T15:34:29.842Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T15:34:41.270Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T15:34:51.733Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T15:35:00.586Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T15:35:12.128Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T15:35:19.698Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T15:35:27.210Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T15:35:39.956Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T15:35:46.623Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T15:35:53.328Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T15:35:59.691Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T15:36:08.002Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T15:36:19.780Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T15:36:27.893Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T15:36:34.894Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T15:36:45.132Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T15:36:54.820Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T15:37:02.855Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T15:37:10.565Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T15:37:23.494Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T15:37:30.812Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T15:37:44.834Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T15:37:51.521Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T15:37:58.173Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T15:38:06.967Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T15:38:19.067Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T15:38:29.795Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T15:38:39.448Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T15:38:49.920Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T15:38:57.182Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T15:39:09.759Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T15:39:16.250Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T15:39:23.924Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T15:39:36.131Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T15:39:44.629Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T15:39:55.042Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T15:40:01.406Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T15:40:10.348Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+
+2025-10-29T15:40:23.306Z : KafkaJSNumberOfRetriesExceeded: Connection error: connect ECONNREFUSED ::1:9092
+

@@ -37,6 +37,7 @@ services:
       - kafka-network
   mysql:
     image: mysql:5.7
+    platform: linux/amd64
     container_name: mysql_container
     environment:
       MYSQL_ROOT_PASSWORD: kafka

@@ -40,8 +40,10 @@ const http = require('http'); // or 'https' for https:// URLs
 const fs = require('fs');
 
 
+logException('the app consumerMYSQL.js has started');
 //start
 
+ 
 
 
 //end
@@ -105,7 +107,19 @@ const { HEARTBEAT, REBALANCING, STABLE, CRASH } = consumer.events;
 consumer.on(HEARTBEAT, e => console.log('heartbeat', e.timestamp));
 consumer.on(REBALANCING, e => console.log('rebalancing', e.groupId));
 //consumer.on(STABLE, e => console.log('stable', e.groupId));
-consumer.on(CRASH, e => console.error('crash', e.payload && e.payload.error));
+// consumer.on(CRASH, e => {
+//     console.error('crash', e.payload && e.payload.error)
+//     logException('crash '+e.payload +' --- '+ e.payload.error);
+
+// });
+
+
+consumer.on(CRASH, e => {
+    console.error('CRASH', e.payload.error);
+    console.error('restart?', e.payload.restart); // true => KafkaJS will try to restart; false => non-retriable
+    logException(`crash ${e.payload} --- ${e.payload.error}`);
+    process.exit(1);
+  });
 
 runConsumer();
 
@@ -307,13 +321,24 @@ async function runConsumer() {
             const startTs = new Date();
   
             if (!isRunning() || isStale()) break;
+
+
+
+                  // ---- SIMULATED CRASH START
+        // e.g. send a message whose value is "CRASH_ME" to trigger
+        // const raw = message.value?.toString() ?? "";
+        // if (true) {
+        //     throw new Error("Simulated fatal processing error");
+        // }
+        // ---- SIMULATED CRASH END
   
             // 1) Parse payload
             let recette , paiement;
 
             try {
               recette = JSON.parse(message.value.toString());
-              paiement = recette;
+              paiement = JSON.parse(message.value.toString());;
+              paiement['quittanceB64'] = null;
             } catch (e) {
               console.error('Bad JSON, skipping and committing past it:', e.message || e);
               // mark resolved for runner bookkeeping
