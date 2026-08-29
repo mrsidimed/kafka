@@ -115,14 +115,30 @@ async function runConsumer() {
             eachMessage: async ({
               topic, partition, message
             }) => {
-              const recette = JSON.parse(message.value.toString());
+
+              const unchangedRecette = JSON.parse(message.value.toString()); 
+              unchangedRecette.quittanceB64 = 'null';
+              logInput(unchangedRecette);
+
+
+              const recette = renameOrdreRecetteFields( JSON.parse(message.value.toString()));
               console.log(`📥  Processing recette at ${new Date().toISOString()}`);
-              recette['quittanceB64'] = null ;
+            
+              
+              recette.quittanceB64 = 'null';
+         
               console.log(recette);
               console.log();
           
               try {
-                await sendRecetteToEndpoint(recette);      // 🚀 your business logic
+
+                if (recette.status && recette.status === 'PAID') {
+                    await sendRecetteToEndpoint(recette);      // 🚀 your business logic
+                }else{
+                    console.log('recette not paid');
+                }
+
+                
           
                 // ✔ HTTP succeeded – mark the record as processed
                 await consumer.commitOffsets([
@@ -134,7 +150,10 @@ async function runConsumer() {
                   }
                 ]);
                 console.log('✅ committed offset', message.offset);
+
+                recette.quittanceB64 = 'null';
                 logRecette(recette);
+            
               } catch (err) {
                 // ❌ Endpoint unavailable – *do not* commit
                 console.error('🔴  forward failed, will retry:', err.message);
@@ -172,7 +191,59 @@ async function runConsumer() {
 
 
 
+data= {
+    
+    "receiptOrderNumber":"ANR652486",
+    "reference":"450752868537",
+    "transactionReference":"410a0a92-9f37-489e-8d19-045098667b3f",
+    "bankTransactionId":"96b69890-3cc7-44f5-998e-df0f791cfc87",
+    "status":"SUCCEEDED",
+    "amount":6700,
+    "quittanceNumber":"410a0a92-9f37-489e-8d19-045098667b3f",
+    "quittanceUrl":"https://backup-api.prd-envs.adias.fr/soget-files//quittance/pdf/1c052d99840449799fad97457b2c7b1f_quittance_DGI-2026T000020000141.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20260629T153247Z&X-Amz-SignedHeaders=host&X-Amz-Credential=ZEKUJ4V6Z4qeNQFc%2F20260629%2Fadias%2Fs3%2Faws4_request&X-Amz-Expires=600&X-Amz-Signature=e6c7b3237ee0f6ab2233981a18928c39b476a52794d3eec4915763c936d38243",
 
+    "quittanceB64":null,
+    "eventType":"quittance.generated",
+    "timestamp":"2026-06-29T15:32:48.283646518"
+}
+
+
+
+function renameOrdreRecetteFields(data) {
+
+    var  receiptOrderNumber = data.receiptOrderNumber;
+    delete data.receiptOrderNumber;
+  
+
+    // if (typeof receiptOrderNumber === "string") { // if  receiptOrderNumber starts with 'ANR' delete it
+    //     receiptOrderNumber = receiptOrderNumber.replace(/^ANR/, "");
+    // }
+
+    data.ordreRecette = {numero: receiptOrderNumber};
+    
+    data.numeroOrdreRecette =  receiptOrderNumber;
+
+ 
+    data.serviceBancaire = "Not provided";
+
+    data.idTransaction = data.transactionReference;
+    delete data.transactionReference;
+
+    // Create quittance object if it doesn't exist
+    if (!data.quittance) {
+      data.quittance = {};
+    }
+    data.quittance.quittanceNo = data.quittanceNumber;
+    delete data.quittanceNumber;
+
+    data.numeroTelephone = "Not provided";
+   
+    data.datePaiement = data.paymentDate;
+    delete data.paymentDate;
+    
+    return data;
+}
+ 
 /**
  * Send a recette object to the remote HTTP endpoint.
  * Resolves on 2xx, rejects otherwise.
@@ -182,6 +253,7 @@ async function sendRecetteToEndpoint(recette) {
     try {
         const res = await axios.post(url, recette, { timeout: 8000 });
         console.log(`🟢  POST ${url} -> ${res.status}`);
+        console.log(recette);
     } catch (err) {
         logException(`POST ${url} failed: ${err.message}`);
         // Re-throw so caller can handle like old DB errors
@@ -199,6 +271,17 @@ function logRecette(recette) {
         fs.mkdirSync('./recettes');
     }
     fs.appendFileSync('./recettes/' + new Date().toISOString().split('T')[0], new Date().toISOString() + ' : ' + JSON.stringify(recette) + '\n\n');
+
+}
+
+
+function logInput(input) {
+
+    console.log("inside input");
+    if (!fs.existsSync('./input')) {
+        fs.mkdirSync('./input');
+    }
+    fs.appendFileSync('./input/' + new Date().toISOString().split('T')[0], new Date().toISOString() + ' : ' + JSON.stringify(input) + '\n\n');
 
 }
 

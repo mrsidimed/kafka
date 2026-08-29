@@ -1,0 +1,870 @@
+2026-07-13T00:11:11.806Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T00:11:44.157Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T00:12:20.175Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T00:12:50.738Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T00:13:22.090Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T00:13:55.251Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T00:31:39.299Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T00:32:14.244Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T00:32:45.920Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T00:33:21.072Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T00:33:55.344Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T00:34:27.725Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T00:37:08.137Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T00:37:18.605Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T00:37:28.606Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T00:37:39.940Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T00:37:49.922Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T00:38:01.390Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T00:38:07.879Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T00:38:18.466Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T00:38:27.307Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T00:38:35.987Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T00:38:48.953Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T00:38:58.805Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T00:39:05.628Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T00:39:11.161Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T00:39:22.861Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T00:39:33.198Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T00:39:40.284Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T00:39:47.207Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T00:39:55.515Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T00:40:07.375Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T00:40:14.818Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T00:40:23.770Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T00:40:33.211Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T00:40:44.376Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T00:40:55.273Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T00:41:04.389Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T00:41:11.893Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T00:41:20.265Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T00:41:33.253Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T00:41:43.566Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T00:41:52.466Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T00:42:01.665Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T00:42:15.027Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T00:42:29.961Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T00:42:38.949Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T00:42:49.160Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T00:43:00.049Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T00:43:11.700Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T00:43:19.520Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T00:43:30.642Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T00:43:42.502Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T00:43:50.165Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T00:43:58.872Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T00:44:06.440Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T00:44:12.356Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T00:44:22.196Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T00:44:32.549Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T00:44:45.392Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T00:44:54.507Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T00:45:05.411Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T00:45:12.011Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T00:45:22.930Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T00:45:36.934Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T00:45:45.610Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T00:45:55.645Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T00:46:04.510Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T00:46:13.501Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T00:46:20.148Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T00:46:30.082Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T00:46:38.898Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T00:46:46.781Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T00:46:56.393Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T00:47:08.205Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T00:47:15.113Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T00:47:25.061Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T00:47:36.835Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T00:47:46.208Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T00:47:56.890Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T00:48:09.171Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T00:48:18.106Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T00:48:27.685Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T00:48:33.695Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T00:48:44.125Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T00:48:54.319Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T00:49:09.026Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T00:49:17.136Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T00:49:23.142Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T00:49:33.151Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T00:49:40.692Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T00:49:47.112Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T00:49:56.001Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T00:50:03.200Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T00:50:12.268Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T00:50:22.566Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T00:50:35.475Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T00:50:41.185Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T00:50:51.109Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T00:51:02.176Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T00:51:10.793Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T00:51:22.489Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T00:51:31.581Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T00:51:38.848Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T00:51:46.289Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T00:52:35.471Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T00:54:38.027Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T00:54:44.941Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T00:54:54.243Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T00:55:00.811Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T00:55:09.390Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T00:55:14.886Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T00:55:22.773Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T00:55:32.021Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T00:55:38.159Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T00:55:47.309Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T00:55:57.747Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T00:56:09.228Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T00:56:21.342Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T00:56:28.159Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T00:56:37.877Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T00:56:47.432Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T00:56:56.048Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T00:57:02.765Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T00:57:16.422Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T00:57:30.077Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T00:57:36.094Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T00:57:48.173Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T00:57:58.436Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T00:58:09.631Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T00:58:21.103Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T00:58:35.749Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T00:58:47.041Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T00:59:00.756Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T00:59:10.195Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T00:59:20.274Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T00:59:28.722Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T00:59:39.046Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T00:59:48.076Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T00:59:58.398Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T01:00:06.682Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T01:00:13.661Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T01:00:21.992Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T01:00:33.017Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T01:00:43.674Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T01:00:50.709Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T01:00:56.640Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T01:01:07.010Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T01:01:17.203Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T01:01:28.618Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T01:01:35.383Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T01:01:45.265Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T01:01:56.051Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T01:02:03.545Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T01:02:12.268Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T01:02:21.549Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T01:02:33.120Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T01:02:42.792Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T01:02:51.822Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T01:03:00.639Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T01:03:11.852Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T01:03:20.039Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T01:03:26.535Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T01:03:34.924Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T01:03:49.586Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T01:03:59.794Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T01:04:08.403Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T01:04:20.359Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T01:04:32.829Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T01:04:44.775Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T01:04:56.936Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T01:05:04.002Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T01:05:13.743Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T01:05:21.356Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T01:05:30.862Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T01:05:38.533Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T01:05:50.684Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T01:06:01.561Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T01:06:11.933Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T01:06:19.513Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T01:06:29.018Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T01:06:35.326Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T01:06:44.392Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T01:06:56.622Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T01:07:07.200Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T01:07:18.584Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T01:07:27.453Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T01:07:39.552Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T01:07:47.316Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T01:07:53.836Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T01:08:08.168Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T01:08:16.028Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T01:08:27.025Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T01:08:31.878Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T01:08:40.594Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T01:08:49.167Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T01:08:59.098Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T01:09:09.190Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T01:09:19.895Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T01:09:28.058Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T01:09:38.438Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T01:09:47.729Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T01:09:56.521Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T01:10:07.840Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T01:10:18.507Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T01:10:27.641Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T01:10:37.224Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T01:10:52.724Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T01:11:00.369Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T01:11:08.593Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T01:11:17.657Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T01:11:23.719Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T01:11:30.729Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T01:11:43.976Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T01:11:52.612Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T01:12:00.477Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T01:12:10.187Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T01:12:18.483Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T01:12:28.484Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T01:12:37.136Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T01:12:46.788Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T01:12:58.382Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T01:13:07.344Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T01:13:16.585Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T01:13:26.501Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T01:13:33.941Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T01:13:41.849Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T01:13:52.127Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T01:14:00.605Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T01:14:09.373Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T01:14:19.397Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T01:14:27.558Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T01:14:41.770Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T01:14:53.519Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T01:15:05.487Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T01:15:18.515Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T01:15:30.727Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T01:16:26.340Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T01:16:36.100Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T01:48:23.262Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T02:38:30.698Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T03:02:55.349Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T03:16:36.786Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T03:48:57.202Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T04:06:30.088Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T04:17:35.483Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T04:50:18.472Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T05:05:29.179Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T05:05:40.333Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T05:05:49.587Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T05:05:57.503Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T05:18:34.291Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T05:19:07.302Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T05:19:38.732Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T05:20:11.128Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T05:20:39.725Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T05:21:12.478Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T05:21:51.183Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T05:38:11.998Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T05:38:47.178Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T05:39:20.781Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T05:39:52.600Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T05:40:24.825Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T05:40:57.123Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T05:58:01.493Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T05:58:35.109Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T05:59:13.454Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T06:00:17.850Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T06:01:18.947Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T06:16:28.144Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T06:17:00.543Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T06:18:02.877Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T06:19:06.217Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T06:19:39.448Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T06:37:23.364Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T06:37:57.112Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T06:38:33.680Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T06:39:04.053Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T06:39:40.244Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T06:40:38.466Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T06:57:40.603Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T06:58:16.230Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T06:58:49.386Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T06:59:50.282Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T07:00:26.351Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T07:17:10.843Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T07:17:43.892Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T07:18:15.714Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T07:18:44.946Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T07:19:20.941Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T07:19:53.883Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T07:20:25.596Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T07:21:02.401Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T07:36:31.346Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T07:36:39.792Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T07:36:50.128Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T07:52:24.418Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T07:52:59.928Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T07:53:31.680Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T07:54:37.176Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T07:55:09.386Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T08:12:07.317Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T08:12:41.946Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T08:13:13.498Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T08:13:45.388Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T08:14:19.752Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T08:14:53.414Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T08:18:49.581Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T08:34:36.191Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T08:35:38.555Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T08:36:10.328Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T08:36:43.911Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T08:37:18.088Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T08:51:57.995Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T08:52:56.937Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T08:53:34.091Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T08:54:33.999Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T08:55:06.502Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T09:10:33.057Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T09:11:05.940Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T09:12:07.277Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T09:12:37.951Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T09:13:13.800Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T09:13:42.730Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T09:19:50.442Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T09:36:54.128Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T09:37:26.977Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T09:38:02.286Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T09:38:35.683Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T09:39:07.542Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T09:55:18.963Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T09:55:52.993Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T09:56:26.272Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T10:12:07.376Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T10:12:19.584Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T10:20:50.678Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T10:21:19.672Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T10:21:52.317Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T10:22:28.916Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T10:23:34.645Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T10:40:57.192Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T10:41:30.170Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T10:42:32.174Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T10:43:04.043Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T10:43:35.835Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T10:44:08.578Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T10:44:41.482Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T11:01:53.763Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T11:02:26.387Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T11:03:30.651Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T11:04:31.244Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T11:05:05.908Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T11:21:16.333Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T11:22:16.788Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T11:22:51.335Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T11:23:25.828Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T11:23:58.662Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T11:24:33.200Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T11:40:04.598Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T11:40:13.616Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T11:41:12.429Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T11:41:19.082Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T11:42:22.438Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T11:58:24.422Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T11:59:27.110Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T12:00:03.205Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T12:00:37.657Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T12:10:58.345Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T12:11:06.823Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T12:11:17.443Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T12:11:23.745Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T12:11:32.551Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T12:22:23.829Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T12:22:55.103Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T12:23:06.831Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T12:23:14.948Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T12:23:26.029Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T12:39:10.216Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T12:39:43.654Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T12:40:17.136Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T12:40:48.227Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T12:41:51.108Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T12:57:15.392Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T12:57:46.892Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T12:58:22.664Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T12:58:55.025Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T12:59:29.720Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T13:00:29.399Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T13:00:36.241Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T13:18:28.079Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T13:19:05.734Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T13:19:39.196Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T13:20:41.525Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T13:23:15.279Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T13:40:14.372Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T13:40:47.417Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T13:40:53.336Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T13:41:03.937Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T13:42:06.557Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T13:42:15.414Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T13:58:19.701Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T13:58:50.582Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T13:58:58.871Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T13:59:35.133Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T14:00:04.237Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T14:00:12.408Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T14:15:49.178Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T14:16:52.566Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T14:17:01.797Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T14:17:32.389Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T14:18:33.090Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T14:19:06.472Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T14:24:13.661Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T14:31:18.688Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T14:31:28.345Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T14:32:33.896Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T14:32:43.014Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T14:34:22.183Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T14:57:10.306Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T14:57:23.272Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T14:57:31.673Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T14:57:39.124Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T15:15:02.096Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T15:25:12.851Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T15:42:04.440Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T15:42:12.910Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T15:45:16.704Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T15:45:31.488Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T15:45:37.996Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T15:45:44.963Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T15:45:52.999Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T15:46:05.489Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T15:46:13.988Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T15:46:22.263Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-13T15:46:34.596Z : KafkaJSNumberOfRetriesExceeded: Connection error: read ECONNRESET
+

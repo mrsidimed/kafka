@@ -1,0 +1,4 @@
+2026-07-22T15:47:29.286Z : {"status":"PAID","paymentDate":"2024-10-09T10:56:50.546273","bankTransactionId":"<id_transaction_banque>","transactionReference":"<uuid_transaction>","receiptOrderNumber":"ANR130202611120009","reference":"<reference_interne>","amount":500,"quittanceNumber":"<numero_quittance>","quittanceUrl":"<url_telechargement_quittance>","quittanceB64":null}
+
+2026-07-22T15:50:41.147Z : {"status":"PAID","paymentDate":"2024-10-09T10:56:50.546273","bankTransactionId":"<id_transaction_banque>","transactionReference":"<uuid_transaction>","receiptOrderNumber":"130202611120009","reference":"<reference_interne>","amount":500,"quittanceNumber":"<numero_quittance>","quittanceUrl":"<url_telechargement_quittance>","quittanceB64":null}
+

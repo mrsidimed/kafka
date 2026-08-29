@@ -1,0 +1,14 @@
+2026-08-13T10:52:38.176Z : POST http://localhost:4000/recettes failed: 
+
+2026-08-13T10:52:38.441Z : POST http://localhost:4000/recettes failed: 
+
+2026-08-13T10:52:38.981Z : POST http://localhost:4000/recettes failed: 
+
+2026-08-13T10:52:40.119Z : POST http://localhost:4000/recettes failed: 
+
+2026-08-13T10:52:42.204Z : POST http://localhost:4000/recettes failed: 
+
+2026-08-13T10:52:46.658Z : POST http://localhost:4000/recettes failed: 
+
+2026-08-13T10:52:46.825Z : KafkaJSConnectionClosedError: Closed connection
+

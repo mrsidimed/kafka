@@ -9,3 +9,6 @@
     "topicConsumer":   "pay-or-cg" ,
     "consumerGroupId": "kafka_carte_grise_gid" 
 }
+
+
+

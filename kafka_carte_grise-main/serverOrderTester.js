@@ -14,12 +14,20 @@ const ordre = {
   marque:        'TOYOTA',
   type:          'Corolla',
   genre:         'VP',
+  montant:       12345,
   puissance_fiscal: 10,
   matricule:     '1234-AA-25',
-  charge_utile:  600,
+  nni: "0123456789",
+  date_mutation: "2026-07-07",
+  nombre_places: 5,
+  
   proprietaire:  'John Doe',
+  charge_utile:  600,
   typeDemande:   'IMMATRICULATION',
-  montant:       12345,
+  charge_utile: 2000,
+  cac_ar: "cac_ar",
+  cac_fr: "cac_fr",
+  
   date_generation: new Date().toISOString()
 };
 

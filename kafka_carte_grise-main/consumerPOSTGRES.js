@@ -302,7 +302,7 @@ function insertIntoRecettes(data, callback) {
 
                     console.log("insertIntoRecettesNestedFunction 4");
                     query = "Insert Into  recettes ( date_validation , path ,paiement_en_ligne ,    etat            , date_quittance                , reference                    , serviceBancaire                   , idTransaction                    , Quittance                          , numeroTelephone  , quittance_pdf , numero_recette ) \
-                            VALUES (  now()        , 'none'  , 1                ,  'Reçue'    , '" + data['datePaiement'] + "' ,  '" + data['reference'] + "', '" + data['serviceBancaire'] + "' , '" + data['idTransaction'] + "'  , '" + data['quittance']['quittanceNo'] + "'  ,  '" + data['numeroTelephone'] + "' ,  '" + data['quittanceB64'] + "'  , '" + data['ordreRecette']['numero'] + "'    )"
+                                            VALUES (  now()         , 'none'  , 1                ,  'Reçue'    , '" + data['datePaiement'] + "' ,  '" + data['reference'] + "', '" + data['serviceBancaire'] + "' , '" + data['idTransaction'] + "'  , '" + data['quittance']['quittanceNo'] + "'  ,  '" + data['numeroTelephone'] + "' ,  '" + data['quittanceB64'] + "'  , '" + data['ordreRecette']['numero'] + "'    )"
 
                     con.query(query, (err2, res) => {
 

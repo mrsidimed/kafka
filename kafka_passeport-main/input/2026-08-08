@@ -1,0 +1,2 @@
+2026-08-08T15:46:54.044Z : {"status":"PAID","paymentDate":"2024-10-09T10:56:50.546273","bankTransactionId":"<id_transaction_banque>","transactionReference":"<uuid_transaction>","receiptOrderNumber":"130202611120009","reference":"<reference_interne>","amount":500,"quittanceNumber":"<numero_quittance>","quittanceUrl":"<url_telechargement_quittance>","quittanceB64":null}
+

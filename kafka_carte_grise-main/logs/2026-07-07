@@ -1,0 +1,62 @@
+2026-07-07T13:40:54.262Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-07T13:41:00.857Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-07T13:41:07.971Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-07T13:41:17.873Z : KafkaJSNumberOfRetriesExceeded: Connection error: read ECONNRESET
+
+2026-07-07T13:41:26.951Z : KafkaJSNumberOfRetriesExceeded: Closed connection
+
+2026-07-07T13:41:34.086Z : KafkaJSNumberOfRetriesExceeded: Connection error: 
+
+2026-07-07T17:51:51.788Z : AggregateError; error while connectig to the DB
+
+2026-07-07T17:52:01.781Z : AggregateError; error while connectig to the DB
+
+2026-07-07T17:52:11.782Z : AggregateError; error while connectig to the DB
+
+2026-07-07T17:52:21.782Z : AggregateError; error while connectig to the DB
+
+2026-07-07T17:52:31.783Z : AggregateError; error while connectig to the DB
+
+2026-07-07T17:52:41.786Z : AggregateError; error while connectig to the DB
+
+2026-07-07T17:53:38.034Z : KafkaJSConnectionError: Connection error: write after end
+
+2026-07-07T17:56:01.189Z : KafkaJSConnectionClosedError: Closed connection
+
+2026-07-07T18:19:45.000Z : KafkaJSConnectionClosedError: Closed connection
+
+2026-07-07T18:21:10.822Z : KafkaJSConnectionClosedError: Closed connection
+
+2026-07-07T18:32:48.373Z : KafkaJSConnectionError: Connection error: write after end
+
+2026-07-07T18:54:46.265Z : POST http://localhost:4000/recettes failed: 
+
+2026-07-07T18:54:46.579Z : POST http://localhost:4000/recettes failed: 
+
+2026-07-07T18:54:47.178Z : POST http://localhost:4000/recettes failed: 
+
+2026-07-07T18:54:48.471Z : POST http://localhost:4000/recettes failed: 
+
+2026-07-07T18:54:51.305Z : POST http://localhost:4000/recettes failed: 
+
+2026-07-07T18:54:56.159Z : POST http://localhost:4000/recettes failed: 
+
+2026-07-07T18:54:56.211Z : KafkaJSConnectionClosedError: Closed connection
+
+2026-07-07T18:55:55.421Z : POST http://localhost:4000/recettes failed: 
+
+2026-07-07T18:55:55.777Z : POST http://localhost:4000/recettes failed: 
+
+2026-07-07T18:55:56.428Z : POST http://localhost:4000/recettes failed: 
+
+2026-07-07T18:55:57.569Z : POST http://localhost:4000/recettes failed: 
+
+2026-07-07T18:55:59.596Z : POST http://localhost:4000/recettes failed: 
+
+2026-07-07T18:56:04.064Z : POST http://localhost:4000/recettes failed: 
+
+2026-07-07T18:56:04.104Z : KafkaJSConnectionClosedError: Closed connection
+

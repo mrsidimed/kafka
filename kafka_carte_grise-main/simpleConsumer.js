@@ -152,7 +152,7 @@ async function runProducer(ordre){
                 console.log('');
               //  console.log('sent data = ' + JSON.stringify(ordre));
               
-              console.log("data was sent : 'numeroOrdreRecette'"+ ordre['numeroOrdreRecette']);
+              console.log("data was sent dd : 'numeroOrdreRecette'"+ ordre['numeroOrdreRecette']);
 
             }
             

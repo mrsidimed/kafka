@@ -1,0 +1,12 @@
+2026-08-12T12:53:42.853Z : {"status":"PAID","paymentDate":"2024-10-09T10:56:50.546273","bankTransactionId":"<id_transaction_banque>","transactionReference":"<uuid_transaction>","receiptOrderNumber":"ANR13020261112000-----","reference":"<reference_interne>","amount":500,"quittanceNumber":"<numero_quittance>","quittanceUrl":"<url_telechargement_quittance>","quittanceB64":null,"error":true,"errorMessage":"Ordre non existant dans la base de données"}
+
+2026-08-12T12:54:29.843Z : {"status":"PAID","bankTransactionId":"<id_transaction_banque>","transactionReference":"<uuid_transaction>","receiptOrderNumber":"ANR13020261112000","reference":"<reference_interne>","amount":500,"quittanceNumber":"<numero_quittance>","quittanceUrl":"<url_telechargement_quittance>","quittanceB64":null,"error":true,"errorMessage":"Ordre non existant dans la base de données"}
+
+2026-08-12T12:55:19.861Z : {"status":"PAID","paymentDate":"2024-10-09T10:56:50.546273","bankTransactionId":"<id_transaction_banque>","transactionReference":"<uuid_transaction>","receiptOrderNumber":"ANR13020261112000","reference":"<reference_interne>","amount":500,"quittanceNumber":"<numero_quittance>","quittanceUrl":"<url_telechargement_quittance>","quittanceB64":null,"error":true,"errorMessage":"Ordre non existant dans la base de données"}
+
+2026-08-12T12:56:37.288Z : {"status":"PAID","bankTransactionId":"<id_transaction_banque>","transactionReference":"<uuid_transaction>","receiptOrderNumber":"ANR130202611120009","reference":"<reference_interne>","amount":500,"quittanceNumber":"<numero_quittance>","quittanceUrl":"<url_telechargement_quittance>","quittanceB64":null,"error":true,"errorMessage":"missing fields : data.datePaiement"}
+
+2026-08-12T12:58:23.479Z : {"status":"PAID","bankTransactionId":"<id_transaction_banque>","transactionReference":"<uuid_transaction>","receiptOrderNumber":"ANR130202611120009","reference":"<reference_interne>","amount":500,"quittanceNumber":"<numero_quittance>","quittanceB64":null,"error":true,"errorMessage":"missing fields : data.datePaiement"}
+
+2026-08-12T12:59:08.228Z : {"status":"PAID","bankTransactionId":"<id_transaction_banque>","transactionReference":"<uuid_transaction>","receiptOrderNumber":"ANR130202611120009","reference":"<reference_interne>","amount":500,"quittanceUrl":"<url_telechargement_quittance>","quittanceB64":null,"error":true,"errorMessage":"missing fields : data.datePaiement , data.quittance.quittanceNo"}
+

@@ -1,0 +1,124 @@
+2026-06-23T14:32:45.680Z : ReferenceError: Cannot access 'newData' before initialization
+
+2026-06-23T14:33:35.256Z : ReferenceError: Cannot access 'newData' before initialization
+
+2026-06-23T14:33:39.411Z : ReferenceError: Cannot access 'newData' before initialization
+
+2026-06-23T14:40:48.191Z : POST http://localhost:4000/recettes failed: Request failed with status code 404
+
+2026-06-23T14:40:48.489Z : POST http://localhost:4000/recettes failed: Request failed with status code 404
+
+2026-06-23T14:40:49.182Z : POST http://localhost:4000/recettes failed: Request failed with status code 404
+
+2026-06-23T14:40:50.649Z : POST http://localhost:4000/recettes failed: Request failed with status code 404
+
+2026-06-23T14:40:53.743Z : POST http://localhost:4000/recettes failed: Request failed with status code 404
+
+2026-06-23T14:40:59.742Z : POST http://localhost:4000/recettes failed: Request failed with status code 404
+
+2026-06-23T14:40:59.772Z : KafkaJSConnectionClosedError: Closed connection
+
+2026-06-23T14:41:13.481Z : POST http://localhost:4000/recettes failed: Request failed with status code 404
+
+2026-06-23T14:41:13.822Z : POST http://localhost:4000/recettes failed: Request failed with status code 404
+
+2026-06-23T14:41:14.378Z : POST http://localhost:4000/recettes failed: Request failed with status code 404
+
+2026-06-23T14:41:15.669Z : POST http://localhost:4000/recettes failed: Request failed with status code 404
+
+2026-06-23T14:41:18.176Z : POST http://localhost:4000/recettes failed: Request failed with status code 404
+
+2026-06-23T14:41:22.831Z : POST http://localhost:4000/recettes failed: Request failed with status code 404
+
+2026-06-23T14:41:22.839Z : KafkaJSConnectionClosedError: Closed connection
+
+2026-06-23T14:41:34.070Z : POST http://localhost:4000/recettes failed: Request failed with status code 404
+
+2026-06-23T14:41:34.357Z : POST http://localhost:4000/recettes failed: Request failed with status code 404
+
+2026-06-23T14:41:34.979Z : POST http://localhost:4000/recettes failed: Request failed with status code 404
+
+2026-06-23T14:41:36.357Z : POST http://localhost:4000/recettes failed: Request failed with status code 404
+
+2026-06-23T14:41:39.072Z : POST http://localhost:4000/recettes failed: Request failed with status code 404
+
+2026-06-23T14:42:04.115Z : POST http://localhost:4000/recettes failed: Request failed with status code 404
+
+2026-06-23T14:42:04.490Z : POST http://localhost:4000/recettes failed: Request failed with status code 404
+
+2026-06-23T14:42:05.149Z : POST http://localhost:4000/recettes failed: Request failed with status code 404
+
+2026-06-23T14:42:06.430Z : POST http://localhost:4000/recettes failed: Request failed with status code 404
+
+2026-06-23T14:42:09.432Z : POST http://localhost:4000/recettes failed: Request failed with status code 404
+
+2026-06-23T14:42:16.301Z : POST http://localhost:4000/recettes failed: Request failed with status code 404
+
+2026-06-23T14:42:16.328Z : KafkaJSConnectionClosedError: Closed connection
+
+2026-06-23T14:42:35.553Z : POST http://localhost:4000/recettes failed: Request failed with status code 404
+
+2026-06-23T14:42:35.850Z : POST http://localhost:4000/recettes failed: Request failed with status code 404
+
+2026-06-23T14:42:36.463Z : POST http://localhost:4000/recettes failed: Request failed with status code 404
+
+2026-06-23T14:42:37.490Z : POST http://localhost:4000/recettes failed: Request failed with status code 404
+
+2026-06-23T14:42:39.246Z : POST http://localhost:4000/recettes failed: Request failed with status code 404
+
+2026-06-23T14:42:42.227Z : POST http://localhost:4000/recettes failed: Request failed with status code 404
+
+2026-06-23T14:42:42.238Z : KafkaJSConnectionClosedError: Closed connection
+
+2026-06-23T14:42:51.728Z : POST http://localhost:4000/recettes failed: Request failed with status code 404
+
+2026-06-23T14:42:52.051Z : POST http://localhost:4000/recettes failed: Request failed with status code 404
+
+2026-06-23T14:42:52.691Z : POST http://localhost:4000/recettes failed: Request failed with status code 404
+
+2026-06-23T14:42:53.857Z : POST http://localhost:4000/recettes failed: Request failed with status code 404
+
+2026-06-23T14:42:56.111Z : POST http://localhost:4000/recettes failed: Request failed with status code 404
+
+2026-06-23T14:43:01.414Z : POST http://localhost:4000/recettes failed: Request failed with status code 404
+
+2026-06-23T14:43:01.423Z : KafkaJSConnectionClosedError: Closed connection
+
+2026-06-23T14:43:15.948Z : POST http://localhost:4000/recettes failed: Request failed with status code 404
+
+2026-06-23T14:43:16.290Z : POST http://localhost:4000/recettes failed: Request failed with status code 404
+
+2026-06-23T14:43:17.035Z : POST http://localhost:4000/recettes failed: Request failed with status code 404
+
+2026-06-23T14:43:18.301Z : POST http://localhost:4000/recettes failed: Request failed with status code 404
+
+2026-06-23T14:43:20.942Z : POST http://localhost:4000/recettes failed: Request failed with status code 404
+
+2026-06-23T14:43:25.812Z : POST http://localhost:4000/recettes failed: Request failed with status code 404
+
+2026-06-23T14:43:25.821Z : KafkaJSConnectionClosedError: Closed connection
+
+2026-06-23T14:43:39.696Z : POST http://localhost:4000/recettes failed: Request failed with status code 404
+
+2026-06-23T14:43:39.947Z : POST http://localhost:4000/recettes failed: Request failed with status code 404
+
+2026-06-23T14:43:40.449Z : POST http://localhost:4000/recettes failed: Request failed with status code 404
+
+2026-06-23T14:43:41.478Z : POST http://localhost:4000/recettes failed: Request failed with status code 404
+
+2026-06-23T14:43:43.681Z : POST http://localhost:4000/recettes failed: Request failed with status code 404
+
+2026-06-23T14:43:47.589Z : POST http://localhost:4000/recettes failed: Request failed with status code 404
+
+2026-06-23T14:43:47.603Z : KafkaJSConnectionClosedError: Closed connection
+
+2026-06-23T14:43:57.912Z : POST http://localhost:4000/recettes failed: Request failed with status code 404
+
+2026-06-23T14:43:58.226Z : POST http://localhost:4000/recettes failed: Request failed with status code 404
+
+2026-06-23T14:43:58.841Z : POST http://localhost:4000/recettes failed: Request failed with status code 404
+
+2026-06-23T14:44:00.040Z : POST http://localhost:4000/recettes failed: Request failed with status code 404
+
+2026-06-23T14:44:02.234Z : POST http://localhost:4000/recettes failed: Request failed with status code 404
+

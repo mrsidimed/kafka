@@ -1,9 +1,9 @@
 {
     "passeport_normal": true,
-    "passeport_vip": false,
+    "passeport_vip": true,
     "carte_identite": true,
-    "carte_resident": false,
-    "extrait_naissance": false,
+    "carte_resident": true,
+    "extrait_naissance": true,
     "casier_judiciaire": true,
     "extrait_diplome": true
 }

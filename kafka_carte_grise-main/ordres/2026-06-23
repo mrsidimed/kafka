@@ -1,0 +1,8 @@
+2026-06-23T14:34:33.107Z : {"receiptOrderNumber":"ANRTEST-1782225272838","amount":12345,"receiptType":"Carte grise","dateGeneration":"2026-06-23T14:34:32.838Z","puissanceFiscal":10,"chargeUtile":600,"vin":"ABC123XYZ9876543","marque":"TOYOTA","type":"Corolla","genre":"VP","matricule":"1234-AA-25","proprietaire":"John Doe","typeDemande":"IMMATRICULATION"}
+
+2026-06-23T14:35:17.743Z : {"receiptOrderNumber":"ANRTEST-1782225317645","amount":12345,"receiptType":"Carte grise","dateGeneration":"2026-06-23T14:35:17.645Z","puissanceFiscal":10,"chargeUtile":600,"customerName":"John Doe","customerPhone":null,"vin":"ABC123XYZ9876543","marque":"TOYOTA","type":"Corolla","genre":"VP","matricule":"1234-AA-25","proprietaire":"John Doe","typeDemande":"IMMATRICULATION"}
+
+2026-06-23T14:41:19.640Z : {"receiptOrderNumber":"ANRTEST-1782225679596","amount":12345,"receiptType":"Carte grise","dateGeneration":"2026-06-23T14:41:19.596Z","puissanceFiscal":10,"chargeUtile":600,"customerName":"John Doe","customerPhone":null,"vin":"ABC123XYZ9876543","marque":"TOYOTA","type":"Corolla","genre":"VP","matricule":"1234-AA-25","proprietaire":"John Doe","typeDemande":"IMMATRICULATION"}
+
+2026-06-23T14:54:27.973Z : {"receiptOrderNumber":"ANRTEST-1782226467893","amount":12345,"receiptType":"Carte grise","dateGeneration":"2026-06-23T14:54:27.893Z","puissanceFiscal":10,"chargeUtile":600,"customerName":"John Doe","customerPhone":null,"vin":"ABC123XYZ9876543","marque":"TOYOTA","type":"Corolla","genre":"VP","matricule":"1234-AA-25","proprietaire":"John Doe","typeDemande":"IMMATRICULATION"}
+

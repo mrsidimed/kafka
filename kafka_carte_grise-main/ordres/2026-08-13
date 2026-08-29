@@ -1,0 +1,2 @@
+2026-08-13T10:43:39.946Z : {"receiptOrderNumber":"TEST-1786617819842","amount":12345,"receiptType":"CARTE_GRISE","dateGeneration":"2026-08-13T10:43:39.842Z","puissanceFiscal":10,"chargeUtile":2000,"customerName":"John Doe","customerPhone":null,"dateMutation":"2026-07-07","nombrePlaces":5,"cacAr":"cac_ar","cacFr":"cac_fr","typeDemande":"IMMATRICULATION","vin":"ABC123XYZ9876543","marque":"TOYOTA","type":"Corolla","genre":"VP","matricule":"1234-AA-25","nni":"0123456789","proprietaire":"John Doe"}
+

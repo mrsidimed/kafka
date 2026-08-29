@@ -186,21 +186,24 @@ function insertIntoRecettes(data, callback) {
 
         } else {
 
-            let ordreRecetteNumero = data['ordreRecette']['numero'];
+          let myOrdreRecetteNumero = data['ordreRecette']['numero']?.replace(/^ANR/, '');
+             
+
+            console.log('-----------------------------------------------myOrdreRecetteNumero', myOrdreRecetteNumero);
             let codecac, typedoc, transport = 0;
 
             typedoc = data['ordreRecette']['typeDocument'].split("-")[0];
 
-            if (ordreRecetteNumero.startsWith('8')) {
+            if (myOrdreRecetteNumero.startsWith('8')) {
 
                 codecac = '800000';
                 //  typedoc = parseInt(ordreRecetteNumero.charAt(4));  // 5th character, as indices start from 0
 
-            } else if (ordreRecetteNumero.startsWith('9')) {
+            } else if (myOrdreRecetteNumero.startsWith('9')) {
                 codecac = '900000';
                 //   typedoc = parseInt(ordreRecetteNumero.charAt(4));  // 5th character, as indices start from 0
             } else {
-                codecac = ordreRecetteNumero.slice(0, 6); // First 6 characters
+                codecac = myOrdreRecetteNumero.slice(0, 6); // First 6 characters
                 //typedoc = parseInt(ordreRecetteNumero.charAt(6));   // 7th character
             }
 
@@ -227,6 +230,8 @@ function insertIntoRecettes(data, callback) {
             var mynewdate = formatDate(new Date());
              
 
+            console.log('---------------------------------------------->>>>>>>>>>>>>>-data[ordreRecette][numero]', data['ordreRecette']['numero']);
+            console.log('data[ordreRecette][numero]', data['ordreRecette']['numero']);
             console.log("mynewdate " + mynewdate);
             var queryInsertPdf2 = "Insert Into  recettes_pdf(   Quittance ,quittance_pdf ) " +
                 "VALUES (    '" + data['quittance']['quittanceNo'] + "'  ,  '" + data['quittanceB64'] + "' )";
@@ -336,10 +341,46 @@ async function runConsumer() {
             let recette , paiement;
 
             try {
-              recette = JSON.parse(message.value.toString());
-              paiement = JSON.parse(message.value.toString());;
+
+            
+              
+              
+              const message_string = message.value.toString();
+
+              
+              input = JSON.parse(message_string);;
+              input['quittanceB64'] = null;
+              logInput(JSON.stringify(input));
+
+           
+
+
+              recette = renameOrdreRecetteFields( JSON.parse(message_string));  
+
+
+               
+
+              
+
+
+
+              recette = checkMissingFields(recette);
+   
+              recette = await addRemainingFields(recette);
+              
+
+              
+              console.log('apres');
+             
+              paiement = JSON.parse(message_string);;
               paiement['quittanceB64'] = null;
+
+            
+
+
             } catch (e) {
+
+              logException(`Bad JSON, skipping and committing past it:`, e.message || e) ;
               console.error('Bad JSON, skipping and committing past it:', e.message || e);
               // mark resolved for runner bookkeeping
               resolveOffset(message.offset);
@@ -354,7 +395,14 @@ async function runConsumer() {
             const maxAttempts = 6; // ~2m worst case with backoff below
             for (let attempt = 1; attempt <= maxAttempts; attempt++) {
               try {
-                await insertIntoRecettesAsync(recette);
+
+                if(recette.status && recette.status === 'PAID' && !recette.error){
+
+                    await insertIntoRecettesAsync(recette);
+                }
+
+
+                
                 processed = true;
                 break;
               } catch (err) {
@@ -391,7 +439,23 @@ async function runConsumer() {
               
               // tell the runner we’re done with this offset
               resolveOffset(message.offset);
-              logPaiement(JSON.stringify(paiement));
+
+              if(!recette.error){
+                logPaiement(JSON.stringify(paiement));
+                 
+              }else{
+                
+
+               
+
+                input.error = recette.error;
+                input.errorMessage =  recette.errorMessage;
+                logUntreatedOrder(JSON.stringify(input));
+                 
+                 
+              }
+
+              
               // commit the *next* offset so this record won't be replayed
               await commitNextOffset(message);
               await heartbeat();
@@ -425,13 +489,54 @@ async function runConsumer() {
 
 
 
-
-
-
+ 
   
 
 
  
+
+function addRemainingFields(recette) {
+    return new Promise((resolve, reject) => {
+      mySingletonConnection.getConnection(function (err, con) {
+        if (err) {
+          return reject(new Error('Failed to get DB connection: ' + err.message));
+        }
+  
+        try {
+          const ordreRecetteNumero = recette.ordreRecette.numero;
+
+          
+          
+          const queryOrdre = "SELECT ordres.NUMERO, ordres.NNI, ordres.TYPEDOC FROM ordres WHERE NUMERO = '" + ordreRecetteNumero + "'";
+  
+          con.query(queryOrdre, function (err, ordreResults) {
+            if (err) {
+              return reject(err);
+            }
+  
+            console.log('ordreResults', ordreResults);
+
+            if (ordreResults.length > 0) {
+              recette.ordreRecette.nni = ordreResults[0].NNI;
+              recette.ordreRecette.typeDocument = ordreResults[0].TYPEDOC + '-doc';
+            }else{
+
+              recette.error = true;
+              recette.errorMessage = 'Ordre non existant dans la base de données';
+            }
+
+         
+
+            resolve(recette);
+          });
+          
+        } catch (error) {
+          logException(error);
+          reject(error);
+        }
+      });
+    });
+  }
 
 
 
@@ -463,8 +568,126 @@ function logException(error) {
 
 }
 
+function toMysqlDatetime(value) {
+  const d = value instanceof Date ? value : new Date(value);
+  return d.toISOString().slice(0, 19).replace('T', ' ');
+}
 
 
+
+function checkMissingFields(data) {
+  
+
+
+  const requiredFields = [
+    ['data.ordreRecette.montant', data?.ordreRecette?.montant],
+    ['data.ordreRecette.numero', data?.ordreRecette?.numero],
+    
+    ['data.datePaiement', data?.datePaiement],
+    ['data.reference', data?.reference],
+    ['data.serviceBancaire', data?.serviceBancaire],
+    ['data.idTransaction', data?.idTransaction],
+
+    ['data.status', data?.status],
+
+    ['data.quittanceB64', data?.quittanceB64],
+    
+   
+
+    ['data.quittance.quittanceNo', data?.quittance?.quittanceNo],
+    
+];
+
+const missingFields = requiredFields
+    .filter(([, value]) => value === undefined || value === null)
+    .map(([fieldName]) => fieldName);
+
+
+ 
+if (missingFields.length > 0) {
+    data.error = true;
+    data.errorMessage = 'missing fields : ' + missingFields.join(' , ');
+}
+
+ 
+ 
+  return data;
+}
+
+function renameOrdreRecetteFields(data) {
+  const newData = {
+    ordreRecette: {
+      numero: data.receiptOrderNumber,
+      montant: data.amount,
+    },
+    idTransaction: data.bankTransactionId,
+    quittance: {
+      quittanceNo: data.quittanceNumber
+    },
+    
+
+
+
+    datePaiement: data.paymentDate != null
+      ? data.paymentDate
+      : (data.timestamp != null ? data.timestamp : toMysqlDatetime(new Date().toISOString()) ),
+
+    serviceBancaire: 'Not provided',
+    numeroTelephone: null,
+    ...data
+  };
+
+  // Check the NEW data you just created, not the original data
+  // if (typeof newData.ordreRecette.numero === "string") {
+  //   newData.ordreRecette.numero = newData.ordreRecette.numero.replace(/^ANR/, "");
+  // }
+
+  // Clean up old field names
+  delete newData.receiptOrderNumber;
+  delete newData.amount;
+  delete newData.bankTransactionId;
+  delete newData.transactionReference;
+  delete newData.quittanceNumber;
+  delete newData.timestamp;
+
+  return newData;
+}
+
+function renameOrdreRecetteFields_old_10_08_2026(data) {
+    const newData = {
+      ordreRecette: {
+        numero: data.receiptOrderNumber,
+        montant: data.amount,
+      },
+      idTransaction: data.bankTransactionId,
+      quittance: {
+        quittanceNo: data.quittanceNumber
+      },
+      datePaiement: data.paymentDate,
+      serviceBancaire: 'Not provided',
+      numeroTelephone: null,
+      ...data
+    };
+  
+    // Check the NEW data you just created, not the original data
+    // if (typeof newData.ordreRecette.numero === "string") {
+    //   newData.ordreRecette.numero = newData.ordreRecette.numero.replace(/^ANR/, "");
+    // }
+  
+    // Clean up old field names
+    delete newData.receiptOrderNumber;
+    delete newData.amount;
+    delete newData.bankTransactionId;
+    delete newData.transactionReference;
+    delete newData.quittanceNumber;  
+    delete newData.paymentDate;
+  
+
+    
+    return newData;
+  }
+
+ 
 
 
 
@@ -475,6 +698,29 @@ function logPaiement(paiement) {
         fs.mkdirSync('./paiements');
     }
     fs.appendFileSync('./paiements/' + new Date().toISOString().split('T')[0], new Date().toISOString() + ' : ' + paiement + '\n\n');
+
+}
+
+
+
+function logUntreatedOrder(untreatedOrder) {
+
+  console.log("inside input");
+  if (!fs.existsSync('./untreatedOrder')) {
+      fs.mkdirSync('./untreatedOrder');
+  }
+  fs.appendFileSync('./untreatedOrder/' + new Date().toISOString().split('T')[0], new Date().toISOString() + ' : ' + untreatedOrder + '\n\n');
+
+}
+
+
+function logInput(input) {
+
+    console.log("inside input");
+    if (!fs.existsSync('./input')) {
+        fs.mkdirSync('./input');
+    }
+    fs.appendFileSync('./input/' + new Date().toISOString().split('T')[0], new Date().toISOString() + ' : ' + input + '\n\n');
 
 }
 

@@ -1,0 +1,4 @@
+2026-06-30T11:52:41.961Z : KafkaJSNumberOfRetriesExceeded: Connection error: read ECONNRESET
+
+2026-06-30T13:49:42.424Z : KafkaJSConnectionClosedError: Closed connection
+

@@ -103,24 +103,110 @@ const kafka = new Kafka({
 
 const consumer = kafka.consumer({ "groupId": kafkaParams['consumerGroupId'] })
 
- 
-data ={};
-                 
-data['numeroOrdreRecette'] = '888/DTT/22';
-data['reference'] = 'myreference';
-data['serviceBancaire'] = 'myserviceBancaire';
-data['idTransaction'] = 'myidTransaction';
-data['datePaiement'] = '2022-05-17';
-data['numeroQuittance'] = 'mynumeroQuittance8979';
-data['numeroTelephone'] = '36000000';
-data['quittanceB64'] = "base64Image";
 
-data['quittance'] = {
-    "quittanceNo": 3333
-};
-data['ordreRecette'] = {
-    "numero": "1"
-};
+
+
+//data={"createdAt":"2026-06-24T08:17:15.05984","datePaiement":"2026-06-24T08:17:15.584001","id":13754620,"idTransaction":"1226062408171074130","isConsumed":null,"numeroQuittance":null,"numeroTelephone":"41735070","ordreRecette":{"cacAr":null,"cacFr":null,"chargeUtile":null,"createdAt":"2026-06-23T15:42:56.835299","dateGeneration":"2026-06-23T15:42:56.835002","dateMutation":null,"genre":"UT","id":13747963,"marque":"Citroën","matricule":null,"montant":5500,"nni":"7772417359","nombrePlaces":null,"numero":"310648","proprietaire":"Ely Cheikh Likhlifa","puissanceFiscal":null,"type":"Berlingo","typeDemande":null,"updatedAt":"2026-06-23T15:42:56.835301","vin":"VF7GBWJYB94294792"},"quittance":{"amount":5500,"createdAt":"2026-06-24T08:17:15.11983","deliveredBy":null,"id":13754621,"info1":"VF7GBWJYB94294792","info2":"00000","info3":"41735070","isConsumed":null,"nature":null,"paymentMode":null,"pdfId":"6c24c429-6a60-4b18-9abb-f168cfcd1291","quittanceNo":"2026T000020724244","quittanceOwner":null,"quittanceType":"Carte grise"},"quittanceB64":null,"reference":"6f52aacf-0ccb-4cc2-848f-b9ae95a4a14b","serviceBancaire":"BANKILY","status":"finished","updatedAt":"2026-06-24T08:17:15.120021","walletBalance":null}
+ 
+
+dataOLD={
+   "createdAt":"2026-06-24T08:17:15.05984",
+   "datePaiement":"2026-06-24T08:17:15.584001",
+   "id":13754620,
+   "idTransaction":"1226062408171074130",
+   "isConsumed":null,
+   "numeroQuittance":null,
+   "numeroTelephone":"41735070",
+   "ordreRecette":{
+      "cacAr":null,
+      "cacFr":null,
+      "chargeUtile":null,
+      "createdAt":"2026-06-23T15:42:56.835299",
+      "dateGeneration":"2026-06-23T15:42:56.835002",
+      "dateMutation":null,
+      "genre":"UT",
+      "id":13747963,
+      "marque":"Citroën",
+      "matricule":null,
+      "montant":5500,
+      "nni":"7772417359",
+      "nombrePlaces":null,
+      "receiptOrderNumber":"ANR310648",
+      "proprietaire":"Ely Cheikh Likhlifa",
+      "puissanceFiscal":null,
+      "type":"Berlingo",
+      "typeDemande":null,
+      "updatedAt":"2026-06-23T15:42:56.835301",
+      "vin":"VF7GBWJYB94294792"
+   },
+   "quittance":{
+      "amount":5500,
+      "createdAt":"2026-06-24T08:17:15.11983",
+      "deliveredBy":null,
+      "id":13754621,
+      "info1":"VF7GBWJYB94294792",
+      "info2":"00000",
+      "info3":"41735070",
+      "isConsumed":null,
+      "nature":null,
+      "paymentMode":null,
+      "pdfId":"6c24c429-6a60-4b18-9abb-f168cfcd1291",
+      "quittanceNo":"2026T000020724244",
+      "quittanceOwner":null,
+      "quittanceType":"Carte grise"
+   },
+   "quittanceB64":null,
+   "reference":"6f52aacf-0ccb-4cc2-848f-b9ae95a4a14b",
+   "serviceBancaire":"BANKILY",
+   "status":"finished",
+   "updatedAt":"2026-06-24T08:17:15.120021",
+   "walletBalance":null
+}
+
+
+data= {
+    
+    "receiptOrderNumber":"0987654321",
+    "reference":"450752868537",
+    "transactionReference":"410a0a92-9f37-489e-8d19-045098667b3f",
+    "bankTransactionId":"96b69890-3cc7-44f5-998e-df0f791cfc87",
+    "status":"PAID",
+    "amount":6700,
+    "quittanceNumber":"410a0a92-9f37-489e-8d19-045098667b3f",
+    "quittanceUrl":"https://backup-api.prd-envs.adias.fr/soget-files//quittance/pdf/1c052d99840449799fad97457b2c7b1f_quittance_DGI-2026T000020000141.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20260629T153247Z&X-Amz-SignedHeaders=host&X-Amz-Credential=ZEKUJ4V6Z4qeNQFc%2F20260629%2Fadias%2Fs3%2Faws4_request&X-Amz-Expires=600&X-Amz-Signature=e6c7b3237ee0f6ab2233981a18928c39b476a52794d3eec4915763c936d38243",
+
+    "quittanceB64": 'base64',
+    "eventType":"quittance.generated",
+    "paymentDate":"2026-06-29T15:32:48.283646518"
+}
+
+
+    
+//            query = "Insert Into  recettes ( date_validation , path ,paiement_en_ligne ,    etat            , date_quittance                , reference                    , serviceBancaire                   , idTransaction                    , Quittance                          , numeroTelephone  , quittance_pdf , numero_recette ) \
+//VALUES (  now()        , 'none'  , 1                ,  'Reçue'    , '" + data['datePaiement'] + "' ,  '" + data['reference'] + "', '" + data['serviceBancaire'] + "' , '" + data['idTransaction'] + "'  , '" + data['quittance']['quittanceNo'] + "'  ,  '" + data['numeroTelephone'] + "' ,  '" + data['quittanceB64'] + "'  , '" + data['ordreRecette']['numero'] + "'    )"
+
+//data ={};
+                 
+//data['numeroOrdreRecette'] = '888/DTT/22';
+
+//data['receiptOrderNumber'] = 'ANR'+'888/DTT/22';  
+
+// data['reference'] = 'myreference';
+// data['serviceBancaire'] = 'myserviceBancaire';
+// data['customerName'] = 'john Doe';
+// data['customerPhone'] =  null ;
+// data['idTransaction'] = 'myidTransaction';
+// data['datePaiement'] = '2022-05-17';
+// data['numeroQuittance'] = 'mynumeroQuittance8979';
+// data['numeroTelephone'] = '36000000';
+// data['quittanceB64'] = "base64Image";
+
+// data['quittance'] = {
+//     "quittanceNo": 3333
+// };
+// data['ordreRecette'] = {
+//     "receiptOrderNumber": "ANR"+"888/DTT/22"
+// };
  
 
 

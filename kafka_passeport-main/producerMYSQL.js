@@ -146,7 +146,7 @@ var occupiedFlag = false;
     let counter =  0  ;
     let lotReceivedSize =  0  ;
 
-    function sendOrders() {
+    function sendOrders_OLD_25_08_2026() {
         if (!occupiedFlag) {
             occupiedFlag = true;
             getOrdre(function (err, data) {
@@ -162,6 +162,7 @@ var occupiedFlag = false;
                         delete data[i].TYPEDOC;
 
                         data[i]['montant'] =  data[i]['montant'] + data[i]['transport'];
+                        
 
                         runProducer(data[i]);
                     }
@@ -175,6 +176,92 @@ var occupiedFlag = false;
         }
     }
     
+
+    function sendOrders() {
+        if (!occupiedFlag) {
+            occupiedFlag = true;
+            getOrdre(function (err, data) {
+                if (err) {
+                    logException(err);
+                } else if (data.length > 0) {
+                    lotReceivedSize = data.length;
+                    counter = 0;
+                    arrayNums = [];
+    
+                    for (var i = 0; i < data.length; i++) {
+                        data[i]['date_generation'] = new Date();
+                        data[i]['typeDocument'] = data[i]['TYPEDOC'] + '-' + data[i]['typeDocument'];
+                        delete data[i].TYPEDOC;
+                        data[i]['montant'] = data[i]['montant'] + data[i]['transport'];
+    
+                        runProducer(data[i]);
+                    }
+    
+                    return; // flag stays true until the batch is flushed
+                } else {
+                    console.log('waiting for new orders');
+                }
+    
+                occupiedFlag = false;
+            });
+        } else {
+            console.log("currently occupied");
+        }
+    }
+
+
+    function transformData(data) { // Adias are imposing a new format for the data
+
+        // Add 'ANR' prefix only if numero doesn't already start with 'ANR'
+        // const numero = typeof data.numero === "string" && data.numero.startsWith('ANR') 
+        //   ? data.numero 
+        //   : 'ANR' + data.numero;
+      
+        const newData = {
+          receiptOrderNumber: data.numero,
+          amount: data.montant,
+          receiptType: data.typeDocument,
+          dateGeneration: data.date_generation,
+          customerName: data.prenomFr + ' ' + data.nomFamilleFr,
+          customerPhone: null,
+          ...data
+        };
+      
+        delete newData.numero;
+        delete newData.montant;
+        delete newData.typeDocument;
+        delete newData.date_generation;
+      
+        return newData;
+      }
+
+    function transformDataOLD(data) { // Adias are imposing a new format for the data
+
+
+        const newData = {
+          receiptOrderNumber: 'ANR'+ data.numero,
+          amount: data.montant,
+          receiptType: data.typeDocument,
+          dateGeneration: data.date_generation,
+          customerName: data.prenomFr + ' ' + data.nomFamilleFr,
+          customerPhone: null ,
+          ...data
+        };
+      
+        delete newData.numero;
+        delete newData.montant;
+        delete newData.typeDocument;
+        delete newData.date_generation;
+      
+        return newData;
+
+    }
+
+
+
+  
+
+      
     // Execute the function immediately
     sendOrders();
     
@@ -241,7 +328,7 @@ function getOrdre(callback) {
 
                     const typedocSqlPart = `ordres.TYPEDOC IN (${typedocValues.join(', ')})`;
 
-                   
+                    
 
                     var queryOrdre = "SELECT ordres.numero , ordres.nni , ordres.TYPEDOC , ordres.PRENOM_FR as prenomFr, ordres.PRENOM_AR as prenomAr , ordres.NOM_FAMILLE_FR as nomFamilleFr ,  ordres.NOM_FAMILLE_AR as nomFamilleAr , ordres.DATE_NAISSANCE as dateNaissance, ordres.LIEU_NAISSANCE_FR as lieuNaissanceFr , ordres.LIEU_NAISSANCE_AR as lieuNaissanceAr , ordres.MONTANT as montant , ordres.TRANSPORT as transport  ,typedemande.libelle  as typeDemande , typedocument.libelle  as typeDocument  ,cac.nom_cac as cacFr , cac.nom_cac as cacAr, cac.nom_cacar as cacAr  FROM ordres inner join typedemande on typedemande.code = ordres.TYPEDEM inner join typedocument on typedocument.code = ordres.TYPEDOC inner join cac on ordres.codecac = cac.cac "
                         //   +" where sent = 0  and (ordres.TYPEDOC = '6' or ordres.TYPEDOC = '7'  ) and ordres.numero not like '00%' limit 10";
@@ -354,7 +441,7 @@ function updateOrdre(numero, arrayNums, callback) {
 
 }
 
-async function runProducer(ordre) {
+async function runProducer_old_25_08_2026(ordre) {
     
 
        
@@ -370,13 +457,13 @@ async function runProducer(ordre) {
         //  const partition = msg[0] < "N" ? 0 : 1;
 
         
-
+        
         const result = await producer.send({
             //  "topic": "topic2"  kafkaParams["topicConsumer"][],
             "topic": kafkaParams["topicProducer"],
             "messages": [
                 {
-                    "value": JSON.stringify(ordre),
+                    "value": JSON.stringify(transformData(ordre)),
                     "partition": 0
                 }
             ]
@@ -388,15 +475,15 @@ async function runProducer(ordre) {
                 console.log('');
                 console.log('sent data === ');
 
-                logOrdre(JSON.stringify(ordre));
+                logOrdre(JSON.stringify(transformData(ordre)));
 
-                console.log(ordre);
+                console.log(transformData(ordre));
                  
-                arrayNums.push(ordre['numero']);
-                counter++;
+                arrayNums.push(ordre['numero']); 
+                counter++; 
 
                 
-
+ 
             }else{
 
                 counter++;
@@ -447,6 +534,71 @@ async function runProducer(ordre) {
     }
 
 
+}
+
+
+async function runProducer(ordre) {
+
+    const producer = kafka.producer();
+    const payload = transformData(ordre);
+
+    try {
+        await producer.connect();
+
+        const result = await producer.send({
+            "topic": kafkaParams["topicProducer"],
+            "messages": [
+                {
+                    "value": JSON.stringify(payload),
+                    "partition": 0
+                }
+            ]
+        });
+
+        if (result[0]['errorCode'] == 0) {
+            console.log('sent data === ');
+            console.log(payload);
+
+            logOrdre(JSON.stringify(payload));
+            arrayNums.push(ordre['numero']);
+        }
+
+        await producer.disconnect();
+
+    } catch (ex) {
+        logException(ex);
+
+        try { await producer.disconnect(); } catch (e) { }
+
+    } finally {
+        counter++;
+
+        if (counter >= lotReceivedSize) {
+            flushBatch();
+        }
+    }
+}
+
+
+function flushBatch() {
+
+    const numsToUpdate = arrayNums;
+
+    arrayNums = [];
+    counter = 0;
+
+    if (numsToUpdate.length === 0) {
+        occupiedFlag = false;
+        return;
+    }
+
+    updateOrdre(null, numsToUpdate, function (err, data) {
+        if (err) {
+            logException(err);
+        }
+
+        occupiedFlag = false;
+    });
 }
 
 function logOrdre(ordre) {

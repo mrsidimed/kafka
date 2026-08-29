@@ -2,6 +2,10 @@ const axios = require('axios');
 const fs      = require('fs'); 
 const { Kafka } = require("kafkajs")
 
+
+ 
+ 
+
 // const sampleOrdre = {
 //   numero           : '123/DTT/25',
 //   vin              : 'ABC123XYZ9876543',
@@ -16,6 +20,27 @@ const { Kafka } = require("kafkajs")
 //   montant          : 12345,
 //   date_generation  : new Date()
 // };
+
+
+ 
+const sampleOrdre = {"numero":"5325741968",
+  "vin":"KL8DD56LA0E014982",
+  "marque":"Toyota",
+  "type":"AVENSIS",
+  "genre":"VP",
+  "montant":6700,
+  "puissance_fiscal":7,
+  "matricule":"8725 AS 00",
+  "nni":"7289015434",
+  "date_mutation":"2023-06-10",
+  "nombre_places":4,
+  "proprietaire":"Ahmed Salem Didi",
+  "type_demande":"MUTATION",
+  "charge_utile":475,
+  "cac_ar":"إ ن ب",
+  "cac_fr":"DTT",
+  "date_generation":"2026-06-29T10:02:45.663Z"
+}
 
 const envVars = require('./environmentVariables.json');
 var kafkaParams  ;
@@ -47,23 +72,35 @@ const PORT = process.env.PORT || 3001;
 app.use(express.json());
 
 /* -------- routes -------- */
-app.post('/publishOrder', async (req, res) => {
-  console.log('📦  Received JSON:', req.body);   // do whatever you need here
+ app.post('/publishOrder', async (req, res) => {
+   console.log('📦  Received JSON:', req.body);   // do whatever you need here
 
-  const success = await runProducer(req.body);
+   const success = await runProducer(req.body);
   
-  if (success) {
-    res.status(200).json({ status: 'ok', received: req.body });
-  } else {
-    res.status(500).json({ status: 'error', message: 'Failed to process order' });
-  }
-});
+   if (success) {
+     res.status(200).json({ status: 'ok', received: req.body });
+   } else {
+     res.status(500).json({ status: 'error', message: 'Failed to process order' });
+   }
+ });
 
 /* -------- start server -------- */
-app.listen(PORT, () => {
-  console.log(`🔈  Server listening on http://localhost:${PORT}`);
-});
+ app.listen(PORT, () => {
+   console.log(`🔈  Server listening on http://localhost:${PORT}`);
+ });
 
+
+ 
+
+//   // With this:
+// (async () => {
+//   const success = await runProducer(sampleOrdre);
+//   if (success) {
+//     console.log('Order processed');
+//   } else {
+//     console.log('Failed to process order');
+//   }
+// })();
 
 async function runProducer(ordre) {
   try {
@@ -74,7 +111,7 @@ async function runProducer(ordre) {
           "topic": kafkaParams['topicProducer'],
           "messages": [
               {
-                  "value": JSON.stringify(ordre),
+                  "value": JSON.stringify(transformData(ordre)),
                   "partition": 0
               }
           ]
@@ -84,8 +121,8 @@ async function runProducer(ordre) {
 
       if (result[0]['errorCode'] == 0) {
           console.log('sent data = ');
-          console.log(ordre);
-          logOrdre(ordre);
+          console.log(transformData(ordre));
+          logOrdre(transformData(ordre));
           return true;
       } else {
           return false;
@@ -97,6 +134,52 @@ async function runProducer(ordre) {
       return false;
   }
 }
+
+
+function transformData(data) { // Adias are imposing a new format for the data
+  
+  // Add 'ANR' prefix only if numero doesn't already start with 'ANR'
+  // const numero = typeof data.numero === "string" && data.numero.startsWith('ANR') 
+  //   ? data.numero 
+  //   : 'ANR' + data.numero;
+
+  const newData = {
+    receiptOrderNumber: data.numero, 
+    amount: data.montant,
+    receiptType: "CARTE_GRISE", 
+    dateGeneration: data.date_generation,
+    puissanceFiscal: data.puissance_fiscal,
+    chargeUtile: data.charge_utile,
+    customerName:  data.proprietaire,
+    customerPhone: null,
+
+    dateMutation: data.date_mutation,
+    nombrePlaces: data.nombre_places,
+    cacAr: data.cac_ar,
+    cacFr: data.cac_fr,
+    typeDemande: data.type_demande,
+
+    ...data
+  };
+
+
+  delete newData.date_mutation;
+  delete newData.nombre_places;
+  delete newData.cac_ar;
+  delete newData.cac_fr;
+  delete newData.type_demande;
+
+  delete newData.numero;
+  delete newData.montant;
+  delete newData.date_generation;
+  delete newData.puissance_fiscal;
+  delete newData.charge_utile;
+  
+
+  return newData;
+}
+
+ 
 
 
 
