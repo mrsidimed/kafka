@@ -125,9 +125,9 @@ async function runConsumer() {
               console.log(`📥  Processing recette at ${new Date().toISOString()}`);
             
               
-              recette.quittanceB64 = 'null';
+            //  recette.quittanceB64 = 'null';
          
-              console.log(recette);
+            //  console.log(recette);
               console.log();
           
               try {
