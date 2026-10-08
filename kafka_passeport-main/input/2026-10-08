@@ -1,0 +1,20 @@
+2026-10-08T14:26:37.936Z : {"status":"PAID","bankTransactionId":"<id_transaction_banque>","transactionReference":"<uuid_transaction>","receiptOrderNumber":"ANR130202611120009","reference":"<reference_interne>","amount":500,"quittanceNumber":"<num_quittance2>","quittanceUrl":"<url_telechargement_quittance>","quittanceB64":null}
+
+2026-10-08T14:27:07.433Z : {"status":"PAID","bankTransactionId":"<id_transaction_banque>","transactionReference":"<uuid_transaction>","receiptOrderNumber":"ANR130202611120009","reference":"<reference_interne>","amount":500,"quittanceNumber":"<num_quittance2>","quittanceUrl":"<url_telechargement_quittance>","quittanceB64":null}
+
+2026-10-08T14:28:02.989Z : {"status":"PAID","bankTransactionId":"<id_transaction_banque>","transactionReference":"<uuid_transaction>","receiptOrderNumber":"ANR130202611120009","reference":"<reference_interne>","amount":500,"quittanceNumber":"<num_quittance2>","quittanceUrl":"<url_telechargement_quittance>","quittanceB64":null}
+
+2026-10-08T14:29:34.267Z : {"status":"PAID","bankTransactionId":"<id_transaction_banque>","transactionReference":"<uuid_transaction>","receiptOrderNumber":"ANR130202611120009","reference":"<reference_interne>","amount":500,"quittanceNumber":"<num_quittance2>","quittanceUrl":"<url_telechargement_quittance>","quittanceB64":null}
+
+2026-10-08T14:44:56.468Z : {"status":"PAID","bankTransactionId":"<id_transaction_banque>","transactionReference":"<uuid_transaction>","receiptOrderNumber":"ANR130202611120009","reference":"<reference_interne>","amount":500,"quittanceNumber":"<num_quittance2>","quittanceUrl":"<url_telechargement_quittance>","quittanceB64":null}
+
+2026-10-08T14:45:40.681Z : {"status":"PAID","bankTransactionId":"<id_transaction_banque>","transactionReference":"<uuid_transaction>","receiptOrderNumber":"ANR130202611120009","reference":"<reference_interne>","amount":500,"quittanceNumber":"<num_quittance2>","quittanceUrl":"<url_telechargement_quittance>","quittanceB64":null}
+
+2026-10-08T14:48:18.271Z : {"status":"PAID","bankTransactionId":"<id_transaction_banque>","transactionReference":"<uuid_transaction>","receiptOrderNumber":"ANR130202611120009","reference":"<reference_interne>","amount":500,"quittanceNumber":"<num_quittance2>","quittanceUrl":"<url_telechargement_quittance>","quittanceB64":null}
+
+2026-10-08T14:49:51.490Z : {"status":"PAID","bankTransactionId":"<id_transaction_banque>","transactionReference":"<uuid_transaction>","receiptOrderNumber":"ANR130202611120009","reference":"<reference_interne>","amount":500,"quittanceNumber":"<num_quittance2>","quittanceUrl":"<url_telechargement_quittance>","quittanceB64":null}
+
+2026-10-08T14:49:51.786Z : {"status":"PAID","bankTransactionId":"<id_transaction_banque>","transactionReference":"<uuid_transaction>","receiptOrderNumber":"ANR130202611120009","reference":"<reference_interne>","amount":500,"quittanceNumber":"<num_quittance2>","quittanceUrl":"<url_telechargement_quittance>","quittanceB64":null}
+
+2026-10-08T14:52:41.884Z : {"status":"PAID","bankTransactionId":"<id_transaction_banque>","transactionReference":"<uuid_transaction>","receiptOrderNumber":"ANR130202611120009","reference":"<reference_interne>","amount":500,"quittanceNumber":"<num_quittance2>","quittanceUrl":"<url_telechargement_quittance>","quittanceB64":null}
+
